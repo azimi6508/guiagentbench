@@ -1,0 +1,17 @@
+{
+  "version": "visual-v1",
+  "viewport": [
+    1280,
+    720
+  ],
+  "references": {
+    "initial-chrome": {
+      "file": "initial-chrome.png",
+      "sha256": "a55a02b1c8e3b3c7b843bc3d031dd055713ab6699a8df61bcccebd88653060ec"
+    },
+    "reopened-biography": {
+      "file": "reopened-biography.png",
+      "sha256": "b3570969214df9293d9d67655cdea3c2f26765b6a51756bae3036234f5a75eb7"
+    }
+  }
+}

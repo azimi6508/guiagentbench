@@ -1,0 +1,18 @@
+[
+  {
+    "container": "gab-oracle-b862b9d673fe-executor",
+    "removed": true
+  },
+  {
+    "container": "gab-oracle-b862b9d673fe-ready",
+    "removed": true
+  },
+  {
+    "container": "gab-oracle-b862b9d673fe-browser",
+    "removed": true
+  },
+  {
+    "container": "gab-oracle-b862b9d673fe-app",
+    "removed": true
+  }
+]

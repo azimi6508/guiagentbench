@@ -1,0 +1,19 @@
+{
+  "frames": [
+    {
+      "path": "screenshots/0001.png",
+      "sha256": "95dcb74f18876d60209304eadb468a3facaa61644474716bc7e0bcd613fc30c5",
+      "index": 1
+    },
+    {
+      "path": "screenshots/0002.png",
+      "sha256": "4cfd2566e32cbed00af3e0cb9cb1bbe7da34346c91d239a3fcb415e7e8a1d782",
+      "index": 2
+    },
+    {
+      "path": "screenshots/0003.png",
+      "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+      "index": 3
+    }
+  ]
+}

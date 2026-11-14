@@ -1,0 +1,334 @@
+{
+  "outcome": "PASS",
+  "assertions": [
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "navigation",
+          "name": "Main navigation"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": true
+      },
+      "matched": true
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "heading",
+          "name": "Accessibility"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": false
+      },
+      "matched": true
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "button",
+          "name": "Caption size Medium"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": false
+      },
+      "matched": true
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "dialog",
+          "name": "Caption size"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": false
+      },
+      "matched": true
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "button",
+          "name": "Caption size Large"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": false
+      },
+      "matched": true
+    },
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "large-caption-preview",
+        "region": [
+          970,
+          210,
+          1215,
+          335
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 80,
+        "include_aa": false,
+        "precondition": false,
+        "observation_window_ms": 1600
+      },
+      "matched": true,
+      "image": {
+        "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+        "reference_sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+        "actual_sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+        "compared_pixels": 30625,
+        "different_pixels": 0,
+        "matched": true,
+        "evidence": {
+          "directory": "0001",
+          "sha256": {
+            "capture.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "sample-0001.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "sample-0002.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "sample-0003.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "sample-0004.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "sample-0005.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "expected.png": "6981be7338837509d58cb4ce363598eb314b5a5a96bc9d7790e1930b9a235f77",
+            "actual.png": "6981be7338837509d58cb4ce363598eb314b5a5a96bc9d7790e1930b9a235f77",
+            "diff.png": "4ac06b58005db3cbb114022cf7c277ffc4a1cdf7731d94421c83a753e43b74bd"
+          }
+        },
+        "capture_contract": "visual-observation-window-v1",
+        "observation_window_ms": 1600,
+        "selected_sample": 0,
+        "observations": [
+          {
+            "file": "sample-0001.png",
+            "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "elapsed_ms": 59,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0002.png",
+            "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "elapsed_ms": 427,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0003.png",
+            "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "elapsed_ms": 891,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0004.png",
+            "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "elapsed_ms": 1290,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0005.png",
+            "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "elapsed_ms": 1658,
+            "different_pixels": 0
+          }
+        ]
+      }
+    }
+  ],
+  "submission_sha256": "1b39812cf9edda56348814da4e3b67250a21dd7784f65f9838d362ee0a79b996",
+  "references_sha256": "7f2303267ab08c334ae3b8eb174141cdf718fad11c2fd0c01020778802475f2a",
+  "actions": [
+    {
+      "action": {
+        "operation": "open_url",
+        "arguments": {
+          "url": "http://app:8000/"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "role": "button",
+          "name": "Settings"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "role": "button",
+          "name": "Accessibility"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "role": "button",
+          "name": "Caption size Medium"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "role": "button",
+          "name": "Large"
+        }
+      }
+    }
+  ],
+  "trace": [
+    {
+      "action": {
+        "operation": "open_url",
+        "arguments": {
+          "url": "http://app:8000/"
+        }
+      }
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "navigation",
+          "name": "Main navigation"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": true
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "role": "button",
+          "name": "Settings"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "role": "button",
+          "name": "Accessibility"
+        }
+      }
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "heading",
+          "name": "Accessibility"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": false
+      }
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "button",
+          "name": "Caption size Medium"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": false
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "role": "button",
+          "name": "Caption size Medium"
+        }
+      }
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "dialog",
+          "name": "Caption size"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": false
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "role": "button",
+          "name": "Large"
+        }
+      }
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "button",
+          "name": "Caption size Large"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": false
+      }
+    },
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "large-caption-preview",
+        "region": [
+          970,
+          210,
+          1215,
+          335
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 80,
+        "include_aa": false,
+        "precondition": false,
+        "observation_window_ms": 1600
+      }
+    }
+  ],
+  "diagnostics": {
+    "version": "failure-v1",
+    "primary_issue": null,
+    "issues": [],
+    "ordering": "source_order_not_global_time"
+  },
+  "elapsed_seconds": 4.963,
+  "exit_code": 0
+}

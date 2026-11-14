@@ -1,0 +1,10 @@
+{"destination": "chatgpt.com", "port": 443, "outcome": "connected", "sent_bytes": 3877, "received_bytes": 8623, "elapsed_seconds": 0.9647762579988921}
+{"destination": "chatgpt.com", "port": 443, "outcome": "connected", "sent_bytes": 4510, "received_bytes": 7788, "elapsed_seconds": 0.9182887030037818}
+{"destination": "chatgpt.com", "port": 443, "outcome": "connected", "sent_bytes": 5283, "received_bytes": 6428, "elapsed_seconds": 0.25542821499402635}
+{"destination": "chatgpt.com", "port": 443, "outcome": "connected", "sent_bytes": 4668, "received_bytes": 7046, "elapsed_seconds": 0.3349132729927078}
+{"destination": "chatgpt.com", "port": 443, "outcome": "connected", "sent_bytes": 5071, "received_bytes": 6227, "elapsed_seconds": 0.18108353100251406}
+{"destination": "chatgpt.com", "port": 443, "outcome": "connected", "sent_bytes": 5071, "received_bytes": 6231, "elapsed_seconds": 0.21375356799399015}
+{"destination": "chatgpt.com", "port": 443, "outcome": "connected", "sent_bytes": 6077, "received_bytes": 6231, "elapsed_seconds": 0.14193368000269402}
+{"destination": "chatgpt.com", "port": 443, "outcome": "connected", "sent_bytes": 6186, "received_bytes": 6240, "elapsed_seconds": 0.13850901900150348}
+{"destination": "chatgpt.com", "port": 443, "outcome": "connected", "sent_bytes": 6822, "received_bytes": 6147, "elapsed_seconds": 0.16735663400322665}
+{"destination": "chatgpt.com", "port": 443, "outcome": "connected", "sent_bytes": 36053, "received_bytes": 29565, "elapsed_seconds": 12.671611715006293}

@@ -1,0 +1,150 @@
+{
+  "schema": "audits-v1",
+  "require_probes": false,
+  "results": [
+    {
+      "evaluation": "56c4a17357fc42f8/evaluations/0000/attempt-1/897c867b9a9b43cd",
+      "task": "mobile/markor-note-persistence",
+      "arm": "judge_visual",
+      "model": "codex/gpt-6.1-sol",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded judge_visual boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"codex-isolation-v1\", \"status\": \"pass\", \"runner\": \"codex\", \"images\": [\"8353af57d07eea5b26a694d8c25ea0af9db945ae458e422b8befb94632d650ce\"], \"network_roles\": {\"gui\": \"gab-640d5a12b15e4ed3-inference\", \"capture\": \"gab-640d5a12b15e4ed3-capture\", \"inference\": \"gab-640d5a12b15e4ed3-codex-inference\"}, \"bridge_calls\": 5, \"authoring_recoveries\": [], \"native_runtime_verified\": true, \"adb_exposed_to_agent\": false, \"rendezvous_transport\": \"docker-exec-stdio\", \"published_ports\": [], \"task_files_in_relay\": false, \"apk_sha256\": \"1a328c5324b3b33d6cb4d55085637707252569d98c0ffe1cb7089aebbd903256\", \"apk_package\": \"net.gsantner.markor\", \"fixture_source_sha256\": \"687da5586747f29ed71bd581deb6284dc31cf1b9ad6bdcc1b0f3e77815b32d4a\", \"settings_sha256\": \"ce29e928e5bb007dd7e608d48e27f7f1bea5b149f9a0d5efffabbab72513ebe5\", \"trial_id\": \"640d5a12b15e4ed3\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}, {\"schema\": \"codex-isolation-v1\", \"status\": \"pass\", \"runner\": \"codex\", \"images\": [\"2b060c0ede762a0ae811c18c6bb9e39909d31284b702a07df4ba895fdc257482\", \"3527fd7afe53bb89892b1f25c9f45e88341e0f3a13e7c2b188b9bc688da21f76\"], \"network_roles\": {\"gui\": \"gab-049b102111b14761-inference\", \"capture\": \"gab-049b102111b14761-capture\", \"inference\": \"gab-049b102111b14761-codex-inference\"}, \"bridge_calls\": 6, \"authoring_recoveries\": [], \"native_runtime_verified\": true, \"adb_exposed_to_agent\": false, \"rendezvous_transport\": \"docker-exec-stdio\", \"published_ports\": [], \"task_files_in_relay\": false, \"apk_sha256\": \"1a328c5324b3b33d6cb4d55085637707252569d98c0ffe1cb7089aebbd903256\", \"apk_package\": \"net.gsantner.markor\", \"fixture_source_sha256\": \"687da5586747f29ed71bd581deb6284dc31cf1b9ad6bdcc1b0f3e77815b32d4a\", \"settings_sha256\": \"df36192cd9aca1fe1f1bd6d301e41dbeba65875fc8e267130ea4a445a21e7d4f\", \"trial_id\": \"049b102111b14761\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    },
+    {
+      "evaluation": "56c4a17357fc42f8/evaluations/0001/attempt-1/b1f487311e104512",
+      "task": "mobile/markor-note-persistence",
+      "arm": "judge_test",
+      "model": "codex/gpt-6.1-sol",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded judge_test boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"codex-isolation-v1\", \"status\": \"pass\", \"runner\": \"codex\", \"images\": [], \"network_roles\": {\"gui\": \"gab-4dbe73a68a77494b-inference\", \"capture\": \"gab-4dbe73a68a77494b-capture\", \"inference\": \"gab-4dbe73a68a77494b-codex-inference\"}, \"bridge_calls\": 8, \"authoring_recoveries\": [], \"native_runtime_verified\": true, \"adb_exposed_to_agent\": false, \"rendezvous_transport\": \"docker-exec-stdio\", \"published_ports\": [], \"task_files_in_relay\": false, \"apk_sha256\": \"1a328c5324b3b33d6cb4d55085637707252569d98c0ffe1cb7089aebbd903256\", \"apk_package\": \"net.gsantner.markor\", \"fixture_source_sha256\": \"687da5586747f29ed71bd581deb6284dc31cf1b9ad6bdcc1b0f3e77815b32d4a\", \"settings_sha256\": \"ce29e928e5bb007dd7e608d48e27f7f1bea5b149f9a0d5efffabbab72513ebe5\", \"trial_id\": \"4dbe73a68a77494b\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}, {\"schema\": \"codex-isolation-v1\", \"status\": \"pass\", \"runner\": \"codex\", \"images\": [], \"network_roles\": {\"gui\": \"gab-d434026abfe34730-inference\", \"capture\": \"gab-d434026abfe34730-capture\", \"inference\": \"gab-d434026abfe34730-codex-inference\"}, \"bridge_calls\": 6, \"authoring_recoveries\": [], \"native_runtime_verified\": true, \"adb_exposed_to_agent\": false, \"rendezvous_transport\": \"docker-exec-stdio\", \"published_ports\": [], \"task_files_in_relay\": false, \"apk_sha256\": \"1a328c5324b3b33d6cb4d55085637707252569d98c0ffe1cb7089aebbd903256\", \"apk_package\": \"net.gsantner.markor\", \"fixture_source_sha256\": \"687da5586747f29ed71bd581deb6284dc31cf1b9ad6bdcc1b0f3e77815b32d4a\", \"settings_sha256\": \"df36192cd9aca1fe1f1bd6d301e41dbeba65875fc8e267130ea4a445a21e7d4f\", \"trial_id\": \"d434026abfe34730\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    },
+    {
+      "evaluation": "56c4a17357fc42f8/evaluations/0002/attempt-1/e383a254fd854f9d",
+      "task": "mobile/markor-note-persistence",
+      "arm": "oracle_visual",
+      "model": "codex/gpt-6.1-sol",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded oracle_visual boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"codex-isolation-v1\", \"status\": \"pass\", \"runner\": \"codex\", \"images\": [\"fe9e112e752af507915cd325c14912aff272736c478bbc84bd6b10c176332a85\"], \"network_roles\": {\"gui\": \"gab-9453e01fc94445eb-inference\", \"capture\": \"gab-9453e01fc94445eb-capture\", \"inference\": \"gab-9453e01fc94445eb-codex-inference\"}, \"bridge_calls\": 2, \"authoring_recoveries\": [], \"native_runtime_verified\": true, \"adb_exposed_to_agent\": false, \"rendezvous_transport\": \"docker-exec-stdio\", \"published_ports\": [], \"task_files_in_relay\": false, \"apk_sha256\": \"1a328c5324b3b33d6cb4d55085637707252569d98c0ffe1cb7089aebbd903256\", \"apk_package\": \"net.gsantner.markor\", \"fixture_source_sha256\": \"687da5586747f29ed71bd581deb6284dc31cf1b9ad6bdcc1b0f3e77815b32d4a\", \"settings_sha256\": \"ce29e928e5bb007dd7e608d48e27f7f1bea5b149f9a0d5efffabbab72513ebe5\", \"execution_boundary_verified\": true, \"trial_id\": \"9453e01fc94445eb\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    },
+    {
+      "evaluation": "56c4a17357fc42f8/evaluations/0003/attempt-1/34f284a32ed64214",
+      "task": "mobile/markor-note-persistence",
+      "arm": "oracle_ui",
+      "model": "codex/gpt-6.1-sol",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded oracle_ui boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"codex-isolation-v1\", \"status\": \"pass\", \"runner\": \"codex\", \"images\": [], \"network_roles\": {\"gui\": \"gab-a882b3cd52604945-inference\", \"capture\": \"gab-a882b3cd52604945-capture\", \"inference\": \"gab-a882b3cd52604945-codex-inference\"}, \"bridge_calls\": 2, \"authoring_recoveries\": [], \"native_runtime_verified\": true, \"adb_exposed_to_agent\": false, \"rendezvous_transport\": \"docker-exec-stdio\", \"published_ports\": [], \"task_files_in_relay\": false, \"apk_sha256\": \"1a328c5324b3b33d6cb4d55085637707252569d98c0ffe1cb7089aebbd903256\", \"apk_package\": \"net.gsantner.markor\", \"fixture_source_sha256\": \"687da5586747f29ed71bd581deb6284dc31cf1b9ad6bdcc1b0f3e77815b32d4a\", \"settings_sha256\": \"ce29e928e5bb007dd7e608d48e27f7f1bea5b149f9a0d5efffabbab72513ebe5\", \"execution_boundary_verified\": true, \"trial_id\": \"a882b3cd52604945\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    },
+    {
+      "evaluation": "56c4a17357fc42f8/evaluations/0004/attempt-1/6d2bea3458444aaf",
+      "task": "mobile/markor-note-persistence",
+      "arm": "test_visual",
+      "model": "codex/gpt-6.1-sol",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded test_visual boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"codex-isolation-v1\", \"status\": \"pass\", \"runner\": \"codex\", \"images\": [\"8bbbd055615211491f8258c89928bbeb2d17e6dab22590a954244a45f386a98b\", \"b36e4b597bef0e22ee9a3167064bd57fc340b196db7d921cdf94ed79229689e6\", \"b6d30153fb8f2818a37d7b53712ee588732ae5008cb625f7f423c6eee58a244d\"], \"network_roles\": {\"gui\": \"gab-7e993679e3de4039-inference\", \"capture\": \"gab-7e993679e3de4039-capture\", \"inference\": \"gab-7e993679e3de4039-codex-inference\"}, \"bridge_calls\": 12, \"authoring_recoveries\": [{\"version\": \"authoring-recovery-v1\", \"sequence\": 1, \"operation\": \"step\", \"status\": \"reset\"}], \"native_runtime_verified\": true, \"adb_exposed_to_agent\": false, \"rendezvous_transport\": \"docker-exec-stdio\", \"published_ports\": [], \"task_files_in_relay\": false, \"apk_sha256\": \"1a328c5324b3b33d6cb4d55085637707252569d98c0ffe1cb7089aebbd903256\", \"apk_package\": \"net.gsantner.markor\", \"fixture_source_sha256\": \"687da5586747f29ed71bd581deb6284dc31cf1b9ad6bdcc1b0f3e77815b32d4a\", \"settings_sha256\": \"ce29e928e5bb007dd7e608d48e27f7f1bea5b149f9a0d5efffabbab72513ebe5\", \"execution_boundary_verified\": true, \"trial_id\": \"7e993679e3de4039\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    },
+    {
+      "evaluation": "56c4a17357fc42f8/evaluations/0005/attempt-1/d2398da0a7e14d41",
+      "task": "mobile/markor-note-persistence",
+      "arm": "test_ui",
+      "model": "codex/gpt-6.1-sol",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded test_ui boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"codex-isolation-v1\", \"status\": \"pass\", \"runner\": \"codex\", \"images\": [], \"network_roles\": {\"gui\": \"gab-685bae55b4184533-inference\", \"capture\": \"gab-685bae55b4184533-capture\", \"inference\": \"gab-685bae55b4184533-codex-inference\"}, \"bridge_calls\": 11, \"authoring_recoveries\": [], \"native_runtime_verified\": true, \"adb_exposed_to_agent\": false, \"rendezvous_transport\": \"docker-exec-stdio\", \"published_ports\": [], \"task_files_in_relay\": false, \"apk_sha256\": \"1a328c5324b3b33d6cb4d55085637707252569d98c0ffe1cb7089aebbd903256\", \"apk_package\": \"net.gsantner.markor\", \"fixture_source_sha256\": \"687da5586747f29ed71bd581deb6284dc31cf1b9ad6bdcc1b0f3e77815b32d4a\", \"settings_sha256\": \"ce29e928e5bb007dd7e608d48e27f7f1bea5b149f9a0d5efffabbab72513ebe5\", \"execution_boundary_verified\": true, \"trial_id\": \"685bae55b4184533\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    },
+    {
+      "evaluation": "56c4a17357fc42f8/evaluations/0006/attempt-1/f0548375b0f944c8",
+      "task": "web/webarena-399-profile-bio",
+      "arm": "judge_visual",
+      "model": "codex/gpt-6.1-sol",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded judge_visual boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"codex-isolation-v1\", \"status\": \"pass\", \"runner\": \"codex\", \"images\": [\"948ab2a8edf1c1b65f34c93b7ead609e7ee6bb6296ba392974347972f71aa2f2\", \"9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89\", \"a55a02b1c8e3b3c7b843bc3d031dd055713ab6699a8df61bcccebd88653060ec\"], \"network_roles\": {\"gui\": \"gab-fcc7587c3349476f-inference\", \"capture\": \"gab-fcc7587c3349476f-capture\", \"inference\": \"gab-fcc7587c3349476f-codex-inference\"}, \"bridge_calls\": 5, \"authoring_recoveries\": [], \"application_boundary\": {\"status\": \"pass\", \"read_only_root\": false, \"internal_network_only\": true, \"published_ports\": [], \"writable_root\": \"task-declared disposable container layer\"}, \"trial_id\": \"fcc7587c3349476f\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}, {\"schema\": \"codex-isolation-v1\", \"status\": \"pass\", \"runner\": \"codex\", \"images\": [\"81c41c17acea25196c7d1d280ac16479b29745209fb190071feeab9729de1f61\", \"a55a02b1c8e3b3c7b843bc3d031dd055713ab6699a8df61bcccebd88653060ec\", \"ec18a231f24e2c49c5f47452696ad48a498835f832ec3cfaf8105ed8031e6ea1\"], \"network_roles\": {\"gui\": \"gab-a97bd8e42fe34944-inference\", \"capture\": \"gab-a97bd8e42fe34944-capture\", \"inference\": \"gab-a97bd8e42fe34944-codex-inference\"}, \"bridge_calls\": 7, \"authoring_recoveries\": [], \"application_boundary\": {\"status\": \"pass\", \"read_only_root\": false, \"internal_network_only\": true, \"published_ports\": [], \"writable_root\": \"task-declared disposable container layer\"}, \"trial_id\": \"a97bd8e42fe34944\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    },
+    {
+      "evaluation": "56c4a17357fc42f8/evaluations/0007/attempt-1/45a4c73cba5b4a82",
+      "task": "web/webarena-399-profile-bio",
+      "arm": "judge_test",
+      "model": "codex/gpt-6.1-sol",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded judge_test boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"codex-isolation-v1\", \"status\": \"pass\", \"runner\": \"codex\", \"images\": [\"9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89\"], \"network_roles\": {\"gui\": \"gab-227be4090c8a4250-inference\", \"capture\": \"gab-227be4090c8a4250-capture\", \"inference\": \"gab-227be4090c8a4250-codex-inference\"}, \"bridge_calls\": 10, \"authoring_recoveries\": [], \"application_boundary\": {\"status\": \"pass\", \"read_only_root\": false, \"internal_network_only\": true, \"published_ports\": [], \"writable_root\": \"task-declared disposable container layer\"}, \"trial_id\": \"227be4090c8a4250\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}, {\"schema\": \"codex-isolation-v1\", \"status\": \"pass\", \"runner\": \"codex\", \"images\": [\"53b439207dc277a292367bc267f166342c57da9f61f677efaa564a134be77547\", \"ec18a231f24e2c49c5f47452696ad48a498835f832ec3cfaf8105ed8031e6ea1\"], \"network_roles\": {\"gui\": \"gab-de9edad24c694c3e-inference\", \"capture\": \"gab-de9edad24c694c3e-capture\", \"inference\": \"gab-de9edad24c694c3e-codex-inference\"}, \"bridge_calls\": 12, \"authoring_recoveries\": [], \"application_boundary\": {\"status\": \"pass\", \"read_only_root\": false, \"internal_network_only\": true, \"published_ports\": [], \"writable_root\": \"task-declared disposable container layer\"}, \"trial_id\": \"de9edad24c694c3e\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    },
+    {
+      "evaluation": "56c4a17357fc42f8/evaluations/0008/attempt-1/cbb4ed4856884896",
+      "task": "web/webarena-399-profile-bio",
+      "arm": "oracle_visual",
+      "model": "codex/gpt-6.1-sol",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded oracle_visual boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"codex-isolation-v1\", \"status\": \"pass\", \"runner\": \"codex\", \"images\": [\"9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89\"], \"network_roles\": {\"gui\": \"gab-d4f5eff1778442a3-inference\", \"capture\": \"gab-d4f5eff1778442a3-capture\", \"inference\": \"gab-d4f5eff1778442a3-codex-inference\"}, \"bridge_calls\": 5, \"authoring_recoveries\": [], \"application_boundary\": {\"status\": \"pass\", \"read_only_root\": false, \"internal_network_only\": true, \"published_ports\": [], \"writable_root\": \"task-declared disposable container layer\"}, \"execution_boundary_verified\": true, \"trial_id\": \"d4f5eff1778442a3\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    },
+    {
+      "evaluation": "56c4a17357fc42f8/evaluations/0009/attempt-1/7b599de02eee4d9e",
+      "task": "web/webarena-399-profile-bio",
+      "arm": "oracle_ui",
+      "model": "codex/gpt-6.1-sol",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded oracle_ui boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"codex-isolation-v1\", \"status\": \"pass\", \"runner\": \"codex\", \"images\": [], \"network_roles\": {\"gui\": \"gab-5d831dd7f4164832-inference\", \"capture\": \"gab-5d831dd7f4164832-capture\", \"inference\": \"gab-5d831dd7f4164832-codex-inference\"}, \"bridge_calls\": 2, \"authoring_recoveries\": [], \"application_boundary\": {\"status\": \"pass\", \"read_only_root\": false, \"internal_network_only\": true, \"published_ports\": [], \"writable_root\": \"task-declared disposable container layer\"}, \"execution_boundary_verified\": true, \"trial_id\": \"5d831dd7f4164832\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    },
+    {
+      "evaluation": "56c4a17357fc42f8/evaluations/0010/attempt-1/dd2f005c7d854e38",
+      "task": "web/webarena-399-profile-bio",
+      "arm": "test_visual",
+      "model": "codex/gpt-6.1-sol",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded test_visual boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"codex-isolation-v1\", \"status\": \"pass\", \"runner\": \"codex\", \"images\": [\"0e87e3430aa5c29dabf8e7347dbc8666e8d26f23c90dc35974c3310c1bb35974\", \"a55a02b1c8e3b3c7b843bc3d031dd055713ab6699a8df61bcccebd88653060ec\", \"d0241d7fd9bd88b0019912bb69b87a12f895be583deffac6fe0d619707138242\", \"efdb12ef91191f09caa681b01ae313e70b4d924712a3a0bc9c552b20fd39ef85\", \"f136f12065865c9c22fe5aa45fc87c60431fd33e41e3a192af7cb529d206d16e\"], \"network_roles\": {\"gui\": \"gab-a26a768c7e4a4bb6-inference\", \"capture\": \"gab-a26a768c7e4a4bb6-capture\", \"inference\": \"gab-a26a768c7e4a4bb6-codex-inference\"}, \"bridge_calls\": 26, \"authoring_recoveries\": [], \"application_boundary\": {\"status\": \"pass\", \"read_only_root\": false, \"internal_network_only\": true, \"published_ports\": [], \"writable_root\": \"task-declared disposable container layer\"}, \"execution_boundary_verified\": true, \"trial_id\": \"a26a768c7e4a4bb6\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    },
+    {
+      "evaluation": "56c4a17357fc42f8/evaluations/0011/attempt-1/186f1b1875864616",
+      "task": "web/webarena-399-profile-bio",
+      "arm": "test_ui",
+      "model": "codex/gpt-6.1-sol",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded test_ui boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"codex-isolation-v1\", \"status\": \"pass\", \"runner\": \"codex\", \"images\": [\"0e87e3430aa5c29dabf8e7347dbc8666e8d26f23c90dc35974c3310c1bb35974\", \"efdb12ef91191f09caa681b01ae313e70b4d924712a3a0bc9c552b20fd39ef85\"], \"network_roles\": {\"gui\": \"gab-ffb912c0d9ce4456-inference\", \"capture\": \"gab-ffb912c0d9ce4456-capture\", \"inference\": \"gab-ffb912c0d9ce4456-codex-inference\"}, \"bridge_calls\": 12, \"authoring_recoveries\": [], \"application_boundary\": {\"status\": \"pass\", \"read_only_root\": false, \"internal_network_only\": true, \"published_ports\": [], \"writable_root\": \"task-declared disposable container layer\"}, \"execution_boundary_verified\": true, \"trial_id\": \"ffb912c0d9ce4456\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    },
+    {
+      "evaluation": "56c4a17357fc42f8/evaluations/0012/attempt-1/6f6a58267db8481e",
+      "task": "tv/aura-013-caption-preview-size",
+      "arm": "judge_visual",
+      "model": "codex/gpt-6.1-sol",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded judge_visual boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"codex-isolation-v1\", \"status\": \"pass\", \"runner\": \"codex\", \"images\": [\"15bc239be4cd670ee1b22738d8c72b2512301c5a5936c5850c2c14eafcf11a16\", \"4cfd2566e32cbed00af3e0cb9cb1bbe7da34346c91d239a3fcb415e7e8a1d782\", \"95dcb74f18876d60209304eadb468a3facaa61644474716bc7e0bcd613fc30c5\"], \"network_roles\": {\"gui\": \"gab-856b1dc3021347bd-inference\", \"capture\": \"gab-856b1dc3021347bd-capture\", \"inference\": \"gab-856b1dc3021347bd-codex-inference\"}, \"bridge_calls\": 7, \"authoring_recoveries\": [], \"application_boundary\": {\"status\": \"pass\", \"read_only_root\": true, \"internal_network_only\": true, \"published_ports\": []}, \"trial_id\": \"856b1dc3021347bd\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}, {\"schema\": \"codex-isolation-v1\", \"status\": \"pass\", \"runner\": \"codex\", \"images\": [\"4cfd2566e32cbed00af3e0cb9cb1bbe7da34346c91d239a3fcb415e7e8a1d782\", \"95dcb74f18876d60209304eadb468a3facaa61644474716bc7e0bcd613fc30c5\", \"d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59\"], \"network_roles\": {\"gui\": \"gab-4eefad0aa1584bc7-inference\", \"capture\": \"gab-4eefad0aa1584bc7-capture\", \"inference\": \"gab-4eefad0aa1584bc7-codex-inference\"}, \"bridge_calls\": 7, \"authoring_recoveries\": [], \"application_boundary\": {\"status\": \"pass\", \"read_only_root\": true, \"internal_network_only\": true, \"published_ports\": []}, \"trial_id\": \"4eefad0aa1584bc7\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    },
+    {
+      "evaluation": "56c4a17357fc42f8/evaluations/0013/attempt-1/ba4281c8a7d94a42",
+      "task": "tv/aura-013-caption-preview-size",
+      "arm": "judge_test",
+      "model": "codex/gpt-6.1-sol",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded judge_test boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"codex-isolation-v1\", \"status\": \"pass\", \"runner\": \"codex\", \"images\": [\"1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f\", \"4cfd2566e32cbed00af3e0cb9cb1bbe7da34346c91d239a3fcb415e7e8a1d782\", \"95dcb74f18876d60209304eadb468a3facaa61644474716bc7e0bcd613fc30c5\", \"b53f4a4ddaab3f74e91ad36be0674ef6cedf255bc92e5a33e223db245b58ad00\"], \"network_roles\": {\"gui\": \"gab-a2ba0c7272b64afa-inference\", \"capture\": \"gab-a2ba0c7272b64afa-capture\", \"inference\": \"gab-a2ba0c7272b64afa-codex-inference\"}, \"bridge_calls\": 13, \"authoring_recoveries\": [], \"application_boundary\": {\"status\": \"pass\", \"read_only_root\": true, \"internal_network_only\": true, \"published_ports\": []}, \"trial_id\": \"a2ba0c7272b64afa\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}, {\"schema\": \"codex-isolation-v1\", \"status\": \"pass\", \"runner\": \"codex\", \"images\": [\"4cfd2566e32cbed00af3e0cb9cb1bbe7da34346c91d239a3fcb415e7e8a1d782\", \"95dcb74f18876d60209304eadb468a3facaa61644474716bc7e0bcd613fc30c5\", \"b53f4a4ddaab3f74e91ad36be0674ef6cedf255bc92e5a33e223db245b58ad00\", \"d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59\"], \"network_roles\": {\"gui\": \"gab-62e7b6ceb5e94157-inference\", \"capture\": \"gab-62e7b6ceb5e94157-capture\", \"inference\": \"gab-62e7b6ceb5e94157-codex-inference\"}, \"bridge_calls\": 13, \"authoring_recoveries\": [], \"application_boundary\": {\"status\": \"pass\", \"read_only_root\": true, \"internal_network_only\": true, \"published_ports\": []}, \"trial_id\": \"62e7b6ceb5e94157\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    },
+    {
+      "evaluation": "56c4a17357fc42f8/evaluations/0014/attempt-1/752f9261f5a3445d",
+      "task": "tv/aura-013-caption-preview-size",
+      "arm": "oracle_visual",
+      "model": "codex/gpt-6.1-sol",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded oracle_visual boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"codex-isolation-v1\", \"status\": \"pass\", \"runner\": \"codex\", \"images\": [\"1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f\"], \"network_roles\": {\"gui\": \"gab-881d23df9993448c-inference\", \"capture\": \"gab-881d23df9993448c-capture\", \"inference\": \"gab-881d23df9993448c-codex-inference\"}, \"bridge_calls\": 6, \"authoring_recoveries\": [], \"application_boundary\": {\"status\": \"pass\", \"read_only_root\": true, \"internal_network_only\": true, \"published_ports\": []}, \"execution_boundary_verified\": true, \"trial_id\": \"881d23df9993448c\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    },
+    {
+      "evaluation": "56c4a17357fc42f8/evaluations/0015/attempt-1/762ddcca0eda4978",
+      "task": "tv/aura-013-caption-preview-size",
+      "arm": "oracle_ui",
+      "model": "codex/gpt-6.1-sol",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded oracle_ui boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"codex-isolation-v1\", \"status\": \"pass\", \"runner\": \"codex\", \"images\": [\"1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f\"], \"network_roles\": {\"gui\": \"gab-18e8722ae51a4ef8-inference\", \"capture\": \"gab-18e8722ae51a4ef8-capture\", \"inference\": \"gab-18e8722ae51a4ef8-codex-inference\"}, \"bridge_calls\": 4, \"authoring_recoveries\": [], \"application_boundary\": {\"status\": \"pass\", \"read_only_root\": true, \"internal_network_only\": true, \"published_ports\": []}, \"execution_boundary_verified\": true, \"trial_id\": \"18e8722ae51a4ef8\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    },
+    {
+      "evaluation": "56c4a17357fc42f8/evaluations/0016/attempt-1/e7d8f365cd554a6b",
+      "task": "tv/aura-013-caption-preview-size",
+      "arm": "test_visual",
+      "model": "codex/gpt-6.1-sol",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded test_visual boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"codex-isolation-v1\", \"status\": \"pass\", \"runner\": \"codex\", \"images\": [\"1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f\", \"4cfd2566e32cbed00af3e0cb9cb1bbe7da34346c91d239a3fcb415e7e8a1d782\", \"5950f1830c1707f5f6dbe879964bd66121acd048f4127cabaab94637f3bbf29e\", \"95dcb74f18876d60209304eadb468a3facaa61644474716bc7e0bcd613fc30c5\", \"b53f4a4ddaab3f74e91ad36be0674ef6cedf255bc92e5a33e223db245b58ad00\"], \"network_roles\": {\"gui\": \"gab-8a7455d11f5e42c2-inference\", \"capture\": \"gab-8a7455d11f5e42c2-capture\", \"inference\": \"gab-8a7455d11f5e42c2-codex-inference\"}, \"bridge_calls\": 13, \"authoring_recoveries\": [], \"application_boundary\": {\"status\": \"pass\", \"read_only_root\": true, \"internal_network_only\": true, \"published_ports\": []}, \"execution_boundary_verified\": true, \"trial_id\": \"8a7455d11f5e42c2\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    },
+    {
+      "evaluation": "56c4a17357fc42f8/evaluations/0017/attempt-1/3b6da03b3c0d4467",
+      "task": "tv/aura-013-caption-preview-size",
+      "arm": "test_ui",
+      "model": "codex/gpt-6.1-sol",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded test_ui boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"codex-isolation-v1\", \"status\": \"pass\", \"runner\": \"codex\", \"images\": [\"1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f\"], \"network_roles\": {\"gui\": \"gab-01b443bd65fe47c8-inference\", \"capture\": \"gab-01b443bd65fe47c8-capture\", \"inference\": \"gab-01b443bd65fe47c8-codex-inference\"}, \"bridge_calls\": 13, \"authoring_recoveries\": [], \"application_boundary\": {\"status\": \"pass\", \"read_only_root\": true, \"internal_network_only\": true, \"published_ports\": []}, \"execution_boundary_verified\": true, \"trial_id\": \"01b443bd65fe47c8\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    }
+  ]
+}

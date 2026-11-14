@@ -1,0 +1,689 @@
+{
+  "schema": "run-v1",
+  "name": "Examples Codex gpt-6.1-sol medium",
+  "status": "complete",
+  "scope": "Model evaluation \u00b7 review scope",
+  "research_core": false,
+  "cells": [
+    {
+      "task": "mobile/markor-note-persistence",
+      "arm": "judge_visual",
+      "model": "codex/gpt-6.1-sol",
+      "repeat": 1,
+      "fixture_program": "auto",
+      "attempts": [
+        {
+          "path": "evaluations/0000/attempt-1/897c867b9a9b43cd",
+          "status": "complete",
+          "invalid_or_missing": 0,
+          "score": 1
+        }
+      ],
+      "agent_spec": {
+        "identifier": "codex/gpt-6.1-sol",
+        "runner": "codex",
+        "model": "gpt-6.1-sol",
+        "auth_mode": "chatgpt",
+        "reasoning_effort": "medium",
+        "tool_profile": "codex-mcp-v1",
+        "budget_profile": "codex-bounded-v1"
+      },
+      "configuration_sha256": "011a1e3bf2906c6587985675cfc67070a8ad4ae3b855cadcaabb70a3df84bec5"
+    },
+    {
+      "task": "mobile/markor-note-persistence",
+      "arm": "judge_test",
+      "model": "codex/gpt-6.1-sol",
+      "repeat": 1,
+      "fixture_program": "auto",
+      "attempts": [
+        {
+          "path": "evaluations/0001/attempt-1/b1f487311e104512",
+          "status": "complete",
+          "invalid_or_missing": 0,
+          "score": 1
+        }
+      ],
+      "agent_spec": {
+        "identifier": "codex/gpt-6.1-sol",
+        "runner": "codex",
+        "model": "gpt-6.1-sol",
+        "auth_mode": "chatgpt",
+        "reasoning_effort": "medium",
+        "tool_profile": "codex-mcp-v1",
+        "budget_profile": "codex-bounded-v1"
+      },
+      "configuration_sha256": "011a1e3bf2906c6587985675cfc67070a8ad4ae3b855cadcaabb70a3df84bec5"
+    },
+    {
+      "task": "mobile/markor-note-persistence",
+      "arm": "oracle_visual",
+      "model": "codex/gpt-6.1-sol",
+      "repeat": 1,
+      "fixture_program": "auto",
+      "attempts": [
+        {
+          "path": "evaluations/0002/attempt-1/e383a254fd854f9d",
+          "status": "complete",
+          "invalid_or_missing": 0,
+          "score": 1
+        }
+      ],
+      "agent_spec": {
+        "identifier": "codex/gpt-6.1-sol",
+        "runner": "codex",
+        "model": "gpt-6.1-sol",
+        "auth_mode": "chatgpt",
+        "reasoning_effort": "medium",
+        "tool_profile": "codex-mcp-v1",
+        "budget_profile": "codex-bounded-v1"
+      },
+      "configuration_sha256": "011a1e3bf2906c6587985675cfc67070a8ad4ae3b855cadcaabb70a3df84bec5"
+    },
+    {
+      "task": "mobile/markor-note-persistence",
+      "arm": "oracle_ui",
+      "model": "codex/gpt-6.1-sol",
+      "repeat": 1,
+      "fixture_program": "auto",
+      "attempts": [
+        {
+          "path": "evaluations/0003/attempt-1/34f284a32ed64214",
+          "status": "complete",
+          "invalid_or_missing": 0,
+          "score": 1
+        }
+      ],
+      "agent_spec": {
+        "identifier": "codex/gpt-6.1-sol",
+        "runner": "codex",
+        "model": "gpt-6.1-sol",
+        "auth_mode": "chatgpt",
+        "reasoning_effort": "medium",
+        "tool_profile": "codex-mcp-v1",
+        "budget_profile": "codex-bounded-v1"
+      },
+      "configuration_sha256": "011a1e3bf2906c6587985675cfc67070a8ad4ae3b855cadcaabb70a3df84bec5"
+    },
+    {
+      "task": "mobile/markor-note-persistence",
+      "arm": "test_visual",
+      "model": "codex/gpt-6.1-sol",
+      "repeat": 1,
+      "fixture_program": "auto",
+      "attempts": [
+        {
+          "path": "evaluations/0004/attempt-1/6d2bea3458444aaf",
+          "status": "complete",
+          "invalid_or_missing": 0,
+          "score": 1
+        }
+      ],
+      "agent_spec": {
+        "identifier": "codex/gpt-6.1-sol",
+        "runner": "codex",
+        "model": "gpt-6.1-sol",
+        "auth_mode": "chatgpt",
+        "reasoning_effort": "medium",
+        "tool_profile": "codex-mcp-v1",
+        "budget_profile": "codex-bounded-v1"
+      },
+      "configuration_sha256": "011a1e3bf2906c6587985675cfc67070a8ad4ae3b855cadcaabb70a3df84bec5"
+    },
+    {
+      "task": "mobile/markor-note-persistence",
+      "arm": "test_ui",
+      "model": "codex/gpt-6.1-sol",
+      "repeat": 1,
+      "fixture_program": "auto",
+      "attempts": [
+        {
+          "path": "evaluations/0005/attempt-1/d2398da0a7e14d41",
+          "status": "complete",
+          "invalid_or_missing": 0,
+          "score": 1
+        }
+      ],
+      "agent_spec": {
+        "identifier": "codex/gpt-6.1-sol",
+        "runner": "codex",
+        "model": "gpt-6.1-sol",
+        "auth_mode": "chatgpt",
+        "reasoning_effort": "medium",
+        "tool_profile": "codex-mcp-v1",
+        "budget_profile": "codex-bounded-v1"
+      },
+      "configuration_sha256": "011a1e3bf2906c6587985675cfc67070a8ad4ae3b855cadcaabb70a3df84bec5"
+    },
+    {
+      "task": "web/webarena-399-profile-bio",
+      "arm": "judge_visual",
+      "model": "codex/gpt-6.1-sol",
+      "repeat": 1,
+      "fixture_program": "auto",
+      "attempts": [
+        {
+          "path": "evaluations/0006/attempt-1/f0548375b0f944c8",
+          "status": "complete",
+          "invalid_or_missing": 0,
+          "score": 1
+        }
+      ],
+      "agent_spec": {
+        "identifier": "codex/gpt-6.1-sol",
+        "runner": "codex",
+        "model": "gpt-6.1-sol",
+        "auth_mode": "chatgpt",
+        "reasoning_effort": "medium",
+        "tool_profile": "codex-mcp-v1",
+        "budget_profile": "codex-bounded-v1"
+      },
+      "configuration_sha256": "011a1e3bf2906c6587985675cfc67070a8ad4ae3b855cadcaabb70a3df84bec5"
+    },
+    {
+      "task": "web/webarena-399-profile-bio",
+      "arm": "judge_test",
+      "model": "codex/gpt-6.1-sol",
+      "repeat": 1,
+      "fixture_program": "auto",
+      "attempts": [
+        {
+          "path": "evaluations/0007/attempt-1/45a4c73cba5b4a82",
+          "status": "complete",
+          "invalid_or_missing": 0,
+          "score": 1
+        }
+      ],
+      "agent_spec": {
+        "identifier": "codex/gpt-6.1-sol",
+        "runner": "codex",
+        "model": "gpt-6.1-sol",
+        "auth_mode": "chatgpt",
+        "reasoning_effort": "medium",
+        "tool_profile": "codex-mcp-v1",
+        "budget_profile": "codex-bounded-v1"
+      },
+      "configuration_sha256": "011a1e3bf2906c6587985675cfc67070a8ad4ae3b855cadcaabb70a3df84bec5"
+    },
+    {
+      "task": "web/webarena-399-profile-bio",
+      "arm": "oracle_visual",
+      "model": "codex/gpt-6.1-sol",
+      "repeat": 1,
+      "fixture_program": "auto",
+      "attempts": [
+        {
+          "path": "evaluations/0008/attempt-1/cbb4ed4856884896",
+          "status": "complete",
+          "invalid_or_missing": 0,
+          "score": 1
+        }
+      ],
+      "agent_spec": {
+        "identifier": "codex/gpt-6.1-sol",
+        "runner": "codex",
+        "model": "gpt-6.1-sol",
+        "auth_mode": "chatgpt",
+        "reasoning_effort": "medium",
+        "tool_profile": "codex-mcp-v1",
+        "budget_profile": "codex-bounded-v1"
+      },
+      "configuration_sha256": "011a1e3bf2906c6587985675cfc67070a8ad4ae3b855cadcaabb70a3df84bec5"
+    },
+    {
+      "task": "web/webarena-399-profile-bio",
+      "arm": "oracle_ui",
+      "model": "codex/gpt-6.1-sol",
+      "repeat": 1,
+      "fixture_program": "auto",
+      "attempts": [
+        {
+          "path": "evaluations/0009/attempt-1/7b599de02eee4d9e",
+          "status": "complete",
+          "invalid_or_missing": 0,
+          "score": 1
+        }
+      ],
+      "agent_spec": {
+        "identifier": "codex/gpt-6.1-sol",
+        "runner": "codex",
+        "model": "gpt-6.1-sol",
+        "auth_mode": "chatgpt",
+        "reasoning_effort": "medium",
+        "tool_profile": "codex-mcp-v1",
+        "budget_profile": "codex-bounded-v1"
+      },
+      "configuration_sha256": "011a1e3bf2906c6587985675cfc67070a8ad4ae3b855cadcaabb70a3df84bec5"
+    },
+    {
+      "task": "web/webarena-399-profile-bio",
+      "arm": "test_visual",
+      "model": "codex/gpt-6.1-sol",
+      "repeat": 1,
+      "fixture_program": "auto",
+      "attempts": [
+        {
+          "path": "evaluations/0010/attempt-1/dd2f005c7d854e38",
+          "status": "complete",
+          "invalid_or_missing": 0,
+          "score": 1
+        }
+      ],
+      "agent_spec": {
+        "identifier": "codex/gpt-6.1-sol",
+        "runner": "codex",
+        "model": "gpt-6.1-sol",
+        "auth_mode": "chatgpt",
+        "reasoning_effort": "medium",
+        "tool_profile": "codex-mcp-v1",
+        "budget_profile": "codex-bounded-v1"
+      },
+      "configuration_sha256": "011a1e3bf2906c6587985675cfc67070a8ad4ae3b855cadcaabb70a3df84bec5"
+    },
+    {
+      "task": "web/webarena-399-profile-bio",
+      "arm": "test_ui",
+      "model": "codex/gpt-6.1-sol",
+      "repeat": 1,
+      "fixture_program": "auto",
+      "attempts": [
+        {
+          "path": "evaluations/0011/attempt-1/186f1b1875864616",
+          "status": "complete",
+          "invalid_or_missing": 0,
+          "score": 1
+        }
+      ],
+      "agent_spec": {
+        "identifier": "codex/gpt-6.1-sol",
+        "runner": "codex",
+        "model": "gpt-6.1-sol",
+        "auth_mode": "chatgpt",
+        "reasoning_effort": "medium",
+        "tool_profile": "codex-mcp-v1",
+        "budget_profile": "codex-bounded-v1"
+      },
+      "configuration_sha256": "011a1e3bf2906c6587985675cfc67070a8ad4ae3b855cadcaabb70a3df84bec5"
+    },
+    {
+      "task": "tv/aura-013-caption-preview-size",
+      "arm": "judge_visual",
+      "model": "codex/gpt-6.1-sol",
+      "repeat": 1,
+      "fixture_program": "auto",
+      "attempts": [
+        {
+          "path": "evaluations/0012/attempt-1/6f6a58267db8481e",
+          "status": "complete",
+          "invalid_or_missing": 0,
+          "score": 1
+        }
+      ],
+      "agent_spec": {
+        "identifier": "codex/gpt-6.1-sol",
+        "runner": "codex",
+        "model": "gpt-6.1-sol",
+        "auth_mode": "chatgpt",
+        "reasoning_effort": "medium",
+        "tool_profile": "codex-mcp-v1",
+        "budget_profile": "codex-bounded-v1"
+      },
+      "configuration_sha256": "011a1e3bf2906c6587985675cfc67070a8ad4ae3b855cadcaabb70a3df84bec5"
+    },
+    {
+      "task": "tv/aura-013-caption-preview-size",
+      "arm": "judge_test",
+      "model": "codex/gpt-6.1-sol",
+      "repeat": 1,
+      "fixture_program": "auto",
+      "attempts": [
+        {
+          "path": "evaluations/0013/attempt-1/ba4281c8a7d94a42",
+          "status": "complete",
+          "invalid_or_missing": 0,
+          "score": 1
+        }
+      ],
+      "agent_spec": {
+        "identifier": "codex/gpt-6.1-sol",
+        "runner": "codex",
+        "model": "gpt-6.1-sol",
+        "auth_mode": "chatgpt",
+        "reasoning_effort": "medium",
+        "tool_profile": "codex-mcp-v1",
+        "budget_profile": "codex-bounded-v1"
+      },
+      "configuration_sha256": "011a1e3bf2906c6587985675cfc67070a8ad4ae3b855cadcaabb70a3df84bec5"
+    },
+    {
+      "task": "tv/aura-013-caption-preview-size",
+      "arm": "oracle_visual",
+      "model": "codex/gpt-6.1-sol",
+      "repeat": 1,
+      "fixture_program": "auto",
+      "attempts": [
+        {
+          "path": "evaluations/0014/attempt-1/752f9261f5a3445d",
+          "status": "complete",
+          "invalid_or_missing": 0,
+          "score": 1
+        }
+      ],
+      "agent_spec": {
+        "identifier": "codex/gpt-6.1-sol",
+        "runner": "codex",
+        "model": "gpt-6.1-sol",
+        "auth_mode": "chatgpt",
+        "reasoning_effort": "medium",
+        "tool_profile": "codex-mcp-v1",
+        "budget_profile": "codex-bounded-v1"
+      },
+      "configuration_sha256": "011a1e3bf2906c6587985675cfc67070a8ad4ae3b855cadcaabb70a3df84bec5"
+    },
+    {
+      "task": "tv/aura-013-caption-preview-size",
+      "arm": "oracle_ui",
+      "model": "codex/gpt-6.1-sol",
+      "repeat": 1,
+      "fixture_program": "auto",
+      "attempts": [
+        {
+          "path": "evaluations/0015/attempt-1/762ddcca0eda4978",
+          "status": "complete",
+          "invalid_or_missing": 0,
+          "score": 1
+        }
+      ],
+      "agent_spec": {
+        "identifier": "codex/gpt-6.1-sol",
+        "runner": "codex",
+        "model": "gpt-6.1-sol",
+        "auth_mode": "chatgpt",
+        "reasoning_effort": "medium",
+        "tool_profile": "codex-mcp-v1",
+        "budget_profile": "codex-bounded-v1"
+      },
+      "configuration_sha256": "011a1e3bf2906c6587985675cfc67070a8ad4ae3b855cadcaabb70a3df84bec5"
+    },
+    {
+      "task": "tv/aura-013-caption-preview-size",
+      "arm": "test_visual",
+      "model": "codex/gpt-6.1-sol",
+      "repeat": 1,
+      "fixture_program": "auto",
+      "attempts": [
+        {
+          "path": "evaluations/0016/attempt-1/e7d8f365cd554a6b",
+          "status": "complete",
+          "invalid_or_missing": 0,
+          "score": 1
+        }
+      ],
+      "agent_spec": {
+        "identifier": "codex/gpt-6.1-sol",
+        "runner": "codex",
+        "model": "gpt-6.1-sol",
+        "auth_mode": "chatgpt",
+        "reasoning_effort": "medium",
+        "tool_profile": "codex-mcp-v1",
+        "budget_profile": "codex-bounded-v1"
+      },
+      "configuration_sha256": "011a1e3bf2906c6587985675cfc67070a8ad4ae3b855cadcaabb70a3df84bec5"
+    },
+    {
+      "task": "tv/aura-013-caption-preview-size",
+      "arm": "test_ui",
+      "model": "codex/gpt-6.1-sol",
+      "repeat": 1,
+      "fixture_program": "auto",
+      "attempts": [
+        {
+          "path": "evaluations/0017/attempt-1/3b6da03b3c0d4467",
+          "status": "complete",
+          "invalid_or_missing": 0,
+          "score": 1
+        }
+      ],
+      "agent_spec": {
+        "identifier": "codex/gpt-6.1-sol",
+        "runner": "codex",
+        "model": "gpt-6.1-sol",
+        "auth_mode": "chatgpt",
+        "reasoning_effort": "medium",
+        "tool_profile": "codex-mcp-v1",
+        "budget_profile": "codex-bounded-v1"
+      },
+      "configuration_sha256": "011a1e3bf2906c6587985675cfc67070a8ad4ae3b855cadcaabb70a3df84bec5"
+    }
+  ],
+  "timeout_seconds": 3600,
+  "fixture_probe": false,
+  "allow_candidate": false,
+  "preflight": {
+    "status": "passed",
+    "checks": [
+      {
+        "name": "docker_engine",
+        "status": "passed"
+      },
+      {
+        "name": "task_inputs",
+        "status": "passed",
+        "task": "mobile/markor-note-persistence"
+      },
+      {
+        "name": "fairness_qualification",
+        "status": "passed",
+        "task": "mobile/markor-note-persistence"
+      },
+      {
+        "name": "task_runtime",
+        "status": "passed",
+        "task": "mobile/markor-note-persistence"
+      },
+      {
+        "name": "task_inputs",
+        "status": "passed",
+        "task": "tv/aura-013-caption-preview-size"
+      },
+      {
+        "name": "fairness_qualification",
+        "status": "passed",
+        "task": "tv/aura-013-caption-preview-size"
+      },
+      {
+        "name": "task_runtime",
+        "status": "passed",
+        "task": "tv/aura-013-caption-preview-size"
+      },
+      {
+        "name": "task_inputs",
+        "status": "passed",
+        "task": "web/webarena-399-profile-bio"
+      },
+      {
+        "name": "fairness_qualification",
+        "status": "passed",
+        "task": "web/webarena-399-profile-bio"
+      },
+      {
+        "name": "task_runtime",
+        "status": "passed",
+        "task": "web/webarena-399-profile-bio"
+      },
+      {
+        "name": "docker_image",
+        "status": "passed",
+        "image": "gui-agent-bench-public-aura:1"
+      },
+      {
+        "name": "docker_image",
+        "status": "passed",
+        "image": "gui-agent-bench-public-codex-bridge:1"
+      },
+      {
+        "name": "docker_image",
+        "status": "passed",
+        "image": "gui-agent-bench-public-codex-egress:1"
+      },
+      {
+        "name": "docker_image",
+        "status": "passed",
+        "image": "gui-agent-bench-public-codex:0.162.0-bench1"
+      },
+      {
+        "name": "docker_image",
+        "status": "passed",
+        "image": "gui-agent-bench-public-mobile-relay:1"
+      },
+      {
+        "name": "docker_image",
+        "status": "passed",
+        "image": "gui-agent-bench-public-oracle-browser:1"
+      },
+      {
+        "name": "docker_image",
+        "status": "passed",
+        "image": "gui-agent-bench-public-oracle:1"
+      },
+      {
+        "name": "docker_image",
+        "status": "passed",
+        "image": "gui-agent-bench-public-webarena:399"
+      },
+      {
+        "name": "docker_image",
+        "status": "passed",
+        "image": "gui-agent-bench-public-worker:1"
+      },
+      {
+        "name": "codex_lock",
+        "status": "passed"
+      },
+      {
+        "name": "codex_auth",
+        "status": "passed"
+      },
+      {
+        "name": "codex_qualification",
+        "status": "passed",
+        "arm": "judge_visual"
+      },
+      {
+        "name": "codex_qualification",
+        "status": "passed",
+        "arm": "judge_test"
+      },
+      {
+        "name": "codex_qualification",
+        "status": "passed",
+        "arm": "oracle_visual"
+      },
+      {
+        "name": "codex_qualification",
+        "status": "passed",
+        "arm": "oracle_ui"
+      },
+      {
+        "name": "codex_qualification",
+        "status": "passed",
+        "arm": "test_visual"
+      },
+      {
+        "name": "codex_qualification",
+        "status": "passed",
+        "arm": "test_ui"
+      },
+      {
+        "name": "codex_qualification",
+        "status": "passed",
+        "arm": "judge_visual"
+      },
+      {
+        "name": "codex_qualification",
+        "status": "passed",
+        "arm": "judge_test"
+      },
+      {
+        "name": "codex_qualification",
+        "status": "passed",
+        "arm": "oracle_visual"
+      },
+      {
+        "name": "codex_qualification",
+        "status": "passed",
+        "arm": "oracle_ui"
+      },
+      {
+        "name": "codex_qualification",
+        "status": "passed",
+        "arm": "test_visual"
+      },
+      {
+        "name": "codex_qualification",
+        "status": "passed",
+        "arm": "test_ui"
+      },
+      {
+        "name": "codex_qualification",
+        "status": "passed",
+        "arm": "judge_visual"
+      },
+      {
+        "name": "codex_qualification",
+        "status": "passed",
+        "arm": "judge_test"
+      },
+      {
+        "name": "codex_qualification",
+        "status": "passed",
+        "arm": "oracle_visual"
+      },
+      {
+        "name": "codex_qualification",
+        "status": "passed",
+        "arm": "oracle_ui"
+      },
+      {
+        "name": "codex_qualification",
+        "status": "passed",
+        "arm": "test_visual"
+      },
+      {
+        "name": "codex_qualification",
+        "status": "passed",
+        "arm": "test_ui"
+      },
+      {
+        "name": "native_runtime",
+        "status": "passed"
+      },
+      {
+        "name": "native_application",
+        "status": "passed",
+        "task": "mobile/markor-note-persistence"
+      }
+    ],
+    "diagnostics": {
+      "version": "failure-v1",
+      "primary_issue": null,
+      "issues": [],
+      "ordering": "source_order_not_global_time"
+    }
+  },
+  "framework_qualification_sha256": {
+    "mobile/markor-note-persistence": "a0979c68c7413d389ec5b1d29afc6c712bc8d04881ff394c894dfc6be886b513",
+    "web/webarena-399-profile-bio": "62831bb5aa154ceecacc6ec8eebbd7829dedc6fe2e2e82bacbe18ba2365b0bbc",
+    "tv/aura-013-caption-preview-size": "bd4ea08406a63f59380fc8d85b8164c31a2db4ce88180ef66eb051855578e38e"
+  },
+  "resolved_plan_sha256": "175786d991b30e76d6c55dd74fcbefed0ec01bad8dd33bc8e8cc8d48b4f4d2b0",
+  "result": {
+    "planned": 18,
+    "attempted": 18,
+    "finished": 18,
+    "credited": 18,
+    "failed": 0,
+    "interrupted": 0,
+    "unstarted": 0
+  }
+}

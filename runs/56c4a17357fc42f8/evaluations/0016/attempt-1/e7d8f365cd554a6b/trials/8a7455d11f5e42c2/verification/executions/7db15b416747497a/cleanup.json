@@ -1,0 +1,18 @@
+[
+  {
+    "container": "gab-oracle-6688eed499cc-executor",
+    "removed": true
+  },
+  {
+    "container": "gab-oracle-6688eed499cc-ready",
+    "removed": true
+  },
+  {
+    "container": "gab-oracle-6688eed499cc-browser",
+    "removed": true
+  },
+  {
+    "container": "gab-oracle-6688eed499cc-app",
+    "removed": true
+  }
+]

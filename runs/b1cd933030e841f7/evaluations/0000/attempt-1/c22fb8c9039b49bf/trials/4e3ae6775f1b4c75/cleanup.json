@@ -1,0 +1,26 @@
+[
+  {
+    "container": "gab-4e3ae6775f1b4c75-verifier",
+    "removed": true
+  },
+  {
+    "container": "gab-4e3ae6775f1b4c75-codex-agent",
+    "removed": true
+  },
+  {
+    "container": "gab-4e3ae6775f1b4c75-codex-bridge",
+    "removed": true
+  },
+  {
+    "container": "gab-4e3ae6775f1b4c75-codex-egress",
+    "removed": true
+  },
+  {
+    "container": "gab-4e3ae6775f1b4c75-capture",
+    "removed": true
+  },
+  {
+    "container": "gab-4e3ae6775f1b4c75-app",
+    "removed": true
+  }
+]

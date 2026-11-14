@@ -1,0 +1,27 @@
+{"environment_contract": "environment-v1", "environment_event": "clock", "platform": "web", "profile": "generic", "wall_clock": "2026-10-12T18:00:00+00:00", "timer_mode": "real", "controller_clock": "unchanged"}
+{"environment_contract": "environment-v1", "environment_event": "clock", "platform": "web", "profile": "generic", "wall_clock": "2026-10-12T18:00:00+00:00", "timer_mode": "real", "controller_clock": "unchanged"}
+{"environment_contract": "environment-v1", "environment_event": "readiness", "platform": "web", "status": "ready", "profile": "generic", "initial": true, "elapsed_ms": 122}
+{"environment_contract": "environment-v1", "environment_event": "reset", "platform": "web", "status": "ready", "profile": "generic", "generation": 1, "transport_attempts": 1, "screenshot_sha256": "95dcb74f18876d60209304eadb468a3facaa61644474716bc7e0bcd613fc30c5", "storage_sha256": "6670eec410f31aa39d9aa17029b7e2b5f88afa810ab8dd1b53183ed290ecf4b8", "viewport": [1280, 720], "locale": "en-US", "timezone": "UTC", "clock": "2026-10-12T18:00:00+00:00"}
+{"setup": "ready", "initial_state": true}
+{"assertion": {"kind": "ui", "query": {"role": "button", "name": "Switch profile, Alex"}, "condition": "visible", "expected": true, "precondition": true}, "matched": true}
+{"operation": "assert", "denied": false}
+{"assertion": {"kind": "ui", "query": {"role": "button", "name": "Search library"}, "condition": "visible", "expected": true, "precondition": true}, "matched": true}
+{"operation": "assert", "denied": false}
+{"action": {"operation": "step", "arguments": {"action": "click", "x": 1158, "y": 40}}}
+{"operation": "step", "denied": false}
+{"action": {"operation": "step", "arguments": {"action": "click", "role": "button", "name": "Accessibility"}}}
+{"operation": "step", "denied": false}
+{"assertion": {"kind": "ui", "query": {"role": "heading", "name": "Accessibility"}, "condition": "visible", "expected": true, "precondition": true}, "matched": true}
+{"operation": "assert", "denied": false}
+{"assertion": {"kind": "ui", "query": {"role": "button", "name": "Caption size Medium"}, "condition": "visible", "expected": true, "precondition": true}, "matched": true}
+{"operation": "assert", "denied": false}
+{"action": {"operation": "step", "arguments": {"action": "click", "role": "button", "name": "Caption size Medium"}}}
+{"operation": "step", "denied": false}
+{"assertion": {"kind": "ui", "query": {"role": "dialog", "name": "Caption size"}, "condition": "visible", "expected": true, "precondition": true}, "matched": true}
+{"operation": "assert", "denied": false}
+{"action": {"operation": "step", "arguments": {"action": "click", "role": "button", "name": "Large"}}}
+{"operation": "step", "denied": false}
+{"assertion": {"kind": "ui", "query": {"role": "button", "name": "Caption size Large"}, "condition": "visible", "expected": true, "precondition": false}, "matched": true}
+{"operation": "assert", "denied": false}
+{"assertion": {"kind": "image", "reference": "large_preview", "region": [970, 200, 1215, 340], "masks": [], "threshold": 0.1, "max_diff_pixels": 150, "include_aa": false, "precondition": false, "observation_window_ms": 1600}, "matched": false, "image": {"comparator": "pixelmatch-py-0.4.0/pillow-11.3.0", "reference_sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f", "actual_sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59", "compared_pixels": 34300, "different_pixels": 4773, "matched": false, "evidence": {"directory": "0001", "sha256": {"capture.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59", "sample-0001.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59", "sample-0002.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59", "sample-0003.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59", "sample-0004.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59", "sample-0005.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59", "expected.png": "1a807510be928beef8fcf7bc71e94fd797d8bbd870301212c326c628c87059ee", "actual.png": "400764df88b7e63d015da80bee9399d4db01c16b25b4edb5b0757c9595df10a6", "diff.png": "540190c150d9cb543e75bc2cce4d682c2bddd32b55b79f484663a9fca1a2e3d6"}}, "capture_contract": "visual-observation-window-v1", "observation_window_ms": 1600, "selected_sample": 0, "observations": [{"file": "sample-0001.png", "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59", "elapsed_ms": 58, "different_pixels": 4773}, {"file": "sample-0002.png", "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59", "elapsed_ms": 429, "different_pixels": 4773}, {"file": "sample-0003.png", "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59", "elapsed_ms": 891, "different_pixels": 4773}, {"file": "sample-0004.png", "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59", "elapsed_ms": 1296, "different_pixels": 4773}, {"file": "sample-0005.png", "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59", "elapsed_ms": 1663, "different_pixels": 4773}]}}
+{"operation": "assert", "denied": false}

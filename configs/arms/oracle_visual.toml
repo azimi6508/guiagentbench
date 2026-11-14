@@ -1,0 +1,28 @@
+schema_version = 1
+arm = "oracle_visual"
+status = "implemented"
+default = "deny"
+
+[evidence]
+live_app = true
+ui_structure = false
+test_source = false
+screenshot_sequence = false
+steps = "required"
+
+[files]
+read = ["/workspace/instruction.md","/workspace/output/*","/workspace/steps.json"]
+write = ["/workspace/output/*"]
+
+[tools]
+allow = ["gui_observe","gui_step","gui_reset","gui_open_url"]
+execute_submission = false
+
+[environment]
+inherit = false
+runtime_names = ["PATH", "HOME", "LANG", "TMPDIR", "XDG_CONFIG_HOME", "XDG_DATA_HOME", "XDG_CACHE_HOME", "OPENCODE_CONFIG", "OPENCODE_DISABLE_DEFAULT_PLUGINS", "OPENCODE_DISABLE_MODELS_FETCH", "OPENCODE_DISABLE_CLAUDE_CODE", "OPENCODE_DISABLE_AUTOUPDATE"]
+provider_names = ["OPENROUTER_API_KEY", "OPENAI_API_KEY", "ANTHROPIC_API_KEY", "GOOGLE_GENERATIVE_AI_API_KEY"]
+
+[submission]
+kind = "oracle"
+path = "/workspace/output/oracle.py"

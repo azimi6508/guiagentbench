@@ -1,0 +1,53 @@
+{
+  "planned_trials": 1,
+  "completed_trials": 1,
+  "successful_trials": 1,
+  "accuracy": 1.0,
+  "invalid_or_missing": 0,
+  "planned_pairs": 1,
+  "paired_score": 1,
+  "failure_summary": {
+    "version": "failure-v1",
+    "planned_units": 1,
+    "recorded_units": 1,
+    "units_by_cause": {
+      "behavioral_mismatch": 1
+    },
+    "counts_overlap": true,
+    "graded_units": 1,
+    "units_with_blocking_diagnostics": 0,
+    "cause_rates_per_planned_unit": {
+      "behavioral_mismatch": 1.0
+    },
+    "diagnostic_coverage": 1,
+    "automatic_retries": false
+  },
+  "run_directory": "/home/azimi/Downloads/gui-agent-bench/github-release/runs/56c4a17357fc42f8/evaluations/0014/attempt-1/752f9261f5a3445d",
+  "action_contract": "ui-superset-v1",
+  "failure_contract": "failure-v1",
+  "environment_contract": "environment-v1",
+  "environment_profile": "generic",
+  "status": "complete",
+  "model": "codex/gpt-6.1-sol",
+  "fixture": false,
+  "research_core": false,
+  "planned_artifacts": 1,
+  "planned_executions": 10,
+  "authoring_state": "correct",
+  "abi": "visual-v1-web",
+  "provider_cost_usd": null,
+  "runner": "codex",
+  "runner_version": "0.162.0",
+  "agent_spec": {
+    "identifier": "codex/gpt-6.1-sol",
+    "runner": "codex",
+    "model": "gpt-6.1-sol",
+    "auth_mode": "chatgpt",
+    "reasoning_effort": "medium",
+    "tool_profile": "codex-mcp-v1",
+    "budget_profile": "codex-bounded-v1"
+  },
+  "billing_mode": "chatgpt_subscription",
+  "budget_profile": "codex-bounded-v1",
+  "resolved_plan_sha256": "34ac5a3b8a9293fea5fb48b0cd4689fa54644ee364144b468a29b5cd2d197109"
+}

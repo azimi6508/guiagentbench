@@ -1,0 +1,1 @@
+{"verdict":"FAIL","reason":"The editor held 'I am a robot' before saving (frame 2), but the reopened profile (frame 3) looks the same as the initial profile: the sidebar shows only the username, registration info, t2_5adwlxvn, and the Edit biography button. No 'I am a robot' biography text appears, so the evidence does not show the saved biography on the reopened profile."}

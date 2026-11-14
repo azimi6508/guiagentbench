@@ -1,0 +1,43 @@
+{
+  "runner": "codex",
+  "runner_version": "0.162.0",
+  "tool_profile": "codex-mcp-v1",
+  "budget_profile": "codex-bounded-v1",
+  "completed": true,
+  "shutdown_reason": "completed",
+  "elapsed_seconds": 22.485535593994427,
+  "observed_tool_items": 7,
+  "auth_refresh_persisted": true,
+  "diagnostics": {
+    "version": "failure-v1",
+    "primary_issue": null,
+    "issues": [],
+    "ordering": "source_order_not_global_time"
+  },
+  "automatic_trial_retries": false,
+  "automatic_fallback": false,
+  "usage": {
+    "inputTokens": 68964,
+    "cachedInputTokens": 47232,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 284,
+    "reasoningOutputTokens": 0,
+    "totalTokens": 69248
+  },
+  "usage_last": {
+    "totalTokens": 10615,
+    "inputTokens": 10584,
+    "cachedInputTokens": 0,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 31,
+    "reasoningOutputTokens": 0
+  },
+  "model_context_window": 258400,
+  "usage_source": "codex.thread/tokenUsage/updated",
+  "usage_complete": true,
+  "provider_cost_usd": null,
+  "billing_mode": "chatgpt_subscription",
+  "model_requests": null,
+  "model_steps": null,
+  "per_request_output_token_cap": null
+}

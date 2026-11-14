@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="AURA TV">
+  <rect width="64" height="64" rx="16" fill="#0b0f10"/>
+  <path d="M19 52V25a13 13 0 0 1 26 0v27Z" fill="#efc281" fill-opacity=".09" stroke="#efc281" stroke-width="2"/>
+  <path d="m23 43 9-22 9 22M26 36h12" fill="none" stroke="#efc281" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

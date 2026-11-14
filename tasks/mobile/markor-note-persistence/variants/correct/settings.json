@@ -1,0 +1,6 @@
+{
+  "note_name": "atlas.txt",
+  "initial_text": "",
+  "expected_text": "Bring the blue notebook.",
+  "lose_note_on_restart": false
+}

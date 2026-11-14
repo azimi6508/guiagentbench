@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "image_package": "system-images;android-36;google_apis_playstore;x86_64",
+  "image_revision": 7,
+  "emulator_version": "36.2.12",
+  "build_fingerprint": "google/sdk_gphone64_x86_64/emu64xa:16/BE2A.250530.026.D1/13818094:user/release-keys",
+  "sdk_sha256": {
+    "system-images/android-36/google_apis_playstore/x86_64/system.img": "f72e0e86bc3476abcabd9437cad6459a7a515d585e219fd8fbb6de07b435258d",
+    "system-images/android-36/google_apis_playstore/x86_64/vendor.img": "e7acbd58e5db6faf995d4af47d2078ea793ad4499287f0c2fb3ef906553ae046",
+    "system-images/android-36/google_apis_playstore/x86_64/ramdisk.img": "7f286403ef23d62a70f62c8adea07828b3c0d798e8a0ca049060e31ba012ddd3",
+    "system-images/android-36/google_apis_playstore/x86_64/kernel-ranchu": "3f366c20522314f8ccbef89210eabec3491d18997799882e1f0d4d8134e8b937",
+    "system-images/android-36/google_apis_playstore/x86_64/source.properties": "a4562a4e8c8ae759ef9525061524980fdd44fc5c1593c5eda8309973bddaa252",
+    "emulator/emulator.exe": "08090e6a695ed70ef237013c521dcc496695bf2b235e9aa6b9c51914c48514d5",
+    "emulator/qemu/windows-x86_64/qemu-system-x86_64-headless.exe": "813b86d71be3ab737d73b7edc9c04761d3d2a7aeeea082a2c99a871ebf62024e",
+    "emulator/source.properties": "2909718b3f4f759ef08a95c8d129207deb925402f5245e3a7dae9354506827e7",
+    "platform-tools/adb.exe": "1e1c2280b90b3f01ad84cd8df4858b1b1995012814f3ca8893bcc3ba3848edec"
+  },
+  "driver_assets_sha256": {
+    "u2.jar": "1bd7c57fe019d0275a66b936ed5d7ea5f244d98e5e3ba3d1ccf4a14e721ef94f",
+    "app-uiautomator.apk": "6f85594700ad96de89d012b3767049c2c6988510b68b31b439dd2a6dd93a30c9"
+  },
+  "python_version": "3.11.9"
+}

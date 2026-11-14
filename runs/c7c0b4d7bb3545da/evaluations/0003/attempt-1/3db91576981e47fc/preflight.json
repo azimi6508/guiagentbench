@@ -1,0 +1,87 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "name": "docker_engine",
+      "status": "passed"
+    },
+    {
+      "name": "task_inputs",
+      "status": "passed",
+      "task": "mobile/markor-note-persistence"
+    },
+    {
+      "name": "fairness_qualification",
+      "status": "passed",
+      "task": "mobile/markor-note-persistence"
+    },
+    {
+      "name": "task_runtime",
+      "status": "passed",
+      "task": "mobile/markor-note-persistence"
+    },
+    {
+      "name": "docker_image",
+      "status": "passed",
+      "image": "gui-agent-bench-public-claude-agent:2.1.323-bench1"
+    },
+    {
+      "name": "docker_image",
+      "status": "passed",
+      "image": "gui-agent-bench-public-claude-bridge:2.1.323-bench1"
+    },
+    {
+      "name": "docker_image",
+      "status": "passed",
+      "image": "gui-agent-bench-public-claude-gateway:2.1.323-bench1"
+    },
+    {
+      "name": "docker_image",
+      "status": "passed",
+      "image": "gui-agent-bench-public-mobile-relay:1"
+    },
+    {
+      "name": "docker_image",
+      "status": "passed",
+      "image": "gui-agent-bench-public-oracle-browser:1"
+    },
+    {
+      "name": "docker_image",
+      "status": "passed",
+      "image": "gui-agent-bench-public-oracle:1"
+    },
+    {
+      "name": "docker_image",
+      "status": "passed",
+      "image": "gui-agent-bench-public-worker:1"
+    },
+    {
+      "name": "claude_lock",
+      "status": "passed"
+    },
+    {
+      "name": "claude_auth",
+      "status": "passed"
+    },
+    {
+      "name": "claude_qualification",
+      "status": "passed",
+      "arm": "oracle_ui"
+    },
+    {
+      "name": "native_runtime",
+      "status": "passed"
+    },
+    {
+      "name": "native_application",
+      "status": "passed",
+      "task": "mobile/markor-note-persistence"
+    }
+  ],
+  "diagnostics": {
+    "version": "failure-v1",
+    "primary_issue": null,
+    "issues": [],
+    "ordering": "source_order_not_global_time"
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "outcome": "PASS",
+  "assertions": [
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "final",
+        "region": [
+          100,
+          0,
+          700,
+          52
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 0,
+        "include_aa": false,
+        "precondition": true,
+        "observation_window_ms": 1600
+      },
+      "matched": true,
+      "image": {
+        "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+        "reference_sha256": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+        "actual_sha256": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+        "compared_pixels": 31200,
+        "different_pixels": 0,
+        "matched": true,
+        "evidence": {
+          "directory": "0001",
+          "sha256": {
+            "capture.png": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+            "sample-0001.png": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+            "sample-0002.png": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+            "sample-0003.png": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+            "sample-0004.png": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+            "sample-0005.png": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+            "expected.png": "a2ecb3bd39e36592002d58ff3451de94c3cfb2f4df5ff35cb3b82fe006a40d1f",
+            "actual.png": "a2ecb3bd39e36592002d58ff3451de94c3cfb2f4df5ff35cb3b82fe006a40d1f",
+            "diff.png": "91a109e386d027aff4dd8cc47b1ca97d4a9548164d5a115c82cdb3821526bc03"
+          }
+        },
+        "capture_contract": "visual-observation-window-v1",
+        "observation_window_ms": 1600,
+        "selected_sample": 0,
+        "observations": [
+          {
+            "file": "sample-0001.png",
+            "sha256": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+            "elapsed_ms": 48,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0002.png",
+            "sha256": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+            "elapsed_ms": 436,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0003.png",
+            "sha256": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+            "elapsed_ms": 867,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0004.png",
+            "sha256": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+            "elapsed_ms": 1283,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0005.png",
+            "sha256": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+            "elapsed_ms": 1653,
+            "different_pixels": 0
+          }
+        ]
+      }
+    },
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "final",
+        "region": [
+          910,
+          80,
+          1190,
+          230
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 0,
+        "include_aa": false,
+        "precondition": false,
+        "observation_window_ms": 1600
+      },
+      "matched": true,
+      "image": {
+        "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+        "reference_sha256": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+        "actual_sha256": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+        "compared_pixels": 42000,
+        "different_pixels": 0,
+        "matched": true,
+        "evidence": {
+          "directory": "0002",
+          "sha256": {
+            "capture.png": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+            "sample-0001.png": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+            "sample-0002.png": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+            "sample-0003.png": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+            "sample-0004.png": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+            "sample-0005.png": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+            "expected.png": "7f58c6af1b879217787b0817a904588aeaa2ec14036f941b778fb56a97039362",
+            "actual.png": "7f58c6af1b879217787b0817a904588aeaa2ec14036f941b778fb56a97039362",
+            "diff.png": "7692996e33a8774c48cf0116b45021fd21db229b04a1f9c1b7f2b5bbf61f9532"
+          }
+        },
+        "capture_contract": "visual-observation-window-v1",
+        "observation_window_ms": 1600,
+        "selected_sample": 0,
+        "observations": [
+          {
+            "file": "sample-0001.png",
+            "sha256": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+            "elapsed_ms": 60,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0002.png",
+            "sha256": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+            "elapsed_ms": 426,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0003.png",
+            "sha256": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+            "elapsed_ms": 876,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0004.png",
+            "sha256": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+            "elapsed_ms": 1291,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0005.png",
+            "sha256": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+            "elapsed_ms": 1653,
+            "different_pixels": 0
+          }
+        ]
+      }
+    }
+  ],
+  "submission_sha256": "d579c496e4391c35f70158dfdc7904052ece30683cf77ec31580e44d4e05d4d5",
+  "references_sha256": "1e0377105d851e35b389ec2657cd4ac8ad655aaec1f93fa55e7261ae3b812ca7",
+  "diagnostics": {
+    "version": "failure-v1",
+    "primary_issue": null,
+    "issues": [],
+    "ordering": "source_order_not_global_time"
+  },
+  "elapsed_seconds": 4.057,
+  "exit_code": 0
+}

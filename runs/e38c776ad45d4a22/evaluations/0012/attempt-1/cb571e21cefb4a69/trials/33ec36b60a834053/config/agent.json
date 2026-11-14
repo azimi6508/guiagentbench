@@ -1,0 +1,19 @@
+{
+  "schema": "claude-mcp-v1",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "auth_kind": "oauth",
+  "tools": [
+    "bench_list_files",
+    "bench_read_file",
+    "bench_read_image",
+    "bench_write_file"
+  ],
+  "tool_names": [
+    "mcp__bench__bench_list_files",
+    "mcp__bench__bench_read_file",
+    "mcp__bench__bench_read_image",
+    "mcp__bench__bench_write_file"
+  ],
+  "instruction": "This is an unattended evaluation. Complete the public instruction below independently.\nUse only the bench MCP tools. Paths under /workspace are virtual public files, accessed through bench_list_files, bench_read_file and bench_read_image; save submissions with bench_write_file. Built-in shell, file, web, task and subagent tools are unavailable.\nAll permitted evidence is available; choose what to inspect. No follow-up user response will arrive. Save the requested submission.\n\nEvaluation arm: judge_visual. Produce a PASS/FAIL judgment JSON file.\nRequired artifact: /workspace/output/judgment.json. Save it before finishing.\nRead the complete contract below. A final chat message does not submit an artifact.\n\n# Large captions enlarge the subtitle preview\n\nChoose Large under Caption size. The built-in caption preview should grow to the Large reading size.\n\nThe included offline AURA collection is available, and Alex is initially active.\n\nUse the visible AURA interface. The app supports mouse, keyboard and D-pad navigation. Settings persist across page reloads; profiles keep separate saved items and playback histories.\n\n\nJudge the requested behavior using the supplied ordered screenshots. Return the prescribed JSON verdict.\n\n\nJudgment output contract: write a JSON object to /workspace/output/judgment.json.\nUse exactly {\"verdict\":\"PASS\"} or {\"verdict\":\"FAIL\"}, with uppercase verdict values.\nAn optional \"reason\" string may contain at most 2000 characters. No other keys,\nMarkdown fences or surrounding text are permitted; the file must not exceed 16384 bytes.\n"
+}

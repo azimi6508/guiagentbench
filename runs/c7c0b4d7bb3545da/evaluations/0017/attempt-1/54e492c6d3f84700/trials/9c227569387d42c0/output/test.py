@@ -1,0 +1,12 @@
+def test(page):
+    page.goto("http://app:8000/")
+    page.get_by_role("button", name="Settings").to_be_visible(precondition=True)
+    page.get_by_role("button", name="Settings").click()
+    page.get_by_role("button", name="Accessibility").to_be_visible(precondition=True)
+    page.get_by_role("button", name="Accessibility").click()
+    page.get_by_text("Medium captions").to_be_visible(precondition=True)
+    page.get_by_role("button", name="Caption size Medium").click()
+    page.click(640, 446)
+    page.get_by_role("button", name="Caption size Large").to_be_visible()
+    page.get_by_text("Large captions").to_be_visible()
+    page.expect_image("large-caption", region=[962, 154, 1222, 382])

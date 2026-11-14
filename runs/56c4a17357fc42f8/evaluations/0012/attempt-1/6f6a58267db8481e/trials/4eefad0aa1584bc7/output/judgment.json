@@ -1,0 +1,1 @@
+{"verdict":"FAIL","reason":"Caption size changes from Medium to Large and the preview label updates to Large captions, but the preview text remains the same size and line wrapping as before. The subtitle preview does not visibly enlarge."}

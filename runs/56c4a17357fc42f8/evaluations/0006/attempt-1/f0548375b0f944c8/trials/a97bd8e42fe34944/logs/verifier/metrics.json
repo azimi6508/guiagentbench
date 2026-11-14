@@ -1,0 +1,14 @@
+{
+  "status": "graded",
+  "reward": 1,
+  "planned_trials": 1,
+  "expected": "FAIL",
+  "prediction": "FAIL",
+  "submission_sha256": "466df61bc59c0d43f5b07df3c79b875dff4da58641d934b6d380aece720d7d40",
+  "diagnostics": {
+    "version": "failure-v1",
+    "primary_issue": null,
+    "issues": [],
+    "ordering": "source_order_not_global_time"
+  }
+}

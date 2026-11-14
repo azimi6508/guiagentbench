@@ -1,0 +1,27 @@
+allow_managed_hooks_only = true
+default_permissions = "bench"
+allowed_approval_policies = ["never"]
+allowed_approvals_reviewers = ["user"]
+allowed_web_search_modes = ["disabled"]
+
+[allowed_permission_profiles]
+bench = true
+
+[features]
+hooks = true
+
+[hooks]
+managed_dir = "/opt/bench/hooks"
+
+[[hooks.PreToolUse]]
+matcher = ".*"
+[[hooks.PreToolUse.hooks]]
+type = "command"
+command = "/usr/local/bin/python /opt/bench/hooks/pre_tool_use.py"
+timeout = 5
+
+[[hooks.PreCompact]]
+[[hooks.PreCompact.hooks]]
+type = "command"
+command = "/usr/local/bin/python /opt/bench/hooks/pre_compact.py"
+timeout = 5

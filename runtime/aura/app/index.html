@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0f10">
+  <meta name="description" content="AURA TV — a local-first, remote-friendly TV experience.">
+  <title>AURA TV · Your world, at home</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="src/styles.css">
+  <link rel="stylesheet" href="src/premium.css">
+</head>
+<body>
+  <div id="boot" aria-hidden="true"><div class="boot-logo"><span class="brand-mark boot-mark">A</span><span class="boot-word">AURA</span><span class="boot-bar"><i></i></span></div></div>
+  <div id="ambient" aria-hidden="true"><img class="picture" alt=""><img class="picture" alt=""></div>
+  <div id="shell"><header id="header"></header><main id="view" aria-label="TV content"></main><footer id="footer"></footer></div>
+  <div id="overlay"></div>
+  <div id="volume-osd" role="status" aria-live="polite"></div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="src/app.js"></script>
+  <noscript>This application needs JavaScript enabled to display and operate the TV interface.</noscript>
+</body>
+</html>

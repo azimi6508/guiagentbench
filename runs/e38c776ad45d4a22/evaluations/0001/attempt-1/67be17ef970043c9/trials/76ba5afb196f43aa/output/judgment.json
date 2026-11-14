@@ -1,0 +1,1 @@
+{"verdict":"PASS","reason":"Replicated test steps live: fill on the highlighting_editor textbox set text to 'Bring the blue notebook.'; after reload the atlas note reopened showing the same text with Save disabled (persisted via Markor autosave), so require_text checks and the fixture check should succeed."}

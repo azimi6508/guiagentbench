@@ -1,0 +1,130 @@
+{
+  "schema": "task-reference-v1",
+  "platform": "web",
+  "viewport": [
+    1280,
+    720
+  ],
+  "journey": [
+    {
+      "action": "click",
+      "x": 986,
+      "y": 212
+    },
+    {
+      "action": "click",
+      "x": 500,
+      "y": 175
+    },
+    {
+      "action": "press",
+      "key": "Backspace"
+    },
+    {
+      "action": "press",
+      "key": "Backspace"
+    },
+    {
+      "action": "press",
+      "key": "Backspace"
+    },
+    {
+      "action": "press",
+      "key": "Backspace"
+    },
+    {
+      "action": "press",
+      "key": "Backspace"
+    },
+    {
+      "action": "press",
+      "key": "Backspace"
+    },
+    {
+      "action": "press",
+      "key": "Backspace"
+    },
+    {
+      "action": "press",
+      "key": "Backspace"
+    },
+    {
+      "action": "press",
+      "key": "Backspace"
+    },
+    {
+      "action": "press",
+      "key": "Backspace"
+    },
+    {
+      "action": "press",
+      "key": "Backspace"
+    },
+    {
+      "action": "type",
+      "text": "I am a robot"
+    },
+    {
+      "action": "click",
+      "x": 134,
+      "y": 432
+    },
+    {
+      "action": "click",
+      "x": 150,
+      "y": 25
+    },
+    {
+      "action": "reload"
+    }
+  ],
+  "regions": {
+    "false": [
+      [
+        920,
+        80,
+        1110,
+        106
+      ],
+      [
+        920,
+        80,
+        1110,
+        106
+      ],
+      [
+        920,
+        157,
+        1130,
+        190
+      ]
+    ],
+    "true": [
+      [
+        920,
+        80,
+        1110,
+        106
+      ],
+      [
+        920,
+        80,
+        1110,
+        106
+      ],
+      [
+        920,
+        157,
+        1130,
+        190
+      ]
+    ]
+  },
+  "action_delay": 2,
+  "programs": {
+    "oracle_visual": "solution/oracle_visual.py",
+    "oracle_ui": "solution/oracle_ui.py",
+    "test_visual": "solution/test_visual.py",
+    "test_ui": "solution/test_ui.py"
+  }
+}

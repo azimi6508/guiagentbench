@@ -1,0 +1,17 @@
+{
+  "version": "visual-v1",
+  "viewport": [
+    720,
+    1280
+  ],
+  "references": {
+    "final-note": {
+      "file": "final-note.png",
+      "sha256": "d6e1d54c9d70bbca44c36235f6538756046aaf4eac2058aea5e070e77523fa54"
+    },
+    "reopened-note": {
+      "file": "reopened-note.png",
+      "sha256": "d6e1d54c9d70bbca44c36235f6538756046aaf4eac2058aea5e070e77523fa54"
+    }
+  }
+}

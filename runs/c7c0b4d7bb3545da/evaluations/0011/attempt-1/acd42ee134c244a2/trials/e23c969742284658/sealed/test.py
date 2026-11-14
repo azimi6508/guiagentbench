@@ -1,0 +1,15 @@
+def test(page):
+    page.goto("http://app:8000/")
+    page.get_by_role("link", name="Edit biography").to_be_visible(precondition=True)
+    page.get_by_role("link", name="Forums").to_be_visible(precondition=True)
+    page.get_by_role("link", name="Edit biography").click()
+    page.get_by_role("button", name="Save").to_be_visible(precondition=True)
+    page.get_by_role("textbox", name="Biography").fill("I am a robot")
+    page.get_by_role("button", name="Save").click()
+    # reopen profile
+    page.goto("http://app:8000/")
+    page.get_by_role("link", name="Edit biography").to_be_visible(precondition=True)
+    page.get_by_text("I am a robot").to_have_text("I am a robot")
+    page.get_by_text("I am a robot").to_have_count(1)
+    page.get_by_role("link", name="Edit biography").click()
+    page.get_by_role("textbox", name="Biography").to_have_value("I am a robot")

@@ -1,0 +1,8 @@
+{"environment_contract": "environment-v1", "environment_event": "reset", "platform": "mobile", "status": "ready", "screenshot_sha256": "d7075f172fc03a9d92f36165c402f7f32f7d792fd82adc64fe7d0f602c227bbf"}
+{"setup": "ready", "steps": ["The empty atlas.txt note is open in Markor.", "The note contains Bring the blue notebook.", "The application was closed and the same note reopened."]}
+{"assertion": {"kind": "ui", "query": {"role": "button", "name": "More options"}, "condition": "visible", "expected": true, "precondition": true}, "matched": true}
+{"operation": "assert", "denied": false}
+{"assertion": {"kind": "ui", "query": {"role": "textbox", "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"}, "condition": "value", "expected": "Bring the blue notebook.", "precondition": false}, "matched": true}
+{"operation": "assert", "denied": false}
+{"assertion": {"kind": "ui", "query": {"text": "Bring the blue notebook."}, "condition": "visible", "expected": true, "precondition": false}, "matched": true}
+{"operation": "assert", "denied": false}

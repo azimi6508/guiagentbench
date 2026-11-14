@@ -1,0 +1,5 @@
+{"environment_contract": "environment-v1", "environment_event": "reset", "platform": "mobile", "status": "ready", "screenshot_sha256": "eaba1eabad75a3e6b76dfbbbb46ce0364b770c6933dd0968922f581be51f97de"}
+{"setup": "ready", "steps": ["The empty atlas.txt note is open in Markor.", "The note contains Bring the blue notebook.", "The application was closed and the same note reopened."]}
+{"tool": "observe", "arguments": {}, "denied": false}
+{"reference": {"name": "atlas-final", "file": "atlas-final.png", "sha256": "8ebf4fa0d5c4277b4435388c08b72f6987e2a80f31a5915a58f89a5e03a56cb7"}}
+{"tool": "observe", "arguments": {"reference": "atlas-final"}, "denied": false}

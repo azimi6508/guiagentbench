@@ -1,0 +1,15 @@
+{
+  "schema": "codex-isolation-v1",
+  "status": "pass",
+  "runner": "codex",
+  "images": {
+    "agent": "sha256:20a8a2f028a494a4768aee6957dca556537af27651950ae44f8715c653c0ef0d",
+    "bridge": "sha256:ad39ab3fc6c2ca96e12394b00d88938f7f5f949ef317e1fa53b2daaef5b1b754",
+    "egress": "sha256:4415301572aca978fe626ec8d717b1f95c7a5afcad054c17a1354df249aa42a6"
+  },
+  "network_roles": {
+    "gui": "gab-de2da2bb9293471a-inference",
+    "capture": "gab-de2da2bb9293471a-capture",
+    "inference": "gab-de2da2bb9293471a-codex-inference"
+  }
+}

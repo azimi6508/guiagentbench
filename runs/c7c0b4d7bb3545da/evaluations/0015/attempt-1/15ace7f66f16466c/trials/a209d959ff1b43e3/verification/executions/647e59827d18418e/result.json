@@ -1,0 +1,117 @@
+{
+  "outcome": "PASS",
+  "assertions": [
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "heading",
+          "name": "Accessibility"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": true
+      },
+      "matched": true
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "button",
+          "name": "Caption size Large"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": false
+      },
+      "matched": true
+    },
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "final",
+        "region": [
+          963,
+          200,
+          1221,
+          342
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 0,
+        "include_aa": false,
+        "precondition": false,
+        "observation_window_ms": 1600
+      },
+      "matched": true,
+      "image": {
+        "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+        "reference_sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+        "actual_sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+        "compared_pixels": 36636,
+        "different_pixels": 0,
+        "matched": true,
+        "evidence": {
+          "directory": "0001",
+          "sha256": {
+            "capture.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "sample-0001.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "sample-0002.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "sample-0003.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "sample-0004.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "sample-0005.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "expected.png": "e9065c85cad3a11b11d7b8cbbddddffb6b0f0570b5b2cda1914987ddb8956f1e",
+            "actual.png": "e9065c85cad3a11b11d7b8cbbddddffb6b0f0570b5b2cda1914987ddb8956f1e",
+            "diff.png": "f17686da42331bf5c3be7cd6875125875da276dbf48730ad8a5d940dbf458430"
+          }
+        },
+        "capture_contract": "visual-observation-window-v1",
+        "observation_window_ms": 1600,
+        "selected_sample": 0,
+        "observations": [
+          {
+            "file": "sample-0001.png",
+            "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "elapsed_ms": 64,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0002.png",
+            "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "elapsed_ms": 432,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0003.png",
+            "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "elapsed_ms": 881,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0004.png",
+            "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "elapsed_ms": 1299,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0005.png",
+            "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "elapsed_ms": 1666,
+            "different_pixels": 0
+          }
+        ]
+      }
+    }
+  ],
+  "submission_sha256": "d13e2a3e5fdc00bbb279b2ddd97b98445c3a6490b95b415a2161021939ef449e",
+  "references_sha256": "09355f902ec8c6dd381e745b2379b2575929dedeafc4e784860c23ffc6009f1e",
+  "diagnostics": {
+    "version": "failure-v1",
+    "primary_issue": null,
+    "issues": [],
+    "ordering": "source_order_not_global_time"
+  },
+  "elapsed_seconds": 2.749,
+  "exit_code": 0
+}

@@ -1,0 +1,133 @@
+{
+  "gui": {
+    "Name": "gab-640d5a12b15e4ed3-inference",
+    "Id": "8f4777b36064d4d1a6b11f508228e946122b12c4804720116c43dcebc35fdf9a",
+    "Created": "2026-11-14T00:13:49.51823632+03:00",
+    "Scope": "local",
+    "Driver": "bridge",
+    "EnableIPv4": true,
+    "EnableIPv6": false,
+    "IPAM": {
+      "Driver": "default",
+      "Options": {},
+      "Config": [
+        {
+          "Subnet": "192.168.32.0/20",
+          "Gateway": "192.168.32.1"
+        }
+      ]
+    },
+    "Internal": true,
+    "Attachable": false,
+    "Ingress": false,
+    "ConfigFrom": {
+      "Network": ""
+    },
+    "ConfigOnly": false,
+    "Options": {},
+    "Labels": {
+      "gui-agent-bench.trial": "640d5a12b15e4ed3"
+    },
+    "Containers": {},
+    "Status": {
+      "IPAM": {
+        "Subnets": {
+          "192.168.32.0/20": {
+            "IPsInUse": 3,
+            "DynamicIPsAvailable": 4093
+          }
+        }
+      }
+    }
+  },
+  "capture": {
+    "Name": "gab-640d5a12b15e4ed3-capture",
+    "Id": "e2709dcf0a6cc3001a709ffd4c7dfd18c54d73e66a722bf026bd8f170c91a67d",
+    "Created": "2026-11-14T00:13:49.476884705+03:00",
+    "Scope": "local",
+    "Driver": "bridge",
+    "EnableIPv4": true,
+    "EnableIPv6": false,
+    "IPAM": {
+      "Driver": "default",
+      "Options": {},
+      "Config": [
+        {
+          "Subnet": "192.168.16.0/20",
+          "Gateway": "192.168.16.1"
+        }
+      ]
+    },
+    "Internal": true,
+    "Attachable": false,
+    "Ingress": false,
+    "ConfigFrom": {
+      "Network": ""
+    },
+    "ConfigOnly": false,
+    "Options": {},
+    "Labels": {
+      "gui-agent-bench.trial": "640d5a12b15e4ed3"
+    },
+    "Containers": {},
+    "Status": {
+      "IPAM": {
+        "Subnets": {
+          "192.168.16.0/20": {
+            "IPsInUse": 3,
+            "DynamicIPsAvailable": 4093
+          }
+        }
+      }
+    }
+  },
+  "inference": {
+    "Name": "gab-640d5a12b15e4ed3-codex-inference",
+    "Id": "5251628f17b966a97fc1bcbfe9094e90b2ad320e78e2b186033b6008dab7ffbe",
+    "Created": "2026-11-14T00:14:06.029766427+03:00",
+    "Scope": "local",
+    "Driver": "bridge",
+    "EnableIPv4": true,
+    "EnableIPv6": false,
+    "IPAM": {
+      "Driver": "default",
+      "Options": {},
+      "Config": [
+        {
+          "Subnet": "192.168.48.0/20",
+          "Gateway": "192.168.48.1"
+        }
+      ]
+    },
+    "Internal": true,
+    "Attachable": false,
+    "Ingress": false,
+    "ConfigFrom": {
+      "Network": ""
+    },
+    "ConfigOnly": false,
+    "Options": {},
+    "Labels": {
+      "gui-agent-bench.trial": "640d5a12b15e4ed3"
+    },
+    "Containers": {
+      "3af4c5d251cf70cfa99c962238a20b5a21f50f7665a3133c295795b07bcaa4be": {
+        "Name": "gab-640d5a12b15e4ed3-codex-egress",
+        "EndpointID": "c2ff04d36e64d7d63140132c50936ad79b3ed596089209d03c2849423cc793ea",
+        "MacAddress": "92:f0:f4:2a:1b:66",
+        "IPv4Address": "192.168.48.2/20",
+        "IPv6Address": ""
+      }
+    },
+    "Status": {
+      "IPAM": {
+        "Subnets": {
+          "192.168.48.0/20": {
+            "IPsInUse": 4,
+            "DynamicIPsAvailable": 4092
+          }
+        }
+      }
+    }
+  }
+}

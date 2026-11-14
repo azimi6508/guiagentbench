@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gui-agent-bench"
+version = "0.1.0"
+description = "Isolated GUI execution, evaluation and evidence viewing framework"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+authors = [{ name = "Mohammad Yusaf Azimi" }, { name = "Cemal Yilmaz" }]
+license-files = ["LICENSE", "NOTICE", "THIRD_PARTY_NOTICES.md"]
+dependencies = []
+
+[project.optional-dependencies]
+visual = ["Pillow==11.3.0", "pixelmatch==0.4.0"]
+codex = ["mcp==1.30.0"]
+dev = ["black==25.1.0"]
+
+[project.urls]
+Repository = "https://github.com/azimi6508/guiagentbench"
+
+[project.scripts]
+gui-agent-bench = "gui_agent_bench.entrypoint:main"
+gui-agent-bench-viewer = "gui_agent_bench.viewer.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"gui_agent_bench.viewer" = ["static/*.html", "static/*.css", "static/*.svg", "static/*.js", "static/js/*.js"]
+
+[tool.black]
+line-length = 120
+skip-string-normalization = true
+extend-exclude = "runtime/aura/app|tasks|templates"

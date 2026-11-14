@@ -1,0 +1,30 @@
+[
+  {
+    "container": "gab-7e993679e3de4039-codex-agent",
+    "removed": true
+  },
+  {
+    "container": "gab-7e993679e3de4039-codex-bridge",
+    "removed": true
+  },
+  {
+    "container": "gab-7e993679e3de4039-codex-egress",
+    "removed": true
+  },
+  {
+    "container": "gab-7e993679e3de4039-ready",
+    "removed": true
+  },
+  {
+    "container": "gab-7e993679e3de4039-browser",
+    "removed": true
+  },
+  {
+    "container": "gab-7e993679e3de4039-capture",
+    "removed": true
+  },
+  {
+    "container": "gab-7e993679e3de4039-app",
+    "removed": true
+  }
+]

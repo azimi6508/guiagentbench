@@ -1,0 +1,1 @@
+{"verdict":"FAIL","reason":"Caption size changes from Medium to Large, but the preview text remains visually the same size in screenshots 0002 and 0003. Only the setting and preview label update; the subtitle preview does not grow."}

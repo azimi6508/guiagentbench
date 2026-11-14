@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use GUIAgentBench, please cite the paper below."
+title: "GUIAgentBench: Execution and evaluation framework, viewer and AURA"
+type: software
+authors:
+  - family-names: Azimi
+    given-names: Mohammad Yusaf
+  - family-names: Yilmaz
+    given-names: Cemal
+repository-code: "https://github.com/azimi6508/guiagentbench"
+license: Apache-2.0
+preferred-citation:
+  type: unpublished
+  title: "GUIAgentBench: A Cross-Platform Benchmark for GUI Test Judgment and Generation"
+  authors:
+    - family-names: Azimi
+      given-names: Mohammad Yusaf
+    - family-names: Yilmaz
+      given-names: Cemal
+  year: 2026

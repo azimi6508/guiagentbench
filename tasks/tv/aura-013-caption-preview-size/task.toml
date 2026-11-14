@@ -1,0 +1,54 @@
+schema_version = "1.3"
+
+[task]
+name = "gui-agent-bench/aura-013-caption-preview-size"
+description = "Large captions enlarge the subtitle preview"
+
+[metadata]
+checkpoints = 3
+task_id = "aura-013-caption-preview-size"
+domain = "tv"
+platform = "web"
+status = "example"
+research_core = false
+eligible_arms = ["judge_visual", "judge_test", "oracle_visual", "oracle_ui", "test_visual", "test_ui"]
+source = "AURA 3.1.0, the purpose-built TV application in runtime/aura/app"
+upstream_id = "local/aura-013-caption-preview-size"
+upstream_url = "https://github.com/azimi6508/guiagentbench/tree/main/runtime/aura/app"
+upstream_revision = "aura-3.1.0"
+license = "MIT"
+transform_notes = "Authored regression on the full AURA application; one targeted source mutation, identical fixture, offline assets."
+
+[metadata.runtime]
+app_image = "gui-agent-bench-public-aura:1"
+app_memory_mb = 512
+reference_timeout_sec = 120
+viewport_width = 1280
+viewport_height = 720
+timezone = "UTC"
+
+[agent]
+timeout_sec = 600.0
+network_mode = "no-network"
+
+[verifier]
+timeout_sec = 120.0
+environment_mode = "separate"
+network_mode = "no-network"
+
+[environment]
+build_timeout_sec = 600.0
+cpus = 2
+memory_mb = 512
+storage_mb = 2048
+network_mode = "no-network"
+
+[integration]
+reference_alias = "aura-013-caption-preview-size"
+build_context = "checkout"
+dockerfile = "runtime/aura/Dockerfile"
+
+[integration.web]
+ready = [{ role = "button", name = "Settings" }]
+fixed_clock = "2026-10-12T18:00:00+00:00"
+wait_for_fonts = true

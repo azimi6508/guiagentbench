@@ -1,0 +1,250 @@
+{
+  "Id": "1c7027cd3758fa7ccc15af44f597cbc49d5228902ab5bc2dec0e520021ad4599",
+  "Created": "2026-11-13T22:53:08.016395742Z",
+  "Path": "python3",
+  "Args": [
+    "/opt/aura/server.py"
+  ],
+  "State": {
+    "Status": "running",
+    "Running": true,
+    "Paused": false,
+    "Restarting": false,
+    "OOMKilled": false,
+    "Dead": false,
+    "Pid": 81843,
+    "ExitCode": 0,
+    "Error": "",
+    "StartedAt": "2026-11-13T22:53:08.087542915Z",
+    "FinishedAt": "0001-01-01T00:00:00Z"
+  },
+  "Image": "sha256:0191b1a832e6b74fd4227d569d633992a9e7ba1026a30ce9d7610c2508fe7f6e",
+  "ResolvConfPath": "/var/lib/docker/containers/1c7027cd3758fa7ccc15af44f597cbc49d5228902ab5bc2dec0e520021ad4599/resolv.conf",
+  "HostnamePath": "/var/lib/docker/containers/1c7027cd3758fa7ccc15af44f597cbc49d5228902ab5bc2dec0e520021ad4599/hostname",
+  "HostsPath": "/var/lib/docker/containers/1c7027cd3758fa7ccc15af44f597cbc49d5228902ab5bc2dec0e520021ad4599/hosts",
+  "LogPath": "/var/lib/docker/containers/1c7027cd3758fa7ccc15af44f597cbc49d5228902ab5bc2dec0e520021ad4599/1c7027cd3758fa7ccc15af44f597cbc49d5228902ab5bc2dec0e520021ad4599-json.log",
+  "Name": "/gab-b385a58e6a694ea5-app",
+  "RestartCount": 0,
+  "Driver": "overlay2",
+  "Platform": "linux",
+  "MountLabel": "",
+  "ProcessLabel": "",
+  "AppArmorProfile": "docker-default",
+  "ExecIDs": null,
+  "HostConfig": {
+    "Binds": null,
+    "ContainerIDFile": "",
+    "LogConfig": {
+      "Type": "json-file",
+      "Config": {}
+    },
+    "NetworkMode": "gab-b385a58e6a694ea5-capture",
+    "PortBindings": {},
+    "RestartPolicy": {
+      "Name": "no",
+      "MaximumRetryCount": 0
+    },
+    "AutoRemove": false,
+    "VolumeDriver": "",
+    "VolumesFrom": null,
+    "ConsoleSize": [
+      0,
+      0
+    ],
+    "CapAdd": null,
+    "CapDrop": [
+      "ALL"
+    ],
+    "CgroupnsMode": "private",
+    "Dns": null,
+    "DnsOptions": [],
+    "DnsSearch": [],
+    "ExtraHosts": null,
+    "GroupAdd": null,
+    "IpcMode": "private",
+    "Cgroup": "",
+    "Links": null,
+    "OomScoreAdj": 0,
+    "PidMode": "",
+    "Privileged": false,
+    "PublishAllPorts": false,
+    "ReadonlyRootfs": true,
+    "SecurityOpt": [
+      "no-new-privileges"
+    ],
+    "Tmpfs": {
+      "/tmp": "rw,nosuid,nodev,size=512m,mode=1777"
+    },
+    "UTSMode": "",
+    "UsernsMode": "",
+    "ShmSize": 67108864,
+    "Runtime": "runc",
+    "Isolation": "",
+    "CpuShares": 0,
+    "Memory": 536870912,
+    "NanoCpus": 2000000000,
+    "CgroupParent": "",
+    "BlkioWeight": 0,
+    "BlkioWeightDevice": [],
+    "BlkioDeviceReadBps": [],
+    "BlkioDeviceWriteBps": [],
+    "BlkioDeviceReadIOps": [],
+    "BlkioDeviceWriteIOps": [],
+    "CpuPeriod": 0,
+    "CpuQuota": 0,
+    "CpuRealtimePeriod": 0,
+    "CpuRealtimeRuntime": 0,
+    "CpusetCpus": "",
+    "CpusetMems": "",
+    "Devices": [],
+    "DeviceCgroupRules": null,
+    "DeviceRequests": null,
+    "MemoryReservation": 0,
+    "MemorySwap": 1073741824,
+    "MemorySwappiness": null,
+    "OomKillDisable": null,
+    "PidsLimit": 256,
+    "Ulimits": null,
+    "CpuCount": 0,
+    "CpuPercent": 0,
+    "IOMaximumIOps": 0,
+    "IOMaximumBandwidth": 0,
+    "Mounts": [
+      {
+        "Type": "bind",
+        "Source": "/home/azimi/Downloads/gui-agent-bench/github-release/tasks/tv/aura-013-caption-preview-size/variants/correct/settings.json",
+        "Target": "/settings.json",
+        "ReadOnly": true
+      }
+    ],
+    "MaskedPaths": [
+      "/proc/acpi",
+      "/proc/asound",
+      "/proc/interrupts",
+      "/proc/kcore",
+      "/proc/keys",
+      "/proc/latency_stats",
+      "/proc/sched_debug",
+      "/proc/scsi",
+      "/proc/timer_list",
+      "/proc/timer_stats",
+      "/sys/devices/virtual/powercap",
+      "/sys/firmware",
+      "/sys/devices/system/cpu/cpu0/thermal_throttle",
+      "/sys/devices/system/cpu/cpu1/thermal_throttle",
+      "/sys/devices/system/cpu/cpu2/thermal_throttle",
+      "/sys/devices/system/cpu/cpu3/thermal_throttle",
+      "/sys/devices/system/cpu/cpu4/thermal_throttle",
+      "/sys/devices/system/cpu/cpu5/thermal_throttle",
+      "/sys/devices/system/cpu/cpu6/thermal_throttle",
+      "/sys/devices/system/cpu/cpu7/thermal_throttle",
+      "/sys/devices/system/cpu/cpu8/thermal_throttle",
+      "/sys/devices/system/cpu/cpu9/thermal_throttle",
+      "/sys/devices/system/cpu/cpu10/thermal_throttle",
+      "/sys/devices/system/cpu/cpu11/thermal_throttle",
+      "/sys/devices/system/cpu/cpu12/thermal_throttle",
+      "/sys/devices/system/cpu/cpu13/thermal_throttle",
+      "/sys/devices/system/cpu/cpu14/thermal_throttle",
+      "/sys/devices/system/cpu/cpu15/thermal_throttle",
+      "/sys/devices/system/cpu/cpu16/thermal_throttle",
+      "/sys/devices/system/cpu/cpu17/thermal_throttle",
+      "/sys/devices/system/cpu/cpu18/thermal_throttle",
+      "/sys/devices/system/cpu/cpu19/thermal_throttle",
+      "/sys/devices/system/cpu/cpu20/thermal_throttle",
+      "/sys/devices/system/cpu/cpu21/thermal_throttle"
+    ],
+    "ReadonlyPaths": [
+      "/proc/bus",
+      "/proc/fs",
+      "/proc/irq",
+      "/proc/sys",
+      "/proc/sysrq-trigger"
+    ]
+  },
+  "GraphDriver": {
+    "Data": {
+      "ID": "1c7027cd3758fa7ccc15af44f597cbc49d5228902ab5bc2dec0e520021ad4599",
+      "LowerDir": "/var/lib/docker/overlay2/2067b4c27521e0752c4bd62636251a6966c71175acc72e939dfa5f622945abd1-init/diff:/var/lib/docker/overlay2/rzum3wv2ec0xar4wr00p0oct9/diff:/var/lib/docker/overlay2/cmc4d8ifujcos59deqj7kal6b/diff:/var/lib/docker/overlay2/vfmzhxbrn85hluxlf6fdfb74h/diff:/var/lib/docker/overlay2/j2zkhtwxco65qu6f93y3xbseh/diff:/var/lib/docker/overlay2/f79720f554768ae9c770c0e63f2b2f9a35ab1f82925b1a471f70dbd0283f574a/diff:/var/lib/docker/overlay2/6be03b68b3e9c39003e3d7f7aa005b939011cd2624f8a45ff5916e6e04f12072/diff:/var/lib/docker/overlay2/5cf1f467154b65283b4c42171ce6f0608ad75f2cddf563e4d7a13e00e8431250/diff:/var/lib/docker/overlay2/d8b1bafa5d6c524b34de821336e3c7d8af340f36d7375d37ca80fea6bb6d3459/diff",
+      "MergedDir": "/var/lib/docker/overlay2/2067b4c27521e0752c4bd62636251a6966c71175acc72e939dfa5f622945abd1/merged",
+      "UpperDir": "/var/lib/docker/overlay2/2067b4c27521e0752c4bd62636251a6966c71175acc72e939dfa5f622945abd1/diff",
+      "WorkDir": "/var/lib/docker/overlay2/2067b4c27521e0752c4bd62636251a6966c71175acc72e939dfa5f622945abd1/work"
+    },
+    "Name": "overlay2"
+  },
+  "Mounts": [
+    {
+      "Type": "bind",
+      "Source": "/home/azimi/Downloads/gui-agent-bench/github-release/tasks/tv/aura-013-caption-preview-size/variants/correct/settings.json",
+      "Destination": "/settings.json",
+      "Mode": "",
+      "RW": false,
+      "Propagation": "rprivate"
+    }
+  ],
+  "Config": {
+    "Hostname": "1c7027cd3758",
+    "Domainname": "",
+    "User": "aura",
+    "AttachStdin": false,
+    "AttachStdout": true,
+    "AttachStderr": true,
+    "ExposedPorts": {
+      "8000/tcp": {}
+    },
+    "Tty": false,
+    "OpenStdin": false,
+    "StdinOnce": false,
+    "Env": [
+      "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+      "LANG=C.UTF-8",
+      "GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305",
+      "PYTHON_VERSION=3.12.8",
+      "PYTHON_SHA256=c909157bb25ec114e5869124cc2a9c4a4d4c1e957ca4ff553f1edc692101154e",
+      "PYTHONDONTWRITEBYTECODE=1",
+      "PYTHONUNBUFFERED=1"
+    ],
+    "Cmd": null,
+    "Image": "gui-agent-bench-public-aura:1",
+    "Volumes": null,
+    "WorkingDir": "/tmp",
+    "Entrypoint": [
+      "python3",
+      "/opt/aura/server.py"
+    ],
+    "Labels": {
+      "gui-agent-bench.trial": "b385a58e6a694ea5"
+    }
+  },
+  "NetworkSettings": {
+    "SandboxID": "67311fc65bc7243d484f16fe59fb6dfdd1950f380c0b640e772f5e50ae68ce7e",
+    "SandboxKey": "/var/run/docker/netns/67311fc65bc7",
+    "Ports": {
+      "8000/tcp": null
+    },
+    "Networks": {
+      "gab-b385a58e6a694ea5-capture": {
+        "IPAMConfig": null,
+        "Links": null,
+        "Aliases": [
+          "app"
+        ],
+        "DriverOpts": null,
+        "GwPriority": 0,
+        "NetworkID": "2bf2ffe1156b68ecca83b4d218659fa734b0539b67e20680fd556e32e9aedfab",
+        "EndpointID": "9cbad52d8fa50a8e1e2d2d21ff292f12fa804614195d1ec3e0f7870ed4c38572",
+        "Gateway": "",
+        "IPAddress": "192.168.16.2",
+        "MacAddress": "c2:28:89:48:f0:50",
+        "IPPrefixLen": 20,
+        "IPv6Gateway": "",
+        "GlobalIPv6Address": "",
+        "GlobalIPv6PrefixLen": 0,
+        "DNSNames": [
+          "gab-b385a58e6a694ea5-app",
+          "app",
+          "1c7027cd3758"
+        ]
+      }
+    }
+  }
+}

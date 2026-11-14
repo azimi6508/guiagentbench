@@ -1,0 +1,32 @@
+"""Trusted task-owned Android fixture; never exposed to evaluated agents.
+
+Declare this file, the package and APK SHA256 under [integration].
+The framework passes settings.json to this constructor without interpreting it.
+"""
+
+
+class Application:
+    def __init__(self, settings):
+        # Validate this task's own settings schema here.
+        self.settings = settings
+
+    def reset(self, device, adb):
+        # The platform has cleared the app, shared storage and clipboard and
+        # configured its common device state. Prepare permissions/onboarding,
+        # seed this task's initial data and open its initial screen.
+        raise NotImplementedError('Implement the task fixture')
+
+    def launch(self, device, adb):
+        # Open the declared app at the task's initial screen. The shared driver
+        # enforces foreground scope and bounded readiness after return.
+        raise NotImplementedError('Implement application launch')
+
+    def reload(self, device, adb):
+        # Perform the app's normal save/close/reopen flow. Fault behavior belongs
+        # here or in the task's app implementation, never in the shared driver.
+        raise NotImplementedError('Implement application restart')
+
+    def check(self, device, adb):
+        # Optional private gold callback, absent from evaluated tool catalogs.
+        # Return an actual boolean; expected behavior belongs to the task.
+        raise NotImplementedError('Implement only if this task needs a private check')

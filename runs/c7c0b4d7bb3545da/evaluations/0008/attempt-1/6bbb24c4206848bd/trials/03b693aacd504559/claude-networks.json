@@ -1,0 +1,163 @@
+{
+  "inference": {
+    "Name": "gab-03b693aacd504559-claude-inference",
+    "Id": "bd94326fc6d81262787fc255383ab4ed78b8e630da6227de51e2f29cb3597fe3",
+    "Created": "2026-11-14T02:20:11.972723767+03:00",
+    "Scope": "local",
+    "Driver": "bridge",
+    "EnableIPv4": true,
+    "EnableIPv6": false,
+    "IPAM": {
+      "Driver": "default",
+      "Options": {},
+      "Config": [
+        {
+          "Subnet": "192.168.48.0/20",
+          "Gateway": "192.168.48.1"
+        }
+      ]
+    },
+    "Internal": true,
+    "Attachable": false,
+    "Ingress": false,
+    "ConfigFrom": {
+      "Network": ""
+    },
+    "ConfigOnly": false,
+    "Options": {},
+    "Labels": {
+      "gui-agent-bench.trial": "03b693aacd504559"
+    },
+    "Containers": {
+      "c0502062f1aa42db5c6317d532e9a643cfc59ec6b2ca4c3f53d4c310c450b69f": {
+        "Name": "gab-03b693aacd504559-claude-gateway",
+        "EndpointID": "efd46eef9a1e519cfbcba1cc2b44175f78860cf280ad64e37283467b4defdad0",
+        "MacAddress": "b2:d0:91:25:3d:1e",
+        "IPv4Address": "192.168.48.2/20",
+        "IPv6Address": ""
+      }
+    },
+    "Status": {
+      "IPAM": {
+        "Subnets": {
+          "192.168.48.0/20": {
+            "IPsInUse": 4,
+            "DynamicIPsAvailable": 4092
+          }
+        }
+      }
+    }
+  },
+  "gui": {
+    "Name": "gab-03b693aacd504559-inference",
+    "Id": "0d488dcdec68931bae3784f72fcecc65cefcebe065e98cfccb62217ba2e080d3",
+    "Created": "2026-11-14T02:20:01.587754188+03:00",
+    "Scope": "local",
+    "Driver": "bridge",
+    "EnableIPv4": true,
+    "EnableIPv6": false,
+    "IPAM": {
+      "Driver": "default",
+      "Options": {},
+      "Config": [
+        {
+          "Subnet": "192.168.32.0/20",
+          "Gateway": "192.168.32.1"
+        }
+      ]
+    },
+    "Internal": true,
+    "Attachable": false,
+    "Ingress": false,
+    "ConfigFrom": {
+      "Network": ""
+    },
+    "ConfigOnly": false,
+    "Options": {},
+    "Labels": {
+      "gui-agent-bench.trial": "03b693aacd504559"
+    },
+    "Containers": {
+      "3ec100af259da603bf0e81fba2ca02ecd06e8641290865a32cb1e3cf9f6d646b": {
+        "Name": "gab-03b693aacd504559-browser",
+        "EndpointID": "ee1f6b34cd6284b68d0ccb4f820d258ac88510f6fa057202bd6845ff742fb0dc",
+        "MacAddress": "66:1f:0d:69:13:e3",
+        "IPv4Address": "192.168.32.2/20",
+        "IPv6Address": ""
+      },
+      "70198c7353d01311b2910f7aa88f8954ec76b9272532e4a695731ab639a9ba14": {
+        "Name": "gab-03b693aacd504559-claude-bridge",
+        "EndpointID": "e82b625b94082050f5adba508d2000ba92acc0f5084399deb40e140eab1e98c9",
+        "MacAddress": "fe:58:20:92:7b:19",
+        "IPv4Address": "192.168.32.3/20",
+        "IPv6Address": ""
+      }
+    },
+    "Status": {
+      "IPAM": {
+        "Subnets": {
+          "192.168.32.0/20": {
+            "IPsInUse": 5,
+            "DynamicIPsAvailable": 4091
+          }
+        }
+      }
+    }
+  },
+  "capture": {
+    "Name": "gab-03b693aacd504559-capture",
+    "Id": "a6819e835146ca675653c1bf611bac8d165250bdd455ceb710d6b9a40387df5b",
+    "Created": "2026-11-14T02:20:01.543192954+03:00",
+    "Scope": "local",
+    "Driver": "bridge",
+    "EnableIPv4": true,
+    "EnableIPv6": false,
+    "IPAM": {
+      "Driver": "default",
+      "Options": {},
+      "Config": [
+        {
+          "Subnet": "192.168.16.0/20",
+          "Gateway": "192.168.16.1"
+        }
+      ]
+    },
+    "Internal": true,
+    "Attachable": false,
+    "Ingress": false,
+    "ConfigFrom": {
+      "Network": ""
+    },
+    "ConfigOnly": false,
+    "Options": {},
+    "Labels": {
+      "gui-agent-bench.trial": "03b693aacd504559"
+    },
+    "Containers": {
+      "3ec100af259da603bf0e81fba2ca02ecd06e8641290865a32cb1e3cf9f6d646b": {
+        "Name": "gab-03b693aacd504559-browser",
+        "EndpointID": "6bca39d8a64b0f626338e3de4360165c191bd56cea1266161cefdf6f60f5b8f3",
+        "MacAddress": "a2:9d:87:81:ee:3c",
+        "IPv4Address": "192.168.16.3/20",
+        "IPv6Address": ""
+      },
+      "5c51605ebc260d83e3786389f72d3f6c46397c98d09c23a8fe37ca8699d80538": {
+        "Name": "gab-03b693aacd504559-app",
+        "EndpointID": "e32ed7862328f98c429fe12b9f278dcaf0f3e76a87e2d56825ce4d15d68b7cca",
+        "MacAddress": "d6:e9:da:91:a2:ce",
+        "IPv4Address": "192.168.16.2/20",
+        "IPv6Address": ""
+      }
+    },
+    "Status": {
+      "IPAM": {
+        "Subnets": {
+          "192.168.16.0/20": {
+            "IPsInUse": 5,
+            "DynamicIPsAvailable": 4091
+          }
+        }
+      }
+    }
+  }
+}

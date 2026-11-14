@@ -1,0 +1,233 @@
+{
+  "Id": "036cbd710166a5c08dc5042198fcfc72250bb3dd40c10411f204cd441b5fed22",
+  "Created": "2026-11-13T23:06:30.955220318Z",
+  "Path": "python",
+  "Args": [
+    "-m",
+    "gui_agent_bench.mobile_relay"
+  ],
+  "State": {
+    "Status": "running",
+    "Running": true,
+    "Paused": false,
+    "Restarting": false,
+    "OOMKilled": false,
+    "Dead": false,
+    "Pid": 182170,
+    "ExitCode": 0,
+    "Error": "",
+    "StartedAt": "2026-11-13T23:06:31.030490323Z",
+    "FinishedAt": "0001-01-01T00:00:00Z"
+  },
+  "Image": "sha256:00af3ae1410977b1ba16b300cb2c4a9f1b9c89acd2591ec0a20a46b00c154dff",
+  "ResolvConfPath": "/var/lib/docker/containers/036cbd710166a5c08dc5042198fcfc72250bb3dd40c10411f204cd441b5fed22/resolv.conf",
+  "HostnamePath": "/var/lib/docker/containers/036cbd710166a5c08dc5042198fcfc72250bb3dd40c10411f204cd441b5fed22/hostname",
+  "HostsPath": "/var/lib/docker/containers/036cbd710166a5c08dc5042198fcfc72250bb3dd40c10411f204cd441b5fed22/hosts",
+  "LogPath": "/var/lib/docker/containers/036cbd710166a5c08dc5042198fcfc72250bb3dd40c10411f204cd441b5fed22/036cbd710166a5c08dc5042198fcfc72250bb3dd40c10411f204cd441b5fed22-json.log",
+  "Name": "/gab-oracle-62a7be056084-app",
+  "RestartCount": 0,
+  "Driver": "overlay2",
+  "Platform": "linux",
+  "MountLabel": "",
+  "ProcessLabel": "",
+  "AppArmorProfile": "docker-default",
+  "ExecIDs": [
+    "bf527448815fdb9f2a9d9c0ccbde2d01253569771d4d861b7b7b274b552b00b0"
+  ],
+  "HostConfig": {
+    "Binds": null,
+    "ContainerIDFile": "",
+    "LogConfig": {
+      "Type": "json-file",
+      "Config": {}
+    },
+    "NetworkMode": "gab-oracle-62a7be056084-capture",
+    "PortBindings": {},
+    "RestartPolicy": {
+      "Name": "no",
+      "MaximumRetryCount": 0
+    },
+    "AutoRemove": false,
+    "VolumeDriver": "",
+    "VolumesFrom": null,
+    "ConsoleSize": [
+      0,
+      0
+    ],
+    "CapAdd": null,
+    "CapDrop": [
+      "ALL"
+    ],
+    "CgroupnsMode": "private",
+    "Dns": null,
+    "DnsOptions": [],
+    "DnsSearch": [],
+    "ExtraHosts": null,
+    "GroupAdd": null,
+    "IpcMode": "private",
+    "Cgroup": "",
+    "Links": null,
+    "OomScoreAdj": 0,
+    "PidMode": "",
+    "Privileged": false,
+    "PublishAllPorts": false,
+    "ReadonlyRootfs": true,
+    "SecurityOpt": [
+      "no-new-privileges"
+    ],
+    "Tmpfs": {
+      "/tmp": "rw,nosuid,nodev,size=512m,mode=1777"
+    },
+    "UTSMode": "",
+    "UsernsMode": "",
+    "ShmSize": 67108864,
+    "Runtime": "runc",
+    "Isolation": "",
+    "CpuShares": 0,
+    "Memory": 134217728,
+    "NanoCpus": 2000000000,
+    "CgroupParent": "",
+    "BlkioWeight": 0,
+    "BlkioWeightDevice": [],
+    "BlkioDeviceReadBps": [],
+    "BlkioDeviceWriteBps": [],
+    "BlkioDeviceReadIOps": [],
+    "BlkioDeviceWriteIOps": [],
+    "CpuPeriod": 0,
+    "CpuQuota": 0,
+    "CpuRealtimePeriod": 0,
+    "CpuRealtimeRuntime": 0,
+    "CpusetCpus": "",
+    "CpusetMems": "",
+    "Devices": [],
+    "DeviceCgroupRules": null,
+    "DeviceRequests": null,
+    "MemoryReservation": 0,
+    "MemorySwap": 268435456,
+    "MemorySwappiness": null,
+    "OomKillDisable": null,
+    "PidsLimit": 256,
+    "Ulimits": null,
+    "CpuCount": 0,
+    "CpuPercent": 0,
+    "IOMaximumIOps": 0,
+    "IOMaximumBandwidth": 0,
+    "MaskedPaths": [
+      "/proc/acpi",
+      "/proc/asound",
+      "/proc/interrupts",
+      "/proc/kcore",
+      "/proc/keys",
+      "/proc/latency_stats",
+      "/proc/sched_debug",
+      "/proc/scsi",
+      "/proc/timer_list",
+      "/proc/timer_stats",
+      "/sys/devices/virtual/powercap",
+      "/sys/firmware",
+      "/sys/devices/system/cpu/cpu0/thermal_throttle",
+      "/sys/devices/system/cpu/cpu1/thermal_throttle",
+      "/sys/devices/system/cpu/cpu2/thermal_throttle",
+      "/sys/devices/system/cpu/cpu3/thermal_throttle",
+      "/sys/devices/system/cpu/cpu4/thermal_throttle",
+      "/sys/devices/system/cpu/cpu5/thermal_throttle",
+      "/sys/devices/system/cpu/cpu6/thermal_throttle",
+      "/sys/devices/system/cpu/cpu7/thermal_throttle",
+      "/sys/devices/system/cpu/cpu8/thermal_throttle",
+      "/sys/devices/system/cpu/cpu9/thermal_throttle",
+      "/sys/devices/system/cpu/cpu10/thermal_throttle",
+      "/sys/devices/system/cpu/cpu11/thermal_throttle",
+      "/sys/devices/system/cpu/cpu12/thermal_throttle",
+      "/sys/devices/system/cpu/cpu13/thermal_throttle",
+      "/sys/devices/system/cpu/cpu14/thermal_throttle",
+      "/sys/devices/system/cpu/cpu15/thermal_throttle",
+      "/sys/devices/system/cpu/cpu16/thermal_throttle",
+      "/sys/devices/system/cpu/cpu17/thermal_throttle",
+      "/sys/devices/system/cpu/cpu18/thermal_throttle",
+      "/sys/devices/system/cpu/cpu19/thermal_throttle",
+      "/sys/devices/system/cpu/cpu20/thermal_throttle",
+      "/sys/devices/system/cpu/cpu21/thermal_throttle"
+    ],
+    "ReadonlyPaths": [
+      "/proc/bus",
+      "/proc/fs",
+      "/proc/irq",
+      "/proc/sys",
+      "/proc/sysrq-trigger"
+    ]
+  },
+  "GraphDriver": {
+    "Data": {
+      "ID": "036cbd710166a5c08dc5042198fcfc72250bb3dd40c10411f204cd441b5fed22",
+      "LowerDir": "/var/lib/docker/overlay2/789cc052c2617413120de321de56257d2414374954660ac5fccca856db65131a-init/diff:/var/lib/docker/overlay2/noqryum6963gri0bzomcabvoi/diff:/var/lib/docker/overlay2/lgfv9jp5t58kvp9gnepkeqijs/diff:/var/lib/docker/overlay2/7uxfrp0svmwi9fox7cl4yr37z/diff:/var/lib/docker/overlay2/254cf241453c0699419b217ae22908a4ada60b29f916a4f2af88dca3672584ab/diff:/var/lib/docker/overlay2/89b0d2d3b3977deb7b89c3119c2107eae74f7dca20dc252e9e5b1fa461e1b3fb/diff:/var/lib/docker/overlay2/d139e0b70fb7528b5f782ec19bef03ec8d9bbb3ef56dea841a7f6e32bcfd3033/diff:/var/lib/docker/overlay2/4bba7f3ac4930c65e79edf5794279653a1bd6c395333cce138c0d558090e9574/diff",
+      "MergedDir": "/var/lib/docker/overlay2/789cc052c2617413120de321de56257d2414374954660ac5fccca856db65131a/merged",
+      "UpperDir": "/var/lib/docker/overlay2/789cc052c2617413120de321de56257d2414374954660ac5fccca856db65131a/diff",
+      "WorkDir": "/var/lib/docker/overlay2/789cc052c2617413120de321de56257d2414374954660ac5fccca856db65131a/work"
+    },
+    "Name": "overlay2"
+  },
+  "Mounts": [],
+  "Config": {
+    "Hostname": "036cbd710166",
+    "Domainname": "",
+    "User": "pwuser",
+    "AttachStdin": true,
+    "AttachStdout": true,
+    "AttachStderr": true,
+    "Tty": false,
+    "OpenStdin": true,
+    "StdinOnce": true,
+    "Env": [
+      "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+      "LANG=C.UTF-8",
+      "LC_ALL=C.UTF-8",
+      "PLAYWRIGHT_BROWSERS_PATH=/ms-playwright",
+      "PYTHONPATH=/opt",
+      "PYTHONDONTWRITEBYTECODE=1",
+      "PYTHONUNBUFFERED=1"
+    ],
+    "Cmd": null,
+    "Image": "gui-agent-bench-public-mobile-relay:1",
+    "Volumes": null,
+    "WorkingDir": "/tmp",
+    "Entrypoint": [
+      "python",
+      "-m",
+      "gui_agent_bench.mobile_relay"
+    ],
+    "Labels": {
+      "org.opencontainers.image.ref.name": "ubuntu",
+      "org.opencontainers.image.version": "24.04"
+    }
+  },
+  "NetworkSettings": {
+    "SandboxID": "794d1c86909b36617bd967ae26c24ca181ce2fb4bf4e12ac7d22d65088a6695e",
+    "SandboxKey": "/var/run/docker/netns/794d1c86909b",
+    "Ports": {},
+    "Networks": {
+      "gab-oracle-62a7be056084-capture": {
+        "IPAMConfig": null,
+        "Links": null,
+        "Aliases": [
+          "app"
+        ],
+        "DriverOpts": null,
+        "GwPriority": 0,
+        "NetworkID": "a4b6c7ad3a234e8736bac0d47c81908721e4184d8d2d5ad8a2bf4880a4e36861",
+        "EndpointID": "03c1c96a751e85dc636d1a04efa273424a05621124010736a25c7daba4c36844",
+        "Gateway": "",
+        "IPAddress": "192.168.16.2",
+        "MacAddress": "72:62:1f:04:0b:22",
+        "IPPrefixLen": 20,
+        "IPv6Gateway": "",
+        "GlobalIPv6Address": "",
+        "GlobalIPv6PrefixLen": 0,
+        "DNSNames": [
+          "gab-oracle-62a7be056084-app",
+          "app",
+          "036cbd710166"
+        ]
+      }
+    }
+  }
+}

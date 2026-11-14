@@ -1,0 +1,1 @@
+{"verdict":"PASS","reason":"Replayed the test's clicks. Caption size shows Large and the preview text grew from about 33px to about 49px line spacing. That is consistent with a 2.5rem (40px) font at 1.2 line height. I did not read the --caption-font value directly."}

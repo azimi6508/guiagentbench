@@ -1,0 +1,125 @@
+model_catalog_json = "/config/model-catalog.json"
+# configs/codex/base.toml; model is replaced by the explicit selected ID.
+model = "gpt-6.1-sol"
+model_provider = "openai"
+model_reasoning_effort = "medium"
+forced_login_method = "chatgpt"
+cli_auth_credentials_store = "file"
+approval_policy = "never"
+approvals_reviewer = "user"
+default_permissions = "bench"
+web_search = "disabled"
+project_doc_max_bytes = 0
+tool_output_token_limit = 262144
+model_auto_compact_token_limit = 2147483647
+
+[permissions.bench]
+description = "Minimal native capability for GUIAgentBench"
+
+[permissions.bench.filesystem]
+":root" = "deny"
+":minimal" = "read"
+"/session" = "read"
+"/opt/codex/bin/codex" = "read"
+"/auth-input" = "deny"
+"/run/codex" = "deny"
+"/run/home" = "deny"
+"/run/control" = "deny"
+"/config" = "deny"
+"/ipc" = "deny"
+"/workspace" = "deny"
+"/audit" = "deny"
+"/proc" = "deny"
+# /dev/fd is a symlink to /proc/self/fd in bubblewrap's /dev. Denying its
+# canonical /proc target covers the alias; mounting a deny over the symlink
+# fails in Codex 0.162.0. Actual-image FD/alias canaries are required.
+
+[permissions.bench.network]
+enabled = false
+
+[tools.experimental_request_user_input]
+enabled = false
+
+[features]
+shell_tool = false
+unified_exec = false
+unified_exec_tty = false
+view_image = false
+apps = false
+plugins = false
+remote_plugin = false
+multi_agent = false
+multi_agent_v2 = false
+memories = false
+code_mode = false
+code_mode_host = false
+code_mode_tool_search = false
+browser_use = false
+browser_use_external = false
+browser_use_full_cdp_access = false
+computer_use = false
+image_generation = false
+skill_search = false
+skill_mcp_dependency_install = false
+shell_snapshot = false
+sleep_tool = false
+tool_suggest = false
+workspace_dependencies = false
+worktrees = false
+auth_elicitation = false
+unbounded_connection_retries = false
+api_key_model_discovery = false
+in_app_browser = false
+in_app_local_automation = false
+in_app_chat = false
+in_app_updates = false
+in_app_voice = false
+in_app_dictation = false
+standalone_web_search = false
+request_permissions_tool = false
+default_mode_request_user_input = false
+goals = false
+hooks = true
+skip_host_skill_discovery = true
+omit_app_server_notification_media = false
+
+[mcp_servers.bench]
+command = "/usr/local/bin/python"
+args = ["/opt/bench/mcp_stdio_client.py"]
+required = true
+startup_timeout_sec = 30
+tool_timeout_sec = 60
+default_tools_approval_mode = "prompt"
+enabled_tools = ["bench_list_files", "bench_read_file", "bench_read_image", "bench_write_file", "gui_observe", "gui_reset", "gui_open_url", "gui_step"]
+
+[mcp_servers.bench.tools.bench_list_files]
+approval_mode = "approve"
+output_token_limit = 262144
+
+[mcp_servers.bench.tools.bench_read_file]
+approval_mode = "approve"
+output_token_limit = 262144
+
+[mcp_servers.bench.tools.bench_read_image]
+approval_mode = "approve"
+output_token_limit = 262144
+
+[mcp_servers.bench.tools.bench_write_file]
+approval_mode = "approve"
+output_token_limit = 262144
+
+[mcp_servers.bench.tools.gui_observe]
+approval_mode = "approve"
+output_token_limit = 262144
+
+[mcp_servers.bench.tools.gui_reset]
+approval_mode = "approve"
+output_token_limit = 262144
+
+[mcp_servers.bench.tools.gui_open_url]
+approval_mode = "approve"
+output_token_limit = 262144
+
+[mcp_servers.bench.tools.gui_step]
+approval_mode = "approve"
+output_token_limit = 262144

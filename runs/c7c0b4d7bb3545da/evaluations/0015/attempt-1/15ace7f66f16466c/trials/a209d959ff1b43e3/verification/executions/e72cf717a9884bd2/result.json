@@ -1,0 +1,132 @@
+{
+  "outcome": "BEHAVIOR_FAIL",
+  "assertions": [
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "heading",
+          "name": "Accessibility"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": true
+      },
+      "matched": true
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "button",
+          "name": "Caption size Large"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": false
+      },
+      "matched": true
+    },
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "final",
+        "region": [
+          963,
+          200,
+          1221,
+          342
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 0,
+        "include_aa": false,
+        "precondition": false,
+        "observation_window_ms": 1600
+      },
+      "matched": false,
+      "image": {
+        "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+        "reference_sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+        "actual_sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+        "compared_pixels": 36636,
+        "different_pixels": 4773,
+        "matched": false,
+        "evidence": {
+          "directory": "0001",
+          "sha256": {
+            "capture.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+            "sample-0001.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+            "sample-0002.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+            "sample-0003.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+            "sample-0004.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+            "sample-0005.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+            "expected.png": "e9065c85cad3a11b11d7b8cbbddddffb6b0f0570b5b2cda1914987ddb8956f1e",
+            "actual.png": "5bf4bf395efc60ff6ff3c9a335559f4a6c2c6172067830f972853db676a58c84",
+            "diff.png": "0fa342bed772c586efb2490a2b846ef6b75a1d50f0a625c7a63c9864214aba12"
+          }
+        },
+        "capture_contract": "visual-observation-window-v1",
+        "observation_window_ms": 1600,
+        "selected_sample": 0,
+        "observations": [
+          {
+            "file": "sample-0001.png",
+            "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+            "elapsed_ms": 65,
+            "different_pixels": 4773
+          },
+          {
+            "file": "sample-0002.png",
+            "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+            "elapsed_ms": 431,
+            "different_pixels": 4773
+          },
+          {
+            "file": "sample-0003.png",
+            "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+            "elapsed_ms": 880,
+            "different_pixels": 4773
+          },
+          {
+            "file": "sample-0004.png",
+            "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+            "elapsed_ms": 1315,
+            "different_pixels": 4773
+          },
+          {
+            "file": "sample-0005.png",
+            "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+            "elapsed_ms": 1663,
+            "different_pixels": 4773
+          }
+        ]
+      }
+    }
+  ],
+  "submission_sha256": "d13e2a3e5fdc00bbb279b2ddd97b98445c3a6490b95b415a2161021939ef449e",
+  "references_sha256": "09355f902ec8c6dd381e745b2379b2575929dedeafc4e784860c23ffc6009f1e",
+  "diagnostics": {
+    "version": "failure-v1",
+    "primary_issue": 0,
+    "issues": [
+      {
+        "version": "failure-v1",
+        "phase": "execution",
+        "operation": "assert",
+        "result": "failed",
+        "cause": "behavioral_mismatch",
+        "impact": "pair_dependent",
+        "message": "A behavioral assertion did not match.",
+        "exception_type": "Failure",
+        "source": {
+          "file": "browser.log",
+          "record_index": 9
+        }
+      }
+    ],
+    "ordering": "source_order_not_global_time"
+  },
+  "elapsed_seconds": 3.553,
+  "exit_code": 0
+}

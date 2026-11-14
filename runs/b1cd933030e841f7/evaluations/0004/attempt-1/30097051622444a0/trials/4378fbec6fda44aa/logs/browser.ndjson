@@ -1,0 +1,20 @@
+{"environment_contract": "environment-v1", "environment_event": "reset", "platform": "mobile", "status": "ready", "screenshot_sha256": "d8e41045e18bf818293389bba1415c363edcd45c34eebf87a4c4d3235ae99db4"}
+{"setup": "ready", "initial_state": true}
+{"reference": {"name": "initial-editor", "file": "initial-editor.png", "sha256": "11d1a86873523bb0b38b8c1c33af1797e4c850f78ca27abd7fb767c27428fbde"}}
+{"tool": "observe", "arguments": {"reference": "initial-editor"}, "denied": false}
+{"tool": "step", "arguments": {"action": "click", "x": 150, "y": 252}, "denied": false}
+{"tool": "step", "arguments": {"action": "type", "text": "Bring the blue notebook."}, "denied": false}
+{"recovery_event": {"version": "authoring-recovery-v1", "sequence": 1, "operation": "step", "status": "started", "failure": {"version": "failure-v1", "phase": "authoring", "operation": "step", "result": "failed", "cause": "app_scope_lost", "impact": "feedback", "message": "The app is outside the permitted interaction scope.", "exception_type": "Failure", "detail": {"version": "failure-detail-v1", "failure_id": "00f9749f384545bbad547befe3e0d18e", "exception_kind": "Failure", "frames": [{"file": "mobile_driver.py", "line": 414}, {"file": "mobile_driver.py", "line": 346}, {"file": "mobile_driver.py", "line": 327}, {"file": "mobile_driver.py", "line": 194}, {"file": "mobile_driver.py", "line": 185}, {"file": "mobile_driver.py", "line": 182}], "facts": {}, "component": "native_driver", "stage": "device_operation", "elapsed_ms": 159, "correlation_id": "28a3a767f11b4cbdb11ba59e6b9ddedc"}}}}
+{"environment_contract": "environment-v1", "environment_event": "reset", "platform": "mobile", "status": "ready", "screenshot_sha256": "e1984a9a5b22d28b19661f5ae193a67277df56e5ad41fa782c179780c53ad46e"}
+{"setup": "ready", "initial_state": true}
+{"recovery_event": {"version": "authoring-recovery-v1", "sequence": 1, "operation": "step", "status": "reset"}}
+{"operation_failed": true, "denied": false, "failure": {"version": "failure-v1", "phase": "authoring", "operation": "step", "result": "failed", "cause": "app_scope_lost", "impact": "feedback", "message": "The app is outside the permitted interaction scope.", "exception_type": "Failure", "detail": {"version": "failure-detail-v1", "failure_id": "00f9749f384545bbad547befe3e0d18e", "exception_kind": "Failure", "frames": [{"file": "mobile_driver.py", "line": 414}, {"file": "mobile_driver.py", "line": 346}, {"file": "mobile_driver.py", "line": 327}, {"file": "mobile_driver.py", "line": 194}, {"file": "mobile_driver.py", "line": 185}, {"file": "mobile_driver.py", "line": 182}], "facts": {}, "component": "native_driver", "stage": "device_operation", "elapsed_ms": 159, "correlation_id": "28a3a767f11b4cbdb11ba59e6b9ddedc"}}, "tool": "step", "arguments": {"action": "press", "key": "Escape"}, "recovery": {"version": "authoring-recovery-v1", "sequence": 1, "operation": "step", "status": "reset"}}
+{"tool": "observe", "arguments": {}, "denied": false}
+{"tool": "step", "arguments": {"action": "click", "x": 150, "y": 252}, "denied": false}
+{"tool": "step", "arguments": {"action": "type", "text": "Bring the blue notebook."}, "denied": false}
+{"reference": {"name": "typed-note", "file": "typed-note.png", "sha256": "b9a0259cf09db8bbd0248ea7dff7ff01f35b71ae080d6925a79afaa690c147d9"}}
+{"tool": "observe", "arguments": {"reference": "typed-note"}, "denied": false}
+{"tool": "step", "arguments": {"action": "click", "x": 570, "y": 170}, "denied": false}
+{"tool": "step", "arguments": {"action": "reload"}, "denied": false}
+{"reference": {"name": "reopened-note", "file": "reopened-note.png", "sha256": "ce4511204f2b06fd23951b6f63df798ca025c36712aa21cb5015a2407231b15d"}}
+{"tool": "observe", "arguments": {"reference": "reopened-note"}, "denied": false}

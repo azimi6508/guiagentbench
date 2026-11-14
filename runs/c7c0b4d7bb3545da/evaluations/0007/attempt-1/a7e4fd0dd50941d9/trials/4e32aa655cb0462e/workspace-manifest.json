@@ -1,0 +1,9 @@
+{
+  "arm": "judge_test",
+  "platform": "web",
+  "files": {
+    "instruction.md": "844b540f973678cca995410a08667147d491e60bbb84fe4153aa584d0481d856",
+    "test_source.py": "cfcb22577fe5c0a426d2cbc4006accb32d98912c65ab9a8e8c42f771cef27f5c"
+  },
+  "total_bytes": 11552
+}

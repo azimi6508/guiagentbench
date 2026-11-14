@@ -1,0 +1,819 @@
+{
+  "agent": {
+    "Id": "1ae25e6218efcf71e0ba757334dd16a8307f6185688a51d2e19b4d577a7d3ec9",
+    "Created": "2026-11-13T23:34:36.512516381Z",
+    "Path": "python",
+    "Args": [
+      "/opt/bench/entrypoint.py"
+    ],
+    "State": {
+      "Status": "created",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "0001-01-01T00:00:00Z",
+      "FinishedAt": "0001-01-01T00:00:00Z"
+    },
+    "Image": "sha256:1c3737172104a8eea59dba5af6fa741408df8efef9e21897f2445e3ef0f52c33",
+    "ResolvConfPath": "",
+    "HostnamePath": "",
+    "HostsPath": "",
+    "LogPath": "",
+    "Name": "/gab-c96fcdfb24d9413a-claude-agent",
+    "RestartCount": 0,
+    "Driver": "overlay2",
+    "Platform": "linux",
+    "MountLabel": "",
+    "ProcessLabel": "",
+    "AppArmorProfile": "docker-default",
+    "ExecIDs": null,
+    "HostConfig": {
+      "Binds": null,
+      "ContainerIDFile": "",
+      "LogConfig": {
+        "Type": "json-file",
+        "Config": {}
+      },
+      "NetworkMode": "gab-c96fcdfb24d9413a-claude-inference",
+      "PortBindings": {},
+      "RestartPolicy": {
+        "Name": "no",
+        "MaximumRetryCount": 0
+      },
+      "AutoRemove": false,
+      "VolumeDriver": "",
+      "VolumesFrom": null,
+      "ConsoleSize": [
+        0,
+        0
+      ],
+      "CapAdd": null,
+      "CapDrop": [
+        "ALL"
+      ],
+      "CgroupnsMode": "private",
+      "Dns": null,
+      "DnsOptions": [],
+      "DnsSearch": [],
+      "ExtraHosts": null,
+      "GroupAdd": null,
+      "IpcMode": "private",
+      "Cgroup": "",
+      "Links": null,
+      "OomScoreAdj": 0,
+      "PidMode": "",
+      "Privileged": false,
+      "PublishAllPorts": false,
+      "ReadonlyRootfs": true,
+      "SecurityOpt": [
+        "no-new-privileges",
+        "apparmor=docker-default"
+      ],
+      "Tmpfs": {
+        "/run": "rw,nosuid,nodev,size=512m,mode=0700,uid=1000,gid=1000",
+        "/tmp": "rw,nosuid,nodev,size=512m,mode=1777"
+      },
+      "UTSMode": "",
+      "UsernsMode": "",
+      "ShmSize": 67108864,
+      "Runtime": "runc",
+      "Isolation": "",
+      "CpuShares": 0,
+      "Memory": 1073741824,
+      "NanoCpus": 2000000000,
+      "CgroupParent": "",
+      "BlkioWeight": 0,
+      "BlkioWeightDevice": [],
+      "BlkioDeviceReadBps": [],
+      "BlkioDeviceWriteBps": [],
+      "BlkioDeviceReadIOps": [],
+      "BlkioDeviceWriteIOps": [],
+      "CpuPeriod": 0,
+      "CpuQuota": 0,
+      "CpuRealtimePeriod": 0,
+      "CpuRealtimeRuntime": 0,
+      "CpusetCpus": "",
+      "CpusetMems": "",
+      "Devices": [],
+      "DeviceCgroupRules": null,
+      "DeviceRequests": null,
+      "MemoryReservation": 0,
+      "MemorySwap": 2147483648,
+      "MemorySwappiness": null,
+      "OomKillDisable": false,
+      "PidsLimit": 256,
+      "Ulimits": null,
+      "CpuCount": 0,
+      "CpuPercent": 0,
+      "IOMaximumIOps": 0,
+      "IOMaximumBandwidth": 0,
+      "Mounts": [
+        {
+          "Type": "bind",
+          "Source": "/home/azimi/Downloads/gui-agent-bench/github-release/runs/c7c0b4d7bb3545da/evaluations/0012/attempt-1/515e23a9ef224f45/trials/c96fcdfb24d9413a/config",
+          "Target": "/policy",
+          "ReadOnly": true
+        },
+        {
+          "Type": "bind",
+          "Source": "/tmp/gab-claude-ipc-_4_kb9q_",
+          "Target": "/ipc",
+          "ReadOnly": true
+        }
+      ],
+      "MaskedPaths": [
+        "/proc/acpi",
+        "/proc/asound",
+        "/proc/interrupts",
+        "/proc/kcore",
+        "/proc/keys",
+        "/proc/latency_stats",
+        "/proc/sched_debug",
+        "/proc/scsi",
+        "/proc/timer_list",
+        "/proc/timer_stats",
+        "/sys/devices/virtual/powercap",
+        "/sys/firmware",
+        "/sys/devices/system/cpu/cpu0/thermal_throttle",
+        "/sys/devices/system/cpu/cpu1/thermal_throttle",
+        "/sys/devices/system/cpu/cpu2/thermal_throttle",
+        "/sys/devices/system/cpu/cpu3/thermal_throttle",
+        "/sys/devices/system/cpu/cpu4/thermal_throttle",
+        "/sys/devices/system/cpu/cpu5/thermal_throttle",
+        "/sys/devices/system/cpu/cpu6/thermal_throttle",
+        "/sys/devices/system/cpu/cpu7/thermal_throttle",
+        "/sys/devices/system/cpu/cpu8/thermal_throttle",
+        "/sys/devices/system/cpu/cpu9/thermal_throttle",
+        "/sys/devices/system/cpu/cpu10/thermal_throttle",
+        "/sys/devices/system/cpu/cpu11/thermal_throttle",
+        "/sys/devices/system/cpu/cpu12/thermal_throttle",
+        "/sys/devices/system/cpu/cpu13/thermal_throttle",
+        "/sys/devices/system/cpu/cpu14/thermal_throttle",
+        "/sys/devices/system/cpu/cpu15/thermal_throttle",
+        "/sys/devices/system/cpu/cpu16/thermal_throttle",
+        "/sys/devices/system/cpu/cpu17/thermal_throttle",
+        "/sys/devices/system/cpu/cpu18/thermal_throttle",
+        "/sys/devices/system/cpu/cpu19/thermal_throttle",
+        "/sys/devices/system/cpu/cpu20/thermal_throttle",
+        "/sys/devices/system/cpu/cpu21/thermal_throttle"
+      ],
+      "ReadonlyPaths": [
+        "/proc/bus",
+        "/proc/fs",
+        "/proc/irq",
+        "/proc/sys",
+        "/proc/sysrq-trigger"
+      ]
+    },
+    "GraphDriver": {
+      "Data": {
+        "ID": "1ae25e6218efcf71e0ba757334dd16a8307f6185688a51d2e19b4d577a7d3ec9",
+        "LowerDir": "/var/lib/docker/overlay2/3db523b5ed4ff856068c971c2fdce8f9e8ac7732e3be937f2b3a5fd4697c75e8-init/diff:/var/lib/docker/overlay2/v46h65ssk9echo7gvkcrew3t6/diff:/var/lib/docker/overlay2/sig7o35voskvcioucb3q9zpzq/diff:/var/lib/docker/overlay2/ko86m9vwm2y9wfl9gv8i32g4n/diff:/var/lib/docker/overlay2/lmawulbsao4cvii90kikvu005/diff:/var/lib/docker/overlay2/37fa4763abaf6bb8c5678ee29f15e0568deff765d65b9489eb06f55fa800a225/diff:/var/lib/docker/overlay2/05fac2661d715090798570861e83315fbf1374bf87ef3e09e0eb9d349f192621/diff:/var/lib/docker/overlay2/682e183e3a9ce0fa8826fb488597528a659bf38ad96e7065df3f7733340b7809/diff:/var/lib/docker/overlay2/0f00463f36dc993e6b04e0e283caf3de4c4895e8e06b732f9552509b02dc5dfe/diff",
+        "MergedDir": "/var/lib/docker/overlay2/3db523b5ed4ff856068c971c2fdce8f9e8ac7732e3be937f2b3a5fd4697c75e8/merged",
+        "UpperDir": "/var/lib/docker/overlay2/3db523b5ed4ff856068c971c2fdce8f9e8ac7732e3be937f2b3a5fd4697c75e8/diff",
+        "WorkDir": "/var/lib/docker/overlay2/3db523b5ed4ff856068c971c2fdce8f9e8ac7732e3be937f2b3a5fd4697c75e8/work"
+      },
+      "Name": "overlay2"
+    },
+    "Mounts": [
+      {
+        "Type": "bind",
+        "Source": "/tmp/gab-claude-ipc-_4_kb9q_",
+        "Destination": "/ipc",
+        "Mode": "",
+        "RW": false,
+        "Propagation": "rprivate"
+      },
+      {
+        "Type": "bind",
+        "Source": "/home/azimi/Downloads/gui-agent-bench/github-release/runs/c7c0b4d7bb3545da/evaluations/0012/attempt-1/515e23a9ef224f45/trials/c96fcdfb24d9413a/config",
+        "Destination": "/policy",
+        "Mode": "",
+        "RW": false,
+        "Propagation": "rprivate"
+      }
+    ],
+    "Config": {
+      "Hostname": "1ae25e6218ef",
+      "Domainname": "",
+      "User": "1000:1000",
+      "AttachStdin": false,
+      "AttachStdout": true,
+      "AttachStderr": true,
+      "Tty": false,
+      "OpenStdin": false,
+      "StdinOnce": false,
+      "Env": [
+        "PATH=/opt/claude:/usr/local/bin:/usr/bin:/bin",
+        "LANG=C.UTF-8",
+        "GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305",
+        "PYTHON_VERSION=3.12.14",
+        "PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a",
+        "HOME=/run/home",
+        "TMPDIR=/run/tmp",
+        "CLAUDE_CONFIG_DIR=/run/home/.claude",
+        "ANTHROPIC_BASE_URL=http://provider:8080",
+        "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1",
+        "DISABLE_AUTOUPDATER=1",
+        "DISABLE_TELEMETRY=1",
+        "DISABLE_ERROR_REPORTING=1",
+        "CLAUDE_CODE_MAX_RETRIES=0",
+        "ENABLE_TOOL_SEARCH=false",
+        "DISABLE_AUTO_COMPACT=1",
+        "CLAUDE_CODE_DISABLE_AUTO_MEMORY=1",
+        "MAX_MCP_OUTPUT_TOKENS=1000000",
+        "MCP_TIMEOUT=30000",
+        "MCP_TOOL_TIMEOUT=120000",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "PYTHONUNBUFFERED=1"
+      ],
+      "Cmd": null,
+      "Image": "gui-agent-bench-public-claude-agent:2.1.323-bench1",
+      "Volumes": null,
+      "WorkingDir": "/session",
+      "Entrypoint": [
+        "python",
+        "/opt/bench/entrypoint.py"
+      ],
+      "Labels": {
+        "gui-agent-bench.trial": "c96fcdfb24d9413a"
+      }
+    },
+    "NetworkSettings": {
+      "SandboxID": "",
+      "SandboxKey": "",
+      "Ports": {},
+      "Networks": {
+        "gab-c96fcdfb24d9413a-claude-inference": {
+          "IPAMConfig": null,
+          "Links": null,
+          "Aliases": null,
+          "DriverOpts": null,
+          "GwPriority": 0,
+          "NetworkID": "",
+          "EndpointID": "",
+          "Gateway": "",
+          "IPAddress": "",
+          "MacAddress": "",
+          "IPPrefixLen": 0,
+          "IPv6Gateway": "",
+          "GlobalIPv6Address": "",
+          "GlobalIPv6PrefixLen": 0,
+          "DNSNames": null
+        }
+      }
+    }
+  },
+  "bridge": {
+    "Id": "6b9447dace98090ad206928d530b22d653b2a6a58638c35ce34052beb3883def",
+    "Created": "2026-11-13T23:34:35.843136991Z",
+    "Path": "python",
+    "Args": [
+      "-m",
+      "gui_agent_bench.codex_bridge"
+    ],
+    "State": {
+      "Status": "running",
+      "Running": true,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 380196,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-11-13T23:34:35.903349465Z",
+      "FinishedAt": "0001-01-01T00:00:00Z"
+    },
+    "Image": "sha256:ad39ab3fc6c2ca96e12394b00d88938f7f5f949ef317e1fa53b2daaef5b1b754",
+    "ResolvConfPath": "/var/lib/docker/containers/6b9447dace98090ad206928d530b22d653b2a6a58638c35ce34052beb3883def/resolv.conf",
+    "HostnamePath": "/var/lib/docker/containers/6b9447dace98090ad206928d530b22d653b2a6a58638c35ce34052beb3883def/hostname",
+    "HostsPath": "/var/lib/docker/containers/6b9447dace98090ad206928d530b22d653b2a6a58638c35ce34052beb3883def/hosts",
+    "LogPath": "/var/lib/docker/containers/6b9447dace98090ad206928d530b22d653b2a6a58638c35ce34052beb3883def/6b9447dace98090ad206928d530b22d653b2a6a58638c35ce34052beb3883def-json.log",
+    "Name": "/gab-c96fcdfb24d9413a-claude-bridge",
+    "RestartCount": 0,
+    "Driver": "overlay2",
+    "Platform": "linux",
+    "MountLabel": "",
+    "ProcessLabel": "",
+    "AppArmorProfile": "docker-default",
+    "ExecIDs": null,
+    "HostConfig": {
+      "Binds": null,
+      "ContainerIDFile": "",
+      "LogConfig": {
+        "Type": "json-file",
+        "Config": {}
+      },
+      "NetworkMode": "none",
+      "PortBindings": {},
+      "RestartPolicy": {
+        "Name": "no",
+        "MaximumRetryCount": 0
+      },
+      "AutoRemove": false,
+      "VolumeDriver": "",
+      "VolumesFrom": null,
+      "ConsoleSize": [
+        0,
+        0
+      ],
+      "CapAdd": null,
+      "CapDrop": [
+        "ALL"
+      ],
+      "CgroupnsMode": "private",
+      "Dns": null,
+      "DnsOptions": [],
+      "DnsSearch": [],
+      "ExtraHosts": null,
+      "GroupAdd": null,
+      "IpcMode": "private",
+      "Cgroup": "",
+      "Links": null,
+      "OomScoreAdj": 0,
+      "PidMode": "",
+      "Privileged": false,
+      "PublishAllPorts": false,
+      "ReadonlyRootfs": true,
+      "SecurityOpt": [
+        "no-new-privileges"
+      ],
+      "Tmpfs": {
+        "/tmp": "rw,nosuid,nodev,size=512m,mode=1777"
+      },
+      "UTSMode": "",
+      "UsernsMode": "",
+      "ShmSize": 67108864,
+      "Runtime": "runc",
+      "Isolation": "",
+      "CpuShares": 0,
+      "Memory": 1073741824,
+      "NanoCpus": 2000000000,
+      "CgroupParent": "",
+      "BlkioWeight": 0,
+      "BlkioWeightDevice": [],
+      "BlkioDeviceReadBps": [],
+      "BlkioDeviceWriteBps": [],
+      "BlkioDeviceReadIOps": [],
+      "BlkioDeviceWriteIOps": [],
+      "CpuPeriod": 0,
+      "CpuQuota": 0,
+      "CpuRealtimePeriod": 0,
+      "CpuRealtimeRuntime": 0,
+      "CpusetCpus": "",
+      "CpusetMems": "",
+      "Devices": [],
+      "DeviceCgroupRules": null,
+      "DeviceRequests": null,
+      "MemoryReservation": 0,
+      "MemorySwap": 2147483648,
+      "MemorySwappiness": null,
+      "OomKillDisable": null,
+      "PidsLimit": 256,
+      "Ulimits": null,
+      "CpuCount": 0,
+      "CpuPercent": 0,
+      "IOMaximumIOps": 0,
+      "IOMaximumBandwidth": 0,
+      "Mounts": [
+        {
+          "Type": "bind",
+          "Source": "/home/azimi/Downloads/gui-agent-bench/github-release/runs/c7c0b4d7bb3545da/evaluations/0012/attempt-1/515e23a9ef224f45/trials/c96fcdfb24d9413a/workspace",
+          "Target": "/workspace",
+          "ReadOnly": true
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/azimi/Downloads/gui-agent-bench/github-release/runs/c7c0b4d7bb3545da/evaluations/0012/attempt-1/515e23a9ef224f45/trials/c96fcdfb24d9413a/output",
+          "Target": "/workspace/output"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/azimi/Downloads/gui-agent-bench/github-release/runs/c7c0b4d7bb3545da/evaluations/0012/attempt-1/515e23a9ef224f45/trials/c96fcdfb24d9413a/config",
+          "Target": "/policy",
+          "ReadOnly": true
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/azimi/Downloads/gui-agent-bench/github-release/runs/c7c0b4d7bb3545da/evaluations/0012/attempt-1/515e23a9ef224f45/trials/c96fcdfb24d9413a/logs/bridge",
+          "Target": "/audit"
+        },
+        {
+          "Type": "bind",
+          "Source": "/tmp/gab-claude-ipc-_4_kb9q_",
+          "Target": "/ipc"
+        }
+      ],
+      "MaskedPaths": [
+        "/proc/acpi",
+        "/proc/asound",
+        "/proc/interrupts",
+        "/proc/kcore",
+        "/proc/keys",
+        "/proc/latency_stats",
+        "/proc/sched_debug",
+        "/proc/scsi",
+        "/proc/timer_list",
+        "/proc/timer_stats",
+        "/sys/devices/virtual/powercap",
+        "/sys/firmware",
+        "/sys/devices/system/cpu/cpu0/thermal_throttle",
+        "/sys/devices/system/cpu/cpu1/thermal_throttle",
+        "/sys/devices/system/cpu/cpu2/thermal_throttle",
+        "/sys/devices/system/cpu/cpu3/thermal_throttle",
+        "/sys/devices/system/cpu/cpu4/thermal_throttle",
+        "/sys/devices/system/cpu/cpu5/thermal_throttle",
+        "/sys/devices/system/cpu/cpu6/thermal_throttle",
+        "/sys/devices/system/cpu/cpu7/thermal_throttle",
+        "/sys/devices/system/cpu/cpu8/thermal_throttle",
+        "/sys/devices/system/cpu/cpu9/thermal_throttle",
+        "/sys/devices/system/cpu/cpu10/thermal_throttle",
+        "/sys/devices/system/cpu/cpu11/thermal_throttle",
+        "/sys/devices/system/cpu/cpu12/thermal_throttle",
+        "/sys/devices/system/cpu/cpu13/thermal_throttle",
+        "/sys/devices/system/cpu/cpu14/thermal_throttle",
+        "/sys/devices/system/cpu/cpu15/thermal_throttle",
+        "/sys/devices/system/cpu/cpu16/thermal_throttle",
+        "/sys/devices/system/cpu/cpu17/thermal_throttle",
+        "/sys/devices/system/cpu/cpu18/thermal_throttle",
+        "/sys/devices/system/cpu/cpu19/thermal_throttle",
+        "/sys/devices/system/cpu/cpu20/thermal_throttle",
+        "/sys/devices/system/cpu/cpu21/thermal_throttle"
+      ],
+      "ReadonlyPaths": [
+        "/proc/bus",
+        "/proc/fs",
+        "/proc/irq",
+        "/proc/sys",
+        "/proc/sysrq-trigger"
+      ]
+    },
+    "GraphDriver": {
+      "Data": {
+        "ID": "6b9447dace98090ad206928d530b22d653b2a6a58638c35ce34052beb3883def",
+        "LowerDir": "/var/lib/docker/overlay2/c3f9bb3ca12aa54d8fd7a3f475171277574ac16023152fa799716551649ce77f-init/diff:/var/lib/docker/overlay2/gxha4tgzjumq2ign900i9k7j8/diff:/var/lib/docker/overlay2/x7dsqkkejz5tdfpmyeyididww/diff:/var/lib/docker/overlay2/3xwkk0ka2fl2cxo9mi0teydr8/diff:/var/lib/docker/overlay2/37fa4763abaf6bb8c5678ee29f15e0568deff765d65b9489eb06f55fa800a225/diff:/var/lib/docker/overlay2/05fac2661d715090798570861e83315fbf1374bf87ef3e09e0eb9d349f192621/diff:/var/lib/docker/overlay2/682e183e3a9ce0fa8826fb488597528a659bf38ad96e7065df3f7733340b7809/diff:/var/lib/docker/overlay2/0f00463f36dc993e6b04e0e283caf3de4c4895e8e06b732f9552509b02dc5dfe/diff",
+        "MergedDir": "/var/lib/docker/overlay2/c3f9bb3ca12aa54d8fd7a3f475171277574ac16023152fa799716551649ce77f/merged",
+        "UpperDir": "/var/lib/docker/overlay2/c3f9bb3ca12aa54d8fd7a3f475171277574ac16023152fa799716551649ce77f/diff",
+        "WorkDir": "/var/lib/docker/overlay2/c3f9bb3ca12aa54d8fd7a3f475171277574ac16023152fa799716551649ce77f/work"
+      },
+      "Name": "overlay2"
+    },
+    "Mounts": [
+      {
+        "Type": "bind",
+        "Source": "/home/azimi/Downloads/gui-agent-bench/github-release/runs/c7c0b4d7bb3545da/evaluations/0012/attempt-1/515e23a9ef224f45/trials/c96fcdfb24d9413a/logs/bridge",
+        "Destination": "/audit",
+        "Mode": "",
+        "RW": true,
+        "Propagation": "rprivate"
+      },
+      {
+        "Type": "bind",
+        "Source": "/tmp/gab-claude-ipc-_4_kb9q_",
+        "Destination": "/ipc",
+        "Mode": "",
+        "RW": true,
+        "Propagation": "rprivate"
+      },
+      {
+        "Type": "bind",
+        "Source": "/home/azimi/Downloads/gui-agent-bench/github-release/runs/c7c0b4d7bb3545da/evaluations/0012/attempt-1/515e23a9ef224f45/trials/c96fcdfb24d9413a/config",
+        "Destination": "/policy",
+        "Mode": "",
+        "RW": false,
+        "Propagation": "rprivate"
+      },
+      {
+        "Type": "bind",
+        "Source": "/home/azimi/Downloads/gui-agent-bench/github-release/runs/c7c0b4d7bb3545da/evaluations/0012/attempt-1/515e23a9ef224f45/trials/c96fcdfb24d9413a/workspace",
+        "Destination": "/workspace",
+        "Mode": "",
+        "RW": false,
+        "Propagation": "rprivate"
+      },
+      {
+        "Type": "bind",
+        "Source": "/home/azimi/Downloads/gui-agent-bench/github-release/runs/c7c0b4d7bb3545da/evaluations/0012/attempt-1/515e23a9ef224f45/trials/c96fcdfb24d9413a/output",
+        "Destination": "/workspace/output",
+        "Mode": "",
+        "RW": true,
+        "Propagation": "rprivate"
+      }
+    ],
+    "Config": {
+      "Hostname": "6b9447dace98",
+      "Domainname": "",
+      "User": "1000:1000",
+      "AttachStdin": false,
+      "AttachStdout": true,
+      "AttachStderr": true,
+      "Tty": false,
+      "OpenStdin": false,
+      "StdinOnce": false,
+      "Env": [
+        "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+        "LANG=C.UTF-8",
+        "GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305",
+        "PYTHON_VERSION=3.12.14",
+        "PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a",
+        "PYTHONPATH=/opt/bench",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "PYTHONUNBUFFERED=1"
+      ],
+      "Cmd": null,
+      "Image": "gui-agent-bench-public-claude-bridge:2.1.323-bench1",
+      "Volumes": null,
+      "WorkingDir": "",
+      "Entrypoint": [
+        "python",
+        "-m",
+        "gui_agent_bench.codex_bridge"
+      ],
+      "Labels": {
+        "gui-agent-bench.trial": "c96fcdfb24d9413a"
+      }
+    },
+    "NetworkSettings": {
+      "SandboxID": "df33a71a1890ffc6d4f13d26f7cc26e62d072c0baa908c1a529aede793b573a3",
+      "SandboxKey": "/var/run/docker/netns/df33a71a1890",
+      "Ports": {},
+      "Networks": {
+        "none": {
+          "IPAMConfig": null,
+          "Links": null,
+          "Aliases": null,
+          "DriverOpts": null,
+          "GwPriority": 0,
+          "NetworkID": "1c2515399aca26f5c38a200108b828532001651502dc097e2cc8362884f9f479",
+          "EndpointID": "9b4e19ffdd31d85cc189530f4e81fe8e8c2dc97e088c7d1feadcf47de394dd70",
+          "Gateway": "",
+          "IPAddress": "",
+          "MacAddress": "",
+          "IPPrefixLen": 0,
+          "IPv6Gateway": "",
+          "GlobalIPv6Address": "",
+          "GlobalIPv6PrefixLen": 0,
+          "DNSNames": null
+        }
+      }
+    }
+  },
+  "gateway": {
+    "Id": "24d2f1679c8e94f52b63a787624361ecf2f14f70f2f7cc4d7fb90670a153f862",
+    "Created": "2026-11-13T23:34:35.624244601Z",
+    "Path": "python",
+    "Args": [
+      "/opt/bench/gateway.py"
+    ],
+    "State": {
+      "Status": "running",
+      "Running": true,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 380059,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-11-13T23:34:35.707218373Z",
+      "FinishedAt": "0001-01-01T00:00:00Z"
+    },
+    "Image": "sha256:8eb3b9f274c8fd39350866e0fdd1c01e77e060244d8218713a175cfb02f97e50",
+    "ResolvConfPath": "/var/lib/docker/containers/24d2f1679c8e94f52b63a787624361ecf2f14f70f2f7cc4d7fb90670a153f862/resolv.conf",
+    "HostnamePath": "/var/lib/docker/containers/24d2f1679c8e94f52b63a787624361ecf2f14f70f2f7cc4d7fb90670a153f862/hostname",
+    "HostsPath": "/var/lib/docker/containers/24d2f1679c8e94f52b63a787624361ecf2f14f70f2f7cc4d7fb90670a153f862/hosts",
+    "LogPath": "/var/lib/docker/containers/24d2f1679c8e94f52b63a787624361ecf2f14f70f2f7cc4d7fb90670a153f862/24d2f1679c8e94f52b63a787624361ecf2f14f70f2f7cc4d7fb90670a153f862-json.log",
+    "Name": "/gab-c96fcdfb24d9413a-claude-gateway",
+    "RestartCount": 0,
+    "Driver": "overlay2",
+    "Platform": "linux",
+    "MountLabel": "",
+    "ProcessLabel": "",
+    "AppArmorProfile": "docker-default",
+    "ExecIDs": null,
+    "HostConfig": {
+      "Binds": null,
+      "ContainerIDFile": "",
+      "LogConfig": {
+        "Type": "json-file",
+        "Config": {}
+      },
+      "NetworkMode": "gab-c96fcdfb24d9413a-claude-inference",
+      "PortBindings": {},
+      "RestartPolicy": {
+        "Name": "no",
+        "MaximumRetryCount": 0
+      },
+      "AutoRemove": false,
+      "VolumeDriver": "",
+      "VolumesFrom": null,
+      "ConsoleSize": [
+        0,
+        0
+      ],
+      "CapAdd": null,
+      "CapDrop": [
+        "ALL"
+      ],
+      "CgroupnsMode": "private",
+      "Dns": null,
+      "DnsOptions": [],
+      "DnsSearch": [],
+      "ExtraHosts": null,
+      "GroupAdd": null,
+      "IpcMode": "private",
+      "Cgroup": "",
+      "Links": null,
+      "OomScoreAdj": 0,
+      "PidMode": "",
+      "Privileged": false,
+      "PublishAllPorts": false,
+      "ReadonlyRootfs": true,
+      "SecurityOpt": [
+        "no-new-privileges"
+      ],
+      "Tmpfs": {
+        "/tmp": "rw,nosuid,nodev,size=512m,mode=1777"
+      },
+      "UTSMode": "",
+      "UsernsMode": "",
+      "ShmSize": 67108864,
+      "Runtime": "runc",
+      "Isolation": "",
+      "CpuShares": 0,
+      "Memory": 1073741824,
+      "NanoCpus": 2000000000,
+      "CgroupParent": "",
+      "BlkioWeight": 0,
+      "BlkioWeightDevice": [],
+      "BlkioDeviceReadBps": [],
+      "BlkioDeviceWriteBps": [],
+      "BlkioDeviceReadIOps": [],
+      "BlkioDeviceWriteIOps": [],
+      "CpuPeriod": 0,
+      "CpuQuota": 0,
+      "CpuRealtimePeriod": 0,
+      "CpuRealtimeRuntime": 0,
+      "CpusetCpus": "",
+      "CpusetMems": "",
+      "Devices": [],
+      "DeviceCgroupRules": null,
+      "DeviceRequests": null,
+      "MemoryReservation": 0,
+      "MemorySwap": 2147483648,
+      "MemorySwappiness": null,
+      "OomKillDisable": null,
+      "PidsLimit": 256,
+      "Ulimits": null,
+      "CpuCount": 0,
+      "CpuPercent": 0,
+      "IOMaximumIOps": 0,
+      "IOMaximumBandwidth": 0,
+      "MaskedPaths": [
+        "/proc/acpi",
+        "/proc/asound",
+        "/proc/interrupts",
+        "/proc/kcore",
+        "/proc/keys",
+        "/proc/latency_stats",
+        "/proc/sched_debug",
+        "/proc/scsi",
+        "/proc/timer_list",
+        "/proc/timer_stats",
+        "/sys/devices/virtual/powercap",
+        "/sys/firmware",
+        "/sys/devices/system/cpu/cpu0/thermal_throttle",
+        "/sys/devices/system/cpu/cpu1/thermal_throttle",
+        "/sys/devices/system/cpu/cpu2/thermal_throttle",
+        "/sys/devices/system/cpu/cpu3/thermal_throttle",
+        "/sys/devices/system/cpu/cpu4/thermal_throttle",
+        "/sys/devices/system/cpu/cpu5/thermal_throttle",
+        "/sys/devices/system/cpu/cpu6/thermal_throttle",
+        "/sys/devices/system/cpu/cpu7/thermal_throttle",
+        "/sys/devices/system/cpu/cpu8/thermal_throttle",
+        "/sys/devices/system/cpu/cpu9/thermal_throttle",
+        "/sys/devices/system/cpu/cpu10/thermal_throttle",
+        "/sys/devices/system/cpu/cpu11/thermal_throttle",
+        "/sys/devices/system/cpu/cpu12/thermal_throttle",
+        "/sys/devices/system/cpu/cpu13/thermal_throttle",
+        "/sys/devices/system/cpu/cpu14/thermal_throttle",
+        "/sys/devices/system/cpu/cpu15/thermal_throttle",
+        "/sys/devices/system/cpu/cpu16/thermal_throttle",
+        "/sys/devices/system/cpu/cpu17/thermal_throttle",
+        "/sys/devices/system/cpu/cpu18/thermal_throttle",
+        "/sys/devices/system/cpu/cpu19/thermal_throttle",
+        "/sys/devices/system/cpu/cpu20/thermal_throttle",
+        "/sys/devices/system/cpu/cpu21/thermal_throttle"
+      ],
+      "ReadonlyPaths": [
+        "/proc/bus",
+        "/proc/fs",
+        "/proc/irq",
+        "/proc/sys",
+        "/proc/sysrq-trigger"
+      ]
+    },
+    "GraphDriver": {
+      "Data": {
+        "ID": "24d2f1679c8e94f52b63a787624361ecf2f14f70f2f7cc4d7fb90670a153f862",
+        "LowerDir": "/var/lib/docker/overlay2/767fc928ea3c4d066dcdff8b721af4189166eccd9421f99d38b170c36bf1eaf1-init/diff:/var/lib/docker/overlay2/qx9hwfmlun8fsbhvj4i63oryz/diff:/var/lib/docker/overlay2/37fa4763abaf6bb8c5678ee29f15e0568deff765d65b9489eb06f55fa800a225/diff:/var/lib/docker/overlay2/05fac2661d715090798570861e83315fbf1374bf87ef3e09e0eb9d349f192621/diff:/var/lib/docker/overlay2/682e183e3a9ce0fa8826fb488597528a659bf38ad96e7065df3f7733340b7809/diff:/var/lib/docker/overlay2/0f00463f36dc993e6b04e0e283caf3de4c4895e8e06b732f9552509b02dc5dfe/diff",
+        "MergedDir": "/var/lib/docker/overlay2/767fc928ea3c4d066dcdff8b721af4189166eccd9421f99d38b170c36bf1eaf1/merged",
+        "UpperDir": "/var/lib/docker/overlay2/767fc928ea3c4d066dcdff8b721af4189166eccd9421f99d38b170c36bf1eaf1/diff",
+        "WorkDir": "/var/lib/docker/overlay2/767fc928ea3c4d066dcdff8b721af4189166eccd9421f99d38b170c36bf1eaf1/work"
+      },
+      "Name": "overlay2"
+    },
+    "Mounts": [],
+    "Config": {
+      "Hostname": "24d2f1679c8e",
+      "Domainname": "",
+      "User": "1000:1000",
+      "AttachStdin": false,
+      "AttachStdout": true,
+      "AttachStderr": true,
+      "Tty": false,
+      "OpenStdin": false,
+      "StdinOnce": false,
+      "Env": [
+        "GAB_CLAUDE_TOOLS=mcp__bench__bench_list_files,mcp__bench__bench_read_file,mcp__bench__bench_read_image,mcp__bench__bench_write_file",
+        "GAB_CLAUDE_REQUEST_LIMIT=108",
+        "GAB_CLAUDE_MODEL_IDENTITY=claude-sonnet-5-5",
+        "GAB_CLAUDE_AUTH_KIND=oauth",
+        "GAB_CLAUDE_MODEL=claude-sonnet-5-5",
+        "GAB_CLAUDE_EFFORT=medium",
+        "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+        "LANG=C.UTF-8",
+        "GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305",
+        "PYTHON_VERSION=3.12.14",
+        "PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "PYTHONUNBUFFERED=1"
+      ],
+      "Cmd": null,
+      "Image": "gui-agent-bench-public-claude-gateway:2.1.323-bench1",
+      "Volumes": null,
+      "WorkingDir": "",
+      "Entrypoint": [
+        "python",
+        "/opt/bench/gateway.py"
+      ],
+      "Labels": {
+        "gui-agent-bench.trial": "c96fcdfb24d9413a"
+      }
+    },
+    "NetworkSettings": {
+      "SandboxID": "bd867ffc638c2f8b3a71bf99047d3c8a1e873d1f743bcdebc353429b92d82ff2",
+      "SandboxKey": "/var/run/docker/netns/bd867ffc638c",
+      "Ports": {},
+      "Networks": {
+        "bridge": {
+          "IPAMConfig": {},
+          "Links": null,
+          "Aliases": [],
+          "DriverOpts": {},
+          "GwPriority": 0,
+          "NetworkID": "63c68a8ee3925a0e1d5eb11bf4a64089b2c07d2ec0351c7a8708abbfb1cee0b7",
+          "EndpointID": "9de6208633d89848f0bd569dc457e9abc91d8df6345fe1eb152ba3526cbc8bea",
+          "Gateway": "172.17.0.1",
+          "IPAddress": "172.17.0.2",
+          "MacAddress": "5a:5e:c1:c6:7a:b3",
+          "IPPrefixLen": 16,
+          "IPv6Gateway": "",
+          "GlobalIPv6Address": "",
+          "GlobalIPv6PrefixLen": 0,
+          "DNSNames": null
+        },
+        "gab-c96fcdfb24d9413a-claude-inference": {
+          "IPAMConfig": null,
+          "Links": null,
+          "Aliases": [
+            "provider"
+          ],
+          "DriverOpts": null,
+          "GwPriority": 0,
+          "NetworkID": "980acb4c15a711a24d605b937a089d03451c522009e620b1764c87107a5f7194",
+          "EndpointID": "b38f32b7b45592fee7b6e573a7277555605ef1a9337a52d0e9e9f28e76cef663",
+          "Gateway": "",
+          "IPAddress": "192.168.48.2",
+          "MacAddress": "ca:3d:9b:c9:ff:03",
+          "IPPrefixLen": 20,
+          "IPv6Gateway": "",
+          "GlobalIPv6Address": "",
+          "GlobalIPv6PrefixLen": 0,
+          "DNSNames": [
+            "gab-c96fcdfb24d9413a-claude-gateway",
+            "provider",
+            "24d2f1679c8e"
+          ]
+        }
+      }
+    },
+    "credential_environment_omitted": true
+  }
+}

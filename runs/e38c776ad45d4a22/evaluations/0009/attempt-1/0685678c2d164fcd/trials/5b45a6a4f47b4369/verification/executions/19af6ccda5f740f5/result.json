@@ -1,0 +1,141 @@
+{
+  "outcome": "PASS",
+  "assertions": [
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "link",
+          "name": "Edit biography"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": true
+      },
+      "matched": true
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "heading",
+          "name": "MarvelsGrantMan136"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": true
+      },
+      "matched": true
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "text": "I am a robot"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": false
+      },
+      "matched": true
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "text": "I am a robot"
+        },
+        "condition": "count",
+        "expected": 1,
+        "precondition": false
+      },
+      "matched": true
+    },
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "final_profile",
+        "region": [
+          912,
+          150,
+          1188,
+          230
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 20,
+        "include_aa": false,
+        "precondition": false,
+        "observation_window_ms": 1600
+      },
+      "matched": true,
+      "image": {
+        "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+        "reference_sha256": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+        "actual_sha256": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+        "compared_pixels": 22080,
+        "different_pixels": 0,
+        "matched": true,
+        "evidence": {
+          "directory": "0001",
+          "sha256": {
+            "capture.png": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+            "sample-0001.png": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+            "sample-0002.png": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+            "sample-0003.png": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+            "sample-0004.png": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+            "sample-0005.png": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+            "expected.png": "cddd613972a9e699e840f4f23c9a1323a607f7b7cb76daa43ddfda28ed6a42ad",
+            "actual.png": "cddd613972a9e699e840f4f23c9a1323a607f7b7cb76daa43ddfda28ed6a42ad",
+            "diff.png": "792864785cae40dd40be51acd02ee0af9373529fc31665d4871cd7d9520e21e2"
+          }
+        },
+        "capture_contract": "visual-observation-window-v1",
+        "observation_window_ms": 1600,
+        "selected_sample": 0,
+        "observations": [
+          {
+            "file": "sample-0001.png",
+            "sha256": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+            "elapsed_ms": 55,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0002.png",
+            "sha256": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+            "elapsed_ms": 415,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0003.png",
+            "sha256": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+            "elapsed_ms": 868,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0004.png",
+            "sha256": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+            "elapsed_ms": 1284,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0005.png",
+            "sha256": "9eb33a597ace2887813cb46bb960e7f5858f0cc566f67ba0d045d3c906766a89",
+            "elapsed_ms": 1652,
+            "different_pixels": 0
+          }
+        ]
+      }
+    }
+  ],
+  "submission_sha256": "3e426d2930f0d7b0704f1cdd7c35fe62d19873c918009b8ba4af06a0f20b248b",
+  "references_sha256": "df55ecc599456220feb77ddf5eeacd4a8be7aa793cbd04a5dd8f48a0156e14cf",
+  "diagnostics": {
+    "version": "failure-v1",
+    "primary_issue": null,
+    "issues": [],
+    "ordering": "source_order_not_global_time"
+  },
+  "elapsed_seconds": 3.351,
+  "exit_code": 0
+}

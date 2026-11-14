@@ -1,0 +1,1 @@
+{"verdict":"FAIL","reason":"Caption size was set to Large and the label changed to 'Large captions', but the preview text 'A world worth exploring.' is the same size and wraps identically as in the Medium screenshot. The preview did not grow."}

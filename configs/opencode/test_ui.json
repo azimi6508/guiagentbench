@@ -1,0 +1,41 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "autoupdate": false,
+  "share": "disabled",
+  "compaction": {
+    "auto": false,
+    "prune": false
+  },
+  "default_agent": "bench",
+  "agent": {
+    "bench": {
+      "description": "Complete the GUI evaluation task using the available evidence and tools.",
+      "mode": "primary"
+    }
+  },
+  "permission": {
+    "*": "deny",
+    "read": {
+      "*": "deny",
+      "/workspace/instruction.md": "allow",
+      "/workspace/output/*": "allow"
+    },
+    "edit": {
+      "*": "deny",
+      "/workspace/output/*": "allow"
+    },
+    "bash": "deny",
+    "task": "deny",
+    "skill": "deny",
+    "lsp": "deny",
+    "webfetch": "deny",
+    "websearch": "deny",
+    "external_directory": "deny",
+    "gui_observe": "allow",
+    "gui_step": "allow",
+    "gui_reset": "allow",
+    "gui_open_url": "allow",
+    "gui_dump_ui": "allow"
+  },
+  "mcp": {}
+}

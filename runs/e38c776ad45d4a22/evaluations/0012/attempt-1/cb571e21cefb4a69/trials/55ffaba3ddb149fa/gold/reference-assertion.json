@@ -1,0 +1,4 @@
+{
+  "message": "[{\"kind\": \"css\", \"selector\": \"html\", \"expected\": \"2.5rem\", \"actual\": \"1.75rem\"}]",
+  "checkpoints_completed": 3
+}

@@ -1,0 +1,45 @@
+{
+  "schema": "run-plan-v1",
+  "name": "Examples Codex gpt-6-astra medium",
+  "models": [
+    "codex/gpt-6-astra"
+  ],
+  "tasks": [
+    {
+      "task": "mobile/markor-note-persistence",
+      "arms": [
+        "judge_visual",
+        "judge_test",
+        "oracle_visual",
+        "oracle_ui",
+        "test_visual",
+        "test_ui"
+      ],
+      "repeats": 1
+    },
+    {
+      "task": "web/webarena-399-profile-bio",
+      "arms": [
+        "judge_visual",
+        "judge_test",
+        "oracle_visual",
+        "oracle_ui",
+        "test_visual",
+        "test_ui"
+      ],
+      "repeats": 1
+    },
+    {
+      "task": "tv/aura-013-caption-preview-size",
+      "arms": [
+        "judge_visual",
+        "judge_test",
+        "oracle_visual",
+        "oracle_ui",
+        "test_visual",
+        "test_ui"
+      ],
+      "repeats": 1
+    }
+  ]
+}

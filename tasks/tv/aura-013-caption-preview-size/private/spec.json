@@ -1,0 +1,46 @@
+{
+  "id": "aura-013-caption-preview-size",
+  "category": "Accessibility",
+  "title": "Large captions enlarge the subtitle preview",
+  "goal": "Choose Large under Caption size. The built-in caption preview should grow to the Large reading size.",
+  "steps": [
+    "Open Settings > Accessibility.",
+    "Choose Large under Caption size.",
+    "Inspect the preview text and its size label."
+  ],
+  "seed": {},
+  "actions": [
+    {
+      "click": "#nav-settings"
+    },
+    {
+      "click": "#settings-tab-access"
+    },
+    {
+      "click": "#setting-captionSize"
+    },
+    {
+      "click": "#choice-large"
+    }
+  ],
+  "assertions": [
+    {
+      "kind": "text",
+      "selector": "#setting-value-captionSize",
+      "value": "Large"
+    },
+    {
+      "kind": "css",
+      "selector": "html",
+      "value": "2.5rem",
+      "name": "--caption-font"
+    }
+  ],
+  "visual_selector": "#settings-context",
+  "mutation": {
+    "file": "src/app.js",
+    "old": "{small:'1.25rem',medium:'1.75rem',large:'2.5rem'}[s.captionSize]",
+    "new": "{small:'1.25rem',medium:'1.75rem',large:'1.75rem'}[s.captionSize]"
+  },
+  "initial_state": "The included offline AURA collection is available, and Alex is initially active."
+}

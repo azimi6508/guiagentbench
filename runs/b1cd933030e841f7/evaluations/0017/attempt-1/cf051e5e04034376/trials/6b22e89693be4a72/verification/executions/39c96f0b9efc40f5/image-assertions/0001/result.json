@@ -1,0 +1,73 @@
+{
+  "assertion": {
+    "kind": "image",
+    "reference": "large-caption-preview",
+    "region": [
+      970,
+      210,
+      1215,
+      335
+    ],
+    "masks": [],
+    "threshold": 0.1,
+    "max_diff_pixels": 80,
+    "include_aa": false,
+    "precondition": false,
+    "observation_window_ms": 1600
+  },
+  "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+  "reference_sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+  "actual_sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+  "compared_pixels": 30625,
+  "different_pixels": 4773,
+  "matched": false,
+  "evidence": {
+    "directory": "0001",
+    "sha256": {
+      "capture.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+      "sample-0001.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+      "sample-0002.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+      "sample-0003.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+      "sample-0004.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+      "sample-0005.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+      "expected.png": "6981be7338837509d58cb4ce363598eb314b5a5a96bc9d7790e1930b9a235f77",
+      "actual.png": "5912fb04cf426c9a7572870a8ab51c186fc0aca54cc39fd45f2df389a3ca2589",
+      "diff.png": "bc15b21ca8967cb563c2cc4730d1c4dfb5b487cd45987320b9baa9a1fdff397d"
+    }
+  },
+  "capture_contract": "visual-observation-window-v1",
+  "observation_window_ms": 1600,
+  "selected_sample": 0,
+  "observations": [
+    {
+      "file": "sample-0001.png",
+      "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+      "elapsed_ms": 61,
+      "different_pixels": 4773
+    },
+    {
+      "file": "sample-0002.png",
+      "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+      "elapsed_ms": 434,
+      "different_pixels": 4773
+    },
+    {
+      "file": "sample-0003.png",
+      "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+      "elapsed_ms": 878,
+      "different_pixels": 4773
+    },
+    {
+      "file": "sample-0004.png",
+      "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+      "elapsed_ms": 1293,
+      "different_pixels": 4773
+    },
+    {
+      "file": "sample-0005.png",
+      "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+      "elapsed_ms": 1668,
+      "different_pixels": 4773
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "arm": "test_ui",
+  "platform": "web",
+  "viewport": [
+    1280,
+    720
+  ],
+  "manifest": {
+    "arm": "test_ui",
+    "platform": "web",
+    "files": {
+      "instruction.md": "4231c679a1990190a250b39581e9499b3e4d7cfabf2b2dba4da899abfdf5f013"
+    },
+    "total_bytes": 21801
+  },
+  "environment_profile": "generic"
+}

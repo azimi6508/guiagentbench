@@ -1,0 +1,87 @@
+{
+  "schema": "resolved-plan-v1",
+  "agents": [
+    {
+      "identifier": "claude/claude-opus-5-5",
+      "runner": "claude",
+      "model": "claude-opus-5-5",
+      "auth_mode": "anthropic_credential",
+      "reasoning_effort": "medium",
+      "tool_profile": "claude-mcp-v1",
+      "budget_profile": "claude-bounded-v1"
+    }
+  ],
+  "memberships": [
+    {
+      "task": "mobile/markor-note-persistence",
+      "arm": "judge_test",
+      "model": "claude/claude-opus-5-5"
+    }
+  ],
+  "images": {
+    "agent": "sha256:1c3737172104a8eea59dba5af6fa741408df8efef9e21897f2445e3ef0f52c33",
+    "bridge": "sha256:ad39ab3fc6c2ca96e12394b00d88938f7f5f949ef317e1fa53b2daaef5b1b754",
+    "gateway": "sha256:8eb3b9f274c8fd39350866e0fdd1c01e77e060244d8218713a175cfb02f97e50"
+  },
+  "runtime_lock": "755feccdb0f34b0ce867812055c45ea38c41a72d03b2cc870014367400ad741d",
+  "runner_version": "2.1.323",
+  "protocol_contract": "claude-mcp-v1",
+  "billing_mode": "anthropic_credential",
+  "budgets": {
+    "judge_test": {
+      "profile": "claude-bounded-v1",
+      "timeout_seconds": 3600,
+      "startup_seconds": 120,
+      "tool_timeout_seconds": 60,
+      "interrupt_seconds": 5,
+      "model_steps": null,
+      "model_requests": 108,
+      "per_request_output_token_cap": null,
+      "bridge_calls": 400,
+      "observed_tool_items": 400,
+      "evidence_bytes": 64000000,
+      "incoming_frame_bytes": 1048576,
+      "non_tool_frames": 4096,
+      "result_frame_bytes": 8000000,
+      "tool_text_bytes": 65536,
+      "output_files": 128,
+      "output_bytes": 4000000,
+      "output_directories": 64,
+      "output_path_bytes": 192,
+      "output_path_components": 4,
+      "output_component_bytes": 64,
+      "request_body_bytes": 32000000
+    }
+  },
+  "task_hashes": {
+    "mobile/markor-note-persistence": {
+      "arms/judge_test.md": "51a8d056f32699c6ebe71f71bb7c1691fdde8e6614cafd645c46da4ea6a3b975",
+      "arms/judge_visual.md": "03843bdc05cffb16f908bced3a1cfcd530e0182c0e84d3e15305ecbd116082fd",
+      "environment/.dockerignore": "08bb7a70af4ae5a9c15226f499f2e76055ebd521550f87eb102a1316cdb9df38",
+      "environment/ANDROIDWORLD-LICENSE.txt": "b09fcaf4fbc265223c2479c410beef2b98c5e687c78ecedf3452aa12ffc465f1",
+      "environment/Dockerfile": "eb99c72b8cbff85a09b5f0431a8b62df50070e6309c8dce5cc8948c040629d20",
+      "environment/MARKOR-LICENSE.txt": "f81991021b200e8bbd0cddbe3cb20baefd289c42a8d217aaac661e4db32e12b2",
+      "environment/README.md": "2c4990749fcebb7d811b725b73cf56cca58f2e14413d6f408fdb07c95e78554f",
+      "environment/application.py": "687da5586747f29ed71bd581deb6284dc31cf1b9ad6bdcc1b0f3e77815b32d4a",
+      "instruction.md": "b7b1176ce95ca6660b59beb8c814f367cdef0f7135781bea3cbfbe8017b2d682",
+      "lineage/manifest.json": "38d33fd3873ed95499145603d24977a4cb7514cb7996375822dbb9628ba6b23f",
+      "private/gold_test.py": "2acf4d6c5997a120d63c4cab094a0abd9e52ba10138249331c1cc14f75879cf9",
+      "private/labels.json": "735536e96b03c003bd94d49fe71aaaaae9d1d0f2f9ffad3fb008ae2404ecbd11",
+      "private/reference.json": "cfca0e261b92c4180355c8173c49908f4c1d0182f430e9c67352aefacec4954b",
+      "private/test_source.py": "c7b3177e686975c1e540804462f0c83e5d72768e400e4ac0ca335aa05b85f3d7",
+      "solution/oracle_ui.py": "a67d42306d942d84344f8230f5aa2df8f6f66068cc5d1af7f0560c51ff2cf87e",
+      "solution/oracle_visual.py": "52440a115281533f15d8ecb02de69839a6d6f66bfcad219b2d7ddb6bb2120f20",
+      "solution/solve.sh": "8ca3527979b87dbde491967b461ae8883895251cf344336ae7aa7154b151a10a",
+      "solution/test_ui.py": "2db6e700022cc2f791043b369597b079ce66c7306d8b62ab6db76b783b106287",
+      "solution/test_visual.py": "7c363f4ba446adffe2e9f8de74756ce6f4af673eb06c7834a77798f9c365ced7",
+      "task.toml": "3e9e7faa873fe7fb89572a84cc8c37b38067943a46f4e9487e2af31eb2ba6429",
+      "tests/test.sh": "db69bb46fa8404bdf417084e5f8c2898f80e09ad934a887d09faae82cc8fcb2f",
+      "variants/correct/settings.json": "ce29e928e5bb007dd7e608d48e27f7f1bea5b149f9a0d5efffabbab72513ebe5",
+      "variants/faulty/settings.json": "df36192cd9aca1fe1f1bd6d301e41dbeba65875fc8e267130ea4a445a21e7d4f"
+    }
+  },
+  "automatic_trial_retries": false,
+  "automatic_fallback": false,
+  "client_request_retries": 0,
+  "provider_cost_usd": null
+}

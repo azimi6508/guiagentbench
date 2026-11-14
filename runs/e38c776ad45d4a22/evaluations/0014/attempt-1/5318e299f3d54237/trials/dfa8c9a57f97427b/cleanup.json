@@ -1,0 +1,30 @@
+[
+  {
+    "container": "gab-dfa8c9a57f97427b-claude-agent",
+    "removed": true
+  },
+  {
+    "container": "gab-dfa8c9a57f97427b-claude-bridge",
+    "removed": true
+  },
+  {
+    "container": "gab-dfa8c9a57f97427b-claude-gateway",
+    "removed": true
+  },
+  {
+    "container": "gab-dfa8c9a57f97427b-ready",
+    "removed": true
+  },
+  {
+    "container": "gab-dfa8c9a57f97427b-browser",
+    "removed": true
+  },
+  {
+    "container": "gab-dfa8c9a57f97427b-capture",
+    "removed": true
+  },
+  {
+    "container": "gab-dfa8c9a57f97427b-app",
+    "removed": true
+  }
+]

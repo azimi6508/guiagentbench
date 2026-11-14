@@ -1,0 +1,18 @@
+{
+  "arm": "judge_test",
+  "platform": "mobile",
+  "viewport": [
+    720,
+    1280
+  ],
+  "manifest": {
+    "arm": "judge_test",
+    "platform": "mobile",
+    "files": {
+      "instruction.md": "a07a722b0e50460114aaf731494f3bf3b318cf85b537e791e607f94178c21e5e",
+      "test_source.py": "c7b3177e686975c1e540804462f0c83e5d72768e400e4ac0ca335aa05b85f3d7"
+    },
+    "total_bytes": 13847
+  },
+  "environment_profile": "generic"
+}

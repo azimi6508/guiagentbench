@@ -1,0 +1,150 @@
+{
+  "schema": "audits-v1",
+  "require_probes": false,
+  "results": [
+    {
+      "evaluation": "c7c0b4d7bb3545da/evaluations/0000/attempt-1/cbc2d4ee7543480c",
+      "task": "mobile/markor-note-persistence",
+      "arm": "judge_visual",
+      "model": "claude/claude-sonnet-5-5",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded judge_visual boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"claude-isolation-v1\", \"status\": \"pass\", \"runner\": \"claude\", \"images\": {\"agent\": \"sha256:1c3737172104a8eea59dba5af6fa741408df8efef9e21897f2445e3ef0f52c33\", \"bridge\": \"sha256:ad39ab3fc6c2ca96e12394b00d88938f7f5f949ef317e1fa53b2daaef5b1b754\", \"gateway\": \"sha256:8eb3b9f274c8fd39350866e0fdd1c01e77e060244d8218713a175cfb02f97e50\"}, \"authoring_recoveries\": [], \"delivered_tools\": 6, \"model_requests\": 4, \"native_runtime_verified\": true, \"adb_exposed_to_agent\": false, \"rendezvous_transport\": \"docker-exec-stdio\", \"published_ports\": [], \"task_files_in_relay\": false, \"apk_sha256\": \"1a328c5324b3b33d6cb4d55085637707252569d98c0ffe1cb7089aebbd903256\", \"apk_package\": \"net.gsantner.markor\", \"fixture_source_sha256\": \"687da5586747f29ed71bd581deb6284dc31cf1b9ad6bdcc1b0f3e77815b32d4a\", \"settings_sha256\": \"ce29e928e5bb007dd7e608d48e27f7f1bea5b149f9a0d5efffabbab72513ebe5\", \"trial_id\": \"8bada9495456479c\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}, {\"schema\": \"claude-isolation-v1\", \"status\": \"pass\", \"runner\": \"claude\", \"images\": {\"agent\": \"sha256:1c3737172104a8eea59dba5af6fa741408df8efef9e21897f2445e3ef0f52c33\", \"bridge\": \"sha256:ad39ab3fc6c2ca96e12394b00d88938f7f5f949ef317e1fa53b2daaef5b1b754\", \"gateway\": \"sha256:8eb3b9f274c8fd39350866e0fdd1c01e77e060244d8218713a175cfb02f97e50\"}, \"authoring_recoveries\": [], \"delivered_tools\": 5, \"model_requests\": 4, \"native_runtime_verified\": true, \"adb_exposed_to_agent\": false, \"rendezvous_transport\": \"docker-exec-stdio\", \"published_ports\": [], \"task_files_in_relay\": false, \"apk_sha256\": \"1a328c5324b3b33d6cb4d55085637707252569d98c0ffe1cb7089aebbd903256\", \"apk_package\": \"net.gsantner.markor\", \"fixture_source_sha256\": \"687da5586747f29ed71bd581deb6284dc31cf1b9ad6bdcc1b0f3e77815b32d4a\", \"settings_sha256\": \"df36192cd9aca1fe1f1bd6d301e41dbeba65875fc8e267130ea4a445a21e7d4f\", \"trial_id\": \"2bc78d06a78e43c7\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    },
+    {
+      "evaluation": "c7c0b4d7bb3545da/evaluations/0001/attempt-1/40b8a3fad45e4d37",
+      "task": "mobile/markor-note-persistence",
+      "arm": "judge_test",
+      "model": "claude/claude-sonnet-5-5",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded judge_test boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"claude-isolation-v1\", \"status\": \"pass\", \"runner\": \"claude\", \"images\": {\"agent\": \"sha256:1c3737172104a8eea59dba5af6fa741408df8efef9e21897f2445e3ef0f52c33\", \"bridge\": \"sha256:ad39ab3fc6c2ca96e12394b00d88938f7f5f949ef317e1fa53b2daaef5b1b754\", \"gateway\": \"sha256:8eb3b9f274c8fd39350866e0fdd1c01e77e060244d8218713a175cfb02f97e50\"}, \"authoring_recoveries\": [], \"delivered_tools\": 6, \"model_requests\": 5, \"native_runtime_verified\": true, \"adb_exposed_to_agent\": false, \"rendezvous_transport\": \"docker-exec-stdio\", \"published_ports\": [], \"task_files_in_relay\": false, \"apk_sha256\": \"1a328c5324b3b33d6cb4d55085637707252569d98c0ffe1cb7089aebbd903256\", \"apk_package\": \"net.gsantner.markor\", \"fixture_source_sha256\": \"687da5586747f29ed71bd581deb6284dc31cf1b9ad6bdcc1b0f3e77815b32d4a\", \"settings_sha256\": \"ce29e928e5bb007dd7e608d48e27f7f1bea5b149f9a0d5efffabbab72513ebe5\", \"trial_id\": \"575f2563f7a84489\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}, {\"schema\": \"claude-isolation-v1\", \"status\": \"pass\", \"runner\": \"claude\", \"images\": {\"agent\": \"sha256:1c3737172104a8eea59dba5af6fa741408df8efef9e21897f2445e3ef0f52c33\", \"bridge\": \"sha256:ad39ab3fc6c2ca96e12394b00d88938f7f5f949ef317e1fa53b2daaef5b1b754\", \"gateway\": \"sha256:8eb3b9f274c8fd39350866e0fdd1c01e77e060244d8218713a175cfb02f97e50\"}, \"authoring_recoveries\": [], \"delivered_tools\": 5, \"model_requests\": 4, \"native_runtime_verified\": true, \"adb_exposed_to_agent\": false, \"rendezvous_transport\": \"docker-exec-stdio\", \"published_ports\": [], \"task_files_in_relay\": false, \"apk_sha256\": \"1a328c5324b3b33d6cb4d55085637707252569d98c0ffe1cb7089aebbd903256\", \"apk_package\": \"net.gsantner.markor\", \"fixture_source_sha256\": \"687da5586747f29ed71bd581deb6284dc31cf1b9ad6bdcc1b0f3e77815b32d4a\", \"settings_sha256\": \"df36192cd9aca1fe1f1bd6d301e41dbeba65875fc8e267130ea4a445a21e7d4f\", \"trial_id\": \"3b06af50606f42de\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    },
+    {
+      "evaluation": "c7c0b4d7bb3545da/evaluations/0002/attempt-1/dd52e5bcb2fa4f2c",
+      "task": "mobile/markor-note-persistence",
+      "arm": "oracle_visual",
+      "model": "claude/claude-sonnet-5-5",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded oracle_visual boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"claude-isolation-v1\", \"status\": \"pass\", \"runner\": \"claude\", \"images\": {\"agent\": \"sha256:1c3737172104a8eea59dba5af6fa741408df8efef9e21897f2445e3ef0f52c33\", \"bridge\": \"sha256:ad39ab3fc6c2ca96e12394b00d88938f7f5f949ef317e1fa53b2daaef5b1b754\", \"gateway\": \"sha256:8eb3b9f274c8fd39350866e0fdd1c01e77e060244d8218713a175cfb02f97e50\"}, \"authoring_recoveries\": [], \"delivered_tools\": 2, \"model_requests\": 3, \"native_runtime_verified\": true, \"adb_exposed_to_agent\": false, \"rendezvous_transport\": \"docker-exec-stdio\", \"published_ports\": [], \"task_files_in_relay\": false, \"apk_sha256\": \"1a328c5324b3b33d6cb4d55085637707252569d98c0ffe1cb7089aebbd903256\", \"apk_package\": \"net.gsantner.markor\", \"fixture_source_sha256\": \"687da5586747f29ed71bd581deb6284dc31cf1b9ad6bdcc1b0f3e77815b32d4a\", \"settings_sha256\": \"ce29e928e5bb007dd7e608d48e27f7f1bea5b149f9a0d5efffabbab72513ebe5\", \"execution_boundary_verified\": true, \"trial_id\": \"e2e79818a03f484e\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    },
+    {
+      "evaluation": "c7c0b4d7bb3545da/evaluations/0003/attempt-1/3db91576981e47fc",
+      "task": "mobile/markor-note-persistence",
+      "arm": "oracle_ui",
+      "model": "claude/claude-sonnet-5-5",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded oracle_ui boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"claude-isolation-v1\", \"status\": \"pass\", \"runner\": \"claude\", \"images\": {\"agent\": \"sha256:1c3737172104a8eea59dba5af6fa741408df8efef9e21897f2445e3ef0f52c33\", \"bridge\": \"sha256:ad39ab3fc6c2ca96e12394b00d88938f7f5f949ef317e1fa53b2daaef5b1b754\", \"gateway\": \"sha256:8eb3b9f274c8fd39350866e0fdd1c01e77e060244d8218713a175cfb02f97e50\"}, \"authoring_recoveries\": [], \"delivered_tools\": 3, \"model_requests\": 3, \"native_runtime_verified\": true, \"adb_exposed_to_agent\": false, \"rendezvous_transport\": \"docker-exec-stdio\", \"published_ports\": [], \"task_files_in_relay\": false, \"apk_sha256\": \"1a328c5324b3b33d6cb4d55085637707252569d98c0ffe1cb7089aebbd903256\", \"apk_package\": \"net.gsantner.markor\", \"fixture_source_sha256\": \"687da5586747f29ed71bd581deb6284dc31cf1b9ad6bdcc1b0f3e77815b32d4a\", \"settings_sha256\": \"ce29e928e5bb007dd7e608d48e27f7f1bea5b149f9a0d5efffabbab72513ebe5\", \"execution_boundary_verified\": true, \"trial_id\": \"f6167c24b97b4667\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    },
+    {
+      "evaluation": "c7c0b4d7bb3545da/evaluations/0004/attempt-1/83687dff5edd435a",
+      "task": "mobile/markor-note-persistence",
+      "arm": "test_visual",
+      "model": "claude/claude-sonnet-5-5",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded test_visual boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"claude-isolation-v1\", \"status\": \"pass\", \"runner\": \"claude\", \"images\": {\"agent\": \"sha256:1c3737172104a8eea59dba5af6fa741408df8efef9e21897f2445e3ef0f52c33\", \"bridge\": \"sha256:ad39ab3fc6c2ca96e12394b00d88938f7f5f949ef317e1fa53b2daaef5b1b754\", \"gateway\": \"sha256:8eb3b9f274c8fd39350866e0fdd1c01e77e060244d8218713a175cfb02f97e50\"}, \"authoring_recoveries\": [], \"delivered_tools\": 8, \"model_requests\": 5, \"native_runtime_verified\": true, \"adb_exposed_to_agent\": false, \"rendezvous_transport\": \"docker-exec-stdio\", \"published_ports\": [], \"task_files_in_relay\": false, \"apk_sha256\": \"1a328c5324b3b33d6cb4d55085637707252569d98c0ffe1cb7089aebbd903256\", \"apk_package\": \"net.gsantner.markor\", \"fixture_source_sha256\": \"687da5586747f29ed71bd581deb6284dc31cf1b9ad6bdcc1b0f3e77815b32d4a\", \"settings_sha256\": \"ce29e928e5bb007dd7e608d48e27f7f1bea5b149f9a0d5efffabbab72513ebe5\", \"execution_boundary_verified\": true, \"trial_id\": \"c7c90e33abfa435d\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    },
+    {
+      "evaluation": "c7c0b4d7bb3545da/evaluations/0005/attempt-1/869b20973f9c48c6",
+      "task": "mobile/markor-note-persistence",
+      "arm": "test_ui",
+      "model": "claude/claude-sonnet-5-5",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded test_ui boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"claude-isolation-v1\", \"status\": \"pass\", \"runner\": \"claude\", \"images\": {\"agent\": \"sha256:1c3737172104a8eea59dba5af6fa741408df8efef9e21897f2445e3ef0f52c33\", \"bridge\": \"sha256:ad39ab3fc6c2ca96e12394b00d88938f7f5f949ef317e1fa53b2daaef5b1b754\", \"gateway\": \"sha256:8eb3b9f274c8fd39350866e0fdd1c01e77e060244d8218713a175cfb02f97e50\"}, \"authoring_recoveries\": [], \"delivered_tools\": 7, \"model_requests\": 4, \"native_runtime_verified\": true, \"adb_exposed_to_agent\": false, \"rendezvous_transport\": \"docker-exec-stdio\", \"published_ports\": [], \"task_files_in_relay\": false, \"apk_sha256\": \"1a328c5324b3b33d6cb4d55085637707252569d98c0ffe1cb7089aebbd903256\", \"apk_package\": \"net.gsantner.markor\", \"fixture_source_sha256\": \"687da5586747f29ed71bd581deb6284dc31cf1b9ad6bdcc1b0f3e77815b32d4a\", \"settings_sha256\": \"ce29e928e5bb007dd7e608d48e27f7f1bea5b149f9a0d5efffabbab72513ebe5\", \"execution_boundary_verified\": true, \"trial_id\": \"0a4e8e3a2cd84172\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    },
+    {
+      "evaluation": "c7c0b4d7bb3545da/evaluations/0006/attempt-1/0c63c35a204e46ed",
+      "task": "web/webarena-399-profile-bio",
+      "arm": "judge_visual",
+      "model": "claude/claude-sonnet-5-5",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded judge_visual boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"claude-isolation-v1\", \"status\": \"pass\", \"runner\": \"claude\", \"images\": {\"agent\": \"sha256:1c3737172104a8eea59dba5af6fa741408df8efef9e21897f2445e3ef0f52c33\", \"bridge\": \"sha256:ad39ab3fc6c2ca96e12394b00d88938f7f5f949ef317e1fa53b2daaef5b1b754\", \"gateway\": \"sha256:8eb3b9f274c8fd39350866e0fdd1c01e77e060244d8218713a175cfb02f97e50\"}, \"authoring_recoveries\": [], \"delivered_tools\": 5, \"model_requests\": 4, \"application_boundary\": {\"status\": \"pass\", \"read_only_root\": false, \"internal_network_only\": true, \"published_ports\": [], \"writable_root\": \"task-declared disposable container layer\"}, \"trial_id\": \"e17479e5555d472d\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}, {\"schema\": \"claude-isolation-v1\", \"status\": \"pass\", \"runner\": \"claude\", \"images\": {\"agent\": \"sha256:1c3737172104a8eea59dba5af6fa741408df8efef9e21897f2445e3ef0f52c33\", \"bridge\": \"sha256:ad39ab3fc6c2ca96e12394b00d88938f7f5f949ef317e1fa53b2daaef5b1b754\", \"gateway\": \"sha256:8eb3b9f274c8fd39350866e0fdd1c01e77e060244d8218713a175cfb02f97e50\"}, \"authoring_recoveries\": [], \"delivered_tools\": 5, \"model_requests\": 4, \"application_boundary\": {\"status\": \"pass\", \"read_only_root\": false, \"internal_network_only\": true, \"published_ports\": [], \"writable_root\": \"task-declared disposable container layer\"}, \"trial_id\": \"f096d0f01e2f4c78\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    },
+    {
+      "evaluation": "c7c0b4d7bb3545da/evaluations/0007/attempt-1/a7e4fd0dd50941d9",
+      "task": "web/webarena-399-profile-bio",
+      "arm": "judge_test",
+      "model": "claude/claude-sonnet-5-5",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded judge_test boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"claude-isolation-v1\", \"status\": \"pass\", \"runner\": \"claude\", \"images\": {\"agent\": \"sha256:1c3737172104a8eea59dba5af6fa741408df8efef9e21897f2445e3ef0f52c33\", \"bridge\": \"sha256:ad39ab3fc6c2ca96e12394b00d88938f7f5f949ef317e1fa53b2daaef5b1b754\", \"gateway\": \"sha256:8eb3b9f274c8fd39350866e0fdd1c01e77e060244d8218713a175cfb02f97e50\"}, \"authoring_recoveries\": [], \"delivered_tools\": 9, \"model_requests\": 7, \"application_boundary\": {\"status\": \"pass\", \"read_only_root\": false, \"internal_network_only\": true, \"published_ports\": [], \"writable_root\": \"task-declared disposable container layer\"}, \"trial_id\": \"6f5da385c6c24bc9\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}, {\"schema\": \"claude-isolation-v1\", \"status\": \"pass\", \"runner\": \"claude\", \"images\": {\"agent\": \"sha256:1c3737172104a8eea59dba5af6fa741408df8efef9e21897f2445e3ef0f52c33\", \"bridge\": \"sha256:ad39ab3fc6c2ca96e12394b00d88938f7f5f949ef317e1fa53b2daaef5b1b754\", \"gateway\": \"sha256:8eb3b9f274c8fd39350866e0fdd1c01e77e060244d8218713a175cfb02f97e50\"}, \"authoring_recoveries\": [], \"delivered_tools\": 10, \"model_requests\": 7, \"application_boundary\": {\"status\": \"pass\", \"read_only_root\": false, \"internal_network_only\": true, \"published_ports\": [], \"writable_root\": \"task-declared disposable container layer\"}, \"trial_id\": \"4e32aa655cb0462e\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    },
+    {
+      "evaluation": "c7c0b4d7bb3545da/evaluations/0008/attempt-1/6bbb24c4206848bd",
+      "task": "web/webarena-399-profile-bio",
+      "arm": "oracle_visual",
+      "model": "claude/claude-sonnet-5-5",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded oracle_visual boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"claude-isolation-v1\", \"status\": \"pass\", \"runner\": \"claude\", \"images\": {\"agent\": \"sha256:1c3737172104a8eea59dba5af6fa741408df8efef9e21897f2445e3ef0f52c33\", \"bridge\": \"sha256:ad39ab3fc6c2ca96e12394b00d88938f7f5f949ef317e1fa53b2daaef5b1b754\", \"gateway\": \"sha256:8eb3b9f274c8fd39350866e0fdd1c01e77e060244d8218713a175cfb02f97e50\"}, \"authoring_recoveries\": [], \"delivered_tools\": 2, \"model_requests\": 3, \"application_boundary\": {\"status\": \"pass\", \"read_only_root\": false, \"internal_network_only\": true, \"published_ports\": [], \"writable_root\": \"task-declared disposable container layer\"}, \"execution_boundary_verified\": true, \"trial_id\": \"03b693aacd504559\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    },
+    {
+      "evaluation": "c7c0b4d7bb3545da/evaluations/0009/attempt-1/9c2eaef42bb5430b",
+      "task": "web/webarena-399-profile-bio",
+      "arm": "oracle_ui",
+      "model": "claude/claude-sonnet-5-5",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded oracle_ui boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"claude-isolation-v1\", \"status\": \"pass\", \"runner\": \"claude\", \"images\": {\"agent\": \"sha256:1c3737172104a8eea59dba5af6fa741408df8efef9e21897f2445e3ef0f52c33\", \"bridge\": \"sha256:ad39ab3fc6c2ca96e12394b00d88938f7f5f949ef317e1fa53b2daaef5b1b754\", \"gateway\": \"sha256:8eb3b9f274c8fd39350866e0fdd1c01e77e060244d8218713a175cfb02f97e50\"}, \"authoring_recoveries\": [], \"delivered_tools\": 4, \"model_requests\": 4, \"application_boundary\": {\"status\": \"pass\", \"read_only_root\": false, \"internal_network_only\": true, \"published_ports\": [], \"writable_root\": \"task-declared disposable container layer\"}, \"execution_boundary_verified\": true, \"trial_id\": \"338dceb8555e4682\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    },
+    {
+      "evaluation": "c7c0b4d7bb3545da/evaluations/0010/attempt-1/250ab536b5cd41e5",
+      "task": "web/webarena-399-profile-bio",
+      "arm": "test_visual",
+      "model": "claude/claude-sonnet-5-5",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded test_visual boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"claude-isolation-v1\", \"status\": \"pass\", \"runner\": \"claude\", \"images\": {\"agent\": \"sha256:1c3737172104a8eea59dba5af6fa741408df8efef9e21897f2445e3ef0f52c33\", \"bridge\": \"sha256:ad39ab3fc6c2ca96e12394b00d88938f7f5f949ef317e1fa53b2daaef5b1b754\", \"gateway\": \"sha256:8eb3b9f274c8fd39350866e0fdd1c01e77e060244d8218713a175cfb02f97e50\"}, \"authoring_recoveries\": [], \"delivered_tools\": 25, \"model_requests\": 13, \"application_boundary\": {\"status\": \"pass\", \"read_only_root\": false, \"internal_network_only\": true, \"published_ports\": [], \"writable_root\": \"task-declared disposable container layer\"}, \"execution_boundary_verified\": true, \"trial_id\": \"f5ceb709e24f4983\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    },
+    {
+      "evaluation": "c7c0b4d7bb3545da/evaluations/0011/attempt-1/acd42ee134c244a2",
+      "task": "web/webarena-399-profile-bio",
+      "arm": "test_ui",
+      "model": "claude/claude-sonnet-5-5",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded test_ui boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"claude-isolation-v1\", \"status\": \"pass\", \"runner\": \"claude\", \"images\": {\"agent\": \"sha256:1c3737172104a8eea59dba5af6fa741408df8efef9e21897f2445e3ef0f52c33\", \"bridge\": \"sha256:ad39ab3fc6c2ca96e12394b00d88938f7f5f949ef317e1fa53b2daaef5b1b754\", \"gateway\": \"sha256:8eb3b9f274c8fd39350866e0fdd1c01e77e060244d8218713a175cfb02f97e50\"}, \"authoring_recoveries\": [], \"delivered_tools\": 8, \"model_requests\": 5, \"application_boundary\": {\"status\": \"pass\", \"read_only_root\": false, \"internal_network_only\": true, \"published_ports\": [], \"writable_root\": \"task-declared disposable container layer\"}, \"execution_boundary_verified\": true, \"trial_id\": \"e23c969742284658\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    },
+    {
+      "evaluation": "c7c0b4d7bb3545da/evaluations/0012/attempt-1/515e23a9ef224f45",
+      "task": "tv/aura-013-caption-preview-size",
+      "arm": "judge_visual",
+      "model": "claude/claude-sonnet-5-5",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded judge_visual boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"claude-isolation-v1\", \"status\": \"pass\", \"runner\": \"claude\", \"images\": {\"agent\": \"sha256:1c3737172104a8eea59dba5af6fa741408df8efef9e21897f2445e3ef0f52c33\", \"bridge\": \"sha256:ad39ab3fc6c2ca96e12394b00d88938f7f5f949ef317e1fa53b2daaef5b1b754\", \"gateway\": \"sha256:8eb3b9f274c8fd39350866e0fdd1c01e77e060244d8218713a175cfb02f97e50\"}, \"authoring_recoveries\": [], \"delivered_tools\": 7, \"model_requests\": 4, \"application_boundary\": {\"status\": \"pass\", \"read_only_root\": true, \"internal_network_only\": true, \"published_ports\": []}, \"trial_id\": \"c96fcdfb24d9413a\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}, {\"schema\": \"claude-isolation-v1\", \"status\": \"pass\", \"runner\": \"claude\", \"images\": {\"agent\": \"sha256:1c3737172104a8eea59dba5af6fa741408df8efef9e21897f2445e3ef0f52c33\", \"bridge\": \"sha256:ad39ab3fc6c2ca96e12394b00d88938f7f5f949ef317e1fa53b2daaef5b1b754\", \"gateway\": \"sha256:8eb3b9f274c8fd39350866e0fdd1c01e77e060244d8218713a175cfb02f97e50\"}, \"authoring_recoveries\": [], \"delivered_tools\": 7, \"model_requests\": 4, \"application_boundary\": {\"status\": \"pass\", \"read_only_root\": true, \"internal_network_only\": true, \"published_ports\": []}, \"trial_id\": \"3cad009150014a1a\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    },
+    {
+      "evaluation": "c7c0b4d7bb3545da/evaluations/0013/attempt-1/569f61a7df0a476e",
+      "task": "tv/aura-013-caption-preview-size",
+      "arm": "judge_test",
+      "model": "claude/claude-sonnet-5-5",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded judge_test boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"claude-isolation-v1\", \"status\": \"pass\", \"runner\": \"claude\", \"images\": {\"agent\": \"sha256:1c3737172104a8eea59dba5af6fa741408df8efef9e21897f2445e3ef0f52c33\", \"bridge\": \"sha256:ad39ab3fc6c2ca96e12394b00d88938f7f5f949ef317e1fa53b2daaef5b1b754\", \"gateway\": \"sha256:8eb3b9f274c8fd39350866e0fdd1c01e77e060244d8218713a175cfb02f97e50\"}, \"authoring_recoveries\": [], \"delivered_tools\": 11, \"model_requests\": 8, \"application_boundary\": {\"status\": \"pass\", \"read_only_root\": true, \"internal_network_only\": true, \"published_ports\": []}, \"trial_id\": \"04bc0d65ad9e43c6\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}, {\"schema\": \"claude-isolation-v1\", \"status\": \"pass\", \"runner\": \"claude\", \"images\": {\"agent\": \"sha256:1c3737172104a8eea59dba5af6fa741408df8efef9e21897f2445e3ef0f52c33\", \"bridge\": \"sha256:ad39ab3fc6c2ca96e12394b00d88938f7f5f949ef317e1fa53b2daaef5b1b754\", \"gateway\": \"sha256:8eb3b9f274c8fd39350866e0fdd1c01e77e060244d8218713a175cfb02f97e50\"}, \"authoring_recoveries\": [], \"delivered_tools\": 11, \"model_requests\": 7, \"application_boundary\": {\"status\": \"pass\", \"read_only_root\": true, \"internal_network_only\": true, \"published_ports\": []}, \"trial_id\": \"30d913f94ecc4780\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    },
+    {
+      "evaluation": "c7c0b4d7bb3545da/evaluations/0014/attempt-1/7f1f19a2bde34496",
+      "task": "tv/aura-013-caption-preview-size",
+      "arm": "oracle_visual",
+      "model": "claude/claude-sonnet-5-5",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded oracle_visual boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"claude-isolation-v1\", \"status\": \"pass\", \"runner\": \"claude\", \"images\": {\"agent\": \"sha256:1c3737172104a8eea59dba5af6fa741408df8efef9e21897f2445e3ef0f52c33\", \"bridge\": \"sha256:ad39ab3fc6c2ca96e12394b00d88938f7f5f949ef317e1fa53b2daaef5b1b754\", \"gateway\": \"sha256:8eb3b9f274c8fd39350866e0fdd1c01e77e060244d8218713a175cfb02f97e50\"}, \"authoring_recoveries\": [], \"delivered_tools\": 2, \"model_requests\": 3, \"application_boundary\": {\"status\": \"pass\", \"read_only_root\": true, \"internal_network_only\": true, \"published_ports\": []}, \"execution_boundary_verified\": true, \"trial_id\": \"497a736c81d34f17\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    },
+    {
+      "evaluation": "c7c0b4d7bb3545da/evaluations/0015/attempt-1/15ace7f66f16466c",
+      "task": "tv/aura-013-caption-preview-size",
+      "arm": "oracle_ui",
+      "model": "claude/claude-sonnet-5-5",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded oracle_ui boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"claude-isolation-v1\", \"status\": \"pass\", \"runner\": \"claude\", \"images\": {\"agent\": \"sha256:1c3737172104a8eea59dba5af6fa741408df8efef9e21897f2445e3ef0f52c33\", \"bridge\": \"sha256:ad39ab3fc6c2ca96e12394b00d88938f7f5f949ef317e1fa53b2daaef5b1b754\", \"gateway\": \"sha256:8eb3b9f274c8fd39350866e0fdd1c01e77e060244d8218713a175cfb02f97e50\"}, \"authoring_recoveries\": [], \"delivered_tools\": 3, \"model_requests\": 3, \"application_boundary\": {\"status\": \"pass\", \"read_only_root\": true, \"internal_network_only\": true, \"published_ports\": []}, \"execution_boundary_verified\": true, \"trial_id\": \"a209d959ff1b43e3\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    },
+    {
+      "evaluation": "c7c0b4d7bb3545da/evaluations/0016/attempt-1/780776f653fc476b",
+      "task": "tv/aura-013-caption-preview-size",
+      "arm": "test_visual",
+      "model": "claude/claude-sonnet-5-5",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded test_visual boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"claude-isolation-v1\", \"status\": \"pass\", \"runner\": \"claude\", \"images\": {\"agent\": \"sha256:1c3737172104a8eea59dba5af6fa741408df8efef9e21897f2445e3ef0f52c33\", \"bridge\": \"sha256:ad39ab3fc6c2ca96e12394b00d88938f7f5f949ef317e1fa53b2daaef5b1b754\", \"gateway\": \"sha256:8eb3b9f274c8fd39350866e0fdd1c01e77e060244d8218713a175cfb02f97e50\"}, \"authoring_recoveries\": [], \"delivered_tools\": 10, \"model_requests\": 8, \"application_boundary\": {\"status\": \"pass\", \"read_only_root\": true, \"internal_network_only\": true, \"published_ports\": []}, \"execution_boundary_verified\": true, \"trial_id\": \"6866e5876a2e4e78\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    },
+    {
+      "evaluation": "c7c0b4d7bb3545da/evaluations/0017/attempt-1/54e492c6d3f84700",
+      "task": "tv/aura-013-caption-preview-size",
+      "arm": "test_ui",
+      "model": "claude/claude-sonnet-5-5",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"Recorded test_ui boundary audit\", \"runtime_verified\": true, \"other_arms_verified\": false, \"trials\": [{\"schema\": \"claude-isolation-v1\", \"status\": \"pass\", \"runner\": \"claude\", \"images\": {\"agent\": \"sha256:1c3737172104a8eea59dba5af6fa741408df8efef9e21897f2445e3ef0f52c33\", \"bridge\": \"sha256:ad39ab3fc6c2ca96e12394b00d88938f7f5f949ef317e1fa53b2daaef5b1b754\", \"gateway\": \"sha256:8eb3b9f274c8fd39350866e0fdd1c01e77e060244d8218713a175cfb02f97e50\"}, \"authoring_recoveries\": [], \"delivered_tools\": 13, \"model_requests\": 7, \"application_boundary\": {\"status\": \"pass\", \"read_only_root\": true, \"internal_network_only\": true, \"published_ports\": []}, \"execution_boundary_verified\": true, \"trial_id\": \"9c227569387d42c0\", \"denied_probes\": 0, \"images_agent_chose_to_read\": 0}]}"
+    }
+  ]
+}

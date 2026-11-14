@@ -1,0 +1,8 @@
+{"environment_contract": "environment-v1", "environment_event": "reset", "platform": "mobile", "status": "ready", "screenshot_sha256": "dd1229ec93aee8dd618b4b8475c012c526fbc49e865cde2eb00b5004ed06ffef"}
+{"setup": "ready", "initial_state": true}
+{"tool": "dump_ui", "arguments": {}, "denied": false}
+{"tool": "observe", "arguments": {}, "denied": false}
+{"tool": "step", "arguments": {"action": "type", "text": "Bring the blue notebook."}, "denied": false}
+{"tool": "step", "arguments": {"action": "click", "name": "Save", "role": "button"}, "denied": false}
+{"tool": "step", "arguments": {"action": "reload"}, "denied": false}
+{"tool": "dump_ui", "arguments": {}, "denied": false}

@@ -1,0 +1,185 @@
+{"runtime_error": "BrokenPipeError"}
+{"runtime_error": "BrokenPipeError"}
+{"runtime_error": "BrokenPipeError"}
+{"runtime_error": "BrokenPipeError"}
+2026-11-13 23:25:06.103 UTC [7] LOG:  starting PostgreSQL 14.7 on x86_64-alpine-linux-musl, compiled by gcc (Alpine 11.2.1_git20220219) 11.2.1 20220219, 64-bit
+2026-11-13 23:25:06.103 UTC [7] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2026-11-13 23:25:06.112 UTC [9] LOG:  database system was shut down at 2026-01-31 18:37:19 UTC
+2026-11-13 23:25:06.116 UTC [7] LOG:  database system is ready to accept connections
+[Fri Nov 13 23:25:06 2026] PHP 8.1.17 Development Server (http://127.0.0.1:8082) started
+[Fri Nov 13 23:25:06 2026] 127.0.0.1:57184 Accepted
+[Fri Nov 13 23:25:12 2026] 127.0.0.1:57184 Closing
+[Fri Nov 13 23:25:12 2026] 127.0.0.1:57200 Accepted
+[Fri Nov 13 23:25:12 2026] 127.0.0.1:57200 Closing
+[Fri Nov 13 23:25:13 2026] 127.0.0.1:57202 Accepted
+[Fri Nov 13 23:25:13 2026] 127.0.0.1:57202 Closing
+[Fri Nov 13 23:25:13 2026] 127.0.0.1:57214 Accepted
+[Fri Nov 13 23:25:13 2026] 127.0.0.1:57214 Closing
+[Fri Nov 13 23:25:13 2026] 127.0.0.1:57230 Accepted
+[Fri Nov 13 23:25:13 2026] 127.0.0.1:57230 Closing
+[Fri Nov 13 23:25:13 2026] 127.0.0.1:57244 Accepted
+[Fri Nov 13 23:25:13 2026] 127.0.0.1:57244 Closing
+[Fri Nov 13 23:25:13 2026] 127.0.0.1:57250 Accepted
+[Fri Nov 13 23:25:14 2026] 127.0.0.1:57250 Closing
+[Fri Nov 13 23:25:14 2026] 127.0.0.1:57264 Accepted
+[Fri Nov 13 23:25:14 2026] 127.0.0.1:57264 Closing
+----------------------------------------
+Exception occurred during processing of request from ('192.168.16.3', 49544)
+----------------------------------------
+Exception occurred during processing of request from ('192.168.16.3', 49546)
+----------------------------------------
+Exception occurred during processing of request from ('192.168.16.3', 49554)
+Traceback (most recent call last):
+  File "/bench/app.py", line 84, in _serve
+    return self.reply(403, b'This task provides the profile and biography editor.')
+  File "/bench/app.py", line 45, in reply
+    self.wfile.write(data)
+Traceback (most recent call last):
+  File "/bench/app.py", line 84, in _serve
+    return self.reply(403, b'This task provides the profile and biography editor.')
+  File "/bench/app.py", line 45, in reply
+    self.wfile.write(data)
+  File "/usr/lib/python3.10/socketserver.py", line 826, in write
+    self._sock.sendall(b)
+  File "/usr/lib/python3.10/socketserver.py", line 826, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+Traceback (most recent call last):
+BrokenPipeError: [Errno 32] Broken pipe
+  File "/bench/app.py", line 83, in _serve
+    return self.reply(200, target.read_bytes(), mimetypes.guess_type(str(target))[0] or 'application/octet-stream')
+  File "/bench/app.py", line 45, in reply
+    self.wfile.write(data)
+----------------------------------------
+Exception occurred during processing of request from 
+During handling of the above exception, another exception occurred:
+
+  File "/usr/lib/python3.10/socketserver.py", line 826, in write
+    self._sock.sendall(b)
+('192.168.16.3', 49562)
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/usr/lib/python3.10/http/server.py", line 433, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.10/http/server.py", line 421, in handle_one_request
+    method()
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/usr/lib/python3.10/http/server.py", line 433, in handle
+    self.handle_one_request()
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/usr/lib/python3.10/http/server.py", line 433, in handle
+    self.handle_one_request()
+  File "/bench/app.py", line 83, in _serve
+    return self.reply(200, target.read_bytes(), mimetypes.guess_type(str(target))[0] or 'application/octet-stream')
+  File "/usr/lib/python3.10/http/server.py", line 421, in handle_one_request
+    method()
+  File "/bench/app.py", line 51, in do_GET
+    self.serve()
+  File "/usr/lib/python3.10/http/server.py", line 421, in handle_one_request
+    method()
+  File "/bench/app.py", line 51, in do_GET
+    self.serve()
+  File "/bench/app.py", line 56, in serve
+    self._serve()
+  File "/bench/app.py", line 106, in _serve
+    self.reply(503, b'Application unavailable')
+  File "/bench/app.py", line 44, in reply
+    self.end_headers()
+  File "/bench/app.py", line 56, in serve
+    self._serve()
+  File "/bench/app.py", line 106, in _serve
+    self.reply(503, b'Application unavailable')
+  File "/bench/app.py", line 51, in do_GET
+    self.serve()
+  File "/bench/app.py", line 56, in serve
+    self._serve()
+  File "/bench/app.py", line 45, in reply
+    self.wfile.write(data)
+  File "/bench/app.py", line 44, in reply
+    self.end_headers()
+  File "/usr/lib/python3.10/http/server.py", line 535, in end_headers
+    self.flush_headers()
+  File "/bench/app.py", line 106, in _serve
+    self.reply(503, b'Application unavailable')
+  File "/bench/app.py", line 44, in reply
+    self.end_headers()
+  File "/usr/lib/python3.10/http/server.py", line 535, in end_headers
+    self.flush_headers()
+  File "/usr/lib/python3.10/socketserver.py", line 826, in write
+    self._sock.sendall(b)
+  File "/usr/lib/python3.10/http/server.py", line 539, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "/usr/lib/python3.10/http/server.py", line 539, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "/usr/lib/python3.10/socketserver.py", line 826, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+  File "/usr/lib/python3.10/http/server.py", line 535, in end_headers
+    self.flush_headers()
+  File "/usr/lib/python3.10/http/server.py", line 539, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 826, in write
+    self._sock.sendall(b)
+  File "/usr/lib/python3.10/socketserver.py", line 826, in write
+    self._sock.sendall(b)
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+  File "/usr/lib/python3.10/http/server.py", line 433, in handle
+    self.handle_one_request()
+BrokenPipeError: [Errno 32] Broken pipe
+  File "/usr/lib/python3.10/http/server.py", line 421, in handle_one_request
+    method()
+  File "/bench/app.py", line 51, in do_GET
+    self.serve()
+----------------------------------------  File "/bench/app.py", line 56, in serve
+    self._serve()
+
+  File "/bench/app.py", line 106, in _serve
+    self.reply(503, b'Application unavailable')
+  File "/bench/app.py", line 44, in reply
+    self.end_headers()
+  File "/usr/lib/python3.10/http/server.py", line 535, in end_headers
+    self.flush_headers()
+  File "/usr/lib/python3.10/http/server.py", line 539, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "/usr/lib/python3.10/socketserver.py", line 826, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------

@@ -1,0 +1,1 @@
+{"verdict":"FAIL","reason":"Caption size changed from Medium (frame 2) to Large (frame 3) and the preview label now reads 'Large captions', but the preview caption text 'A world worth exploring.' is rendered at the same size and position in both frames. The preview did not grow to the Large reading size."}

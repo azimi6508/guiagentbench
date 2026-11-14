@@ -1,0 +1,59 @@
+{
+  "schema": "android-platform-v1",
+  "host_platform": "linux-x86_64",
+  "lock_sha256": "b108a658b0f3d7f6c9dda612d708ac32e8ce63f88296d929e5eb1956e943399e",
+  "sdk_sha256": {
+    "system-images/android-36/google_apis_playstore/x86_64/system.img": "f72e0e86bc3476abcabd9437cad6459a7a515d585e219fd8fbb6de07b435258d",
+    "system-images/android-36/google_apis_playstore/x86_64/vendor.img": "e7acbd58e5db6faf995d4af47d2078ea793ad4499287f0c2fb3ef906553ae046",
+    "system-images/android-36/google_apis_playstore/x86_64/ramdisk.img": "7f286403ef23d62a70f62c8adea07828b3c0d798e8a0ca049060e31ba012ddd3",
+    "system-images/android-36/google_apis_playstore/x86_64/kernel-ranchu": "3f366c20522314f8ccbef89210eabec3491d18997799882e1f0d4d8134e8b937",
+    "system-images/android-36/google_apis_playstore/x86_64/source.properties": "a4562a4e8c8ae759ef9525061524980fdd44fc5c1593c5eda8309973bddaa252",
+    "emulator/emulator": "e4b47bf8b25304cf94a5a7c4e30a7224e0c19d196eb098c9f31f02b66f523d39",
+    "emulator/qemu/linux-x86_64/qemu-system-x86_64-headless": "a0755fc20ec0fa9d0550bccd6762d648549ca7bf9a2b485baeed102f11198eeb",
+    "emulator/source.properties": "2909718b3f4f759ef08a95c8d129207deb925402f5245e3a7dae9354506827e7",
+    "platform-tools/adb": "a902be8f45c6c62e76c9efaf6947a0fa747c9cabd89a2ac8e0d16ecb30b3ed01",
+    "platform-tools/source.properties": "2dccd788c0234d8cf7f7457377e57f57527a86a629c6ed54feb8af0f549dac38",
+    "cmdline-tools/latest/source.properties": "bedcca88b02addf6585f79cee090c0c977682545a893438e13b3fed515dc8fcd",
+    "cmdline-tools/latest/bin/avdmanager": "f2b7957ca635bbc1d4cf8def2fd5837153359f49f3043c7c02f020d77fc5cda0",
+    "cmdline-tools/latest/bin/sdkmanager": "3483c9772c2dc09100b0e395a7983b8266a325d99260a429cb907f174aa798e0"
+  },
+  "build_fingerprint": "google/sdk_gphone64_x86_64/emu64xa:16/BE2A.250530.026.D1/13818094:user/release-keys",
+  "dependencies": {
+    "uiautomator2": "3.2.10",
+    "adbutils": "2.12.0",
+    "pillow": "12.3.0",
+    "lxml": "6.1.3",
+    "requests": "2.34.2",
+    "retry2": "0.9.5",
+    "deprecation": "2.1.0",
+    "decorator": "5.3.1",
+    "charset-normalizer": "3.5.2",
+    "idna": "3.20",
+    "urllib3": "2.8.0",
+    "certifi": "2026.7.22",
+    "packaging": "26.3"
+  },
+  "driver_assets_sha256": {
+    "u2.jar": "1bd7c57fe019d0275a66b936ed5d7ea5f244d98e5e3ba3d1ccf4a14e721ef94f",
+    "app-uiautomator.apk": "6f85594700ad96de89d012b3767049c2c6988510b68b31b439dd2a6dd93a30c9"
+  },
+  "python_version": "3.11.9",
+  "serial": "emulator-5580",
+  "avd": "GuiAgentBench",
+  "locale": "en-US",
+  "driver_source_sha256": "9de85743b32e2b4277e4fcb0226593da50f4c2eae3ff5152cfaf567c7cd80421",
+  "viewport": [
+    720,
+    1280
+  ],
+  "driver": "uiautomator2",
+  "status": "verified",
+  "task_application": {
+    "schema": "native-fixture-v1",
+    "task": "mobile/markor-note-persistence",
+    "package": "net.gsantner.markor",
+    "apk_sha256": "1a328c5324b3b33d6cb4d55085637707252569d98c0ffe1cb7089aebbd903256",
+    "source_sha256": "687da5586747f29ed71bd581deb6284dc31cf1b9ad6bdcc1b0f3e77815b32d4a",
+    "settings_sha256": "ce29e928e5bb007dd7e608d48e27f7f1bea5b149f9a0d5efffabbab72513ebe5"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "Name": "gab-oracle-8abb264ff6f0-inference",
+  "Id": "15efd2ad005310beefea7a3b3e2b2d288851a286af45d9855800a7931d34d478",
+  "Created": "2026-11-14T02:49:33.046032783+03:00",
+  "Scope": "local",
+  "Driver": "bridge",
+  "EnableIPv4": true,
+  "EnableIPv6": false,
+  "IPAM": {
+    "Driver": "default",
+    "Options": {},
+    "Config": [
+      {
+        "Subnet": "192.168.32.0/20",
+        "Gateway": "192.168.32.1"
+      }
+    ]
+  },
+  "Internal": true,
+  "Attachable": false,
+  "Ingress": false,
+  "ConfigFrom": {
+    "Network": ""
+  },
+  "ConfigOnly": false,
+  "Options": {},
+  "Labels": {},
+  "Containers": {
+    "62cc8d486acabe9d116c69f17a7c031348eb636731417dffc16a61a7901d3630": {
+      "Name": "gab-oracle-8abb264ff6f0-browser",
+      "EndpointID": "f6606f7ece530e85eca35a287ff653946c071e21dcdb6afa381fce6e9710adbb",
+      "MacAddress": "46:29:ff:a7:06:0b",
+      "IPv4Address": "192.168.32.2/20",
+      "IPv6Address": ""
+    }
+  },
+  "Status": {
+    "IPAM": {
+      "Subnets": {
+        "192.168.32.0/20": {
+          "IPsInUse": 4,
+          "DynamicIPsAvailable": 4092
+        }
+      }
+    }
+  }
+}

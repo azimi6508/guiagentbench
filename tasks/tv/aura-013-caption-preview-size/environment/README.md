@@ -1,0 +1,1 @@
+Build the shared AURA image from the repository root: `python scripts/bench.py build --task tv/aura-013-caption-preview-size`. The task manifest selects `runtime/aura/Dockerfile`; this task chooses its isolated fixture through the private settings mount.

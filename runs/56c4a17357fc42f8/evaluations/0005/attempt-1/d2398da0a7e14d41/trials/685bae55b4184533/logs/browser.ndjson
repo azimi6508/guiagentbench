@@ -1,0 +1,8 @@
+{"environment_contract": "environment-v1", "environment_event": "reset", "platform": "mobile", "status": "ready", "screenshot_sha256": "ad5c3038febe693476ec975fa2281b83021b8efba4df865e8e7c6e9ecbca202b"}
+{"setup": "ready", "initial_state": true}
+{"tool": "dump_ui", "arguments": {}, "denied": false}
+{"tool": "step", "arguments": {"action": "fill", "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor", "role": "textbox", "text": "Bring the blue notebook."}, "denied": false}
+{"tool": "dump_ui", "arguments": {}, "denied": false}
+{"tool": "step", "arguments": {"action": "click", "name": "Save", "role": "button"}, "denied": false}
+{"tool": "step", "arguments": {"action": "reload"}, "denied": false}
+{"tool": "dump_ui", "arguments": {}, "denied": false}

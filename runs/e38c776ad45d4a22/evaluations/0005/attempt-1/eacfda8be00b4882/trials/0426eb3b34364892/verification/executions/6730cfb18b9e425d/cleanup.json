@@ -1,0 +1,18 @@
+[
+  {
+    "container": "gab-oracle-5e70079deb78-executor",
+    "removed": true
+  },
+  {
+    "container": "gab-oracle-5e70079deb78-ready",
+    "removed": true
+  },
+  {
+    "container": "gab-oracle-5e70079deb78-browser",
+    "removed": true
+  },
+  {
+    "container": "gab-oracle-5e70079deb78-app",
+    "removed": true
+  }
+]

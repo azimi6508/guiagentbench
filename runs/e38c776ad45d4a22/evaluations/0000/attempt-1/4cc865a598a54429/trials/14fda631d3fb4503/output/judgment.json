@@ -1,0 +1,1 @@
+{"verdict":"FAIL","reason":"Frame 2 shows 'Bring the blue notebook.' typed in atlas with the save icon still active (unsaved changes). After closing and reopening (frame 3), the atlas note is empty, so the text did not persist."}

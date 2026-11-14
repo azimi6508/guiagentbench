@@ -1,0 +1,18 @@
+[
+  {
+    "container": "gab-oracle-bbc865249b64-executor",
+    "removed": true
+  },
+  {
+    "container": "gab-oracle-bbc865249b64-ready",
+    "removed": true
+  },
+  {
+    "container": "gab-oracle-bbc865249b64-browser",
+    "removed": true
+  },
+  {
+    "container": "gab-oracle-bbc865249b64-app",
+    "removed": true
+  }
+]

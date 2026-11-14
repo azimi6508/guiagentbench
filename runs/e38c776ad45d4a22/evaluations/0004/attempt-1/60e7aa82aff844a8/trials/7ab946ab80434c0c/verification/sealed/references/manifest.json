@@ -1,0 +1,17 @@
+{
+  "version": "visual-v1",
+  "viewport": [
+    720,
+    1280
+  ],
+  "references": {
+    "initial-editor": {
+      "file": "initial-editor.png",
+      "sha256": "d52948e16aa03378d5449a3cd98dfe6c0832138ad01c8c2e5ab9a7a59610b172"
+    },
+    "saved-reopened": {
+      "file": "saved-reopened.png",
+      "sha256": "516019272edd519ae239785af2091f56ab6aebdf2fed1fe1fe83be28d4953694"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "arm": "oracle_visual",
+  "platform": "web",
+  "files": {
+    "instruction.md": "26c57eaaae1b4a00fe2413980d37e0dd7b7f33aa8ddec0e06e0d02214cbbe452",
+    "steps.json": "90e0c55a3bdf2cfacc2a855ce6fecf3a6a99083ed815b43ad70ee5783be514eb"
+  },
+  "total_bytes": 19223
+}

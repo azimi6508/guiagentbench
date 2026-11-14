@@ -1,0 +1,1 @@
+{"verdict":"PASS","reason":"Replaying the frozen actions (Settings > Accessibility > Caption size > Large) sets the Caption size value to 'Large' and visibly enlarges the caption preview. Measured preview text scales roughly 1.4x per step (Small to Medium to Large), consistent with a 1.25/1.75/2.5rem scale, so --caption-font on html is expected to be 2.5rem."}

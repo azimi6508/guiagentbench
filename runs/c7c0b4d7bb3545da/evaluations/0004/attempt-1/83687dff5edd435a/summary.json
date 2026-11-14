@@ -1,0 +1,53 @@
+{
+  "planned_trials": 1,
+  "completed_trials": 1,
+  "successful_trials": 1,
+  "accuracy": 1.0,
+  "invalid_or_missing": 0,
+  "planned_pairs": 1,
+  "paired_score": 1,
+  "failure_summary": {
+    "version": "failure-v1",
+    "planned_units": 1,
+    "recorded_units": 1,
+    "units_by_cause": {
+      "behavioral_mismatch": 1
+    },
+    "counts_overlap": true,
+    "graded_units": 1,
+    "units_with_blocking_diagnostics": 0,
+    "cause_rates_per_planned_unit": {
+      "behavioral_mismatch": 1.0
+    },
+    "diagnostic_coverage": 1,
+    "automatic_retries": false
+  },
+  "run_directory": "/home/azimi/Downloads/gui-agent-bench/github-release/runs/c7c0b4d7bb3545da/evaluations/0004/attempt-1/83687dff5edd435a",
+  "action_contract": "ui-superset-v1",
+  "failure_contract": "failure-v1",
+  "environment_contract": "environment-v1",
+  "environment_profile": "mobile",
+  "status": "complete",
+  "model": "claude/claude-sonnet-5-5",
+  "fixture": false,
+  "research_core": false,
+  "planned_artifacts": 1,
+  "planned_executions": 10,
+  "authoring_state": "correct",
+  "abi": "visual-v1-mobile",
+  "provider_cost_usd": null,
+  "runner": "claude",
+  "runner_version": "2.1.323",
+  "agent_spec": {
+    "identifier": "claude/claude-sonnet-5-5",
+    "runner": "claude",
+    "model": "claude-sonnet-5-5",
+    "auth_mode": "anthropic_credential",
+    "reasoning_effort": "medium",
+    "tool_profile": "claude-mcp-v1",
+    "budget_profile": "claude-bounded-v1"
+  },
+  "billing_mode": "anthropic_credential",
+  "budget_profile": "claude-bounded-v1",
+  "resolved_plan_sha256": "3e27793c8d48eb2143c1f0e54d10ab2a526f883951ed7e594590389b8d47b502"
+}

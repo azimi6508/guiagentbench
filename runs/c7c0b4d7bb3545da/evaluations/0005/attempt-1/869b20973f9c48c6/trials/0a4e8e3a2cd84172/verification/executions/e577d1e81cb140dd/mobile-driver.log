@@ -1,0 +1,16 @@
+{"environment_contract": "environment-v1", "environment_event": "readiness", "platform": "mobile", "status": "ready", "elapsed_ms": 697, "state_sha256": "dc4521d43d49dbd865225ffb294e9b321cee8b38c484ecd50fe4404dafa226ca"}
+{"operation": "reset", "ok": true}
+{"operation": "screenshot", "ok": true}
+{"operation": "assert_ui", "ok": true}
+{"operation": "assert_ui", "ok": true}
+{"environment_contract": "environment-v1", "environment_event": "readiness", "platform": "mobile", "status": "ready", "elapsed_ms": 660, "state_sha256": "dc4521d43d49dbd865225ffb294e9b321cee8b38c484ecd50fe4404dafa226ca"}
+{"operation": "step", "ok": true}
+{"environment_contract": "environment-v1", "environment_event": "readiness", "platform": "mobile", "status": "ready", "elapsed_ms": 1246, "state_sha256": "fbaa2560d9a17631dacf40eda77b95ad91918d36a52f6990c9fb9b0ac23cda19"}
+{"operation": "visual", "ok": true}
+{"operation": "assert_ui", "ok": true}
+{"environment_contract": "environment-v1", "environment_event": "readiness", "platform": "mobile", "status": "ready", "elapsed_ms": 896, "state_sha256": "2e7edc6e2cb58bd655db9c218a684338be554dad0cddf8b0c24910a86126af35"}
+{"operation": "step", "ok": true}
+{"environment_contract": "environment-v1", "environment_event": "readiness", "platform": "mobile", "status": "ready", "elapsed_ms": 709, "state_sha256": "dc4521d43d49dbd865225ffb294e9b321cee8b38c484ecd50fe4404dafa226ca"}
+{"operation": "visual", "ok": true}
+{"operation": "assert_ui", "ok": true}
+{"operation": "assert_ui", "ok": true}

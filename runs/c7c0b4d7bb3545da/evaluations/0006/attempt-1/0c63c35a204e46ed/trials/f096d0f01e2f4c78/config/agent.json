@@ -1,0 +1,19 @@
+{
+  "schema": "claude-mcp-v1",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "auth_kind": "oauth",
+  "tools": [
+    "bench_list_files",
+    "bench_read_file",
+    "bench_read_image",
+    "bench_write_file"
+  ],
+  "tool_names": [
+    "mcp__bench__bench_list_files",
+    "mcp__bench__bench_read_file",
+    "mcp__bench__bench_read_image",
+    "mcp__bench__bench_write_file"
+  ],
+  "instruction": "This is an unattended evaluation. Complete the public instruction below independently.\nUse only the bench MCP tools. Paths under /workspace are virtual public files, accessed through bench_list_files, bench_read_file and bench_read_image; save submissions with bench_write_file. Built-in shell, file, web, task and subagent tools are unavailable.\nAll permitted evidence is available; choose what to inspect. No follow-up user response will arrive. Save the requested submission.\n\nEvaluation arm: judge_visual. Produce a PASS/FAIL judgment JSON file.\nRequired artifact: /workspace/output/judgment.json. Save it before finishing.\nRead the complete contract below. A final chat message does not submit an artifact.\n\n# A saved biography appears on the reopened profile\n\nChange the forum biography of the signed-in user to exactly `I am a robot` and\nsave it. When the profile is opened again after saving, its biography must be\nexactly `I am a robot`.\n\nThe local Postmill forum opens on the profile of `MarvelsGrantMan136`, who is\nalready signed in. The profile page and its biography editor are available;\nother forum pages are outside this task.\n\n\nInspect the ordered screenshots and steps supplied under `/workspace`. The\nevidence index is `/workspace/evidence/manifest.json`; its image paths are\nrelative to `/workspace/evidence`. There is no live app in this arm.\n\nWrite `/workspace/output/judgment.json` as a JSON object with `verdict` equal to\n`PASS` or `FAIL` and an optional short `reason` string.\n\n\nJudgment output contract: write a JSON object to /workspace/output/judgment.json.\nUse exactly {\"verdict\":\"PASS\"} or {\"verdict\":\"FAIL\"}, with uppercase verdict values.\nAn optional \"reason\" string may contain at most 2000 characters. No other keys,\nMarkdown fences or surrounding text are permitted; the file must not exceed 16384 bytes.\n"
+}

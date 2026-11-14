@@ -1,0 +1,21 @@
+{
+  "version": "visual-v1",
+  "viewport": [
+    1280,
+    720
+  ],
+  "references": {
+    "home-chrome": {
+      "file": "home-chrome.png",
+      "sha256": "95dcb74f18876d60209304eadb468a3facaa61644474716bc7e0bcd613fc30c5"
+    },
+    "caption-size-options": {
+      "file": "caption-size-options.png",
+      "sha256": "b53f4a4ddaab3f74e91ad36be0674ef6cedf255bc92e5a33e223db245b58ad00"
+    },
+    "large-caption-preview": {
+      "file": "large-caption-preview.png",
+      "sha256": "15bc239be4cd670ee1b22738d8c72b2512301c5a5936c5850c2c14eafcf11a16"
+    }
+  }
+}

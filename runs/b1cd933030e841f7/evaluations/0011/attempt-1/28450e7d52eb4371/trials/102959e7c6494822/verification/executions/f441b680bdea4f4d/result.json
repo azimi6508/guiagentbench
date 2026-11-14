@@ -1,0 +1,342 @@
+{
+  "outcome": "BEHAVIOR_FAIL",
+  "assertions": [
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "link",
+          "name": "Home"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": true
+      },
+      "matched": true
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "button",
+          "name": "MarvelsGrantMan136"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": true
+      },
+      "matched": true
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "heading",
+          "name": "MarvelsGrantMan136"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": false
+      },
+      "matched": true
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "heading",
+          "name": "Editing biography for /u/MarvelsGrantMan136"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": false
+      },
+      "matched": true
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "link",
+          "name": "Overview"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": false
+      },
+      "matched": true
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "heading",
+          "name": "MarvelsGrantMan136"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": false
+      },
+      "matched": true
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "text": "I am a robot"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": false
+      },
+      "matched": false
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "text": "I am a robot"
+        },
+        "condition": "text",
+        "expected": "I am a robot",
+        "precondition": false
+      },
+      "matched": false
+    }
+  ],
+  "submission_sha256": "d3d28f8e92959192dabb91e4094d001a185b5a20884bdac191aaccf24ef84551",
+  "references_sha256": "17dfb99b89107836e3f3cf979f7895d63b2ce31313a872bad695f9bf5d29bcfe",
+  "actions": [
+    {
+      "action": {
+        "operation": "open_url",
+        "arguments": {
+          "url": "http://app:8000/"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "role": "link",
+          "name": "Edit biography"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "fill",
+          "role": "textbox",
+          "name": "Biography",
+          "text": "I am a robot"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "role": "button",
+          "name": "Save"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "role": "link",
+          "name": "/u/MarvelsGrantMan136"
+        }
+      }
+    }
+  ],
+  "trace": [
+    {
+      "action": {
+        "operation": "open_url",
+        "arguments": {
+          "url": "http://app:8000/"
+        }
+      }
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "link",
+          "name": "Home"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": true
+      }
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "button",
+          "name": "MarvelsGrantMan136"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": true
+      }
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "heading",
+          "name": "MarvelsGrantMan136"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": false
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "role": "link",
+          "name": "Edit biography"
+        }
+      }
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "heading",
+          "name": "Editing biography for /u/MarvelsGrantMan136"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": false
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "fill",
+          "role": "textbox",
+          "name": "Biography",
+          "text": "I am a robot"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "role": "button",
+          "name": "Save"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "role": "link",
+          "name": "/u/MarvelsGrantMan136"
+        }
+      }
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "link",
+          "name": "Overview"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": false
+      }
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "heading",
+          "name": "MarvelsGrantMan136"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": false
+      }
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "text": "I am a robot"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": false
+      }
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "text": "I am a robot"
+        },
+        "condition": "text",
+        "expected": "I am a robot",
+        "precondition": false
+      }
+    }
+  ],
+  "diagnostics": {
+    "version": "failure-v1",
+    "primary_issue": 0,
+    "issues": [
+      {
+        "version": "failure-v1",
+        "phase": "execution",
+        "operation": "assert",
+        "result": "failed",
+        "cause": "behavioral_mismatch",
+        "impact": "pair_dependent",
+        "message": "A behavioral assertion did not match.",
+        "exception_type": "Failure",
+        "source": {
+          "file": "browser.log",
+          "record_index": 25
+        }
+      },
+      {
+        "version": "failure-v1",
+        "phase": "execution",
+        "operation": "assert",
+        "result": "failed",
+        "cause": "behavioral_mismatch",
+        "impact": "pair_dependent",
+        "message": "A behavioral assertion did not match.",
+        "exception_type": "Failure",
+        "source": {
+          "file": "browser.log",
+          "record_index": 27
+        }
+      }
+    ],
+    "ordering": "source_order_not_global_time"
+  },
+  "elapsed_seconds": 7.757,
+  "exit_code": 0
+}

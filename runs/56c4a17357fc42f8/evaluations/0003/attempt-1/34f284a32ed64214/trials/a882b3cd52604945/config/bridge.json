@@ -1,0 +1,18 @@
+{
+  "arm": "oracle_ui",
+  "platform": "mobile",
+  "viewport": [
+    720,
+    1280
+  ],
+  "manifest": {
+    "arm": "oracle_ui",
+    "platform": "mobile",
+    "files": {
+      "instruction.md": "da653f0de083e27a930310ddad5acf4680076a2b03a67d79a53a5d459edf964a",
+      "steps.json": "ebf4c1760aedd5017f5d13af399235f58d9f1aba2ff4842edc315a1f6cd7d7a8"
+    },
+    "total_bytes": 24163
+  },
+  "environment_profile": "generic"
+}

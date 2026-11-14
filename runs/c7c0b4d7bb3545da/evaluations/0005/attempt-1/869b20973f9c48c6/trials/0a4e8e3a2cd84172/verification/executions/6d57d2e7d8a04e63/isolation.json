@@ -1,0 +1,8 @@
+{
+  "status": "pass",
+  "network": "gab-oracle-40a4bf67ad10-inference",
+  "mounts": [
+    "/artifact/test.py"
+  ],
+  "image": "sha256:ba60314afe3f041363396ceb0c1b2a7babdfeae40c644598e2e32749e9f66801"
+}

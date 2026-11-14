@@ -1,0 +1,23 @@
+2026-11-13 21:48:25.217 UTC [7] LOG:  starting PostgreSQL 14.7 on x86_64-alpine-linux-musl, compiled by gcc (Alpine 11.2.1_git20220219) 11.2.1 20220219, 64-bit
+2026-11-13 21:48:25.217 UTC [7] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2026-11-13 21:48:25.230 UTC [9] LOG:  database system was shut down at 2026-01-31 18:37:19 UTC
+2026-11-13 21:48:25.235 UTC [7] LOG:  database system is ready to accept connections
+[Fri Nov 13 21:48:25 2026] PHP 8.1.17 Development Server (http://127.0.0.1:8082) started
+[Fri Nov 13 21:48:25 2026] 127.0.0.1:34604 Accepted
+[Fri Nov 13 21:48:33 2026] 127.0.0.1:34604 Closing
+[Fri Nov 13 21:48:33 2026] 127.0.0.1:34608 Accepted
+[Fri Nov 13 21:48:33 2026] 127.0.0.1:34616 Accepted
+[Fri Nov 13 21:48:33 2026] 127.0.0.1:34608 Closing
+[Fri Nov 13 21:48:33 2026] 127.0.0.1:34616 Closing
+[Fri Nov 13 21:48:33 2026] 127.0.0.1:34620 Accepted
+[Fri Nov 13 21:48:33 2026] 127.0.0.1:34620 Closing
+[Fri Nov 13 21:48:37 2026] 127.0.0.1:44764 Accepted
+[Fri Nov 13 21:48:37 2026] 127.0.0.1:44764 Closing
+[Fri Nov 13 21:48:43 2026] 127.0.0.1:44780 Accepted
+[Fri Nov 13 21:48:43 2026] 127.0.0.1:44780 Closing
+[Fri Nov 13 21:48:43 2026] 127.0.0.1:44784 Accepted
+[Fri Nov 13 21:48:43 2026] 127.0.0.1:44784 Closing
+[Fri Nov 13 21:48:43 2026] 127.0.0.1:44798 Accepted
+[Fri Nov 13 21:48:43 2026] 127.0.0.1:44798 Closing
+[Fri Nov 13 21:48:47 2026] 127.0.0.1:48488 Accepted
+[Fri Nov 13 21:48:47 2026] 127.0.0.1:48488 Closing

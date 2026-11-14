@@ -1,0 +1,18 @@
+services:
+  aura:
+    build: .
+    ports:
+      - "127.0.0.1:8080:8080"
+    volumes:
+      - aura-library:/app/data
+    read_only: true
+    tmpfs:
+      - /tmp:size=64m,mode=1777
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    init: true
+    pids_limit: 128
+volumes:
+  aura-library:

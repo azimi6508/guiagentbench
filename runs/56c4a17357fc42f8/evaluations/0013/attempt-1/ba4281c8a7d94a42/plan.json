@@ -1,0 +1,39 @@
+{
+  "task": "tv/aura-013-caption-preview-size",
+  "arm": "judge_test",
+  "model": "codex/gpt-6.1-sol",
+  "runner": "codex",
+  "runner_version": "0.162.0",
+  "agent_spec": {
+    "identifier": "codex/gpt-6.1-sol",
+    "runner": "codex",
+    "model": "gpt-6.1-sol",
+    "auth_mode": "chatgpt",
+    "reasoning_effort": "medium",
+    "tool_profile": "codex-mcp-v1",
+    "budget_profile": "codex-bounded-v1"
+  },
+  "configuration_sha256": "011a1e3bf2906c6587985675cfc67070a8ad4ae3b855cadcaabb70a3df84bec5",
+  "action_contract": "ui-superset-v1",
+  "failure_contract": "failure-v1",
+  "environment_contract": "environment-v1",
+  "environment_profile": "generic",
+  "platform": "web",
+  "domain": "tv",
+  "task_status": "example",
+  "research_core": false,
+  "fixture": false,
+  "planned_trials": 2,
+  "trials": [
+    {
+      "id": "a2ba0c7272b64afa",
+      "variant": "correct"
+    },
+    {
+      "id": "62e7b6ceb5e94157",
+      "variant": "faulty"
+    }
+  ],
+  "resolved_plan_sha256": "c9c84dadb2eb0de89b343efd4385c03b050b48afc41a69022ddaf20c6d48f87d",
+  "parent_resolved_plan_sha256": "175786d991b30e76d6c55dd74fcbefed0ec01bad8dd33bc8e8cc8d48b4f4d2b0"
+}

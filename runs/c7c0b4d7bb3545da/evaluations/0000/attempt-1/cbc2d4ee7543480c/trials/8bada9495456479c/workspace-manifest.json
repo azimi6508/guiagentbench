@@ -1,0 +1,13 @@
+{
+  "arm": "judge_visual",
+  "platform": "mobile",
+  "files": {
+    "instruction.md": "5ce580ff74d207aba6f94c2bed052c298ff92033e644ecbbd75a6c59edd170c6",
+    "steps.json": "ebf4c1760aedd5017f5d13af399235f58d9f1aba2ff4842edc315a1f6cd7d7a8",
+    "evidence/manifest.json": "49476aa6775ac18224ba0c4a798e611f2ab76d7b8f69ecf1d1a0af37993ab5e3",
+    "evidence/screenshots/0001.png": "1edf3568a2f1a46df561ab8657b424bf974417d12b1d1a9d0d1f2f2784904fa6",
+    "evidence/screenshots/0002.png": "e308703579a0b79bcbfe1b30a5b0816a8273befbcee6be2708a111d057a3175e",
+    "evidence/screenshots/0003.png": "e025774fd47f25f3386d15f84254f33b4eead85cf35fedd75c205546ff5b378a"
+  },
+  "total_bytes": 159318
+}

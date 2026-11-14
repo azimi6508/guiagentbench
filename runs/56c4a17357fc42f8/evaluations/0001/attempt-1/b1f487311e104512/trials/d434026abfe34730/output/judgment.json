@@ -1,0 +1,1 @@
+{"verdict":"FAIL","reason":"After filling the editor with the required text and reloading the application, atlas reopened with an empty editor. The reference test's post-reload text assertion would fail."}

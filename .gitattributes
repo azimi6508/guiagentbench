@@ -1,0 +1,15 @@
+* text=auto eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.png binary
+*.jpg binary
+*.mp4 binary
+*.webm binary
+*.woff2 binary
+*.mp3 binary
+*.ogg binary
+# Published run evidence is stored byte for byte.
+runs/** -text

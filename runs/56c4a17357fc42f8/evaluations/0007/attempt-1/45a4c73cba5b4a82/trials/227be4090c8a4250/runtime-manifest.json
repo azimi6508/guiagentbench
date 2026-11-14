@@ -1,0 +1,19 @@
+{
+  "images": {
+    "agent": "sha256:20a8a2f028a494a4768aee6957dca556537af27651950ae44f8715c653c0ef0d",
+    "bridge": "sha256:ad39ab3fc6c2ca96e12394b00d88938f7f5f949ef317e1fa53b2daaef5b1b754",
+    "egress": "sha256:4415301572aca978fe626ec8d717b1f95c7a5afcad054c17a1354df249aa42a6"
+  },
+  "runtime_lock_sha256": "0e6a6caed46d6a8fa782e6ace43e54989d920390ef91979315f8dda0966e11d3",
+  "container_policy": {
+    "schema": "codex-container-policy-v1",
+    "apparmor_profile": "gab-codex-bwrap-b20c11907dac59bb",
+    "files": {
+      "docker-default-seccomp.json": "536529b665dd0972c37bfb569f5d4ac8a53592e7b00752bc39ff063ca9864c74",
+      "seccomp.json": "b384feae330cbe6480c80b1e728ce6a84b2b3e8a50e5eb7cd03759d2889c0a23",
+      "apparmor.profile": "39b9748990b751ae55ae2d94cc19378c090d6d8d182ed7365bc799e18083277f"
+    },
+    "upstream_commit": "6a43e3d",
+    "scope": "agent only"
+  }
+}

@@ -1,0 +1,591 @@
+{
+  "outcome": "PASS",
+  "assertions": [
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "initial-editor",
+        "region": [
+          480,
+          140,
+          710,
+          200
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 0,
+        "include_aa": false,
+        "precondition": true,
+        "observation_window_ms": 1600
+      },
+      "matched": true,
+      "image": {
+        "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+        "reference_sha256": "11d1a86873523bb0b38b8c1c33af1797e4c850f78ca27abd7fb767c27428fbde",
+        "actual_sha256": "977fd275b3a52a3ab3e7f331d473e301e89e5a6cada2a3f61443259bc3e8aa1f",
+        "compared_pixels": 13800,
+        "different_pixels": 0,
+        "matched": true,
+        "evidence": {
+          "directory": "0001",
+          "sha256": {
+            "capture.png": "977fd275b3a52a3ab3e7f331d473e301e89e5a6cada2a3f61443259bc3e8aa1f",
+            "sample-0001.png": "977fd275b3a52a3ab3e7f331d473e301e89e5a6cada2a3f61443259bc3e8aa1f",
+            "sample-0002.png": "0366277406fe8a8dd96e127dc1b0b4cb56c5c2c66bde82a248d08238e1bd71fc",
+            "sample-0003.png": "977fd275b3a52a3ab3e7f331d473e301e89e5a6cada2a3f61443259bc3e8aa1f",
+            "sample-0004.png": "0366277406fe8a8dd96e127dc1b0b4cb56c5c2c66bde82a248d08238e1bd71fc",
+            "sample-0005.png": "977fd275b3a52a3ab3e7f331d473e301e89e5a6cada2a3f61443259bc3e8aa1f",
+            "expected.png": "b75ec6f9f73ac1236d850cb11c5cf6b005a6fdc5fd289871604deee52baf4d07",
+            "actual.png": "b75ec6f9f73ac1236d850cb11c5cf6b005a6fdc5fd289871604deee52baf4d07",
+            "diff.png": "8fc30ef848b3e4051c075dda2fae70248b0cb02350fc832b561227d705a0f37a"
+          }
+        },
+        "capture_contract": "visual-observation-window-v1",
+        "observation_window_ms": 1600,
+        "selected_sample": 0,
+        "observations": [
+          {
+            "file": "sample-0001.png",
+            "sha256": "977fd275b3a52a3ab3e7f331d473e301e89e5a6cada2a3f61443259bc3e8aa1f",
+            "elapsed_ms": 199,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0002.png",
+            "sha256": "0366277406fe8a8dd96e127dc1b0b4cb56c5c2c66bde82a248d08238e1bd71fc",
+            "elapsed_ms": 540,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0003.png",
+            "sha256": "977fd275b3a52a3ab3e7f331d473e301e89e5a6cada2a3f61443259bc3e8aa1f",
+            "elapsed_ms": 995,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0004.png",
+            "sha256": "0366277406fe8a8dd96e127dc1b0b4cb56c5c2c66bde82a248d08238e1bd71fc",
+            "elapsed_ms": 1416,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0005.png",
+            "sha256": "977fd275b3a52a3ab3e7f331d473e301e89e5a6cada2a3f61443259bc3e8aa1f",
+            "elapsed_ms": 1785,
+            "different_pixels": 0
+          }
+        ]
+      }
+    },
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "initial-editor",
+        "region": [
+          10,
+          140,
+          180,
+          200
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 0,
+        "include_aa": false,
+        "precondition": false,
+        "observation_window_ms": 1600
+      },
+      "matched": true,
+      "image": {
+        "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+        "reference_sha256": "11d1a86873523bb0b38b8c1c33af1797e4c850f78ca27abd7fb767c27428fbde",
+        "actual_sha256": "977fd275b3a52a3ab3e7f331d473e301e89e5a6cada2a3f61443259bc3e8aa1f",
+        "compared_pixels": 10200,
+        "different_pixels": 0,
+        "matched": true,
+        "evidence": {
+          "directory": "0002",
+          "sha256": {
+            "capture.png": "977fd275b3a52a3ab3e7f331d473e301e89e5a6cada2a3f61443259bc3e8aa1f",
+            "sample-0001.png": "977fd275b3a52a3ab3e7f331d473e301e89e5a6cada2a3f61443259bc3e8aa1f",
+            "sample-0002.png": "0366277406fe8a8dd96e127dc1b0b4cb56c5c2c66bde82a248d08238e1bd71fc",
+            "sample-0003.png": "c1fcf5cdd674605d303b56f81195d7dd3d1f3163aeac59a942e60e190cd1ac69",
+            "sample-0004.png": "c1fcf5cdd674605d303b56f81195d7dd3d1f3163aeac59a942e60e190cd1ac69",
+            "sample-0005.png": "ea085cf962a4c6dc20008aba8841eae57f18db08d3a30efde88851b6f24349d0",
+            "expected.png": "f9e986708ff2afce5f4f2f51fcabbc69e7f346de64d2f786db38e4a8b0965820",
+            "actual.png": "f9e986708ff2afce5f4f2f51fcabbc69e7f346de64d2f786db38e4a8b0965820",
+            "diff.png": "db044dbe48a57e98f6231e4ac241b0e8e4dd34f2b18aba2d68d3579211bd7762"
+          }
+        },
+        "capture_contract": "visual-observation-window-v1",
+        "observation_window_ms": 1600,
+        "selected_sample": 0,
+        "observations": [
+          {
+            "file": "sample-0001.png",
+            "sha256": "977fd275b3a52a3ab3e7f331d473e301e89e5a6cada2a3f61443259bc3e8aa1f",
+            "elapsed_ms": 239,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0002.png",
+            "sha256": "0366277406fe8a8dd96e127dc1b0b4cb56c5c2c66bde82a248d08238e1bd71fc",
+            "elapsed_ms": 543,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0003.png",
+            "sha256": "c1fcf5cdd674605d303b56f81195d7dd3d1f3163aeac59a942e60e190cd1ac69",
+            "elapsed_ms": 991,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0004.png",
+            "sha256": "c1fcf5cdd674605d303b56f81195d7dd3d1f3163aeac59a942e60e190cd1ac69",
+            "elapsed_ms": 1406,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0005.png",
+            "sha256": "ea085cf962a4c6dc20008aba8841eae57f18db08d3a30efde88851b6f24349d0",
+            "elapsed_ms": 1766,
+            "different_pixels": 0
+          }
+        ]
+      }
+    },
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "typed-note",
+        "region": [
+          10,
+          220,
+          710,
+          1170
+        ],
+        "masks": [
+          [
+            259,
+            234,
+            264,
+            270
+          ]
+        ],
+        "threshold": 0.1,
+        "max_diff_pixels": 0,
+        "include_aa": false,
+        "precondition": false,
+        "observation_window_ms": 1600
+      },
+      "matched": true,
+      "image": {
+        "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+        "reference_sha256": "b9a0259cf09db8bbd0248ea7dff7ff01f35b71ae080d6925a79afaa690c147d9",
+        "actual_sha256": "356c76f20d3a67f7db20b4c58068acd5b91c67d99dc60f501df8ed56c72ef8ea",
+        "compared_pixels": 664820,
+        "different_pixels": 0,
+        "matched": true,
+        "evidence": {
+          "directory": "0003",
+          "sha256": {
+            "capture.png": "356c76f20d3a67f7db20b4c58068acd5b91c67d99dc60f501df8ed56c72ef8ea",
+            "sample-0001.png": "356c76f20d3a67f7db20b4c58068acd5b91c67d99dc60f501df8ed56c72ef8ea",
+            "sample-0002.png": "356c76f20d3a67f7db20b4c58068acd5b91c67d99dc60f501df8ed56c72ef8ea",
+            "sample-0003.png": "8da6e8d2a554d5a3f8b71ce5a0072c6d899653cd7268dfe595fe2a282af31589",
+            "sample-0004.png": "356c76f20d3a67f7db20b4c58068acd5b91c67d99dc60f501df8ed56c72ef8ea",
+            "sample-0005.png": "8da6e8d2a554d5a3f8b71ce5a0072c6d899653cd7268dfe595fe2a282af31589",
+            "expected.png": "b4db3875ff6a06e5abd488c9e97250a0ba5bd86871b0aefd0e97daf932ddf291",
+            "actual.png": "5bd2015c339e8d2c1f3c0ae9ef3de20b8c577bdb1163c03765f6d5b3f4dc0750",
+            "diff.png": "d5ff904d9cc1fdaae08d5bcc345556996b72767c3fe6de716caf37aabeb1d93b"
+          }
+        },
+        "capture_contract": "visual-observation-window-v1",
+        "observation_window_ms": 1600,
+        "selected_sample": 0,
+        "observations": [
+          {
+            "file": "sample-0001.png",
+            "sha256": "356c76f20d3a67f7db20b4c58068acd5b91c67d99dc60f501df8ed56c72ef8ea",
+            "elapsed_ms": 252,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0002.png",
+            "sha256": "356c76f20d3a67f7db20b4c58068acd5b91c67d99dc60f501df8ed56c72ef8ea",
+            "elapsed_ms": 537,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0003.png",
+            "sha256": "8da6e8d2a554d5a3f8b71ce5a0072c6d899653cd7268dfe595fe2a282af31589",
+            "elapsed_ms": 987,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0004.png",
+            "sha256": "356c76f20d3a67f7db20b4c58068acd5b91c67d99dc60f501df8ed56c72ef8ea",
+            "elapsed_ms": 1406,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0005.png",
+            "sha256": "8da6e8d2a554d5a3f8b71ce5a0072c6d899653cd7268dfe595fe2a282af31589",
+            "elapsed_ms": 1771,
+            "different_pixels": 0
+          }
+        ]
+      }
+    },
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "reopened-note",
+        "region": [
+          10,
+          140,
+          180,
+          200
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 0,
+        "include_aa": false,
+        "precondition": false,
+        "observation_window_ms": 1600
+      },
+      "matched": true,
+      "image": {
+        "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+        "reference_sha256": "ce4511204f2b06fd23951b6f63df798ca025c36712aa21cb5015a2407231b15d",
+        "actual_sha256": "e2081cfe7ec67e907410a6e00b1543936d4fa701a087ce6d2ba3ed8881e6443f",
+        "compared_pixels": 10200,
+        "different_pixels": 0,
+        "matched": true,
+        "evidence": {
+          "directory": "0004",
+          "sha256": {
+            "capture.png": "e2081cfe7ec67e907410a6e00b1543936d4fa701a087ce6d2ba3ed8881e6443f",
+            "sample-0001.png": "e2081cfe7ec67e907410a6e00b1543936d4fa701a087ce6d2ba3ed8881e6443f",
+            "sample-0002.png": "143b69fca3e5f047d5b04da40250df24c66e15698f12459b543aba8996127ec9",
+            "sample-0003.png": "25bc4a1ce86e130608e86aa79a85d655053833d7f59eeb952f350404b817e2f0",
+            "sample-0004.png": "25bc4a1ce86e130608e86aa79a85d655053833d7f59eeb952f350404b817e2f0",
+            "sample-0005.png": "2796221cded7eebad3f487cf934f86fb79507218bee6b6f338c8162db706c66b",
+            "expected.png": "f9e986708ff2afce5f4f2f51fcabbc69e7f346de64d2f786db38e4a8b0965820",
+            "actual.png": "f9e986708ff2afce5f4f2f51fcabbc69e7f346de64d2f786db38e4a8b0965820",
+            "diff.png": "db044dbe48a57e98f6231e4ac241b0e8e4dd34f2b18aba2d68d3579211bd7762"
+          }
+        },
+        "capture_contract": "visual-observation-window-v1",
+        "observation_window_ms": 1600,
+        "selected_sample": 0,
+        "observations": [
+          {
+            "file": "sample-0001.png",
+            "sha256": "e2081cfe7ec67e907410a6e00b1543936d4fa701a087ce6d2ba3ed8881e6443f",
+            "elapsed_ms": 305,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0002.png",
+            "sha256": "143b69fca3e5f047d5b04da40250df24c66e15698f12459b543aba8996127ec9",
+            "elapsed_ms": 592,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0003.png",
+            "sha256": "25bc4a1ce86e130608e86aa79a85d655053833d7f59eeb952f350404b817e2f0",
+            "elapsed_ms": 1023,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0004.png",
+            "sha256": "25bc4a1ce86e130608e86aa79a85d655053833d7f59eeb952f350404b817e2f0",
+            "elapsed_ms": 1421,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0005.png",
+            "sha256": "2796221cded7eebad3f487cf934f86fb79507218bee6b6f338c8162db706c66b",
+            "elapsed_ms": 1776,
+            "different_pixels": 0
+          }
+        ]
+      }
+    },
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "reopened-note",
+        "region": [
+          10,
+          220,
+          710,
+          1170
+        ],
+        "masks": [
+          [
+            259,
+            234,
+            264,
+            270
+          ]
+        ],
+        "threshold": 0.1,
+        "max_diff_pixels": 0,
+        "include_aa": false,
+        "precondition": false,
+        "observation_window_ms": 1600
+      },
+      "matched": true,
+      "image": {
+        "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+        "reference_sha256": "ce4511204f2b06fd23951b6f63df798ca025c36712aa21cb5015a2407231b15d",
+        "actual_sha256": "25bc4a1ce86e130608e86aa79a85d655053833d7f59eeb952f350404b817e2f0",
+        "compared_pixels": 664820,
+        "different_pixels": 0,
+        "matched": true,
+        "evidence": {
+          "directory": "0005",
+          "sha256": {
+            "capture.png": "25bc4a1ce86e130608e86aa79a85d655053833d7f59eeb952f350404b817e2f0",
+            "sample-0001.png": "25bc4a1ce86e130608e86aa79a85d655053833d7f59eeb952f350404b817e2f0",
+            "sample-0002.png": "25bc4a1ce86e130608e86aa79a85d655053833d7f59eeb952f350404b817e2f0",
+            "sample-0003.png": "2796221cded7eebad3f487cf934f86fb79507218bee6b6f338c8162db706c66b",
+            "sample-0004.png": "25bc4a1ce86e130608e86aa79a85d655053833d7f59eeb952f350404b817e2f0",
+            "sample-0005.png": "2796221cded7eebad3f487cf934f86fb79507218bee6b6f338c8162db706c66b",
+            "expected.png": "5bd2015c339e8d2c1f3c0ae9ef3de20b8c577bdb1163c03765f6d5b3f4dc0750",
+            "actual.png": "5bd2015c339e8d2c1f3c0ae9ef3de20b8c577bdb1163c03765f6d5b3f4dc0750",
+            "diff.png": "83670a03430c745b4230e5cd8e25216c5b801b8dbc782463787029fea27b34a8"
+          }
+        },
+        "capture_contract": "visual-observation-window-v1",
+        "observation_window_ms": 1600,
+        "selected_sample": 0,
+        "observations": [
+          {
+            "file": "sample-0001.png",
+            "sha256": "25bc4a1ce86e130608e86aa79a85d655053833d7f59eeb952f350404b817e2f0",
+            "elapsed_ms": 236,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0002.png",
+            "sha256": "25bc4a1ce86e130608e86aa79a85d655053833d7f59eeb952f350404b817e2f0",
+            "elapsed_ms": 539,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0003.png",
+            "sha256": "2796221cded7eebad3f487cf934f86fb79507218bee6b6f338c8162db706c66b",
+            "elapsed_ms": 1004,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0004.png",
+            "sha256": "25bc4a1ce86e130608e86aa79a85d655053833d7f59eeb952f350404b817e2f0",
+            "elapsed_ms": 1425,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0005.png",
+            "sha256": "2796221cded7eebad3f487cf934f86fb79507218bee6b6f338c8162db706c66b",
+            "elapsed_ms": 1782,
+            "different_pixels": 0
+          }
+        ]
+      }
+    }
+  ],
+  "submission_sha256": "c8e60e2a016b81bef681483ceb751186caefe70c770abaf27b22029ebfd3829f",
+  "references_sha256": "65a9a88f370348eb1ff339f7bdf29eace2114dd3a856699710f63ffbbc493ff1",
+  "actions": [
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "x": 150,
+          "y": 252
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "type",
+          "text": "Bring the blue notebook."
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "x": 570,
+          "y": 170
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "reload"
+        }
+      }
+    }
+  ],
+  "trace": [
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "initial-editor",
+        "region": [
+          480,
+          140,
+          710,
+          200
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 0,
+        "include_aa": false,
+        "precondition": true,
+        "observation_window_ms": 1600
+      }
+    },
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "initial-editor",
+        "region": [
+          10,
+          140,
+          180,
+          200
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 0,
+        "include_aa": false,
+        "precondition": false,
+        "observation_window_ms": 1600
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "x": 150,
+          "y": 252
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "type",
+          "text": "Bring the blue notebook."
+        }
+      }
+    },
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "typed-note",
+        "region": [
+          10,
+          220,
+          710,
+          1170
+        ],
+        "masks": [
+          [
+            259,
+            234,
+            264,
+            270
+          ]
+        ],
+        "threshold": 0.1,
+        "max_diff_pixels": 0,
+        "include_aa": false,
+        "precondition": false,
+        "observation_window_ms": 1600
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "x": 570,
+          "y": 170
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "reload"
+        }
+      }
+    },
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "reopened-note",
+        "region": [
+          10,
+          140,
+          180,
+          200
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 0,
+        "include_aa": false,
+        "precondition": false,
+        "observation_window_ms": 1600
+      }
+    },
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "reopened-note",
+        "region": [
+          10,
+          220,
+          710,
+          1170
+        ],
+        "masks": [
+          [
+            259,
+            234,
+            264,
+            270
+          ]
+        ],
+        "threshold": 0.1,
+        "max_diff_pixels": 0,
+        "include_aa": false,
+        "precondition": false,
+        "observation_window_ms": 1600
+      }
+    }
+  ],
+  "diagnostics": {
+    "version": "failure-v1",
+    "primary_issue": null,
+    "issues": [],
+    "ordering": "source_order_not_global_time"
+  },
+  "elapsed_seconds": 18.887,
+  "exit_code": 0
+}

@@ -1,0 +1,8 @@
+{
+  "schema": "claude-provider-streams-v1",
+  "exit_code": 0,
+  "stdout_bytes": 3138,
+  "stderr_bytes": 0,
+  "stdout_sha256": "dc4d0b276e0598f026c4e05b0cde6803cbd7b7a4ba1bd5a1ac3b3655845981ad",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

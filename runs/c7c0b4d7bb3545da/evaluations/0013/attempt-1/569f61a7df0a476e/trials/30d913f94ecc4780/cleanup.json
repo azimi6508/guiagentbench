@@ -1,0 +1,34 @@
+[
+  {
+    "container": "gab-30d913f94ecc4780-verifier",
+    "removed": true
+  },
+  {
+    "container": "gab-30d913f94ecc4780-claude-agent",
+    "removed": true
+  },
+  {
+    "container": "gab-30d913f94ecc4780-claude-bridge",
+    "removed": true
+  },
+  {
+    "container": "gab-30d913f94ecc4780-claude-gateway",
+    "removed": true
+  },
+  {
+    "container": "gab-30d913f94ecc4780-ready",
+    "removed": true
+  },
+  {
+    "container": "gab-30d913f94ecc4780-browser",
+    "removed": true
+  },
+  {
+    "container": "gab-30d913f94ecc4780-capture",
+    "removed": true
+  },
+  {
+    "container": "gab-30d913f94ecc4780-app",
+    "removed": true
+  }
+]

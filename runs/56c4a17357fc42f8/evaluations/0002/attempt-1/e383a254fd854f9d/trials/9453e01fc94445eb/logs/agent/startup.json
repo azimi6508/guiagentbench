@@ -1,0 +1,442 @@
+{
+  "schema": "codex-startup-v1",
+  "status": "passed",
+  "thread_id": "01a1d6c5-e0e4-7a82-88a0-8eb1f54e8fad",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "auth_mode": "chatgpt",
+  "auth_status": "saved_chatgpt",
+  "effective_config_sha256": "63d68a1f69dba8fa9c958c3377d8c945097d56ca9213f9d5af4c6e38382d3b35",
+  "profile": {
+    "id": "bench",
+    "extends": null
+  },
+  "hooks": [
+    {
+      "key": "/opt/bench/hooks:pre_tool_use:0:0",
+      "eventName": "preToolUse",
+      "handlerType": "command",
+      "command": "/usr/local/bin/python /opt/bench/hooks/pre_tool_use.py",
+      "async": false,
+      "matcher": ".*",
+      "timeoutSec": 5,
+      "statusMessage": null,
+      "additionalContextLimit": null,
+      "sourcePath": "/opt/bench/hooks",
+      "source": "system",
+      "pluginId": null,
+      "displayOrder": 0,
+      "enabled": true,
+      "isManaged": true,
+      "currentHash": "sha256:886d4ad94d9118f5ed3cc0f84119a8bb5f8fe389b8a2dd2e563a587ae55f61a3",
+      "trustStatus": "managed"
+    },
+    {
+      "key": "/opt/bench/hooks:pre_compact:0:0",
+      "eventName": "preCompact",
+      "handlerType": "command",
+      "command": "/usr/local/bin/python /opt/bench/hooks/pre_compact.py",
+      "async": false,
+      "matcher": null,
+      "timeoutSec": 5,
+      "statusMessage": null,
+      "additionalContextLimit": null,
+      "sourcePath": "/opt/bench/hooks",
+      "source": "system",
+      "pluginId": null,
+      "displayOrder": 1,
+      "enabled": true,
+      "isManaged": true,
+      "currentHash": "sha256:f2971dfe783fe6f9185fa7de5f1ff262e4721fe4056e434a7545dab593b9d15a",
+      "trustStatus": "managed"
+    }
+  ],
+  "tools": [
+    {
+      "name": "bench_list_files",
+      "description": "List available public inputs and output files.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "bench_read_file",
+      "description": "Read an exact UTF-8 byte page: max_bytes is 4..8192 (default 8192). For larger files, repeat with offset=next_offset until eof=true. Never request the whole file size.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "offset": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "max_bytes": {
+            "type": "integer",
+            "minimum": 4,
+            "maximum": 8192
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "bench_read_image",
+      "description": "Read an original public PNG with pixel coordinate metadata.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "bench_write_file",
+      "description": "Atomically write output text. Does not execute code.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "content": {
+            "type": "string"
+          },
+          "expected_sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          }
+        },
+        "required": [
+          "path",
+          "content"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "gui_observe",
+      "description": "Get a screenshot plus its width, height, pixel units, origin and coordinate axes. Coordinates are integer pixels in the original screenshot, with top-left origin (0, 0). x increases right and y increases down. Use the screenshot width and height; coordinates are not percentages or a normalized 0-1000 scale. Optionally save an immutable named reference for expect_image; choose a new name for each capture.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "reference": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_-]{0,47}$"
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "gui_reset",
+      "description": "Restore the prepared final checkpoint.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "gui_open_url",
+      "description": "Open the task app home. http://app:8000/ is the only logical home alias.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string",
+            "enum": [
+              "http://app:8000/"
+            ]
+          }
+        },
+        "required": [
+          "url"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "gui_step",
+      "description": "Native touch/input: hover unavailable; coordinate taps require 128 <= y < 1244. Reload closes and reopens the app. One action: click/hover require x,y; scroll requires dx,dy; type requires text; press requires key; reload takes no other fields. Coordinates are integer pixels in the original screenshot, with top-left origin (0, 0). x increases right and y increases down. Use the screenshot width and height; coordinates are not percentages or a normalized 0-1000 scale. No selectors, code, scripts, HTTP, test execution or action batches.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "click",
+              "scroll",
+              "type",
+              "press",
+              "reload"
+            ]
+          },
+          "x": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Horizontal original-screenshot pixel coordinate from the left edge."
+          },
+          "y": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Vertical original-screenshot pixel coordinate from the top edge."
+          },
+          "dx": {
+            "type": "integer",
+            "minimum": -2000,
+            "maximum": 2000
+          },
+          "dy": {
+            "type": "integer",
+            "minimum": -2000,
+            "maximum": 2000
+          },
+          "text": {
+            "type": "string",
+            "maxLength": 2000
+          },
+          "key": {
+            "type": "string",
+            "enum": [
+              "Enter",
+              "Tab",
+              "Escape",
+              "ArrowDown",
+              "ArrowUp",
+              "ArrowLeft",
+              "ArrowRight",
+              "Backspace"
+            ]
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      }
+    }
+  ],
+  "mcp_server": {
+    "name": "bench",
+    "runtimeStatus": "connected",
+    "pluginId": null,
+    "httpOrigin": null,
+    "serverInfo": {
+      "name": "bench",
+      "title": null,
+      "version": "1.30.0",
+      "description": null,
+      "icons": null,
+      "websiteUrl": null
+    },
+    "serverCapabilities": {
+      "experimental": {},
+      "tools": {
+        "listChanged": false
+      }
+    },
+    "tools": {
+      "bench_write_file": {
+        "name": "bench_write_file",
+        "description": "Atomically write output text. Does not execute code.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "string"
+            },
+            "content": {
+              "type": "string"
+            },
+            "expected_sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "required": [
+            "path",
+            "content"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "gui_open_url": {
+        "name": "gui_open_url",
+        "description": "Open the task app home. http://app:8000/ is the only logical home alias.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "url": {
+              "type": "string",
+              "enum": [
+                "http://app:8000/"
+              ]
+            }
+          },
+          "required": [
+            "url"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "gui_observe": {
+        "name": "gui_observe",
+        "description": "Get a screenshot plus its width, height, pixel units, origin and coordinate axes. Coordinates are integer pixels in the original screenshot, with top-left origin (0, 0). x increases right and y increases down. Use the screenshot width and height; coordinates are not percentages or a normalized 0-1000 scale. Optionally save an immutable named reference for expect_image; choose a new name for each capture.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "reference": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9_-]{0,47}$"
+            }
+          },
+          "required": [],
+          "additionalProperties": false
+        }
+      },
+      "bench_list_files": {
+        "name": "bench_list_files",
+        "description": "List available public inputs and output files.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "additionalProperties": false
+        }
+      },
+      "bench_read_file": {
+        "name": "bench_read_file",
+        "description": "Read an exact UTF-8 byte page: max_bytes is 4..8192 (default 8192). For larger files, repeat with offset=next_offset until eof=true. Never request the whole file size.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "string"
+            },
+            "offset": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "max_bytes": {
+              "type": "integer",
+              "minimum": 4,
+              "maximum": 8192
+            }
+          },
+          "required": [
+            "path"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "gui_reset": {
+        "name": "gui_reset",
+        "description": "Restore the prepared final checkpoint.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "additionalProperties": false
+        }
+      },
+      "bench_read_image": {
+        "name": "bench_read_image",
+        "description": "Read an original public PNG with pixel coordinate metadata.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "path"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "gui_step": {
+        "name": "gui_step",
+        "description": "Native touch/input: hover unavailable; coordinate taps require 128 <= y < 1244. Reload closes and reopens the app. One action: click/hover require x,y; scroll requires dx,dy; type requires text; press requires key; reload takes no other fields. Coordinates are integer pixels in the original screenshot, with top-left origin (0, 0). x increases right and y increases down. Use the screenshot width and height; coordinates are not percentages or a normalized 0-1000 scale. No selectors, code, scripts, HTTP, test execution or action batches.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "action": {
+              "type": "string",
+              "enum": [
+                "click",
+                "scroll",
+                "type",
+                "press",
+                "reload"
+              ]
+            },
+            "x": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Horizontal original-screenshot pixel coordinate from the left edge."
+            },
+            "y": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Vertical original-screenshot pixel coordinate from the top edge."
+            },
+            "dx": {
+              "type": "integer",
+              "minimum": -2000,
+              "maximum": 2000
+            },
+            "dy": {
+              "type": "integer",
+              "minimum": -2000,
+              "maximum": 2000
+            },
+            "text": {
+              "type": "string",
+              "maxLength": 2000
+            },
+            "key": {
+              "type": "string",
+              "enum": [
+                "Enter",
+                "Tab",
+                "Escape",
+                "ArrowDown",
+                "ArrowUp",
+                "ArrowLeft",
+                "ArrowRight",
+                "Backspace"
+              ]
+            }
+          },
+          "required": [
+            "action"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "toolsError": null,
+    "resources": [],
+    "resourceTemplates": [],
+    "authStatus": "unsupported"
+  },
+  "upstream_tool_catalog_visibility": "qualified fixture only; TLS is opaque",
+  "inference_started": false
+}

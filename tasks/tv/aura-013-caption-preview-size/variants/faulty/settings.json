@@ -1,0 +1,12 @@
+{
+  "spec": {
+    "id": "aura-013-caption-preview-size",
+    "seed": {},
+    "mutation": {
+      "file": "src/app.js",
+      "old": "{small:'1.25rem',medium:'1.75rem',large:'2.5rem'}[s.captionSize]",
+      "new": "{small:'1.25rem',medium:'1.75rem',large:'1.75rem'}[s.captionSize]"
+    }
+  },
+  "fault": true
+}

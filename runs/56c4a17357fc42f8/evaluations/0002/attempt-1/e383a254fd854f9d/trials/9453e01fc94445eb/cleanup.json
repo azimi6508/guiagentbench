@@ -1,0 +1,30 @@
+[
+  {
+    "container": "gab-9453e01fc94445eb-codex-agent",
+    "removed": true
+  },
+  {
+    "container": "gab-9453e01fc94445eb-codex-bridge",
+    "removed": true
+  },
+  {
+    "container": "gab-9453e01fc94445eb-codex-egress",
+    "removed": true
+  },
+  {
+    "container": "gab-9453e01fc94445eb-ready",
+    "removed": true
+  },
+  {
+    "container": "gab-9453e01fc94445eb-browser",
+    "removed": true
+  },
+  {
+    "container": "gab-9453e01fc94445eb-capture",
+    "removed": true
+  },
+  {
+    "container": "gab-9453e01fc94445eb-app",
+    "removed": true
+  }
+]

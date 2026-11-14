@@ -1,0 +1,78 @@
+{
+  "outcome": "PASS",
+  "assertions": [
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "link",
+          "name": "Home"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": true
+      },
+      "matched": true
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "heading",
+          "name": "MarvelsGrantMan136"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": false
+      },
+      "matched": true
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "link",
+          "name": "Edit biography"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": false
+      },
+      "matched": true
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "text": "I am a robot"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": false
+      },
+      "matched": true
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "text": "I am a robot"
+        },
+        "condition": "text",
+        "expected": "I am a robot",
+        "precondition": false
+      },
+      "matched": true
+    }
+  ],
+  "submission_sha256": "467efc3547dcac9cbbd7d71315c3571e1f6b5e17405e1cf4c1d8dc31244b63cc",
+  "references_sha256": "17dfb99b89107836e3f3cf979f7895d63b2ce31313a872bad695f9bf5d29bcfe",
+  "diagnostics": {
+    "version": "failure-v1",
+    "primary_issue": null,
+    "issues": [],
+    "ordering": "source_order_not_global_time"
+  },
+  "elapsed_seconds": 1.846,
+  "exit_code": 0
+}

@@ -1,0 +1,24 @@
+{"environment_contract": "environment-v1", "environment_event": "reset", "platform": "mobile", "status": "ready", "screenshot_sha256": "57f273439bfe7c4a78b5d33929c3b61ee590a54f00bc49f38209d6336940b4aa"}
+{"setup": "ready", "initial_state": true}
+{"assertion": {"kind": "ui", "query": {"role": "paragraph", "name": "atlas"}, "condition": "visible", "expected": true, "precondition": true}, "matched": true}
+{"operation": "assert", "denied": false}
+{"assertion": {"kind": "ui", "query": {"role": "button", "name": "More options"}, "condition": "visible", "expected": true, "precondition": true}, "matched": true}
+{"operation": "assert", "denied": false}
+{"assertion": {"kind": "ui", "query": {"role": "textbox", "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"}, "condition": "visible", "expected": true, "precondition": true}, "matched": true}
+{"operation": "assert", "denied": false}
+{"assertion": {"kind": "ui", "query": {"role": "textbox", "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"}, "condition": "text", "expected": "", "precondition": true}, "matched": true}
+{"operation": "assert", "denied": false}
+{"action": {"operation": "step", "arguments": {"action": "fill", "role": "textbox", "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor", "text": "Bring the blue notebook."}}}
+{"operation": "step", "denied": false}
+{"assertion": {"kind": "ui", "query": {"role": "textbox", "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"}, "condition": "text", "expected": "Bring the blue notebook.", "precondition": false}, "matched": true}
+{"operation": "assert", "denied": false}
+{"action": {"operation": "step", "arguments": {"action": "click", "role": "button", "name": "Save"}}}
+{"operation": "step", "denied": false}
+{"action": {"operation": "step", "arguments": {"action": "reload"}}}
+{"operation": "step", "denied": false}
+{"assertion": {"kind": "ui", "query": {"role": "paragraph", "name": "atlas"}, "condition": "visible", "expected": true, "precondition": true}, "matched": true}
+{"operation": "assert", "denied": false}
+{"assertion": {"kind": "ui", "query": {"role": "textbox", "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"}, "condition": "visible", "expected": true, "precondition": false}, "matched": true}
+{"operation": "assert", "denied": false}
+{"assertion": {"kind": "ui", "query": {"role": "textbox", "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"}, "condition": "text", "expected": "Bring the blue notebook.", "precondition": false}, "matched": false}
+{"operation": "assert", "denied": false}

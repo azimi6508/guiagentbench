@@ -1,0 +1,5 @@
+{"event": "PreToolUse", "allowed": true, "tool": "mcp__bench__bench_read_file"}
+{"event": "PreToolUse", "allowed": true, "tool": "mcp__bench__bench_read_image"}
+{"event": "PreToolUse", "allowed": true, "tool": "mcp__bench__bench_read_image"}
+{"event": "PreToolUse", "allowed": true, "tool": "mcp__bench__bench_read_image"}
+{"event": "PreToolUse", "allowed": true, "tool": "mcp__bench__bench_write_file"}

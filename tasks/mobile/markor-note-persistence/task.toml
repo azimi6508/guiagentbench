@@ -1,0 +1,48 @@
+schema_version = "1.3"
+
+[task]
+name = "gui-agent-bench/markor-note-persistence"
+description = "Native Markor note survives an application restart"
+
+[metadata]
+task_id = "markor-note-persistence"
+platform = "mobile"
+status = "example"
+research_core = false
+eligible_arms = ["judge_visual", "judge_test", "oracle_visual", "oracle_ui", "test_visual", "test_ui"]
+source = "AndroidWorld-style adaptation"
+upstream_id = "MarkorEditNote/replace"
+upstream_url = "https://github.com/google-research/android_world/blob/2dfc5ca3dc590efe9c72ce768f2b04182f2f75c7/android_world/task_evals/single/markor.py"
+upstream_revision = "2dfc5ca3dc590efe9c72ce768f2b04182f2f75c7"
+license = "Apache-2.0"
+transform_notes = "Original fixed-parameter adaptation of MarkorEditNote replace with exact storage checker and restart persistence. No upstream Python imported. Real Markor 2.10.9 APK from AndroidWorld. Initial empty atlas.txt is opened by trusted setup. Fault injection truncates the note after ordinary save/process stop and before reopening; not an upstream Markor defect. API36 research AVD replaces AndroidWorld API33."
+
+[metadata.runtime]
+app_image = "gui-agent-bench-public-mobile-relay:1"
+app_memory_mb = 128
+reference_timeout_sec = 180
+viewport_width = 720
+viewport_height = 1280
+timezone = "UTC"
+
+[agent]
+timeout_sec = 240.0
+network_mode = "no-network"
+[verifier]
+timeout_sec = 240.0
+environment_mode = "separate"
+network_mode = "no-network"
+[environment]
+build_timeout_sec = 600.0
+cpus = 2
+memory_mb = 2048
+storage_mb = 4096
+network_mode = "no-network"
+
+[integration]
+environment_profile = "mobile"
+reference_alias = "markor"
+native_application = "environment/application.py"
+native_package = "net.gsantner.markor"
+native_apk_sha256 = "1a328c5324b3b33d6cb4d55085637707252569d98c0ffe1cb7089aebbd903256"
+native_apk_url = "https://storage.googleapis.com/gresearch/android_world/net.gsantner.markor_146.apk"

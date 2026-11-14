@@ -1,0 +1,96 @@
+{
+  "schema": "resolved-plan-v1",
+  "agents": [
+    {
+      "identifier": "claude/claude-opus-5-5",
+      "runner": "claude",
+      "model": "claude-opus-5-5",
+      "auth_mode": "anthropic_credential",
+      "reasoning_effort": "medium",
+      "tool_profile": "claude-mcp-v1",
+      "budget_profile": "claude-bounded-v1"
+    }
+  ],
+  "memberships": [
+    {
+      "task": "web/webarena-399-profile-bio",
+      "arm": "test_visual",
+      "model": "claude/claude-opus-5-5"
+    }
+  ],
+  "images": {
+    "agent": "sha256:1c3737172104a8eea59dba5af6fa741408df8efef9e21897f2445e3ef0f52c33",
+    "bridge": "sha256:ad39ab3fc6c2ca96e12394b00d88938f7f5f949ef317e1fa53b2daaef5b1b754",
+    "gateway": "sha256:8eb3b9f274c8fd39350866e0fdd1c01e77e060244d8218713a175cfb02f97e50"
+  },
+  "runtime_lock": "755feccdb0f34b0ce867812055c45ea38c41a72d03b2cc870014367400ad741d",
+  "runner_version": "2.1.323",
+  "protocol_contract": "claude-mcp-v1",
+  "billing_mode": "anthropic_credential",
+  "budgets": {
+    "test_visual": {
+      "profile": "claude-bounded-v1",
+      "timeout_seconds": 3600,
+      "startup_seconds": 120,
+      "tool_timeout_seconds": 60,
+      "interrupt_seconds": 5,
+      "model_steps": null,
+      "model_requests": 208,
+      "per_request_output_token_cap": null,
+      "bridge_calls": 800,
+      "observed_tool_items": 800,
+      "evidence_bytes": 64000000,
+      "incoming_frame_bytes": 1048576,
+      "non_tool_frames": 4096,
+      "result_frame_bytes": 8000000,
+      "tool_text_bytes": 65536,
+      "output_files": 128,
+      "output_bytes": 4000000,
+      "output_directories": 64,
+      "output_path_bytes": 192,
+      "output_path_components": 4,
+      "output_component_bytes": 64,
+      "request_body_bytes": 32000000
+    }
+  },
+  "task_hashes": {
+    "web/webarena-399-profile-bio": {
+      "arms/judge_test.md": "47978f367c6903c83d060bf3114615f07733a895dc6eb266c510df9350b008f2",
+      "arms/judge_visual.md": "027c7c79af2be2f61136ee7eb4e714a4aa1c70d849b76f4a423fab9c5dec5779",
+      "arms/oracle_ui.md": "27dd353d3b61dfa1c0f75928144f960a179823be23df6cafe1d5f561d7e12ddb",
+      "arms/oracle_visual.md": "aa9510620a7c718091083e1cf9984842b79aeb644176b0042022f3c93063ff83",
+      "arms/test_ui.md": "d8d1793a22dfd704a6aa004f62238952fb9cdfd365b41d4aad1bc2d5ad523301",
+      "arms/test_visual.md": "c41e5ae4f5a3ad25880b6646f07ebd628a3e49ae48f2b2567c290c775d3ef6c8",
+      "environment/Dockerfile": "cedd4d09825ba67b7ae1a8b9f8cf856fc11560205a39f79aa7f0140c99516792",
+      "environment/README.md": "53ede96c57a4f3e7883aff2476133b6ed4c8cde6d109155f0bd110d84b4270b8",
+      "environment/app.py": "988cb6dcdaa4a13d475ddd7f6bfb147487492534272a0defb7071fc3d2d325c5",
+      "environment/patch.py": "567b0d8256b8c3edf467fec637789678ca0f5400f553cd8655df81f81c0eca02",
+      "environment/router.php": "4f7d9ad1d81adef9f6c89f6e7e14e1fabea92a668622201651678dd694d0b9be",
+      "instruction.md": "f7db1d67152d16e6b417b4a47f865c5e3e98d9b678c31e5105ada0043468643a",
+      "lineage/POSTMILL-LICENSE": "782c22efd9e3f8408278e46d2f1594c42f35fa235f47cc148599fb3f5b43543a",
+      "lineage/README.md": "891323babb8232e89c86929bfedeca69dc838f3a6f962a1226c981c23388bf16",
+      "lineage/UserController.original.php": "f79ef3961a0124705167f43465ee27da58df74cddaceee4494335b474d156e31",
+      "lineage/UserController.patched.php": "18d9cf76c801fbb2070cf26bfa35837501e243d9b251e9fef33c7fc1008cfe8b",
+      "lineage/WEBARENA-LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "lineage/manifest.json": "514af0103e163c349573ca51b0408e29891e135a8266926613445b6be5bc7565",
+      "lineage/selected-task.json": "d6e9b554dadb9c078383efc084532c4e5b90b24d0377b40b184b45f888d35597",
+      "private/gold_test.py": "c54f9c81a4ad265bbb6f89ba83d0a15d95ab9047e65f1e5bb5f2715106175dd2",
+      "private/labels.json": "735536e96b03c003bd94d49fe71aaaaae9d1d0f2f9ffad3fb008ae2404ecbd11",
+      "private/reference.json": "430a34afddfb1a071970875dfe4212316b2a930792f4ac5f37330949c0da8ee9",
+      "private/test_source.py": "cfcb22577fe5c0a426d2cbc4006accb32d98912c65ab9a8e8c42f771cef27f5c",
+      "solution/oracle_ui.py": "55b932a7c8cf5a5207434cfff037173825eee993289174a71a1f3ad254fca3f6",
+      "solution/oracle_visual.py": "3e1686e9a216e7d37d754b044184768b42f74401c6dac246147589a4dfe37f2e",
+      "solution/solve.sh": "8ca3527979b87dbde491967b461ae8883895251cf344336ae7aa7154b151a10a",
+      "solution/test_ui.py": "56956dec01cbe2892d2217e07e5b3739f3fba303caab4ceaf21342ada9480596",
+      "solution/test_visual.py": "f0ba81c97ceedb580f6f573e30018bc1a0f145799170bfd94b96097d0d936ec3",
+      "task.toml": "4101f58b5cfaa76c331049469c5817155ba8d408e3d9adfd5c53bceda9ce7215",
+      "tests/test.sh": "db69bb46fa8404bdf417084e5f8c2898f80e09ad934a887d09faae82cc8fcb2f",
+      "variants/correct/settings.json": "9f9375f7b4c0f1ad67f7ab0d39d400e554ad37532a694a4cf088a0abe83043ba",
+      "variants/faulty/settings.json": "70049a99af36aff2d91b80dd67d8f33175ec882e74cb2032382fdd1dccf2d6ff"
+    }
+  },
+  "automatic_trial_retries": false,
+  "automatic_fallback": false,
+  "client_request_retries": 0,
+  "provider_cost_usd": null
+}

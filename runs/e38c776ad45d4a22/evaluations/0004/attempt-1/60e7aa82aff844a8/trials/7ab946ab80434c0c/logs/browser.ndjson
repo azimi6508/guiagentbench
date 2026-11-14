@@ -1,0 +1,13 @@
+{"environment_contract": "environment-v1", "environment_event": "reset", "platform": "mobile", "status": "ready", "screenshot_sha256": "86a34d5fbb1c47dd77f2c1ef90e916163279f8c44c6771d3d44cf5c82cd17129"}
+{"setup": "ready", "initial_state": true}
+{"tool": "observe", "arguments": {}, "denied": false}
+{"reference": {"name": "initial-editor", "file": "initial-editor.png", "sha256": "d52948e16aa03378d5449a3cd98dfe6c0832138ad01c8c2e5ab9a7a59610b172"}}
+{"tool": "observe", "arguments": {"reference": "initial-editor"}, "denied": false}
+{"tool": "step", "arguments": {"action": "click", "x": 360, "y": 600}, "denied": false}
+{"tool": "step", "arguments": {"action": "type", "text": "Bring the blue notebook."}, "denied": false}
+{"tool": "observe", "arguments": {}, "denied": false}
+{"tool": "step", "arguments": {"action": "click", "x": 569, "y": 170}, "denied": false}
+{"tool": "step", "arguments": {"action": "reload"}, "denied": false}
+{"tool": "observe", "arguments": {}, "denied": false}
+{"reference": {"name": "saved-reopened", "file": "saved-reopened.png", "sha256": "516019272edd519ae239785af2091f56ab6aebdf2fed1fe1fe83be28d4953694"}}
+{"tool": "observe", "arguments": {"reference": "saved-reopened"}, "denied": false}

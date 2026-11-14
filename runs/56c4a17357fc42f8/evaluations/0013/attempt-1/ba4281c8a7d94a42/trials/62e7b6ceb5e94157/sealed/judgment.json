@@ -1,0 +1,1 @@
+{"verdict":"FAIL","reason":"The supplied actions select Large successfully, but the caption preview remains visibly identical in size to Medium. The expected caption-font update to 2.5rem is therefore predicted to fail."}

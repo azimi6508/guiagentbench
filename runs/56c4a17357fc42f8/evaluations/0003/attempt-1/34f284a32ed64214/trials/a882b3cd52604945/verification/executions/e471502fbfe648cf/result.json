@@ -1,0 +1,67 @@
+{
+  "outcome": "PASS",
+  "assertions": [
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "button",
+          "name": "More options"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": true
+      },
+      "matched": true
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "paragraph",
+          "name": "atlas"
+        },
+        "condition": "text",
+        "expected": "atlas",
+        "precondition": false
+      },
+      "matched": true
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "textbox",
+          "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": false
+      },
+      "matched": true
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "textbox",
+          "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"
+        },
+        "condition": "text",
+        "expected": "Bring the blue notebook.",
+        "precondition": false
+      },
+      "matched": true
+    }
+  ],
+  "submission_sha256": "53375bd83aaac2b1ee3f097fae410d82f502502352b610b5e8c4fd9f9b54ba38",
+  "references_sha256": "d468eb8d4b4e292277985fafb921d9937edaf9a6d854eb906781b014b4ee9640",
+  "diagnostics": {
+    "version": "failure-v1",
+    "primary_issue": null,
+    "issues": [],
+    "ordering": "source_order_not_global_time"
+  },
+  "elapsed_seconds": 1.446,
+  "exit_code": 0
+}

@@ -1,0 +1,1 @@
+{"verdict":"FAIL","reason":"Live run of the reference steps: fill put 'Bring the blue notebook.' in the editor (Save button became enabled, i.e. unsaved). The test never saves; after reload the atlas note reopened empty, so require_text('Bring the blue notebook.') / check_fixture would fail."}

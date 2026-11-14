@@ -1,0 +1,93 @@
+{
+  "schema": "resolved-plan-v1",
+  "agents": [
+    {
+      "identifier": "codex/gpt-6.1-sol",
+      "runner": "codex",
+      "model": "gpt-6.1-sol",
+      "auth_mode": "chatgpt",
+      "reasoning_effort": "medium",
+      "tool_profile": "codex-mcp-v1",
+      "budget_profile": "codex-bounded-v1"
+    }
+  ],
+  "memberships": [
+    {
+      "task": "tv/aura-013-caption-preview-size",
+      "arm": "judge_visual",
+      "model": "codex/gpt-6.1-sol"
+    }
+  ],
+  "images": {
+    "agent": "sha256:20a8a2f028a494a4768aee6957dca556537af27651950ae44f8715c653c0ef0d",
+    "bridge": "sha256:ad39ab3fc6c2ca96e12394b00d88938f7f5f949ef317e1fa53b2daaef5b1b754",
+    "egress": "sha256:4415301572aca978fe626ec8d717b1f95c7a5afcad054c17a1354df249aa42a6"
+  },
+  "runtime_lock": "0e6a6caed46d6a8fa782e6ace43e54989d920390ef91979315f8dda0966e11d3",
+  "task_hashes": {
+    "tv/aura-013-caption-preview-size": {
+      "arms/judge_test.md": "c006d8d282dcc6872be4034cd5221ee20db5217901cab72da9a13554eb07a9d3",
+      "arms/judge_visual.md": "64799f1e217c631719a7bbc3635f6cf520f26c88233a907a0da5c4a8c72c9883",
+      "arms/oracle_ui.md": "27dd353d3b61dfa1c0f75928144f960a179823be23df6cafe1d5f561d7e12ddb",
+      "arms/oracle_visual.md": "aa9510620a7c718091083e1cf9984842b79aeb644176b0042022f3c93063ff83",
+      "arms/test_ui.md": "d8d1793a22dfd704a6aa004f62238952fb9cdfd365b41d4aad1bc2d5ad523301",
+      "arms/test_visual.md": "c41e5ae4f5a3ad25880b6646f07ebd628a3e49ae48f2b2567c290c775d3ef6c8",
+      "environment/Dockerfile": "a8c1b8226c4857ce7c50ee9d843d9180ad1cb4d3808e647c31c1614a9e629331",
+      "environment/README.md": "44dfd1f88124138e794bb6d550ab98813b186e28960b4a02b8153dd0a8e28234",
+      "instruction.md": "01c0f4a7ccbd109d537d80b5d714e430e2197f0f39ccdbabeda1d7a462658aa3",
+      "lineage/manifest.json": "b07054d54a2fbc19fe4838107d2747d1c5f9ee1748ae5e2daec04db42233dea7",
+      "private/frozen.json": "0e536dc43206aed89ad9c859b2d29ddb5b8dc3d58733b988d6c720f564c380ef",
+      "private/gold_test.py": "d380a21aefd1655109ab0a2d6184ab48718f6a9042b9b2c33c0e045a960cde6e",
+      "private/labels.json": "f8760e4e45dcdbd857d92104ed73a00118e779cebc811e4e5b55653c07dfa54d",
+      "private/reference.json": "e10509cf6e87ff3837fbb8ee2c84db1ddf7ed0ffb235d1709a4336a517e5e50c",
+      "private/spec.json": "a5c5635b19ace817fae13b7d72989b518e816442f200ab75b90aaad2b91b9f88",
+      "private/test_source.py": "7ab453455f9ed5af3f066e99fb32344fdc3aca840be085cee1049f28b61f7e0e",
+      "private/workflow.md": "76e7e5603cabba3ae8eef519bad4dc71a07a3bbafcd51dcdcf50793d97d344c6",
+      "solution/oracle_ui.py": "e1a6fafce6d32385a5a94d09718f6b62a07c6b88a976ae4f0f571ba3d7ddb0dc",
+      "solution/oracle_visual.py": "e1a6fafce6d32385a5a94d09718f6b62a07c6b88a976ae4f0f571ba3d7ddb0dc",
+      "solution/solve.sh": "8ca3527979b87dbde491967b461ae8883895251cf344336ae7aa7154b151a10a",
+      "solution/test_ui.py": "7cb2b8d0cf0d9dbda272b29a8500363226b7913b2362f21c89232673280c6035",
+      "solution/test_visual.py": "7cb2b8d0cf0d9dbda272b29a8500363226b7913b2362f21c89232673280c6035",
+      "task.toml": "499c07cea13da02065bb24c5dd89825fe1a231217b270f066d751bfef756a4a9",
+      "tests/test.sh": "db69bb46fa8404bdf417084e5f8c2898f80e09ad934a887d09faae82cc8fcb2f",
+      "variants/correct/settings.json": "2b45de1681afb46c67de7e9e262cc5b42cfb54f1aba0aa01e2281906921650b4",
+      "variants/faulty/settings.json": "5d18ba5bb3488a7375542e5d202678565c1492ef9e8db75b0151921ec1263a70"
+    }
+  },
+  "policies": {
+    "judge_visual": "a161e87686bc35f0dadba7dc0e26cd1ecfe2dff3d4cdf897161d83cfc0114bb1"
+  },
+  "budgets": {
+    "judge_visual": {
+      "profile": "codex-bounded-v1",
+      "timeout_seconds": 3600,
+      "startup_seconds": 120,
+      "tool_timeout_seconds": 60,
+      "interrupt_seconds": 5,
+      "model_steps": null,
+      "model_requests": null,
+      "per_request_output_token_cap": null,
+      "bridge_calls": 400,
+      "observed_tool_items": 400,
+      "evidence_bytes": 64000000,
+      "incoming_frame_bytes": 1048576,
+      "non_tool_frames": 4096,
+      "result_frame_bytes": 8000000,
+      "tool_text_bytes": 65536,
+      "output_files": 128,
+      "output_bytes": 4000000,
+      "output_directories": 64,
+      "output_path_bytes": 192,
+      "output_path_components": 4,
+      "output_component_bytes": 64
+    }
+  },
+  "model_catalogs": {
+    "gpt-6.1-sol": "64fcee6f2d45cde917dd7fb0ea4a43453cf6224fa16c2b7ba9694f1f2174ef19"
+  },
+  "runner_version": "0.162.0",
+  "protocol_contract": "codex-runner-v1",
+  "billing_mode": "chatgpt_subscription",
+  "automatic_trial_retries": false,
+  "automatic_fallback": false
+}

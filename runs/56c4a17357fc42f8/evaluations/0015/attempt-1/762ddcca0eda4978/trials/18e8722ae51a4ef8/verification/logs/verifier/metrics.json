@@ -1,0 +1,1351 @@
+{
+  "status": "graded",
+  "reward": 1,
+  "planned_trials": 1,
+  "same_assertions": true,
+  "stable": true,
+  "executions": [
+    {
+      "outcome": "PASS",
+      "assertions": [
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "navigation",
+              "name": "Main navigation"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": true
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "button",
+              "name": "Caption size Large"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": false
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "image",
+            "reference": "large-caption-preview",
+            "region": [
+              974,
+              220,
+              1212,
+              325
+            ],
+            "masks": [],
+            "threshold": 0.1,
+            "max_diff_pixels": 100,
+            "include_aa": false,
+            "precondition": false,
+            "observation_window_ms": 1600
+          },
+          "matched": true,
+          "image": {
+            "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+            "reference_sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "actual_sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "compared_pixels": 24990,
+            "different_pixels": 0,
+            "matched": true,
+            "evidence": {
+              "directory": "0001",
+              "sha256": {
+                "capture.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "sample-0001.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "sample-0002.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "sample-0003.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "sample-0004.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "sample-0005.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "expected.png": "1280589267edc286b28074c07c0a8bb441e7042d8f90dc3249c0494e8b27b779",
+                "actual.png": "1280589267edc286b28074c07c0a8bb441e7042d8f90dc3249c0494e8b27b779",
+                "diff.png": "fef3c292fd7ca02f7d1a92c34e9ceceac19d06c02c4d26289e4ba317a053a30c"
+              }
+            },
+            "capture_contract": "visual-observation-window-v1",
+            "observation_window_ms": 1600,
+            "selected_sample": 0,
+            "observations": [
+              {
+                "file": "sample-0001.png",
+                "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "elapsed_ms": 66,
+                "different_pixels": 0
+              },
+              {
+                "file": "sample-0002.png",
+                "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "elapsed_ms": 433,
+                "different_pixels": 0
+              },
+              {
+                "file": "sample-0003.png",
+                "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "elapsed_ms": 881,
+                "different_pixels": 0
+              },
+              {
+                "file": "sample-0004.png",
+                "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "elapsed_ms": 1299,
+                "different_pixels": 0
+              },
+              {
+                "file": "sample-0005.png",
+                "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "elapsed_ms": 1665,
+                "different_pixels": 0
+              }
+            ]
+          }
+        }
+      ],
+      "submission_sha256": "6813a581ffb323136ee64128a08384e0d9b6bb643fee1c57fe30a9071d714a6c",
+      "references_sha256": "7f2303267ab08c334ae3b8eb174141cdf718fad11c2fd0c01020778802475f2a",
+      "diagnostics": {
+        "version": "failure-v1",
+        "primary_issue": null,
+        "issues": [],
+        "ordering": "source_order_not_global_time"
+      },
+      "elapsed_seconds": 2.752,
+      "exit_code": 0,
+      "variant": "correct"
+    },
+    {
+      "outcome": "BEHAVIOR_FAIL",
+      "assertions": [
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "navigation",
+              "name": "Main navigation"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": true
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "button",
+              "name": "Caption size Large"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": false
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "image",
+            "reference": "large-caption-preview",
+            "region": [
+              974,
+              220,
+              1212,
+              325
+            ],
+            "masks": [],
+            "threshold": 0.1,
+            "max_diff_pixels": 100,
+            "include_aa": false,
+            "precondition": false,
+            "observation_window_ms": 1600
+          },
+          "matched": false,
+          "image": {
+            "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+            "reference_sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "actual_sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+            "compared_pixels": 24990,
+            "different_pixels": 4773,
+            "matched": false,
+            "evidence": {
+              "directory": "0001",
+              "sha256": {
+                "capture.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "sample-0001.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "sample-0002.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "sample-0003.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "sample-0004.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "sample-0005.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "expected.png": "1280589267edc286b28074c07c0a8bb441e7042d8f90dc3249c0494e8b27b779",
+                "actual.png": "7b630c7e1d9fd8130307ef62c556cdfe6a286108ddd43f4cc2c4adf8b1ed9755",
+                "diff.png": "af6189ea1cd8a6c0ed0c11cc3fb1b052b5aab45262d7346093808dfa6d4c7d1e"
+              }
+            },
+            "capture_contract": "visual-observation-window-v1",
+            "observation_window_ms": 1600,
+            "selected_sample": 0,
+            "observations": [
+              {
+                "file": "sample-0001.png",
+                "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "elapsed_ms": 66,
+                "different_pixels": 4773
+              },
+              {
+                "file": "sample-0002.png",
+                "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "elapsed_ms": 432,
+                "different_pixels": 4773
+              },
+              {
+                "file": "sample-0003.png",
+                "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "elapsed_ms": 882,
+                "different_pixels": 4773
+              },
+              {
+                "file": "sample-0004.png",
+                "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "elapsed_ms": 1298,
+                "different_pixels": 4773
+              },
+              {
+                "file": "sample-0005.png",
+                "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "elapsed_ms": 1681,
+                "different_pixels": 4773
+              }
+            ]
+          }
+        }
+      ],
+      "submission_sha256": "6813a581ffb323136ee64128a08384e0d9b6bb643fee1c57fe30a9071d714a6c",
+      "references_sha256": "7f2303267ab08c334ae3b8eb174141cdf718fad11c2fd0c01020778802475f2a",
+      "diagnostics": {
+        "version": "failure-v1",
+        "primary_issue": 0,
+        "issues": [
+          {
+            "version": "failure-v1",
+            "phase": "execution",
+            "operation": "assert",
+            "result": "failed",
+            "cause": "behavioral_mismatch",
+            "impact": "pair_dependent",
+            "message": "A behavioral assertion did not match.",
+            "exception_type": "Failure",
+            "source": {
+              "file": "browser.log",
+              "record_index": 9
+            }
+          }
+        ],
+        "ordering": "source_order_not_global_time"
+      },
+      "elapsed_seconds": 3.446,
+      "exit_code": 0,
+      "variant": "faulty"
+    },
+    {
+      "outcome": "PASS",
+      "assertions": [
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "navigation",
+              "name": "Main navigation"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": true
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "button",
+              "name": "Caption size Large"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": false
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "image",
+            "reference": "large-caption-preview",
+            "region": [
+              974,
+              220,
+              1212,
+              325
+            ],
+            "masks": [],
+            "threshold": 0.1,
+            "max_diff_pixels": 100,
+            "include_aa": false,
+            "precondition": false,
+            "observation_window_ms": 1600
+          },
+          "matched": true,
+          "image": {
+            "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+            "reference_sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "actual_sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "compared_pixels": 24990,
+            "different_pixels": 0,
+            "matched": true,
+            "evidence": {
+              "directory": "0001",
+              "sha256": {
+                "capture.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "sample-0001.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "sample-0002.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "sample-0003.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "sample-0004.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "sample-0005.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "expected.png": "1280589267edc286b28074c07c0a8bb441e7042d8f90dc3249c0494e8b27b779",
+                "actual.png": "1280589267edc286b28074c07c0a8bb441e7042d8f90dc3249c0494e8b27b779",
+                "diff.png": "fef3c292fd7ca02f7d1a92c34e9ceceac19d06c02c4d26289e4ba317a053a30c"
+              }
+            },
+            "capture_contract": "visual-observation-window-v1",
+            "observation_window_ms": 1600,
+            "selected_sample": 0,
+            "observations": [
+              {
+                "file": "sample-0001.png",
+                "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "elapsed_ms": 63,
+                "different_pixels": 0
+              },
+              {
+                "file": "sample-0002.png",
+                "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "elapsed_ms": 431,
+                "different_pixels": 0
+              },
+              {
+                "file": "sample-0003.png",
+                "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "elapsed_ms": 881,
+                "different_pixels": 0
+              },
+              {
+                "file": "sample-0004.png",
+                "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "elapsed_ms": 1295,
+                "different_pixels": 0
+              },
+              {
+                "file": "sample-0005.png",
+                "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "elapsed_ms": 1673,
+                "different_pixels": 0
+              }
+            ]
+          }
+        }
+      ],
+      "submission_sha256": "6813a581ffb323136ee64128a08384e0d9b6bb643fee1c57fe30a9071d714a6c",
+      "references_sha256": "7f2303267ab08c334ae3b8eb174141cdf718fad11c2fd0c01020778802475f2a",
+      "diagnostics": {
+        "version": "failure-v1",
+        "primary_issue": null,
+        "issues": [],
+        "ordering": "source_order_not_global_time"
+      },
+      "elapsed_seconds": 2.847,
+      "exit_code": 0,
+      "variant": "correct"
+    },
+    {
+      "outcome": "BEHAVIOR_FAIL",
+      "assertions": [
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "navigation",
+              "name": "Main navigation"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": true
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "button",
+              "name": "Caption size Large"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": false
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "image",
+            "reference": "large-caption-preview",
+            "region": [
+              974,
+              220,
+              1212,
+              325
+            ],
+            "masks": [],
+            "threshold": 0.1,
+            "max_diff_pixels": 100,
+            "include_aa": false,
+            "precondition": false,
+            "observation_window_ms": 1600
+          },
+          "matched": false,
+          "image": {
+            "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+            "reference_sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "actual_sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+            "compared_pixels": 24990,
+            "different_pixels": 4773,
+            "matched": false,
+            "evidence": {
+              "directory": "0001",
+              "sha256": {
+                "capture.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "sample-0001.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "sample-0002.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "sample-0003.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "sample-0004.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "sample-0005.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "expected.png": "1280589267edc286b28074c07c0a8bb441e7042d8f90dc3249c0494e8b27b779",
+                "actual.png": "7b630c7e1d9fd8130307ef62c556cdfe6a286108ddd43f4cc2c4adf8b1ed9755",
+                "diff.png": "af6189ea1cd8a6c0ed0c11cc3fb1b052b5aab45262d7346093808dfa6d4c7d1e"
+              }
+            },
+            "capture_contract": "visual-observation-window-v1",
+            "observation_window_ms": 1600,
+            "selected_sample": 0,
+            "observations": [
+              {
+                "file": "sample-0001.png",
+                "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "elapsed_ms": 65,
+                "different_pixels": 4773
+              },
+              {
+                "file": "sample-0002.png",
+                "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "elapsed_ms": 431,
+                "different_pixels": 4773
+              },
+              {
+                "file": "sample-0003.png",
+                "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "elapsed_ms": 880,
+                "different_pixels": 4773
+              },
+              {
+                "file": "sample-0004.png",
+                "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "elapsed_ms": 1296,
+                "different_pixels": 4773
+              },
+              {
+                "file": "sample-0005.png",
+                "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "elapsed_ms": 1683,
+                "different_pixels": 4773
+              }
+            ]
+          }
+        }
+      ],
+      "submission_sha256": "6813a581ffb323136ee64128a08384e0d9b6bb643fee1c57fe30a9071d714a6c",
+      "references_sha256": "7f2303267ab08c334ae3b8eb174141cdf718fad11c2fd0c01020778802475f2a",
+      "diagnostics": {
+        "version": "failure-v1",
+        "primary_issue": 0,
+        "issues": [
+          {
+            "version": "failure-v1",
+            "phase": "execution",
+            "operation": "assert",
+            "result": "failed",
+            "cause": "behavioral_mismatch",
+            "impact": "pair_dependent",
+            "message": "A behavioral assertion did not match.",
+            "exception_type": "Failure",
+            "source": {
+              "file": "browser.log",
+              "record_index": 9
+            }
+          }
+        ],
+        "ordering": "source_order_not_global_time"
+      },
+      "elapsed_seconds": 3.446,
+      "exit_code": 0,
+      "variant": "faulty"
+    },
+    {
+      "outcome": "PASS",
+      "assertions": [
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "navigation",
+              "name": "Main navigation"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": true
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "button",
+              "name": "Caption size Large"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": false
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "image",
+            "reference": "large-caption-preview",
+            "region": [
+              974,
+              220,
+              1212,
+              325
+            ],
+            "masks": [],
+            "threshold": 0.1,
+            "max_diff_pixels": 100,
+            "include_aa": false,
+            "precondition": false,
+            "observation_window_ms": 1600
+          },
+          "matched": true,
+          "image": {
+            "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+            "reference_sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "actual_sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "compared_pixels": 24990,
+            "different_pixels": 0,
+            "matched": true,
+            "evidence": {
+              "directory": "0001",
+              "sha256": {
+                "capture.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "sample-0001.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "sample-0002.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "sample-0003.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "sample-0004.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "sample-0005.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "expected.png": "1280589267edc286b28074c07c0a8bb441e7042d8f90dc3249c0494e8b27b779",
+                "actual.png": "1280589267edc286b28074c07c0a8bb441e7042d8f90dc3249c0494e8b27b779",
+                "diff.png": "fef3c292fd7ca02f7d1a92c34e9ceceac19d06c02c4d26289e4ba317a053a30c"
+              }
+            },
+            "capture_contract": "visual-observation-window-v1",
+            "observation_window_ms": 1600,
+            "selected_sample": 0,
+            "observations": [
+              {
+                "file": "sample-0001.png",
+                "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "elapsed_ms": 65,
+                "different_pixels": 0
+              },
+              {
+                "file": "sample-0002.png",
+                "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "elapsed_ms": 432,
+                "different_pixels": 0
+              },
+              {
+                "file": "sample-0003.png",
+                "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "elapsed_ms": 883,
+                "different_pixels": 0
+              },
+              {
+                "file": "sample-0004.png",
+                "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "elapsed_ms": 1295,
+                "different_pixels": 0
+              },
+              {
+                "file": "sample-0005.png",
+                "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "elapsed_ms": 1662,
+                "different_pixels": 0
+              }
+            ]
+          }
+        }
+      ],
+      "submission_sha256": "6813a581ffb323136ee64128a08384e0d9b6bb643fee1c57fe30a9071d714a6c",
+      "references_sha256": "7f2303267ab08c334ae3b8eb174141cdf718fad11c2fd0c01020778802475f2a",
+      "diagnostics": {
+        "version": "failure-v1",
+        "primary_issue": null,
+        "issues": [],
+        "ordering": "source_order_not_global_time"
+      },
+      "elapsed_seconds": 2.747,
+      "exit_code": 0,
+      "variant": "correct"
+    },
+    {
+      "outcome": "BEHAVIOR_FAIL",
+      "assertions": [
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "navigation",
+              "name": "Main navigation"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": true
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "button",
+              "name": "Caption size Large"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": false
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "image",
+            "reference": "large-caption-preview",
+            "region": [
+              974,
+              220,
+              1212,
+              325
+            ],
+            "masks": [],
+            "threshold": 0.1,
+            "max_diff_pixels": 100,
+            "include_aa": false,
+            "precondition": false,
+            "observation_window_ms": 1600
+          },
+          "matched": false,
+          "image": {
+            "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+            "reference_sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "actual_sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+            "compared_pixels": 24990,
+            "different_pixels": 4773,
+            "matched": false,
+            "evidence": {
+              "directory": "0001",
+              "sha256": {
+                "capture.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "sample-0001.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "sample-0002.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "sample-0003.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "sample-0004.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "sample-0005.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "expected.png": "1280589267edc286b28074c07c0a8bb441e7042d8f90dc3249c0494e8b27b779",
+                "actual.png": "7b630c7e1d9fd8130307ef62c556cdfe6a286108ddd43f4cc2c4adf8b1ed9755",
+                "diff.png": "af6189ea1cd8a6c0ed0c11cc3fb1b052b5aab45262d7346093808dfa6d4c7d1e"
+              }
+            },
+            "capture_contract": "visual-observation-window-v1",
+            "observation_window_ms": 1600,
+            "selected_sample": 0,
+            "observations": [
+              {
+                "file": "sample-0001.png",
+                "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "elapsed_ms": 67,
+                "different_pixels": 4773
+              },
+              {
+                "file": "sample-0002.png",
+                "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "elapsed_ms": 432,
+                "different_pixels": 4773
+              },
+              {
+                "file": "sample-0003.png",
+                "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "elapsed_ms": 883,
+                "different_pixels": 4773
+              },
+              {
+                "file": "sample-0004.png",
+                "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "elapsed_ms": 1299,
+                "different_pixels": 4773
+              },
+              {
+                "file": "sample-0005.png",
+                "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "elapsed_ms": 1663,
+                "different_pixels": 4773
+              }
+            ]
+          }
+        }
+      ],
+      "submission_sha256": "6813a581ffb323136ee64128a08384e0d9b6bb643fee1c57fe30a9071d714a6c",
+      "references_sha256": "7f2303267ab08c334ae3b8eb174141cdf718fad11c2fd0c01020778802475f2a",
+      "diagnostics": {
+        "version": "failure-v1",
+        "primary_issue": 0,
+        "issues": [
+          {
+            "version": "failure-v1",
+            "phase": "execution",
+            "operation": "assert",
+            "result": "failed",
+            "cause": "behavioral_mismatch",
+            "impact": "pair_dependent",
+            "message": "A behavioral assertion did not match.",
+            "exception_type": "Failure",
+            "source": {
+              "file": "browser.log",
+              "record_index": 9
+            }
+          }
+        ],
+        "ordering": "source_order_not_global_time"
+      },
+      "elapsed_seconds": 3.453,
+      "exit_code": 0,
+      "variant": "faulty"
+    },
+    {
+      "outcome": "PASS",
+      "assertions": [
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "navigation",
+              "name": "Main navigation"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": true
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "button",
+              "name": "Caption size Large"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": false
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "image",
+            "reference": "large-caption-preview",
+            "region": [
+              974,
+              220,
+              1212,
+              325
+            ],
+            "masks": [],
+            "threshold": 0.1,
+            "max_diff_pixels": 100,
+            "include_aa": false,
+            "precondition": false,
+            "observation_window_ms": 1600
+          },
+          "matched": true,
+          "image": {
+            "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+            "reference_sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "actual_sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "compared_pixels": 24990,
+            "different_pixels": 0,
+            "matched": true,
+            "evidence": {
+              "directory": "0001",
+              "sha256": {
+                "capture.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "sample-0001.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "sample-0002.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "sample-0003.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "sample-0004.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "sample-0005.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "expected.png": "1280589267edc286b28074c07c0a8bb441e7042d8f90dc3249c0494e8b27b779",
+                "actual.png": "1280589267edc286b28074c07c0a8bb441e7042d8f90dc3249c0494e8b27b779",
+                "diff.png": "fef3c292fd7ca02f7d1a92c34e9ceceac19d06c02c4d26289e4ba317a053a30c"
+              }
+            },
+            "capture_contract": "visual-observation-window-v1",
+            "observation_window_ms": 1600,
+            "selected_sample": 0,
+            "observations": [
+              {
+                "file": "sample-0001.png",
+                "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "elapsed_ms": 60,
+                "different_pixels": 0
+              },
+              {
+                "file": "sample-0002.png",
+                "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "elapsed_ms": 429,
+                "different_pixels": 0
+              },
+              {
+                "file": "sample-0003.png",
+                "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "elapsed_ms": 882,
+                "different_pixels": 0
+              },
+              {
+                "file": "sample-0004.png",
+                "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "elapsed_ms": 1311,
+                "different_pixels": 0
+              },
+              {
+                "file": "sample-0005.png",
+                "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "elapsed_ms": 1663,
+                "different_pixels": 0
+              }
+            ]
+          }
+        }
+      ],
+      "submission_sha256": "6813a581ffb323136ee64128a08384e0d9b6bb643fee1c57fe30a9071d714a6c",
+      "references_sha256": "7f2303267ab08c334ae3b8eb174141cdf718fad11c2fd0c01020778802475f2a",
+      "diagnostics": {
+        "version": "failure-v1",
+        "primary_issue": null,
+        "issues": [],
+        "ordering": "source_order_not_global_time"
+      },
+      "elapsed_seconds": 2.751,
+      "exit_code": 0,
+      "variant": "correct"
+    },
+    {
+      "outcome": "BEHAVIOR_FAIL",
+      "assertions": [
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "navigation",
+              "name": "Main navigation"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": true
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "button",
+              "name": "Caption size Large"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": false
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "image",
+            "reference": "large-caption-preview",
+            "region": [
+              974,
+              220,
+              1212,
+              325
+            ],
+            "masks": [],
+            "threshold": 0.1,
+            "max_diff_pixels": 100,
+            "include_aa": false,
+            "precondition": false,
+            "observation_window_ms": 1600
+          },
+          "matched": false,
+          "image": {
+            "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+            "reference_sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "actual_sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+            "compared_pixels": 24990,
+            "different_pixels": 4773,
+            "matched": false,
+            "evidence": {
+              "directory": "0001",
+              "sha256": {
+                "capture.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "sample-0001.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "sample-0002.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "sample-0003.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "sample-0004.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "sample-0005.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "expected.png": "1280589267edc286b28074c07c0a8bb441e7042d8f90dc3249c0494e8b27b779",
+                "actual.png": "7b630c7e1d9fd8130307ef62c556cdfe6a286108ddd43f4cc2c4adf8b1ed9755",
+                "diff.png": "af6189ea1cd8a6c0ed0c11cc3fb1b052b5aab45262d7346093808dfa6d4c7d1e"
+              }
+            },
+            "capture_contract": "visual-observation-window-v1",
+            "observation_window_ms": 1600,
+            "selected_sample": 0,
+            "observations": [
+              {
+                "file": "sample-0001.png",
+                "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "elapsed_ms": 59,
+                "different_pixels": 4773
+              },
+              {
+                "file": "sample-0002.png",
+                "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "elapsed_ms": 439,
+                "different_pixels": 4773
+              },
+              {
+                "file": "sample-0003.png",
+                "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "elapsed_ms": 889,
+                "different_pixels": 4773
+              },
+              {
+                "file": "sample-0004.png",
+                "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "elapsed_ms": 1293,
+                "different_pixels": 4773
+              },
+              {
+                "file": "sample-0005.png",
+                "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "elapsed_ms": 1672,
+                "different_pixels": 4773
+              }
+            ]
+          }
+        }
+      ],
+      "submission_sha256": "6813a581ffb323136ee64128a08384e0d9b6bb643fee1c57fe30a9071d714a6c",
+      "references_sha256": "7f2303267ab08c334ae3b8eb174141cdf718fad11c2fd0c01020778802475f2a",
+      "diagnostics": {
+        "version": "failure-v1",
+        "primary_issue": 0,
+        "issues": [
+          {
+            "version": "failure-v1",
+            "phase": "execution",
+            "operation": "assert",
+            "result": "failed",
+            "cause": "behavioral_mismatch",
+            "impact": "pair_dependent",
+            "message": "A behavioral assertion did not match.",
+            "exception_type": "Failure",
+            "source": {
+              "file": "browser.log",
+              "record_index": 9
+            }
+          }
+        ],
+        "ordering": "source_order_not_global_time"
+      },
+      "elapsed_seconds": 3.455,
+      "exit_code": 0,
+      "variant": "faulty"
+    },
+    {
+      "outcome": "PASS",
+      "assertions": [
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "navigation",
+              "name": "Main navigation"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": true
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "button",
+              "name": "Caption size Large"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": false
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "image",
+            "reference": "large-caption-preview",
+            "region": [
+              974,
+              220,
+              1212,
+              325
+            ],
+            "masks": [],
+            "threshold": 0.1,
+            "max_diff_pixels": 100,
+            "include_aa": false,
+            "precondition": false,
+            "observation_window_ms": 1600
+          },
+          "matched": true,
+          "image": {
+            "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+            "reference_sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "actual_sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "compared_pixels": 24990,
+            "different_pixels": 0,
+            "matched": true,
+            "evidence": {
+              "directory": "0001",
+              "sha256": {
+                "capture.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "sample-0001.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "sample-0002.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "sample-0003.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "sample-0004.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "sample-0005.png": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "expected.png": "1280589267edc286b28074c07c0a8bb441e7042d8f90dc3249c0494e8b27b779",
+                "actual.png": "1280589267edc286b28074c07c0a8bb441e7042d8f90dc3249c0494e8b27b779",
+                "diff.png": "fef3c292fd7ca02f7d1a92c34e9ceceac19d06c02c4d26289e4ba317a053a30c"
+              }
+            },
+            "capture_contract": "visual-observation-window-v1",
+            "observation_window_ms": 1600,
+            "selected_sample": 0,
+            "observations": [
+              {
+                "file": "sample-0001.png",
+                "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "elapsed_ms": 61,
+                "different_pixels": 0
+              },
+              {
+                "file": "sample-0002.png",
+                "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "elapsed_ms": 435,
+                "different_pixels": 0
+              },
+              {
+                "file": "sample-0003.png",
+                "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "elapsed_ms": 873,
+                "different_pixels": 0
+              },
+              {
+                "file": "sample-0004.png",
+                "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "elapsed_ms": 1288,
+                "different_pixels": 0
+              },
+              {
+                "file": "sample-0005.png",
+                "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+                "elapsed_ms": 1671,
+                "different_pixels": 0
+              }
+            ]
+          }
+        }
+      ],
+      "submission_sha256": "6813a581ffb323136ee64128a08384e0d9b6bb643fee1c57fe30a9071d714a6c",
+      "references_sha256": "7f2303267ab08c334ae3b8eb174141cdf718fad11c2fd0c01020778802475f2a",
+      "diagnostics": {
+        "version": "failure-v1",
+        "primary_issue": null,
+        "issues": [],
+        "ordering": "source_order_not_global_time"
+      },
+      "elapsed_seconds": 2.856,
+      "exit_code": 0,
+      "variant": "correct"
+    },
+    {
+      "outcome": "BEHAVIOR_FAIL",
+      "assertions": [
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "navigation",
+              "name": "Main navigation"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": true
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "button",
+              "name": "Caption size Large"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": false
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "image",
+            "reference": "large-caption-preview",
+            "region": [
+              974,
+              220,
+              1212,
+              325
+            ],
+            "masks": [],
+            "threshold": 0.1,
+            "max_diff_pixels": 100,
+            "include_aa": false,
+            "precondition": false,
+            "observation_window_ms": 1600
+          },
+          "matched": false,
+          "image": {
+            "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+            "reference_sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f",
+            "actual_sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+            "compared_pixels": 24990,
+            "different_pixels": 4773,
+            "matched": false,
+            "evidence": {
+              "directory": "0001",
+              "sha256": {
+                "capture.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "sample-0001.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "sample-0002.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "sample-0003.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "sample-0004.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "sample-0005.png": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "expected.png": "1280589267edc286b28074c07c0a8bb441e7042d8f90dc3249c0494e8b27b779",
+                "actual.png": "7b630c7e1d9fd8130307ef62c556cdfe6a286108ddd43f4cc2c4adf8b1ed9755",
+                "diff.png": "af6189ea1cd8a6c0ed0c11cc3fb1b052b5aab45262d7346093808dfa6d4c7d1e"
+              }
+            },
+            "capture_contract": "visual-observation-window-v1",
+            "observation_window_ms": 1600,
+            "selected_sample": 0,
+            "observations": [
+              {
+                "file": "sample-0001.png",
+                "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "elapsed_ms": 60,
+                "different_pixels": 4773
+              },
+              {
+                "file": "sample-0002.png",
+                "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "elapsed_ms": 428,
+                "different_pixels": 4773
+              },
+              {
+                "file": "sample-0003.png",
+                "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "elapsed_ms": 878,
+                "different_pixels": 4773
+              },
+              {
+                "file": "sample-0004.png",
+                "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "elapsed_ms": 1294,
+                "different_pixels": 4773
+              },
+              {
+                "file": "sample-0005.png",
+                "sha256": "d7ef438502ce682f892fbfb9b9d3264ba25c73ae5995131b5c83c3b0f3958b59",
+                "elapsed_ms": 1664,
+                "different_pixels": 4773
+              }
+            ]
+          }
+        }
+      ],
+      "submission_sha256": "6813a581ffb323136ee64128a08384e0d9b6bb643fee1c57fe30a9071d714a6c",
+      "references_sha256": "7f2303267ab08c334ae3b8eb174141cdf718fad11c2fd0c01020778802475f2a",
+      "diagnostics": {
+        "version": "failure-v1",
+        "primary_issue": 0,
+        "issues": [
+          {
+            "version": "failure-v1",
+            "phase": "execution",
+            "operation": "assert",
+            "result": "failed",
+            "cause": "behavioral_mismatch",
+            "impact": "pair_dependent",
+            "message": "A behavioral assertion did not match.",
+            "exception_type": "Failure",
+            "source": {
+              "file": "browser.log",
+              "record_index": 9
+            }
+          }
+        ],
+        "ordering": "source_order_not_global_time"
+      },
+      "elapsed_seconds": 3.452,
+      "exit_code": 0,
+      "variant": "faulty"
+    }
+  ],
+  "diagnostics": {
+    "version": "failure-v1",
+    "primary_issue": 0,
+    "issues": [
+      {
+        "version": "failure-v1",
+        "phase": "execution",
+        "operation": "assert",
+        "result": "failed",
+        "cause": "behavioral_mismatch",
+        "impact": "pair_dependent",
+        "message": "A behavioral assertion did not match.",
+        "exception_type": "Failure",
+        "source": {
+          "file": "browser.log",
+          "record_index": 9
+        },
+        "execution_index": 1
+      },
+      {
+        "version": "failure-v1",
+        "phase": "execution",
+        "operation": "assert",
+        "result": "failed",
+        "cause": "behavioral_mismatch",
+        "impact": "pair_dependent",
+        "message": "A behavioral assertion did not match.",
+        "exception_type": "Failure",
+        "source": {
+          "file": "browser.log",
+          "record_index": 9
+        },
+        "execution_index": 3
+      },
+      {
+        "version": "failure-v1",
+        "phase": "execution",
+        "operation": "assert",
+        "result": "failed",
+        "cause": "behavioral_mismatch",
+        "impact": "pair_dependent",
+        "message": "A behavioral assertion did not match.",
+        "exception_type": "Failure",
+        "source": {
+          "file": "browser.log",
+          "record_index": 9
+        },
+        "execution_index": 5
+      },
+      {
+        "version": "failure-v1",
+        "phase": "execution",
+        "operation": "assert",
+        "result": "failed",
+        "cause": "behavioral_mismatch",
+        "impact": "pair_dependent",
+        "message": "A behavioral assertion did not match.",
+        "exception_type": "Failure",
+        "source": {
+          "file": "browser.log",
+          "record_index": 9
+        },
+        "execution_index": 7
+      },
+      {
+        "version": "failure-v1",
+        "phase": "execution",
+        "operation": "assert",
+        "result": "failed",
+        "cause": "behavioral_mismatch",
+        "impact": "pair_dependent",
+        "message": "A behavioral assertion did not match.",
+        "exception_type": "Failure",
+        "source": {
+          "file": "browser.log",
+          "record_index": 9
+        },
+        "execution_index": 9
+      }
+    ],
+    "ordering": "source_order_not_global_time"
+  },
+  "submission_sha256": "6813a581ffb323136ee64128a08384e0d9b6bb643fee1c57fe30a9071d714a6c",
+  "references_sha256": "7f2303267ab08c334ae3b8eb174141cdf718fad11c2fd0c01020778802475f2a",
+  "bundle_sha256": "84c9927ee9c2192e2cbe51086003130e54cce0c8af1303f06d7c6f1dda33f7fc",
+  "planned_executions": 10,
+  "completed_executions": 10
+}

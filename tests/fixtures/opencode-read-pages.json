@@ -1,0 +1,61 @@
+{
+  "source": "Captured from OpenCode 1.18.34 sessions (one oracle_visual and one test_ui). Only public file-read inputs, outputs and pagination metadata are retained; IDs, timing and previews are removed.",
+  "events": [
+    {
+      "type": "tool_use",
+      "part": {
+        "type": "tool",
+        "tool": "read",
+        "state": {
+          "status": "completed",
+          "input": {
+            "filePath": "/workspace/instruction.md",
+            "offset": 51,
+            "limit": 50
+          },
+          "output": "<path>/workspace/instruction.md</path>\n<type>file</type>\n<content>\n51: requests, 1 MiB execution output. Submit only the Python source at the path above.\n52: \n53: \n54: Visual assertion contract `visual-v1` (web and native Android)\n55: \n56: You choose what to check, when to check it, and which screenshots demonstrate\n57: the expected appearance. No reference images or assertion regions are supplied\n58: in advance. During authoring, call `gui_observe` with an optional `reference`\n59: argument, for example `{\"reference\":\"saved-note\"}`. It returns the current\n60: screenshot and saves those exact pixels under that name. Inspect it before\n61: choosing it as a reference. You can capture several states during exploration.\n62: An ordinary `gui_observe` without a reference only observes; it saves no baseline.\n63: \n64: Reference names use lowercase letters, numbers, hyphens and underscores, start\n65: with a letter, and have at most 48 characters. Names are immutable: use a new\n66: name for another capture. The framework preserves the named images; do not\n67: encode images in Python, write image files, or supply paths/URLs to the API.\n68: \n69: The executable assertion is:\n70: `page.expect_image(reference, region=None, masks=None, threshold=0.1,\n71:                    max_diff_pixels=0, include_aa=False, precondition=False)`\n72: \n73: - `reference` is a name you captured with `gui_observe` during authoring.\n74: - `region` is `[left, top, right, bottom]` in screenshot pixels, with right and\n75:   bottom exclusive. None compares the whole viewport. Choose a region that\n76:   covers the behavior you intend to verify.\n77: - `masks` is a list of rectangles in the same viewport coordinates, entirely\n78:   inside the comparison region. Mask only irrelevant dynamic content. Masked\n79:   pixels are excluded; the assertion must retain some checked pixels.\n80: - `threshold` is a per-pixel perceptual color tolerance in `[0, 1)`, not the\n81:   fraction of the screen allowed to differ. Smaller values are more sensitive.\n82: - `max_diff_pixels` is the maximum mismatching unmasked pixel count allowed.\n83:   It must be smaller than the number of unmasked pixels. Select tolerances for\n84:   harmless rendering variation without obscuring meaningful differences.\n85: - `include_aa=False` ignores detected anti-aliasing differences; True counts them.\n86: - `precondition=True` identifies a positive screen/setup check. A mismatch there\n87:   is a setup failure. A normal assertion mismatch is a behavioral failure.\n88: \n89: Example: after capturing an appropriate `saved-note` screenshot in authoring,\n90: `page.expect_image(\"saved-note\", region=[40, 200, 650, 400])` compares that region.\n91: Choose coordinates from your own screenshots; these example coordinates are\n92: not a task-specific solution. UI-capable arms may freely combine image and UI\n93: assertions. Visual arms have only screenshot-based assertions.\n94: \n95: Comparison uses pinned Pixelmatch Python and Pillow on screenshot pixels only.\n96: It does not recognize text or interpret semantic correctness. Reference images\n97: must themselves demonstrate the intended appearance. A visual match alone\n98: cannot prove invisible backend state; establish relevant visible checkpoints\n99: through the journey allowed by your arm.\n100: \n\n(Showing lines 51-100 of 149. Use offset=101 to continue.)\n</content>",
+          "metadata": {
+            "truncated": true,
+            "display": {
+              "type": "file",
+              "path": "/workspace/instruction.md",
+              "text": "requests, 1 MiB execution output. Submit only the Python source at the path above.\n\n\nVisual assertion contract `visual-v1` (web and native Android)\n\nYou choose what to check, when to check it, and which screenshots demonstrate\nthe expected appearance. No reference images or assertion regions are supplied\nin advance. During authoring, call `gui_observe` with an optional `reference`\nargument, for example `{\"reference\":\"saved-note\"}`. It returns the current\nscreenshot and saves those exact pixels under that name. Inspect it before\nchoosing it as a reference. You can capture several states during exploration.\nAn ordinary `gui_observe` without a reference only observes; it saves no baseline.\n\nReference names use lowercase letters, numbers, hyphens and underscores, start\nwith a letter, and have at most 48 characters. Names are immutable: use a new\nname for another capture. The framework preserves the named images; do not\nencode images in Python, write image files, or supply paths/URLs to the API.\n\nThe executable assertion is:\n`page.expect_image(reference, region=None, masks=None, threshold=0.1,\n                   max_diff_pixels=0, include_aa=False, precondition=False)`\n\n- `reference` is a name you captured with `gui_observe` during authoring.\n- `region` is `[left, top, right, bottom]` in screenshot pixels, with right and\n  bottom exclusive. None compares the whole viewport. Choose a region that\n  covers the behavior you intend to verify.\n- `masks` is a list of rectangles in the same viewport coordinates, entirely\n  inside the comparison region. Mask only irrelevant dynamic content. Masked\n  pixels are excluded; the assertion must retain some checked pixels.\n- `threshold` is a per-pixel perceptual color tolerance in `[0, 1)`, not the\n  fraction of the screen allowed to differ. Smaller values are more sensitive.\n- `max_diff_pixels` is the maximum mismatching unmasked pixel count allowed.\n  It must be smaller than the number of unmasked pixels. Select tolerances for\n  harmless rendering variation without obscuring meaningful differences.\n- `include_aa=False` ignores detected anti-aliasing differences; True counts them.\n- `precondition=True` identifies a positive screen/setup check. A mismatch there\n  is a setup failure. A normal assertion mismatch is a behavioral failure.\n\nExample: after capturing an appropriate `saved-note` screenshot in authoring,\n`page.expect_image(\"saved-note\", region=[40, 200, 650, 400])` compares that region.\nChoose coordinates from your own screenshots; these example coordinates are\nnot a task-specific solution. UI-capable arms may freely combine image and UI\nassertions. Visual arms have only screenshot-based assertions.\n\nComparison uses pinned Pixelmatch Python and Pillow on screenshot pixels only.\nIt does not recognize text or interpret semantic correctness. Reference images\nmust themselves demonstrate the intended appearance. A visual match alone\ncannot prove invisible backend state; establish relevant visible checkpoints\nthrough the journey allowed by your arm.\n",
+              "lineStart": 51,
+              "lineEnd": 100,
+              "totalLines": 149,
+              "truncated": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "tool_use",
+      "part": {
+        "type": "tool",
+        "tool": "read",
+        "state": {
+          "status": "completed",
+          "input": {
+            "filePath": "/workspace/instruction.md",
+            "offset": 73,
+            "limit": 1
+          },
+          "output": "<path>/workspace/instruction.md</path>\n<type>file</type>\n<content>\n73: argument, for example `{\"reference\":\"saved-note\"}`. It returns the current\n\n(Showing lines 73-73 of 163. Use offset=74 to continue.)\n</content>",
+          "metadata": {
+            "truncated": true,
+            "display": {
+              "type": "file",
+              "path": "/workspace/instruction.md",
+              "text": "argument, for example `{\"reference\":\"saved-note\"}`. It returns the current",
+              "lineStart": 73,
+              "lineEnd": 73,
+              "totalLines": 163,
+              "truncated": true
+            }
+          }
+        }
+      }
+    }
+  ]
+}

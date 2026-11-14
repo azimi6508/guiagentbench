@@ -1,0 +1,39 @@
+{
+  "task": "tv/aura-013-caption-preview-size",
+  "arm": "judge_visual",
+  "model": "claude/claude-sonnet-5-5",
+  "runner": "claude",
+  "runner_version": "2.1.323",
+  "agent_spec": {
+    "identifier": "claude/claude-sonnet-5-5",
+    "runner": "claude",
+    "model": "claude-sonnet-5-5",
+    "auth_mode": "anthropic_credential",
+    "reasoning_effort": "medium",
+    "tool_profile": "claude-mcp-v1",
+    "budget_profile": "claude-bounded-v1"
+  },
+  "configuration_sha256": "54dc59cd9b247896e475697900b76802007d8e6f1fba3d76a1f6c0a5bf641dbb",
+  "action_contract": "ui-superset-v1",
+  "failure_contract": "failure-v1",
+  "environment_contract": "environment-v1",
+  "environment_profile": "generic",
+  "platform": "web",
+  "domain": "tv",
+  "task_status": "example",
+  "research_core": false,
+  "fixture": false,
+  "planned_trials": 2,
+  "trials": [
+    {
+      "id": "c96fcdfb24d9413a",
+      "variant": "correct"
+    },
+    {
+      "id": "3cad009150014a1a",
+      "variant": "faulty"
+    }
+  ],
+  "resolved_plan_sha256": "bbb1807607bdc6cd488fdac03a59d1cadc09e4210ce9e03f2a3a887d88153c75",
+  "parent_resolved_plan_sha256": "170b92b563d2f9c089557c8274846bc98fda2f8010bd00bc68bdc4422c2850df"
+}

@@ -1,0 +1,27 @@
+{"environment_contract": "environment-v1", "environment_event": "readiness", "platform": "mobile", "status": "ready", "elapsed_ms": 696, "state_sha256": "dc4521d43d49dbd865225ffb294e9b321cee8b38c484ecd50fe4404dafa226ca"}
+{"operation": "reset", "ok": true}
+{"operation": "screenshot", "ok": true}
+{"operation": "assert_ui", "ok": true}
+{"operation": "screenshot", "ok": true}
+{"environment_contract": "environment-v1", "environment_event": "readiness", "platform": "mobile", "status": "ready", "elapsed_ms": 1435, "state_sha256": "fbaa2560d9a17631dacf40eda77b95ad91918d36a52f6990c9fb9b0ac23cda19"}
+{"operation": "step", "ok": true}
+{"operation": "assert_ui", "ok": true}
+{"operation": "screenshot", "ok": true}
+{"environment_contract": "environment-v1", "environment_event": "readiness", "platform": "mobile", "status": "ready", "elapsed_ms": 708, "state_sha256": "9feda60c8bfc798cb26f33ac0daf7220b81957f615ef57307b57e9011e69fb40"}
+{"operation": "reload", "ok": true}
+{"operation": "assert_ui", "ok": true}
+{"operation": "screenshot", "ok": true}
+{"operation": "check_fixture", "ok": true}
+{"operation": "assert_ui", "ok": true}
+{"environment_contract": "environment-v1", "environment_event": "readiness", "platform": "mobile", "status": "ready", "elapsed_ms": 704, "state_sha256": "dc4521d43d49dbd865225ffb294e9b321cee8b38c484ecd50fe4404dafa226ca"}
+{"operation": "reset", "ok": true}
+{"operation": "screenshot", "ok": true}
+{"operation": "assert_ui", "ok": true}
+{"environment_contract": "environment-v1", "environment_event": "readiness", "platform": "mobile", "status": "ready", "elapsed_ms": 1257, "state_sha256": "fbaa2560d9a17631dacf40eda77b95ad91918d36a52f6990c9fb9b0ac23cda19"}
+{"operation": "step", "ok": true}
+{"operation": "assert_ui", "ok": true}
+{"environment_contract": "environment-v1", "environment_event": "readiness", "platform": "mobile", "status": "ready", "elapsed_ms": 703, "state_sha256": "9feda60c8bfc798cb26f33ac0daf7220b81957f615ef57307b57e9011e69fb40"}
+{"operation": "reload", "ok": true}
+{"operation": "assert_ui", "ok": true}
+{"operation": "screenshot", "ok": true}
+{"operation": "screenshot", "ok": true}

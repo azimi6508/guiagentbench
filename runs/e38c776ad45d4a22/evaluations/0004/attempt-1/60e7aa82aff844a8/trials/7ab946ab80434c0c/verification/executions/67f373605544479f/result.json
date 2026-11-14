@@ -1,0 +1,281 @@
+{
+  "outcome": "PASS",
+  "assertions": [
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "initial-editor",
+        "region": [
+          0,
+          128,
+          330,
+          212
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 20,
+        "include_aa": false,
+        "precondition": true,
+        "observation_window_ms": 1600
+      },
+      "matched": true,
+      "image": {
+        "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+        "reference_sha256": "d52948e16aa03378d5449a3cd98dfe6c0832138ad01c8c2e5ab9a7a59610b172",
+        "actual_sha256": "ae212a57b12261cb192e8397d1369b75592092c345fa91c35c7ec180d3d56eff",
+        "compared_pixels": 27720,
+        "different_pixels": 0,
+        "matched": true,
+        "evidence": {
+          "directory": "0001",
+          "sha256": {
+            "capture.png": "ae212a57b12261cb192e8397d1369b75592092c345fa91c35c7ec180d3d56eff",
+            "sample-0001.png": "ae212a57b12261cb192e8397d1369b75592092c345fa91c35c7ec180d3d56eff",
+            "sample-0002.png": "8182c73e7c9c23b36c49f89187af195bc6238f52aa3c1acde5abf581e357a250",
+            "sample-0003.png": "ae212a57b12261cb192e8397d1369b75592092c345fa91c35c7ec180d3d56eff",
+            "sample-0004.png": "8182c73e7c9c23b36c49f89187af195bc6238f52aa3c1acde5abf581e357a250",
+            "sample-0005.png": "8182c73e7c9c23b36c49f89187af195bc6238f52aa3c1acde5abf581e357a250",
+            "expected.png": "d6d3f9d826ad2ba69b28eb50f62decd4f2a55ccc506441928770b931e22b56b7",
+            "actual.png": "d6d3f9d826ad2ba69b28eb50f62decd4f2a55ccc506441928770b931e22b56b7",
+            "diff.png": "a32e6dc32142c45007705cbd807c612712b932e950386b6176ffd70c151ecc95"
+          }
+        },
+        "capture_contract": "visual-observation-window-v1",
+        "observation_window_ms": 1600,
+        "selected_sample": 0,
+        "observations": [
+          {
+            "file": "sample-0001.png",
+            "sha256": "ae212a57b12261cb192e8397d1369b75592092c345fa91c35c7ec180d3d56eff",
+            "elapsed_ms": 196,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0002.png",
+            "sha256": "8182c73e7c9c23b36c49f89187af195bc6238f52aa3c1acde5abf581e357a250",
+            "elapsed_ms": 561,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0003.png",
+            "sha256": "ae212a57b12261cb192e8397d1369b75592092c345fa91c35c7ec180d3d56eff",
+            "elapsed_ms": 1003,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0004.png",
+            "sha256": "8182c73e7c9c23b36c49f89187af195bc6238f52aa3c1acde5abf581e357a250",
+            "elapsed_ms": 1411,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0005.png",
+            "sha256": "8182c73e7c9c23b36c49f89187af195bc6238f52aa3c1acde5abf581e357a250",
+            "elapsed_ms": 1774,
+            "different_pixels": 0
+          }
+        ]
+      }
+    },
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "saved-reopened",
+        "region": [
+          0,
+          215,
+          720,
+          330
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 10,
+        "include_aa": false,
+        "precondition": false,
+        "observation_window_ms": 2000
+      },
+      "matched": true,
+      "image": {
+        "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+        "reference_sha256": "516019272edd519ae239785af2091f56ab6aebdf2fed1fe1fe83be28d4953694",
+        "actual_sha256": "99373f7d97c3f1edcbb08a24cb3b37f7294a4376057a28f54b39738604837e1f",
+        "compared_pixels": 82800,
+        "different_pixels": 0,
+        "matched": true,
+        "evidence": {
+          "directory": "0002",
+          "sha256": {
+            "capture.png": "99373f7d97c3f1edcbb08a24cb3b37f7294a4376057a28f54b39738604837e1f",
+            "sample-0001.png": "99373f7d97c3f1edcbb08a24cb3b37f7294a4376057a28f54b39738604837e1f",
+            "sample-0002.png": "e556d363ac84afa1465117fae73464e4116100c28a3a1245d5cf73ce9f322ff2",
+            "sample-0003.png": "86985ea0173ef0142ec1a0217081b28b4addcd4d83a01886245fb0a88f2179ed",
+            "sample-0004.png": "45566890639a5305470584792ad8deaf4d56e07fa60b7ce35136194b22d27098",
+            "sample-0005.png": "86985ea0173ef0142ec1a0217081b28b4addcd4d83a01886245fb0a88f2179ed",
+            "expected.png": "f3afd221b0138bd39231254190f385eb6737269b3cfcf6b27333db8137f9a335",
+            "actual.png": "f3afd221b0138bd39231254190f385eb6737269b3cfcf6b27333db8137f9a335",
+            "diff.png": "b95444d947a147fc1f64229b59cb46a7c305b79307704d81634c7d94d1d70fed"
+          }
+        },
+        "capture_contract": "visual-observation-window-v1",
+        "observation_window_ms": 2000,
+        "selected_sample": 0,
+        "observations": [
+          {
+            "file": "sample-0001.png",
+            "sha256": "99373f7d97c3f1edcbb08a24cb3b37f7294a4376057a28f54b39738604837e1f",
+            "elapsed_ms": 273,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0002.png",
+            "sha256": "e556d363ac84afa1465117fae73464e4116100c28a3a1245d5cf73ce9f322ff2",
+            "elapsed_ms": 651,
+            "different_pixels": 94
+          },
+          {
+            "file": "sample-0003.png",
+            "sha256": "86985ea0173ef0142ec1a0217081b28b4addcd4d83a01886245fb0a88f2179ed",
+            "elapsed_ms": 1198,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0004.png",
+            "sha256": "45566890639a5305470584792ad8deaf4d56e07fa60b7ce35136194b22d27098",
+            "elapsed_ms": 1716,
+            "different_pixels": 94
+          },
+          {
+            "file": "sample-0005.png",
+            "sha256": "86985ea0173ef0142ec1a0217081b28b4addcd4d83a01886245fb0a88f2179ed",
+            "elapsed_ms": 2193,
+            "different_pixels": 0
+          }
+        ]
+      }
+    }
+  ],
+  "submission_sha256": "9949b07f8ebdb5b50eace468de0d273403de6b42a2f87f20bdb271d8c54cf974",
+  "references_sha256": "acdc014289793cbcf5f967b77c3eba1b36936467519362c8f340de0c13b27933",
+  "actions": [
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "x": 360,
+          "y": 600
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "type",
+          "text": "Bring the blue notebook."
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "x": 569,
+          "y": 170
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "reload"
+        }
+      }
+    }
+  ],
+  "trace": [
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "initial-editor",
+        "region": [
+          0,
+          128,
+          330,
+          212
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 20,
+        "include_aa": false,
+        "precondition": true,
+        "observation_window_ms": 1600
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "x": 360,
+          "y": 600
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "type",
+          "text": "Bring the blue notebook."
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "x": 569,
+          "y": 170
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "reload"
+        }
+      }
+    },
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "saved-reopened",
+        "region": [
+          0,
+          215,
+          720,
+          330
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 10,
+        "include_aa": false,
+        "precondition": false,
+        "observation_window_ms": 2000
+      }
+    }
+  ],
+  "diagnostics": {
+    "version": "failure-v1",
+    "primary_issue": null,
+    "issues": [],
+    "ordering": "source_order_not_global_time"
+  },
+  "elapsed_seconds": 10.965,
+  "exit_code": 0
+}

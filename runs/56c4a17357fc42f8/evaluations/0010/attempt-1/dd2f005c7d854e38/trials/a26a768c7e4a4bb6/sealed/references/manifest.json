@@ -1,0 +1,21 @@
+{
+  "version": "visual-v1",
+  "viewport": [
+    1280,
+    720
+  ],
+  "references": {
+    "initial-profile": {
+      "file": "initial-profile.png",
+      "sha256": "a55a02b1c8e3b3c7b843bc3d031dd055713ab6699a8df61bcccebd88653060ec"
+    },
+    "biography-editor": {
+      "file": "biography-editor.png",
+      "sha256": "f136f12065865c9c22fe5aa45fc87c60431fd33e41e3a192af7cb529d206d16e"
+    },
+    "reopened-profile": {
+      "file": "reopened-profile.png",
+      "sha256": "0e87e3430aa5c29dabf8e7347dbc8666e8d26f23c90dc35974c3310c1bb35974"
+    }
+  }
+}

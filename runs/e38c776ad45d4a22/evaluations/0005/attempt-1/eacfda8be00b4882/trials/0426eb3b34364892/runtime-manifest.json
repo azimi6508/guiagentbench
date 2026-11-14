@@ -1,0 +1,8 @@
+{
+  "images": {
+    "agent": "sha256:1c3737172104a8eea59dba5af6fa741408df8efef9e21897f2445e3ef0f52c33",
+    "bridge": "sha256:ad39ab3fc6c2ca96e12394b00d88938f7f5f949ef317e1fa53b2daaef5b1b754",
+    "gateway": "sha256:8eb3b9f274c8fd39350866e0fdd1c01e77e060244d8218713a175cfb02f97e50"
+  },
+  "runtime_lock_sha256": "755feccdb0f34b0ce867812055c45ea38c41a72d03b2cc870014367400ad741d"
+}

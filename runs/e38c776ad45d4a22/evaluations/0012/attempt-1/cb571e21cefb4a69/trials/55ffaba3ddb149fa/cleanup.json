@@ -1,0 +1,26 @@
+[
+  {
+    "container": "gab-55ffaba3ddb149fa-verifier",
+    "removed": true
+  },
+  {
+    "container": "gab-55ffaba3ddb149fa-claude-agent",
+    "removed": true
+  },
+  {
+    "container": "gab-55ffaba3ddb149fa-claude-bridge",
+    "removed": true
+  },
+  {
+    "container": "gab-55ffaba3ddb149fa-claude-gateway",
+    "removed": true
+  },
+  {
+    "container": "gab-55ffaba3ddb149fa-capture",
+    "removed": true
+  },
+  {
+    "container": "gab-55ffaba3ddb149fa-app",
+    "removed": true
+  }
+]

@@ -1,0 +1,82 @@
+{
+  "runner": "claude",
+  "completed": true,
+  "terminal_event": true,
+  "elapsed_seconds": 22.32954027899541,
+  "observed_tool_items": 3,
+  "model_messages": 4,
+  "evidence_bytes": 323212,
+  "usage": {
+    "inputTokens": 8,
+    "outputTokens": 1534,
+    "cacheCreationInputTokens": 14905,
+    "cacheReadInputTokens": 37320
+  },
+  "client_estimated_cost_usd": 0.157416,
+  "provider_cost_usd": null,
+  "rate_limits": [
+    {
+      "status": "allowed",
+      "isUsingOverage": false,
+      "rateLimitType": null
+    }
+  ],
+  "result": {
+    "subtype": "success",
+    "is_error": false,
+    "terminal_reason": "completed",
+    "num_turns": 4,
+    "duration_ms": 21753,
+    "duration_api_ms": 21062,
+    "stop_reason": "end_turn",
+    "total_cost_usd": 0.157416,
+    "usage": {
+      "input_tokens": 8,
+      "cache_creation_input_tokens": 14905,
+      "cache_read_input_tokens": 37320,
+      "output_tokens": 1534,
+      "output_tokens_details": {
+        "thinking_tokens": 596
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 14905,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "modelUsage": {
+      "claude-opus-5-5": {
+        "inputTokens": 8,
+        "outputTokens": 1534,
+        "cacheReadInputTokens": 37320,
+        "cacheCreationInputTokens": 14905,
+        "webSearchRequests": 0,
+        "costUSD": 0.157416,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 596,
+        "cacheCreationEphemeral5mInputTokens": 0,
+        "cacheCreationEphemeral1hInputTokens": 14905,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "permission_denials": []
+  },
+  "billing_mode": "claude_subscription",
+  "diagnostics": {
+    "version": "failure-v1",
+    "primary_issue": null,
+    "issues": [],
+    "ordering": "source_order_not_global_time"
+  }
+}

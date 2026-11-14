@@ -1,0 +1,17 @@
+{
+  "version": "visual-v1",
+  "viewport": [
+    1280,
+    720
+  ],
+  "references": {
+    "medium_preview": {
+      "file": "medium_preview.png",
+      "sha256": "4cfd2566e32cbed00af3e0cb9cb1bbe7da34346c91d239a3fcb415e7e8a1d782"
+    },
+    "large_preview": {
+      "file": "large_preview.png",
+      "sha256": "1ba3a3e1047589fe767e4da82bea44e141c25d67b3b3a57f4d8588ef2ee0fb0f"
+    }
+  }
+}

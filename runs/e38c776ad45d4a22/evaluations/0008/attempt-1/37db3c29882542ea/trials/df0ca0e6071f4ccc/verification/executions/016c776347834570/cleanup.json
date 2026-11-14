@@ -1,0 +1,18 @@
+[
+  {
+    "container": "gab-oracle-3656c2cfde86-executor",
+    "removed": true
+  },
+  {
+    "container": "gab-oracle-3656c2cfde86-ready",
+    "removed": true
+  },
+  {
+    "container": "gab-oracle-3656c2cfde86-browser",
+    "removed": true
+  },
+  {
+    "container": "gab-oracle-3656c2cfde86-app",
+    "removed": true
+  }
+]

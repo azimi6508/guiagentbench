@@ -1,0 +1,11 @@
+[
+  "mcp__bench__bench_list_files",
+  "mcp__bench__bench_read_file",
+  "mcp__bench__bench_read_image",
+  "mcp__bench__bench_write_file",
+  "mcp__bench__gui_observe",
+  "mcp__bench__gui_dump_ui",
+  "mcp__bench__gui_reset",
+  "mcp__bench__gui_open_url",
+  "mcp__bench__gui_step"
+]

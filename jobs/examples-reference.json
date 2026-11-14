@@ -1,0 +1,48 @@
+{
+  "schema": "run-plan-v1",
+  "name": "Examples Reference",
+  "models": [
+    "reference/solution"
+  ],
+  "tasks": [
+    {
+      "task": "mobile/markor-note-persistence",
+      "arms": [
+        "judge_visual",
+        "judge_test",
+        "oracle_visual",
+        "oracle_ui",
+        "test_visual",
+        "test_ui"
+      ],
+      "repeats": 1,
+      "fixture_program": "markor"
+    },
+    {
+      "task": "web/webarena-399-profile-bio",
+      "arms": [
+        "judge_visual",
+        "judge_test",
+        "oracle_visual",
+        "oracle_ui",
+        "test_visual",
+        "test_ui"
+      ],
+      "repeats": 1,
+      "fixture_program": "profile-bio"
+    },
+    {
+      "task": "tv/aura-013-caption-preview-size",
+      "arms": [
+        "judge_visual",
+        "judge_test",
+        "oracle_visual",
+        "oracle_ui",
+        "test_visual",
+        "test_ui"
+      ],
+      "repeats": 1,
+      "fixture_program": "aura-013-caption-preview-size"
+    }
+  ]
+}

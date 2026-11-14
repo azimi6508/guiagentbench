@@ -1,0 +1,19 @@
+{
+  "schema": "claude-mcp-v1",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "auth_kind": "oauth",
+  "tools": [
+    "bench_list_files",
+    "bench_read_file",
+    "bench_read_image",
+    "bench_write_file"
+  ],
+  "tool_names": [
+    "mcp__bench__bench_list_files",
+    "mcp__bench__bench_read_file",
+    "mcp__bench__bench_read_image",
+    "mcp__bench__bench_write_file"
+  ],
+  "instruction": "This is an unattended evaluation. Complete the public instruction below independently.\nUse only the bench MCP tools. Paths under /workspace are virtual public files, accessed through bench_list_files, bench_read_file and bench_read_image; save submissions with bench_write_file. Built-in shell, file, web, task and subagent tools are unavailable.\nAll permitted evidence is available; choose what to inspect. No follow-up user response will arrive. Save the requested submission.\n\nEvaluation arm: judge_visual. Produce a PASS/FAIL judgment JSON file.\nRequired artifact: /workspace/output/judgment.json. Save it before finishing.\nRead the complete contract below. A final chat message does not submit an artifact.\n\nThe native Markor editor has an empty note named `atlas.txt` open. Put exactly\n`Bring the blue notebook.` in the note. Its text must still be visible and saved\nafter closing and reopening the application.\n\n\nInspect any of the three ordered screenshots and steps supplied in /workspace.\nPredict whether the requested note persistence behavior passes. Save\n/workspace/output/judgment.json with {\"verdict\":\"PASS\"} or {\"verdict\":\"FAIL\"}\nand an optional reason. There is no live application in this arm.\n\n\nJudgment output contract: write a JSON object to /workspace/output/judgment.json.\nUse exactly {\"verdict\":\"PASS\"} or {\"verdict\":\"FAIL\"}, with uppercase verdict values.\nAn optional \"reason\" string may contain at most 2000 characters. No other keys,\nMarkdown fences or surrounding text are permitted; the file must not exceed 16384 bytes.\n"
+}

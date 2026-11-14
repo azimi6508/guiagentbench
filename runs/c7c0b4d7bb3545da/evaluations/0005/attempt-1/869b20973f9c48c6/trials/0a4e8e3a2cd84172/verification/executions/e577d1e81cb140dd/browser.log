@@ -1,0 +1,20 @@
+{"environment_contract": "environment-v1", "environment_event": "reset", "platform": "mobile", "status": "ready", "screenshot_sha256": "0fbed9aa4505c437b15157b97e0a76b08e55437d3839470c3d510bac21a9f15d"}
+{"setup": "ready", "initial_state": true}
+{"assertion": {"kind": "ui", "query": {"role": "button", "name": "Search"}, "condition": "visible", "expected": true, "precondition": true}, "matched": true}
+{"operation": "assert", "denied": false}
+{"assertion": {"kind": "ui", "query": {"role": "paragraph", "name": "atlas"}, "condition": "text", "expected": "atlas", "precondition": true}, "matched": true}
+{"operation": "assert", "denied": false}
+{"action": {"operation": "step", "arguments": {"action": "click", "role": "textbox", "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"}}}
+{"operation": "step", "denied": false}
+{"action": {"operation": "step", "arguments": {"action": "type", "text": "Bring the blue notebook."}}}
+{"operation": "step", "denied": false}
+{"assertion": {"kind": "ui", "query": {"role": "textbox", "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"}, "condition": "text", "expected": "Bring the blue notebook.", "precondition": false}, "matched": true}
+{"operation": "assert", "denied": false}
+{"action": {"operation": "step", "arguments": {"action": "click", "role": "button", "name": "Save"}}}
+{"operation": "step", "denied": false}
+{"action": {"operation": "step", "arguments": {"action": "reload"}}}
+{"operation": "step", "denied": false}
+{"assertion": {"kind": "ui", "query": {"role": "button", "name": "Search"}, "condition": "visible", "expected": true, "precondition": true}, "matched": true}
+{"operation": "assert", "denied": false}
+{"assertion": {"kind": "ui", "query": {"role": "textbox", "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"}, "condition": "text", "expected": "Bring the blue notebook.", "precondition": false}, "matched": false}
+{"operation": "assert", "denied": false}

@@ -1,0 +1,8 @@
+{
+  "status": "pass",
+  "network": "gab-oracle-f60debc7348c-inference",
+  "mounts": [
+    "/artifact/oracle.py"
+  ],
+  "image": "sha256:ba60314afe3f041363396ceb0c1b2a7babdfeae40c644598e2e32749e9f66801"
+}

@@ -1,0 +1,8 @@
+{
+  "arm": "test_ui",
+  "platform": "mobile",
+  "files": {
+    "instruction.md": "93620a550adb205d63cef8f43bf3904a744ca61e8acf5686b02ce10833babf81"
+  },
+  "total_bytes": 24631
+}

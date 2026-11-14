@@ -1,0 +1,54 @@
+schema_version = "1.3"
+
+[task]
+name = "gui-agent-bench/template"
+description = "Task scaffold; replace placeholders before validation"
+
+[metadata]
+task_id = "my-behavior"
+platform = "web"
+status = "template"
+research_core = false
+eligible_arms = ["judge_visual", "judge_test", "oracle_visual", "oracle_ui", "test_visual", "test_ui"]
+source = "UNSET"
+upstream_id = "UNSET"
+upstream_url = "UNSET"
+upstream_revision = "UNSET"
+license = "UNSET"
+transform_notes = "UNSET: describe the source behavior, offline packaging, and fault transformation"
+
+[agent]
+timeout_sec = 600.0
+network_mode = "no-network"
+
+[verifier]
+timeout_sec = 300.0
+environment_mode = "separate"
+network_mode = "no-network"
+
+[environment]
+build_timeout_sec = 600.0
+cpus = 2
+memory_mb = 2048
+storage_mb = 4096
+network_mode = "no-network"
+
+[metadata.runtime]
+app_image = "my-gui-app:1"
+app_memory_mb = 256
+reference_timeout_sec = 60
+viewport_width = 1280
+viewport_height = 720
+timezone = "UTC"
+# Set true only for an app that must write to disk (for example a database).
+# app_writable_root = false
+
+[integration]
+environment_profile = "generic"
+
+# Optional browser preparation owned by this task (see docs/task-authoring.md).
+# [integration.web]
+# ready = [{ role = "button", name = "Start" }]
+# fixed_clock = "2026-01-01T12:00:00+00:00"
+# wait_for_fonts = false
+# reset_timeout_sec = 30

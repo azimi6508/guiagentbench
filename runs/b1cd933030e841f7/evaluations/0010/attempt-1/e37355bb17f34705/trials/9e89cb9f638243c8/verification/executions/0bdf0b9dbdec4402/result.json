@@ -1,0 +1,646 @@
+{
+  "outcome": "BEHAVIOR_FAIL",
+  "assertions": [
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "initial-chrome",
+        "region": [
+          110,
+          8,
+          335,
+          43
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 0,
+        "include_aa": false,
+        "precondition": true,
+        "observation_window_ms": 1600
+      },
+      "matched": true,
+      "image": {
+        "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+        "reference_sha256": "a55a02b1c8e3b3c7b843bc3d031dd055713ab6699a8df61bcccebd88653060ec",
+        "actual_sha256": "a55a02b1c8e3b3c7b843bc3d031dd055713ab6699a8df61bcccebd88653060ec",
+        "compared_pixels": 7875,
+        "different_pixels": 0,
+        "matched": true,
+        "evidence": {
+          "directory": "0001",
+          "sha256": {
+            "capture.png": "a55a02b1c8e3b3c7b843bc3d031dd055713ab6699a8df61bcccebd88653060ec",
+            "sample-0001.png": "a55a02b1c8e3b3c7b843bc3d031dd055713ab6699a8df61bcccebd88653060ec",
+            "sample-0002.png": "a55a02b1c8e3b3c7b843bc3d031dd055713ab6699a8df61bcccebd88653060ec",
+            "sample-0003.png": "a55a02b1c8e3b3c7b843bc3d031dd055713ab6699a8df61bcccebd88653060ec",
+            "sample-0004.png": "a55a02b1c8e3b3c7b843bc3d031dd055713ab6699a8df61bcccebd88653060ec",
+            "sample-0005.png": "a55a02b1c8e3b3c7b843bc3d031dd055713ab6699a8df61bcccebd88653060ec",
+            "expected.png": "4716204c065edd7c48d5b631bb13ed4184ad507e5981d2911e53a7984a82f70e",
+            "actual.png": "4716204c065edd7c48d5b631bb13ed4184ad507e5981d2911e53a7984a82f70e",
+            "diff.png": "b3af0862dbb765180adbc9f22d8beba85d13e8c8866e8f2023fd740bd8cb8089"
+          }
+        },
+        "capture_contract": "visual-observation-window-v1",
+        "observation_window_ms": 1600,
+        "selected_sample": 0,
+        "observations": [
+          {
+            "file": "sample-0001.png",
+            "sha256": "a55a02b1c8e3b3c7b843bc3d031dd055713ab6699a8df61bcccebd88653060ec",
+            "elapsed_ms": 63,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0002.png",
+            "sha256": "a55a02b1c8e3b3c7b843bc3d031dd055713ab6699a8df61bcccebd88653060ec",
+            "elapsed_ms": 427,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0003.png",
+            "sha256": "a55a02b1c8e3b3c7b843bc3d031dd055713ab6699a8df61bcccebd88653060ec",
+            "elapsed_ms": 877,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0004.png",
+            "sha256": "a55a02b1c8e3b3c7b843bc3d031dd055713ab6699a8df61bcccebd88653060ec",
+            "elapsed_ms": 1280,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0005.png",
+            "sha256": "a55a02b1c8e3b3c7b843bc3d031dd055713ab6699a8df61bcccebd88653060ec",
+            "elapsed_ms": 1666,
+            "different_pixels": 0
+          }
+        ]
+      }
+    },
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "reopened-biography",
+        "region": [
+          104,
+          80,
+          371,
+          116
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 0,
+        "include_aa": false,
+        "precondition": false,
+        "observation_window_ms": 1600
+      },
+      "matched": true,
+      "image": {
+        "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+        "reference_sha256": "b3570969214df9293d9d67655cdea3c2f26765b6a51756bae3036234f5a75eb7",
+        "actual_sha256": "48b41534f5719174343aa195dd3c812de431241cd3760aa746e75155bc442389",
+        "compared_pixels": 9612,
+        "different_pixels": 0,
+        "matched": true,
+        "evidence": {
+          "directory": "0002",
+          "sha256": {
+            "capture.png": "48b41534f5719174343aa195dd3c812de431241cd3760aa746e75155bc442389",
+            "sample-0001.png": "48b41534f5719174343aa195dd3c812de431241cd3760aa746e75155bc442389",
+            "sample-0002.png": "48b41534f5719174343aa195dd3c812de431241cd3760aa746e75155bc442389",
+            "sample-0003.png": "48b41534f5719174343aa195dd3c812de431241cd3760aa746e75155bc442389",
+            "sample-0004.png": "48b41534f5719174343aa195dd3c812de431241cd3760aa746e75155bc442389",
+            "sample-0005.png": "48b41534f5719174343aa195dd3c812de431241cd3760aa746e75155bc442389",
+            "expected.png": "a1046f1cfab7a60cc766d336f8938fc2d5974d9b42a145634adab88eb934b521",
+            "actual.png": "a1046f1cfab7a60cc766d336f8938fc2d5974d9b42a145634adab88eb934b521",
+            "diff.png": "c1306c3f6fa6af5fb51d6add2010fc9de311d8808b3f7341b4a52cf8b6121f92"
+          }
+        },
+        "capture_contract": "visual-observation-window-v1",
+        "observation_window_ms": 1600,
+        "selected_sample": 0,
+        "observations": [
+          {
+            "file": "sample-0001.png",
+            "sha256": "48b41534f5719174343aa195dd3c812de431241cd3760aa746e75155bc442389",
+            "elapsed_ms": 59,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0002.png",
+            "sha256": "48b41534f5719174343aa195dd3c812de431241cd3760aa746e75155bc442389",
+            "elapsed_ms": 424,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0003.png",
+            "sha256": "48b41534f5719174343aa195dd3c812de431241cd3760aa746e75155bc442389",
+            "elapsed_ms": 874,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0004.png",
+            "sha256": "48b41534f5719174343aa195dd3c812de431241cd3760aa746e75155bc442389",
+            "elapsed_ms": 1289,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0005.png",
+            "sha256": "48b41534f5719174343aa195dd3c812de431241cd3760aa746e75155bc442389",
+            "elapsed_ms": 1658,
+            "different_pixels": 0
+          }
+        ]
+      }
+    },
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "reopened-biography",
+        "region": [
+          918,
+          153,
+          1182,
+          192
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 0,
+        "include_aa": false,
+        "precondition": false,
+        "observation_window_ms": 1600
+      },
+      "matched": false,
+      "image": {
+        "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+        "reference_sha256": "b3570969214df9293d9d67655cdea3c2f26765b6a51756bae3036234f5a75eb7",
+        "actual_sha256": "48b41534f5719174343aa195dd3c812de431241cd3760aa746e75155bc442389",
+        "compared_pixels": 10296,
+        "different_pixels": 386,
+        "matched": false,
+        "evidence": {
+          "directory": "0003",
+          "sha256": {
+            "capture.png": "48b41534f5719174343aa195dd3c812de431241cd3760aa746e75155bc442389",
+            "sample-0001.png": "48b41534f5719174343aa195dd3c812de431241cd3760aa746e75155bc442389",
+            "sample-0002.png": "48b41534f5719174343aa195dd3c812de431241cd3760aa746e75155bc442389",
+            "sample-0003.png": "48b41534f5719174343aa195dd3c812de431241cd3760aa746e75155bc442389",
+            "sample-0004.png": "48b41534f5719174343aa195dd3c812de431241cd3760aa746e75155bc442389",
+            "sample-0005.png": "48b41534f5719174343aa195dd3c812de431241cd3760aa746e75155bc442389",
+            "expected.png": "9c66ee2a5f7ac725272567d53c25794e75bf1b10f41a5ec9eb2a08ea7e410291",
+            "actual.png": "f396e2362412bdd1d8e2647e0c31fe177fa1b123f3f81650ecd9c2ad85c54360",
+            "diff.png": "632c46965a441e120ba146f9600759b3924c32417f05ad5163bbda9cf21ed61e"
+          }
+        },
+        "capture_contract": "visual-observation-window-v1",
+        "observation_window_ms": 1600,
+        "selected_sample": 0,
+        "observations": [
+          {
+            "file": "sample-0001.png",
+            "sha256": "48b41534f5719174343aa195dd3c812de431241cd3760aa746e75155bc442389",
+            "elapsed_ms": 45,
+            "different_pixels": 386
+          },
+          {
+            "file": "sample-0002.png",
+            "sha256": "48b41534f5719174343aa195dd3c812de431241cd3760aa746e75155bc442389",
+            "elapsed_ms": 436,
+            "different_pixels": 386
+          },
+          {
+            "file": "sample-0003.png",
+            "sha256": "48b41534f5719174343aa195dd3c812de431241cd3760aa746e75155bc442389",
+            "elapsed_ms": 866,
+            "different_pixels": 386
+          },
+          {
+            "file": "sample-0004.png",
+            "sha256": "48b41534f5719174343aa195dd3c812de431241cd3760aa746e75155bc442389",
+            "elapsed_ms": 1282,
+            "different_pixels": 386
+          },
+          {
+            "file": "sample-0005.png",
+            "sha256": "48b41534f5719174343aa195dd3c812de431241cd3760aa746e75155bc442389",
+            "elapsed_ms": 1650,
+            "different_pixels": 386
+          }
+        ]
+      }
+    }
+  ],
+  "submission_sha256": "016790ddeb4dbb16cc0abfe18d3a50dadd6d59352ed221e8026a4edddfa61cf2",
+  "references_sha256": "a85d532dc4c45f7f9b8c60add347ee96129a03364b8ec3f01275d93461de4b68",
+  "actions": [
+    {
+      "action": {
+        "operation": "open_url",
+        "arguments": {
+          "url": "http://app:8000/"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "x": 984,
+          "y": 211
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "x": 230,
+          "y": 175
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "press",
+          "key": "ArrowDown"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "press",
+          "key": "Backspace"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "press",
+          "key": "Backspace"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "press",
+          "key": "Backspace"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "press",
+          "key": "Backspace"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "press",
+          "key": "Backspace"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "press",
+          "key": "Backspace"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "press",
+          "key": "Backspace"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "press",
+          "key": "Backspace"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "press",
+          "key": "Backspace"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "press",
+          "key": "Backspace"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "press",
+          "key": "Backspace"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "type",
+          "text": "I am a robot"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "x": 132,
+          "y": 433
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "x": 1019,
+          "y": 93
+        }
+      }
+    }
+  ],
+  "trace": [
+    {
+      "action": {
+        "operation": "open_url",
+        "arguments": {
+          "url": "http://app:8000/"
+        }
+      }
+    },
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "initial-chrome",
+        "region": [
+          110,
+          8,
+          335,
+          43
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 0,
+        "include_aa": false,
+        "precondition": true,
+        "observation_window_ms": 1600
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "x": 984,
+          "y": 211
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "x": 230,
+          "y": 175
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "press",
+          "key": "ArrowDown"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "press",
+          "key": "Backspace"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "press",
+          "key": "Backspace"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "press",
+          "key": "Backspace"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "press",
+          "key": "Backspace"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "press",
+          "key": "Backspace"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "press",
+          "key": "Backspace"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "press",
+          "key": "Backspace"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "press",
+          "key": "Backspace"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "press",
+          "key": "Backspace"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "press",
+          "key": "Backspace"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "press",
+          "key": "Backspace"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "type",
+          "text": "I am a robot"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "x": 132,
+          "y": 433
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "x": 1019,
+          "y": 93
+        }
+      }
+    },
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "reopened-biography",
+        "region": [
+          104,
+          80,
+          371,
+          116
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 0,
+        "include_aa": false,
+        "precondition": false,
+        "observation_window_ms": 1600
+      }
+    },
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "reopened-biography",
+        "region": [
+          918,
+          153,
+          1182,
+          192
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 0,
+        "include_aa": false,
+        "precondition": false,
+        "observation_window_ms": 1600
+      }
+    }
+  ],
+  "diagnostics": {
+    "version": "failure-v1",
+    "primary_issue": 0,
+    "issues": [
+      {
+        "version": "failure-v1",
+        "phase": "execution",
+        "operation": "assert",
+        "result": "failed",
+        "cause": "behavioral_mismatch",
+        "impact": "pair_dependent",
+        "message": "A behavioral assertion did not match.",
+        "exception_type": "Failure",
+        "source": {
+          "file": "browser.log",
+          "record_index": 43
+        }
+      }
+    ],
+    "ordering": "source_order_not_global_time"
+  },
+  "elapsed_seconds": 10.563,
+  "exit_code": 0
+}

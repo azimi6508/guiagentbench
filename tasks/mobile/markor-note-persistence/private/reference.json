@@ -1,0 +1,70 @@
+{
+  "programs": {
+    "oracle_visual": "solution/oracle_visual.py",
+    "oracle_ui": "solution/oracle_ui.py",
+    "test_visual": "solution/test_visual.py",
+    "test_ui": "solution/test_ui.py"
+  },
+  "journey": [
+    {
+      "action": "click",
+      "x": 160,
+      "y": 300
+    },
+    {
+      "action": "type",
+      "text": "Bring the blue notebook."
+    },
+    {
+      "action": "reload"
+    }
+  ],
+  "regions": {
+    "false": [
+      [
+        65,
+        128,
+        260,
+        210
+      ],
+      [
+        65,
+        128,
+        260,
+        210
+      ],
+      [
+        0,
+        220,
+        720,
+        700
+      ]
+    ],
+    "true": [
+      [
+        65,
+        128,
+        260,
+        210
+      ],
+      [
+        65,
+        128,
+        260,
+        210
+      ],
+      [
+        0,
+        220,
+        720,
+        700
+      ]
+    ]
+  },
+  "viewport": [
+    720,
+    1280
+  ],
+  "schema": "task-reference-v1",
+  "platform": "mobile"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "container": "gab-fcc7587c3349476f-verifier",
+    "removed": true
+  },
+  {
+    "container": "gab-fcc7587c3349476f-codex-agent",
+    "removed": true
+  },
+  {
+    "container": "gab-fcc7587c3349476f-codex-bridge",
+    "removed": true
+  },
+  {
+    "container": "gab-fcc7587c3349476f-codex-egress",
+    "removed": true
+  },
+  {
+    "container": "gab-fcc7587c3349476f-capture",
+    "removed": true
+  },
+  {
+    "container": "gab-fcc7587c3349476f-app",
+    "removed": true
+  }
+]

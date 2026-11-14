@@ -1,0 +1,56 @@
+{
+  "arm": "test_visual",
+  "planned_executions": 10,
+  "executions_per_version": 5,
+  "executions": [
+    {
+      "id": "f6aff78014e24af4",
+      "variant": "correct"
+    },
+    {
+      "id": "e7b691e847b14a80",
+      "variant": "faulty"
+    },
+    {
+      "id": "a0a62e5ac70945fc",
+      "variant": "correct"
+    },
+    {
+      "id": "ed6a6387bdff4984",
+      "variant": "faulty"
+    },
+    {
+      "id": "2d1ec1de085b4e8c",
+      "variant": "correct"
+    },
+    {
+      "id": "86a892f26e6f47cf",
+      "variant": "faulty"
+    },
+    {
+      "id": "cfbfd8bb93e24023",
+      "variant": "correct"
+    },
+    {
+      "id": "15586835f1b44995",
+      "variant": "faulty"
+    },
+    {
+      "id": "371c5834204f4dfa",
+      "variant": "correct"
+    },
+    {
+      "id": "b5c7a8b4af194320",
+      "variant": "faulty"
+    }
+  ],
+  "sha256": "c8e60e2a016b81bef681483ceb751186caefe70c770abaf27b22029ebfd3829f",
+  "visual_api": "visual-v1",
+  "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+  "action_contract": "ui-superset-v1",
+  "failure_contract": "failure-v1",
+  "environment_contract": "environment-v1",
+  "environment_profile": "mobile",
+  "references_sha256": "65a9a88f370348eb1ff339f7bdf29eace2114dd3a856699710f63ffbbc493ff1",
+  "bundle_sha256": "46c7719e87044b13a253dce7e177ca60a3a1ccecc69480b157503940d82df175"
+}

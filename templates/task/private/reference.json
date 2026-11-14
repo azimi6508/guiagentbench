@@ -1,0 +1,57 @@
+{
+  "schema": "task-reference-v1",
+  "platform": "web",
+  "viewport": [
+    1280,
+    720
+  ],
+  "journey": [],
+  "regions": {
+    "false": [
+      [
+        0,
+        0,
+        100,
+        100
+      ],
+      [
+        0,
+        0,
+        100,
+        100
+      ],
+      [
+        0,
+        0,
+        100,
+        100
+      ]
+    ],
+    "true": [
+      [
+        0,
+        0,
+        100,
+        100
+      ],
+      [
+        0,
+        0,
+        100,
+        100
+      ],
+      [
+        0,
+        0,
+        100,
+        100
+      ]
+    ]
+  },
+  "programs": {
+    "oracle_visual": "solution/oracle_visual.py",
+    "oracle_ui": "solution/oracle_ui.py",
+    "test_visual": "solution/test_visual.py",
+    "test_ui": "solution/test_ui.py"
+  }
+}

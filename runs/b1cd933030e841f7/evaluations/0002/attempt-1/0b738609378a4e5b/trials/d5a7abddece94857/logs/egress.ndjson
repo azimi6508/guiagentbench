@@ -1,0 +1,14 @@
+{"destination": "chatgpt.com", "port": 443, "outcome": "connected", "sent_bytes": 3877, "received_bytes": 8623, "elapsed_seconds": 0.44606104999547824}
+{"destination": "chatgpt.com", "port": 443, "outcome": "connected", "sent_bytes": 4511, "received_bytes": 7791, "elapsed_seconds": 0.8604985799902352}
+{"destination": "chatgpt.com", "port": 443, "outcome": "connected", "sent_bytes": 5284, "received_bytes": 6433, "elapsed_seconds": 0.3826701219950337}
+{"destination": "chatgpt.com", "port": 443, "outcome": "connected", "sent_bytes": 4669, "received_bytes": 7053, "elapsed_seconds": 0.3975062249955954}
+{"destination": "chatgpt.com", "port": 443, "outcome": "connected", "sent_bytes": 5072, "received_bytes": 6234, "elapsed_seconds": 0.4872081060020719}
+{"destination": "chatgpt.com", "port": 443, "outcome": "connected", "sent_bytes": 6189, "received_bytes": 6230, "elapsed_seconds": 0.22995662299217656}
+{"destination": "chatgpt.com", "port": 443, "outcome": "connected", "sent_bytes": 5072, "received_bytes": 6232, "elapsed_seconds": 0.22884258099657018}
+{"destination": "chatgpt.com", "port": 443, "outcome": "connected", "sent_bytes": 6185, "received_bytes": 6230, "elapsed_seconds": 0.15246429599937983}
+{"destination": "chatgpt.com", "port": 443, "outcome": "connected", "sent_bytes": 5072, "received_bytes": 6235, "elapsed_seconds": 0.16120445598789956}
+{"destination": "chatgpt.com", "port": 443, "outcome": "connected", "sent_bytes": 6189, "received_bytes": 6230, "elapsed_seconds": 0.1386673469969537}
+{"destination": "chatgpt.com", "port": 443, "outcome": "connected", "sent_bytes": 5072, "received_bytes": 6233, "elapsed_seconds": 0.13075303100049496}
+{"destination": "chatgpt.com", "port": 443, "outcome": "connected", "sent_bytes": 6197, "received_bytes": 6235, "elapsed_seconds": 0.18810963300347794}
+{"destination": "chatgpt.com", "port": 443, "outcome": "connected", "sent_bytes": 136289, "received_bytes": 36275, "elapsed_seconds": 17.18407203699462}
+{"destination": "chatgpt.com", "port": 443, "outcome": "connected", "sent_bytes": 7163, "received_bytes": 4809, "elapsed_seconds": 0.09147572600340936}

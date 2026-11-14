@@ -1,0 +1,469 @@
+{
+  "outcome": "PASS",
+  "assertions": [
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "initial-editor",
+        "region": [
+          0,
+          1176,
+          720,
+          1243
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 20,
+        "include_aa": false,
+        "precondition": true,
+        "observation_window_ms": 1600
+      },
+      "matched": true,
+      "image": {
+        "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+        "reference_sha256": "b36e4b597bef0e22ee9a3167064bd57fc340b196db7d921cdf94ed79229689e6",
+        "actual_sha256": "d220c0c999b7e562a7a7c413cd3a9108901470dde5b5a97033668872bc09c34d",
+        "compared_pixels": 48240,
+        "different_pixels": 0,
+        "matched": true,
+        "evidence": {
+          "directory": "0001",
+          "sha256": {
+            "capture.png": "d220c0c999b7e562a7a7c413cd3a9108901470dde5b5a97033668872bc09c34d",
+            "sample-0001.png": "d220c0c999b7e562a7a7c413cd3a9108901470dde5b5a97033668872bc09c34d",
+            "sample-0002.png": "51d13343c2de06945f20a0d9c2ab9d17e43035eb8b8f950dea22012a7af20cc4",
+            "sample-0003.png": "d220c0c999b7e562a7a7c413cd3a9108901470dde5b5a97033668872bc09c34d",
+            "sample-0004.png": "d220c0c999b7e562a7a7c413cd3a9108901470dde5b5a97033668872bc09c34d",
+            "sample-0005.png": "51d13343c2de06945f20a0d9c2ab9d17e43035eb8b8f950dea22012a7af20cc4",
+            "expected.png": "34a968f224c5990d0ef48bee84d2a049d821d64d80d6394bba59bce614c6e96f",
+            "actual.png": "34a968f224c5990d0ef48bee84d2a049d821d64d80d6394bba59bce614c6e96f",
+            "diff.png": "e49a06e4e39dbc1fe6cd4f9e4844b1a2332989cb14640a8247f5c84415ee609f"
+          }
+        },
+        "capture_contract": "visual-observation-window-v1",
+        "observation_window_ms": 1600,
+        "selected_sample": 0,
+        "observations": [
+          {
+            "file": "sample-0001.png",
+            "sha256": "d220c0c999b7e562a7a7c413cd3a9108901470dde5b5a97033668872bc09c34d",
+            "elapsed_ms": 204,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0002.png",
+            "sha256": "51d13343c2de06945f20a0d9c2ab9d17e43035eb8b8f950dea22012a7af20cc4",
+            "elapsed_ms": 545,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0003.png",
+            "sha256": "d220c0c999b7e562a7a7c413cd3a9108901470dde5b5a97033668872bc09c34d",
+            "elapsed_ms": 1002,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0004.png",
+            "sha256": "d220c0c999b7e562a7a7c413cd3a9108901470dde5b5a97033668872bc09c34d",
+            "elapsed_ms": 1408,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0005.png",
+            "sha256": "51d13343c2de06945f20a0d9c2ab9d17e43035eb8b8f950dea22012a7af20cc4",
+            "elapsed_ms": 1773,
+            "different_pixels": 0
+          }
+        ]
+      }
+    },
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "entered-note",
+        "region": [
+          8,
+          220,
+          710,
+          1170
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 20,
+        "include_aa": false,
+        "precondition": false,
+        "observation_window_ms": 1600
+      },
+      "matched": true,
+      "image": {
+        "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+        "reference_sha256": "b6d30153fb8f2818a37d7b53712ee588732ae5008cb625f7f423c6eee58a244d",
+        "actual_sha256": "00106ae1af80b52ce2017f61a4c654e52015612db2f1831280f60f3bc3b9a9ce",
+        "compared_pixels": 666900,
+        "different_pixels": 0,
+        "matched": true,
+        "evidence": {
+          "directory": "0002",
+          "sha256": {
+            "capture.png": "00106ae1af80b52ce2017f61a4c654e52015612db2f1831280f60f3bc3b9a9ce",
+            "sample-0001.png": "00106ae1af80b52ce2017f61a4c654e52015612db2f1831280f60f3bc3b9a9ce",
+            "sample-0002.png": "00106ae1af80b52ce2017f61a4c654e52015612db2f1831280f60f3bc3b9a9ce",
+            "sample-0003.png": "90cd550c87e3b05c0c7c7945491d2879e4528a0eec57f6ea3ea3c478469128fa",
+            "sample-0004.png": "00106ae1af80b52ce2017f61a4c654e52015612db2f1831280f60f3bc3b9a9ce",
+            "sample-0005.png": "90cd550c87e3b05c0c7c7945491d2879e4528a0eec57f6ea3ea3c478469128fa",
+            "expected.png": "d755d0cdc72c300aeb3ba4a1e37161d8dd3b2fdcb6d0100d02610d6a7cbcb499",
+            "actual.png": "d755d0cdc72c300aeb3ba4a1e37161d8dd3b2fdcb6d0100d02610d6a7cbcb499",
+            "diff.png": "7519d8d3448f84591d7c14d3e6665bd0297346f604034480cc05af4a0699be4f"
+          }
+        },
+        "capture_contract": "visual-observation-window-v1",
+        "observation_window_ms": 1600,
+        "selected_sample": 0,
+        "observations": [
+          {
+            "file": "sample-0001.png",
+            "sha256": "00106ae1af80b52ce2017f61a4c654e52015612db2f1831280f60f3bc3b9a9ce",
+            "elapsed_ms": 281,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0002.png",
+            "sha256": "00106ae1af80b52ce2017f61a4c654e52015612db2f1831280f60f3bc3b9a9ce",
+            "elapsed_ms": 546,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0003.png",
+            "sha256": "90cd550c87e3b05c0c7c7945491d2879e4528a0eec57f6ea3ea3c478469128fa",
+            "elapsed_ms": 993,
+            "different_pixels": 94
+          },
+          {
+            "file": "sample-0004.png",
+            "sha256": "00106ae1af80b52ce2017f61a4c654e52015612db2f1831280f60f3bc3b9a9ce",
+            "elapsed_ms": 1404,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0005.png",
+            "sha256": "90cd550c87e3b05c0c7c7945491d2879e4528a0eec57f6ea3ea3c478469128fa",
+            "elapsed_ms": 1782,
+            "different_pixels": 94
+          }
+        ]
+      }
+    },
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "reopened-note",
+        "region": [
+          12,
+          140,
+          150,
+          198
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 10,
+        "include_aa": false,
+        "precondition": false,
+        "observation_window_ms": 1600
+      },
+      "matched": true,
+      "image": {
+        "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+        "reference_sha256": "8bbbd055615211491f8258c89928bbeb2d17e6dab22590a954244a45f386a98b",
+        "actual_sha256": "d8ec83324135ec5739580fa9a9be7cc74272b5661ea921fd27f95dbf45acb8f6",
+        "compared_pixels": 8004,
+        "different_pixels": 0,
+        "matched": true,
+        "evidence": {
+          "directory": "0003",
+          "sha256": {
+            "capture.png": "d8ec83324135ec5739580fa9a9be7cc74272b5661ea921fd27f95dbf45acb8f6",
+            "sample-0001.png": "d8ec83324135ec5739580fa9a9be7cc74272b5661ea921fd27f95dbf45acb8f6",
+            "sample-0002.png": "f585cf1103efa57830fbc1d1028a816a0c67954cf4511ec9e6880abcff9cda0b",
+            "sample-0003.png": "ea0bfeb79a658e2d68f66bd42688d1b71aa253775b7dd430b513577856aa21ed",
+            "sample-0004.png": "ea0bfeb79a658e2d68f66bd42688d1b71aa253775b7dd430b513577856aa21ed",
+            "sample-0005.png": "22ac1c6daf6a073feea6c6f70085cd091e8a81d08984c87d35a74f2b57e3490e",
+            "expected.png": "613096f338be52bd36babf87c0528dfb07d6c125e7a1cee061e92164370a7bfd",
+            "actual.png": "613096f338be52bd36babf87c0528dfb07d6c125e7a1cee061e92164370a7bfd",
+            "diff.png": "741e3caf9ad113a98b9b9abe387d6371096cfe8fbca83ab976dfdcc4ff7da83a"
+          }
+        },
+        "capture_contract": "visual-observation-window-v1",
+        "observation_window_ms": 1600,
+        "selected_sample": 0,
+        "observations": [
+          {
+            "file": "sample-0001.png",
+            "sha256": "d8ec83324135ec5739580fa9a9be7cc74272b5661ea921fd27f95dbf45acb8f6",
+            "elapsed_ms": 276,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0002.png",
+            "sha256": "f585cf1103efa57830fbc1d1028a816a0c67954cf4511ec9e6880abcff9cda0b",
+            "elapsed_ms": 549,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0003.png",
+            "sha256": "ea0bfeb79a658e2d68f66bd42688d1b71aa253775b7dd430b513577856aa21ed",
+            "elapsed_ms": 1000,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0004.png",
+            "sha256": "ea0bfeb79a658e2d68f66bd42688d1b71aa253775b7dd430b513577856aa21ed",
+            "elapsed_ms": 1410,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0005.png",
+            "sha256": "22ac1c6daf6a073feea6c6f70085cd091e8a81d08984c87d35a74f2b57e3490e",
+            "elapsed_ms": 1772,
+            "different_pixels": 0
+          }
+        ]
+      }
+    },
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "reopened-note",
+        "region": [
+          8,
+          220,
+          710,
+          1170
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 20,
+        "include_aa": false,
+        "precondition": false,
+        "observation_window_ms": 1600
+      },
+      "matched": true,
+      "image": {
+        "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+        "reference_sha256": "8bbbd055615211491f8258c89928bbeb2d17e6dab22590a954244a45f386a98b",
+        "actual_sha256": "ea0bfeb79a658e2d68f66bd42688d1b71aa253775b7dd430b513577856aa21ed",
+        "compared_pixels": 666900,
+        "different_pixels": 0,
+        "matched": true,
+        "evidence": {
+          "directory": "0004",
+          "sha256": {
+            "capture.png": "ea0bfeb79a658e2d68f66bd42688d1b71aa253775b7dd430b513577856aa21ed",
+            "sample-0001.png": "ea0bfeb79a658e2d68f66bd42688d1b71aa253775b7dd430b513577856aa21ed",
+            "sample-0002.png": "ea0bfeb79a658e2d68f66bd42688d1b71aa253775b7dd430b513577856aa21ed",
+            "sample-0003.png": "22ac1c6daf6a073feea6c6f70085cd091e8a81d08984c87d35a74f2b57e3490e",
+            "sample-0004.png": "ea0bfeb79a658e2d68f66bd42688d1b71aa253775b7dd430b513577856aa21ed",
+            "sample-0005.png": "22ac1c6daf6a073feea6c6f70085cd091e8a81d08984c87d35a74f2b57e3490e",
+            "expected.png": "d755d0cdc72c300aeb3ba4a1e37161d8dd3b2fdcb6d0100d02610d6a7cbcb499",
+            "actual.png": "d755d0cdc72c300aeb3ba4a1e37161d8dd3b2fdcb6d0100d02610d6a7cbcb499",
+            "diff.png": "7519d8d3448f84591d7c14d3e6665bd0297346f604034480cc05af4a0699be4f"
+          }
+        },
+        "capture_contract": "visual-observation-window-v1",
+        "observation_window_ms": 1600,
+        "selected_sample": 0,
+        "observations": [
+          {
+            "file": "sample-0001.png",
+            "sha256": "ea0bfeb79a658e2d68f66bd42688d1b71aa253775b7dd430b513577856aa21ed",
+            "elapsed_ms": 240,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0002.png",
+            "sha256": "ea0bfeb79a658e2d68f66bd42688d1b71aa253775b7dd430b513577856aa21ed",
+            "elapsed_ms": 546,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0003.png",
+            "sha256": "22ac1c6daf6a073feea6c6f70085cd091e8a81d08984c87d35a74f2b57e3490e",
+            "elapsed_ms": 988,
+            "different_pixels": 94
+          },
+          {
+            "file": "sample-0004.png",
+            "sha256": "ea0bfeb79a658e2d68f66bd42688d1b71aa253775b7dd430b513577856aa21ed",
+            "elapsed_ms": 1405,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0005.png",
+            "sha256": "22ac1c6daf6a073feea6c6f70085cd091e8a81d08984c87d35a74f2b57e3490e",
+            "elapsed_ms": 1777,
+            "different_pixels": 94
+          }
+        ]
+      }
+    }
+  ],
+  "submission_sha256": "86576b04812d2e6cd8e767f31412123fe7101a30197b9d425bc1ac9774298ec4",
+  "references_sha256": "772571c97428e5073000f90694cfa8c443150f3ece1cb974381bbbf9bc9af9db",
+  "actions": [
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "x": 150,
+          "y": 280
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "type",
+          "text": "Bring the blue notebook."
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "x": 569,
+          "y": 169
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "reload"
+        }
+      }
+    }
+  ],
+  "trace": [
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "initial-editor",
+        "region": [
+          0,
+          1176,
+          720,
+          1243
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 20,
+        "include_aa": false,
+        "precondition": true,
+        "observation_window_ms": 1600
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "x": 150,
+          "y": 280
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "type",
+          "text": "Bring the blue notebook."
+        }
+      }
+    },
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "entered-note",
+        "region": [
+          8,
+          220,
+          710,
+          1170
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 20,
+        "include_aa": false,
+        "precondition": false,
+        "observation_window_ms": 1600
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "x": 569,
+          "y": 169
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "reload"
+        }
+      }
+    },
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "reopened-note",
+        "region": [
+          12,
+          140,
+          150,
+          198
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 10,
+        "include_aa": false,
+        "precondition": false,
+        "observation_window_ms": 1600
+      }
+    },
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "reopened-note",
+        "region": [
+          8,
+          220,
+          710,
+          1170
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 20,
+        "include_aa": false,
+        "precondition": false,
+        "observation_window_ms": 1600
+      }
+    }
+  ],
+  "diagnostics": {
+    "version": "failure-v1",
+    "primary_issue": null,
+    "issues": [],
+    "ordering": "source_order_not_global_time"
+  },
+  "elapsed_seconds": 16.382,
+  "exit_code": 0
+}

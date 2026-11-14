@@ -1,0 +1,851 @@
+{
+  "status": "graded",
+  "reward": 1,
+  "planned_trials": 1,
+  "same_assertions": true,
+  "stable": true,
+  "executions": [
+    {
+      "outcome": "PASS",
+      "assertions": [
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "button",
+              "name": "More options"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": true
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "paragraph",
+              "name": "atlas"
+            },
+            "condition": "text",
+            "expected": "atlas",
+            "precondition": false
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "textbox",
+              "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": false
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "textbox",
+              "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"
+            },
+            "condition": "text",
+            "expected": "Bring the blue notebook.",
+            "precondition": false
+          },
+          "matched": true
+        }
+      ],
+      "submission_sha256": "53375bd83aaac2b1ee3f097fae410d82f502502352b610b5e8c4fd9f9b54ba38",
+      "references_sha256": "d468eb8d4b4e292277985fafb921d9937edaf9a6d854eb906781b014b4ee9640",
+      "diagnostics": {
+        "version": "failure-v1",
+        "primary_issue": null,
+        "issues": [],
+        "ordering": "source_order_not_global_time"
+      },
+      "elapsed_seconds": 1.446,
+      "exit_code": 0,
+      "variant": "correct"
+    },
+    {
+      "outcome": "BEHAVIOR_FAIL",
+      "assertions": [
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "button",
+              "name": "More options"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": true
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "paragraph",
+              "name": "atlas"
+            },
+            "condition": "text",
+            "expected": "atlas",
+            "precondition": false
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "textbox",
+              "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": false
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "textbox",
+              "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"
+            },
+            "condition": "text",
+            "expected": "Bring the blue notebook.",
+            "precondition": false
+          },
+          "matched": false
+        }
+      ],
+      "submission_sha256": "53375bd83aaac2b1ee3f097fae410d82f502502352b610b5e8c4fd9f9b54ba38",
+      "references_sha256": "d468eb8d4b4e292277985fafb921d9937edaf9a6d854eb906781b014b4ee9640",
+      "diagnostics": {
+        "version": "failure-v1",
+        "primary_issue": 0,
+        "issues": [
+          {
+            "version": "failure-v1",
+            "phase": "execution",
+            "operation": "assert",
+            "result": "failed",
+            "cause": "behavioral_mismatch",
+            "impact": "pair_dependent",
+            "message": "A behavioral assertion did not match.",
+            "exception_type": "Failure",
+            "source": {
+              "file": "browser.log",
+              "record_index": 8
+            }
+          }
+        ],
+        "ordering": "source_order_not_global_time"
+      },
+      "elapsed_seconds": 1.445,
+      "exit_code": 0,
+      "variant": "faulty"
+    },
+    {
+      "outcome": "PASS",
+      "assertions": [
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "button",
+              "name": "More options"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": true
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "paragraph",
+              "name": "atlas"
+            },
+            "condition": "text",
+            "expected": "atlas",
+            "precondition": false
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "textbox",
+              "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": false
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "textbox",
+              "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"
+            },
+            "condition": "text",
+            "expected": "Bring the blue notebook.",
+            "precondition": false
+          },
+          "matched": true
+        }
+      ],
+      "submission_sha256": "53375bd83aaac2b1ee3f097fae410d82f502502352b610b5e8c4fd9f9b54ba38",
+      "references_sha256": "d468eb8d4b4e292277985fafb921d9937edaf9a6d854eb906781b014b4ee9640",
+      "diagnostics": {
+        "version": "failure-v1",
+        "primary_issue": null,
+        "issues": [],
+        "ordering": "source_order_not_global_time"
+      },
+      "elapsed_seconds": 1.452,
+      "exit_code": 0,
+      "variant": "correct"
+    },
+    {
+      "outcome": "BEHAVIOR_FAIL",
+      "assertions": [
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "button",
+              "name": "More options"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": true
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "paragraph",
+              "name": "atlas"
+            },
+            "condition": "text",
+            "expected": "atlas",
+            "precondition": false
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "textbox",
+              "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": false
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "textbox",
+              "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"
+            },
+            "condition": "text",
+            "expected": "Bring the blue notebook.",
+            "precondition": false
+          },
+          "matched": false
+        }
+      ],
+      "submission_sha256": "53375bd83aaac2b1ee3f097fae410d82f502502352b610b5e8c4fd9f9b54ba38",
+      "references_sha256": "d468eb8d4b4e292277985fafb921d9937edaf9a6d854eb906781b014b4ee9640",
+      "diagnostics": {
+        "version": "failure-v1",
+        "primary_issue": 0,
+        "issues": [
+          {
+            "version": "failure-v1",
+            "phase": "execution",
+            "operation": "assert",
+            "result": "failed",
+            "cause": "behavioral_mismatch",
+            "impact": "pair_dependent",
+            "message": "A behavioral assertion did not match.",
+            "exception_type": "Failure",
+            "source": {
+              "file": "browser.log",
+              "record_index": 8
+            }
+          }
+        ],
+        "ordering": "source_order_not_global_time"
+      },
+      "elapsed_seconds": 1.449,
+      "exit_code": 0,
+      "variant": "faulty"
+    },
+    {
+      "outcome": "PASS",
+      "assertions": [
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "button",
+              "name": "More options"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": true
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "paragraph",
+              "name": "atlas"
+            },
+            "condition": "text",
+            "expected": "atlas",
+            "precondition": false
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "textbox",
+              "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": false
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "textbox",
+              "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"
+            },
+            "condition": "text",
+            "expected": "Bring the blue notebook.",
+            "precondition": false
+          },
+          "matched": true
+        }
+      ],
+      "submission_sha256": "53375bd83aaac2b1ee3f097fae410d82f502502352b610b5e8c4fd9f9b54ba38",
+      "references_sha256": "d468eb8d4b4e292277985fafb921d9937edaf9a6d854eb906781b014b4ee9640",
+      "diagnostics": {
+        "version": "failure-v1",
+        "primary_issue": null,
+        "issues": [],
+        "ordering": "source_order_not_global_time"
+      },
+      "elapsed_seconds": 1.445,
+      "exit_code": 0,
+      "variant": "correct"
+    },
+    {
+      "outcome": "BEHAVIOR_FAIL",
+      "assertions": [
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "button",
+              "name": "More options"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": true
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "paragraph",
+              "name": "atlas"
+            },
+            "condition": "text",
+            "expected": "atlas",
+            "precondition": false
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "textbox",
+              "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": false
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "textbox",
+              "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"
+            },
+            "condition": "text",
+            "expected": "Bring the blue notebook.",
+            "precondition": false
+          },
+          "matched": false
+        }
+      ],
+      "submission_sha256": "53375bd83aaac2b1ee3f097fae410d82f502502352b610b5e8c4fd9f9b54ba38",
+      "references_sha256": "d468eb8d4b4e292277985fafb921d9937edaf9a6d854eb906781b014b4ee9640",
+      "diagnostics": {
+        "version": "failure-v1",
+        "primary_issue": 0,
+        "issues": [
+          {
+            "version": "failure-v1",
+            "phase": "execution",
+            "operation": "assert",
+            "result": "failed",
+            "cause": "behavioral_mismatch",
+            "impact": "pair_dependent",
+            "message": "A behavioral assertion did not match.",
+            "exception_type": "Failure",
+            "source": {
+              "file": "browser.log",
+              "record_index": 8
+            }
+          }
+        ],
+        "ordering": "source_order_not_global_time"
+      },
+      "elapsed_seconds": 1.453,
+      "exit_code": 0,
+      "variant": "faulty"
+    },
+    {
+      "outcome": "PASS",
+      "assertions": [
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "button",
+              "name": "More options"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": true
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "paragraph",
+              "name": "atlas"
+            },
+            "condition": "text",
+            "expected": "atlas",
+            "precondition": false
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "textbox",
+              "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": false
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "textbox",
+              "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"
+            },
+            "condition": "text",
+            "expected": "Bring the blue notebook.",
+            "precondition": false
+          },
+          "matched": true
+        }
+      ],
+      "submission_sha256": "53375bd83aaac2b1ee3f097fae410d82f502502352b610b5e8c4fd9f9b54ba38",
+      "references_sha256": "d468eb8d4b4e292277985fafb921d9937edaf9a6d854eb906781b014b4ee9640",
+      "diagnostics": {
+        "version": "failure-v1",
+        "primary_issue": null,
+        "issues": [],
+        "ordering": "source_order_not_global_time"
+      },
+      "elapsed_seconds": 1.548,
+      "exit_code": 0,
+      "variant": "correct"
+    },
+    {
+      "outcome": "BEHAVIOR_FAIL",
+      "assertions": [
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "button",
+              "name": "More options"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": true
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "paragraph",
+              "name": "atlas"
+            },
+            "condition": "text",
+            "expected": "atlas",
+            "precondition": false
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "textbox",
+              "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": false
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "textbox",
+              "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"
+            },
+            "condition": "text",
+            "expected": "Bring the blue notebook.",
+            "precondition": false
+          },
+          "matched": false
+        }
+      ],
+      "submission_sha256": "53375bd83aaac2b1ee3f097fae410d82f502502352b610b5e8c4fd9f9b54ba38",
+      "references_sha256": "d468eb8d4b4e292277985fafb921d9937edaf9a6d854eb906781b014b4ee9640",
+      "diagnostics": {
+        "version": "failure-v1",
+        "primary_issue": 0,
+        "issues": [
+          {
+            "version": "failure-v1",
+            "phase": "execution",
+            "operation": "assert",
+            "result": "failed",
+            "cause": "behavioral_mismatch",
+            "impact": "pair_dependent",
+            "message": "A behavioral assertion did not match.",
+            "exception_type": "Failure",
+            "source": {
+              "file": "browser.log",
+              "record_index": 8
+            }
+          }
+        ],
+        "ordering": "source_order_not_global_time"
+      },
+      "elapsed_seconds": 1.452,
+      "exit_code": 0,
+      "variant": "faulty"
+    },
+    {
+      "outcome": "PASS",
+      "assertions": [
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "button",
+              "name": "More options"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": true
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "paragraph",
+              "name": "atlas"
+            },
+            "condition": "text",
+            "expected": "atlas",
+            "precondition": false
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "textbox",
+              "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": false
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "textbox",
+              "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"
+            },
+            "condition": "text",
+            "expected": "Bring the blue notebook.",
+            "precondition": false
+          },
+          "matched": true
+        }
+      ],
+      "submission_sha256": "53375bd83aaac2b1ee3f097fae410d82f502502352b610b5e8c4fd9f9b54ba38",
+      "references_sha256": "d468eb8d4b4e292277985fafb921d9937edaf9a6d854eb906781b014b4ee9640",
+      "diagnostics": {
+        "version": "failure-v1",
+        "primary_issue": null,
+        "issues": [],
+        "ordering": "source_order_not_global_time"
+      },
+      "elapsed_seconds": 1.45,
+      "exit_code": 0,
+      "variant": "correct"
+    },
+    {
+      "outcome": "BEHAVIOR_FAIL",
+      "assertions": [
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "button",
+              "name": "More options"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": true
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "paragraph",
+              "name": "atlas"
+            },
+            "condition": "text",
+            "expected": "atlas",
+            "precondition": false
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "textbox",
+              "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"
+            },
+            "condition": "visible",
+            "expected": true,
+            "precondition": false
+          },
+          "matched": true
+        },
+        {
+          "assertion": {
+            "kind": "ui",
+            "query": {
+              "role": "textbox",
+              "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"
+            },
+            "condition": "text",
+            "expected": "Bring the blue notebook.",
+            "precondition": false
+          },
+          "matched": false
+        }
+      ],
+      "submission_sha256": "53375bd83aaac2b1ee3f097fae410d82f502502352b610b5e8c4fd9f9b54ba38",
+      "references_sha256": "d468eb8d4b4e292277985fafb921d9937edaf9a6d854eb906781b014b4ee9640",
+      "diagnostics": {
+        "version": "failure-v1",
+        "primary_issue": 0,
+        "issues": [
+          {
+            "version": "failure-v1",
+            "phase": "execution",
+            "operation": "assert",
+            "result": "failed",
+            "cause": "behavioral_mismatch",
+            "impact": "pair_dependent",
+            "message": "A behavioral assertion did not match.",
+            "exception_type": "Failure",
+            "source": {
+              "file": "browser.log",
+              "record_index": 8
+            }
+          }
+        ],
+        "ordering": "source_order_not_global_time"
+      },
+      "elapsed_seconds": 1.447,
+      "exit_code": 0,
+      "variant": "faulty"
+    }
+  ],
+  "diagnostics": {
+    "version": "failure-v1",
+    "primary_issue": 0,
+    "issues": [
+      {
+        "version": "failure-v1",
+        "phase": "execution",
+        "operation": "assert",
+        "result": "failed",
+        "cause": "behavioral_mismatch",
+        "impact": "pair_dependent",
+        "message": "A behavioral assertion did not match.",
+        "exception_type": "Failure",
+        "source": {
+          "file": "browser.log",
+          "record_index": 8
+        },
+        "execution_index": 1
+      },
+      {
+        "version": "failure-v1",
+        "phase": "execution",
+        "operation": "assert",
+        "result": "failed",
+        "cause": "behavioral_mismatch",
+        "impact": "pair_dependent",
+        "message": "A behavioral assertion did not match.",
+        "exception_type": "Failure",
+        "source": {
+          "file": "browser.log",
+          "record_index": 8
+        },
+        "execution_index": 3
+      },
+      {
+        "version": "failure-v1",
+        "phase": "execution",
+        "operation": "assert",
+        "result": "failed",
+        "cause": "behavioral_mismatch",
+        "impact": "pair_dependent",
+        "message": "A behavioral assertion did not match.",
+        "exception_type": "Failure",
+        "source": {
+          "file": "browser.log",
+          "record_index": 8
+        },
+        "execution_index": 5
+      },
+      {
+        "version": "failure-v1",
+        "phase": "execution",
+        "operation": "assert",
+        "result": "failed",
+        "cause": "behavioral_mismatch",
+        "impact": "pair_dependent",
+        "message": "A behavioral assertion did not match.",
+        "exception_type": "Failure",
+        "source": {
+          "file": "browser.log",
+          "record_index": 8
+        },
+        "execution_index": 7
+      },
+      {
+        "version": "failure-v1",
+        "phase": "execution",
+        "operation": "assert",
+        "result": "failed",
+        "cause": "behavioral_mismatch",
+        "impact": "pair_dependent",
+        "message": "A behavioral assertion did not match.",
+        "exception_type": "Failure",
+        "source": {
+          "file": "browser.log",
+          "record_index": 8
+        },
+        "execution_index": 9
+      }
+    ],
+    "ordering": "source_order_not_global_time"
+  },
+  "submission_sha256": "53375bd83aaac2b1ee3f097fae410d82f502502352b610b5e8c4fd9f9b54ba38",
+  "references_sha256": "d468eb8d4b4e292277985fafb921d9937edaf9a6d854eb906781b014b4ee9640",
+  "bundle_sha256": "c57a2d651501139ed9f1daa9390920dc5dddd58914752108813c4002462236aa",
+  "planned_executions": 10,
+  "completed_executions": 10
+}

@@ -1,0 +1,1 @@
+{"verdict":"FAIL","reason":"Following the supplied clicks selects Large and updates the setting and preview label, but the preview text remains visually identical in size to Medium. This indicates the caption font setting is not applied, so the test's expected --caption-font value of 2.5rem is predicted to fail."}

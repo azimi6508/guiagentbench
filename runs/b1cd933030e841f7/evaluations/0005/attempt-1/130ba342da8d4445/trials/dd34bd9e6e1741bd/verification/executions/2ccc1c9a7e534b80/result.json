@@ -1,0 +1,293 @@
+{
+  "outcome": "PASS",
+  "assertions": [
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "button",
+          "name": "More options"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": true
+      },
+      "matched": true
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "textbox",
+          "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": true
+      },
+      "matched": true
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "paragraph",
+          "name": "atlas"
+        },
+        "condition": "text",
+        "expected": "atlas",
+        "precondition": false
+      },
+      "matched": true
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "textbox",
+          "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"
+        },
+        "condition": "value",
+        "expected": "",
+        "precondition": false
+      },
+      "matched": true
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "textbox",
+          "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"
+        },
+        "condition": "value",
+        "expected": "Bring the blue notebook.",
+        "precondition": false
+      },
+      "matched": true
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "paragraph",
+          "name": "atlas"
+        },
+        "condition": "text",
+        "expected": "atlas",
+        "precondition": false
+      },
+      "matched": true
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "textbox",
+          "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": false
+      },
+      "matched": true
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "textbox",
+          "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"
+        },
+        "condition": "value",
+        "expected": "Bring the blue notebook.",
+        "precondition": false
+      },
+      "matched": true
+    }
+  ],
+  "submission_sha256": "8ce773e68bd148941c5430f92934061e3b04f8547f985a1f87c22811e1cd483e",
+  "references_sha256": "d468eb8d4b4e292277985fafb921d9937edaf9a6d854eb906781b014b4ee9640",
+  "actions": [
+    {
+      "action": {
+        "operation": "open_url",
+        "arguments": {
+          "url": "http://app:8000/"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "fill",
+          "role": "textbox",
+          "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor",
+          "text": "Bring the blue notebook."
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "role": "button",
+          "name": "Save"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "reload"
+        }
+      }
+    }
+  ],
+  "trace": [
+    {
+      "action": {
+        "operation": "open_url",
+        "arguments": {
+          "url": "http://app:8000/"
+        }
+      }
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "button",
+          "name": "More options"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": true
+      }
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "textbox",
+          "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": true
+      }
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "paragraph",
+          "name": "atlas"
+        },
+        "condition": "text",
+        "expected": "atlas",
+        "precondition": false
+      }
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "textbox",
+          "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"
+        },
+        "condition": "value",
+        "expected": "",
+        "precondition": false
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "fill",
+          "role": "textbox",
+          "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor",
+          "text": "Bring the blue notebook."
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "role": "button",
+          "name": "Save"
+        }
+      }
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "textbox",
+          "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"
+        },
+        "condition": "value",
+        "expected": "Bring the blue notebook.",
+        "precondition": false
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "reload"
+        }
+      }
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "paragraph",
+          "name": "atlas"
+        },
+        "condition": "text",
+        "expected": "atlas",
+        "precondition": false
+      }
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "textbox",
+          "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"
+        },
+        "condition": "visible",
+        "expected": true,
+        "precondition": false
+      }
+    },
+    {
+      "assertion": {
+        "kind": "ui",
+        "query": {
+          "role": "textbox",
+          "name": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor"
+        },
+        "condition": "value",
+        "expected": "Bring the blue notebook.",
+        "precondition": false
+      }
+    }
+  ],
+  "diagnostics": {
+    "version": "failure-v1",
+    "primary_issue": null,
+    "issues": [],
+    "ordering": "source_order_not_global_time"
+  },
+  "elapsed_seconds": 8.666,
+  "exit_code": 0
+}

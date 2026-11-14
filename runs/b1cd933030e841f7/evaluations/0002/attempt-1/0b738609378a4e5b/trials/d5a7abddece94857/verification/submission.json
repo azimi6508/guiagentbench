@@ -1,0 +1,7 @@
+{
+  "sha256": "b7c98650360d99625025afacad55f14a99a38e2b48a5e62a1ba32a06c64c4ced",
+  "sealed": true,
+  "present": true,
+  "references_sha256": "5c1e9d6c357fa3883468c86a541ed9d511bb988de7cae04a12c8f9059e378edb",
+  "bundle_sha256": "590e62d962d34427e5f518142d91665bb38bfefb2a519555dfe3ddec6a7098c8"
+}

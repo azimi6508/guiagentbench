@@ -1,0 +1,28 @@
+{"environment_contract": "environment-v1", "environment_event": "readiness", "platform": "web", "status": "ready", "profile": "generic", "initial": true, "elapsed_ms": 48}
+{"environment_contract": "environment-v1", "environment_event": "reset", "platform": "web", "status": "ready", "profile": "generic", "generation": 1, "transport_attempts": 1, "screenshot_sha256": "a55a02b1c8e3b3c7b843bc3d031dd055713ab6699a8df61bcccebd88653060ec", "storage_sha256": "44e56a90d740fd7ca29293250a4ce8e81e7e4ad5ecef6b88f7912a8ae104ea58", "viewport": [1280, 720], "locale": "en-US", "timezone": "UTC", "clock": "realtime"}
+{"protocol_http": "POST", "path": "/mcp", "content_length": "169", "transfer_encoding": null, "origin_present": false}
+{"protocol_method": "initialize"}
+{"protocol_http": "POST", "path": "/mcp", "content_length": "65", "transfer_encoding": null, "origin_present": false}
+{"protocol_method": "tools/list"}
+{"protocol_http": "POST", "path": "/mcp", "content_length": "157", "transfer_encoding": null, "origin_present": false}
+{"protocol_method": "initialize"}
+{"protocol_http": "POST", "path": "/mcp", "content_length": "66", "transfer_encoding": null, "origin_present": false}
+{"protocol_method": "notifications/initialized"}
+{"protocol_http": "POST", "path": "/mcp", "content_length": "58", "transfer_encoding": null, "origin_present": false}
+{"protocol_method": "tools/list"}
+{"protocol_http": "POST", "path": "/mcp", "content_length": "114", "transfer_encoding": null, "origin_present": false}
+{"tool": "open_url", "arguments": {"url": "http://app:8000/"}, "denied": false, "operation_failed": false}
+{"protocol_http": "POST", "path": "/mcp", "content_length": "89", "transfer_encoding": null, "origin_present": false}
+{"tool": "dump_ui", "arguments": {}, "denied": false, "operation_failed": false}
+{"protocol_http": "POST", "path": "/mcp", "content_length": "140", "transfer_encoding": null, "origin_present": false}
+{"tool": "step", "arguments": {"action": "click", "name": "Edit biography", "role": "link"}, "denied": false, "operation_failed": false}
+{"protocol_http": "POST", "path": "/mcp", "content_length": "159", "transfer_encoding": null, "origin_present": false}
+{"tool": "step", "arguments": {"action": "fill", "name": "Biography", "role": "textbox", "text": "I am a robot"}, "denied": false, "operation_failed": false}
+{"protocol_http": "POST", "path": "/mcp", "content_length": "132", "transfer_encoding": null, "origin_present": false}
+{"tool": "step", "arguments": {"action": "click", "name": "Save", "role": "button"}, "denied": false, "operation_failed": false}
+{"protocol_http": "POST", "path": "/mcp", "content_length": "130", "transfer_encoding": null, "origin_present": false}
+{"tool": "step", "arguments": {"action": "click", "name": "Home", "role": "link"}, "denied": false, "operation_failed": false}
+{"protocol_http": "POST", "path": "/mcp", "content_length": "104", "transfer_encoding": null, "origin_present": false}
+{"tool": "step", "arguments": {"action": "reload"}, "denied": false, "operation_failed": false}
+{"protocol_http": "POST", "path": "/mcp", "content_length": "90", "transfer_encoding": null, "origin_present": false}
+{"tool": "observe", "arguments": {}, "denied": false, "operation_failed": false}

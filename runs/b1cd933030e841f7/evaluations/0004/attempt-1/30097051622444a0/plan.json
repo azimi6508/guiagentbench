@@ -1,0 +1,39 @@
+{
+  "task": "mobile/markor-note-persistence",
+  "arm": "test_visual",
+  "model": "codex/gpt-6-astra",
+  "runner": "codex",
+  "runner_version": "0.162.0",
+  "agent_spec": {
+    "identifier": "codex/gpt-6-astra",
+    "runner": "codex",
+    "model": "gpt-6-astra",
+    "auth_mode": "chatgpt",
+    "reasoning_effort": "medium",
+    "tool_profile": "codex-mcp-v1",
+    "budget_profile": "codex-bounded-v1"
+  },
+  "configuration_sha256": "1d14858a2a1a2b70f2177621da682ef8e9cd629104d529c953efa2b6f4c72e49",
+  "action_contract": "ui-superset-v1",
+  "failure_contract": "failure-v1",
+  "environment_contract": "environment-v1",
+  "environment_profile": "mobile",
+  "platform": "mobile",
+  "domain": "mobile",
+  "task_status": "example",
+  "research_core": false,
+  "fixture": false,
+  "planned_trials": 1,
+  "trials": [
+    {
+      "id": "4378fbec6fda44aa",
+      "variant": "correct"
+    }
+  ],
+  "planned_artifacts": 1,
+  "planned_executions": 10,
+  "authoring_state": "correct",
+  "abi": "visual-v1-mobile",
+  "resolved_plan_sha256": "cb9684199dba42ce2c37ddcc3de3ce9a1cec61f33ec010562b9bf5bf0f4515a4",
+  "parent_resolved_plan_sha256": "4ee566999515abcdf872bbdc5a7fdc4683c33d2ddfcbcdcce9c8a13068767c7f"
+}

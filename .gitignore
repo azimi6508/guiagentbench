@@ -1,0 +1,49 @@
+# Python and local dependencies
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+node_modules/
+# Generated evaluation and qualification output; runs/ keeps only the four sample runs
+runs/*
+!runs/56c4a17357fc42f8/
+!runs/b1cd933030e841f7/
+!runs/c7c0b4d7bb3545da/
+!runs/e38c776ad45d4a22/
+results/
+.local/
+coverage/
+.coverage
+htmlcov/
+.pytest_cache/
+# Native runtimes, SDKs, devices and generated recordings
+.mobile/
+.tv/
+.codex-build/
+.cursor-build/
+runtime/*/qualification.json
+runtime/*/qualifications/
+runtime/qualification/
+# Credentials and user configuration
+.env
+.env.*
+!.env.example
+.auth/
+**/auth.json
+**/credentials.json
+**/adbkey*
+*.pem
+*.key
+# AURA user library
+runtime/aura/app/data/
+runtime/aura/app/screenshots/
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.claude/
+# Codex model catalogs are provider metadata, supplied locally
+configs/codex/models/*.json

@@ -1,0 +1,22 @@
+{
+  "arm": "judge_visual",
+  "platform": "mobile",
+  "viewport": [
+    720,
+    1280
+  ],
+  "manifest": {
+    "arm": "judge_visual",
+    "platform": "mobile",
+    "files": {
+      "instruction.md": "5ce580ff74d207aba6f94c2bed052c298ff92033e644ecbbd75a6c59edd170c6",
+      "steps.json": "ebf4c1760aedd5017f5d13af399235f58d9f1aba2ff4842edc315a1f6cd7d7a8",
+      "evidence/manifest.json": "87084778226dafcd80f276d9a3a68378deb757da97d9390bdf74007913314267",
+      "evidence/screenshots/0001.png": "f21951a45e645fd8c80b6d47b99fe3515a7083907e256c57db1ba781b2a21471",
+      "evidence/screenshots/0002.png": "2b060c0ede762a0ae811c18c6bb9e39909d31284b702a07df4ba895fdc257482",
+      "evidence/screenshots/0003.png": "3527fd7afe53bb89892b1f25c9f45e88341e0f3a13e7c2b188b9bc688da21f76"
+    },
+    "total_bytes": 146012
+  },
+  "environment_profile": "generic"
+}

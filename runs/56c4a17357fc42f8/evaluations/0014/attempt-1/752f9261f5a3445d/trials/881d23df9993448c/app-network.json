@@ -1,0 +1,49 @@
+{
+  "Name": "gab-881d23df9993448c-capture",
+  "Id": "4dfeaa668ca84117105bc1e76010f739ce3785557ef01851cfb567e3f1063975",
+  "Created": "2026-11-14T00:57:10.299304388+03:00",
+  "Scope": "local",
+  "Driver": "bridge",
+  "EnableIPv4": true,
+  "EnableIPv6": false,
+  "IPAM": {
+    "Driver": "default",
+    "Options": {},
+    "Config": [
+      {
+        "Subnet": "192.168.16.0/20",
+        "Gateway": "192.168.16.1"
+      }
+    ]
+  },
+  "Internal": true,
+  "Attachable": false,
+  "Ingress": false,
+  "ConfigFrom": {
+    "Network": ""
+  },
+  "ConfigOnly": false,
+  "Options": {},
+  "Labels": {
+    "gui-agent-bench.trial": "881d23df9993448c"
+  },
+  "Containers": {
+    "16572f31d6bf5d403603a217bae944d47f724366f6e70576d2f011e95cbe30a2": {
+      "Name": "gab-881d23df9993448c-app",
+      "EndpointID": "2e0a4039f82e1e86ba577fb7df5e9bee0ad5f4bc2898c484d2c0f73c17a31cae",
+      "MacAddress": "ae:ee:ba:09:76:73",
+      "IPv4Address": "192.168.16.2/20",
+      "IPv6Address": ""
+    }
+  },
+  "Status": {
+    "IPAM": {
+      "Subnets": {
+        "192.168.16.0/20": {
+          "IPsInUse": 4,
+          "DynamicIPsAvailable": 4092
+        }
+      }
+    }
+  }
+}

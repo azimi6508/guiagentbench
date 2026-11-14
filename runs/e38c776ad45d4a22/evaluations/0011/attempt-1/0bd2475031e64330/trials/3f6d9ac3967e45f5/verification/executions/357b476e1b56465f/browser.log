@@ -1,0 +1,33 @@
+{"environment_contract": "environment-v1", "environment_event": "readiness", "platform": "web", "status": "ready", "profile": "generic", "initial": true, "elapsed_ms": 46}
+{"environment_contract": "environment-v1", "environment_event": "reset", "platform": "web", "status": "ready", "profile": "generic", "generation": 1, "transport_attempts": 41, "screenshot_sha256": "a55a02b1c8e3b3c7b843bc3d031dd055713ab6699a8df61bcccebd88653060ec", "storage_sha256": "5d7177a9763ea020eea72c6eea3648a576ad122a1b81097817403aad45eb547d", "viewport": [1280, 720], "locale": "en-US", "timezone": "UTC", "clock": "realtime"}
+{"setup": "ready", "initial_state": true}
+{"action": {"operation": "open_url", "arguments": {"url": "http://app:8000/"}}}
+{"operation": "open_url", "denied": false}
+{"assertion": {"kind": "ui", "query": {"role": "link", "name": "Home"}, "condition": "visible", "expected": true, "precondition": true}, "matched": true}
+{"operation": "assert", "denied": false}
+{"assertion": {"kind": "ui", "query": {"role": "heading", "name": "Toolbox"}, "condition": "visible", "expected": true, "precondition": true}, "matched": true}
+{"operation": "assert", "denied": false}
+{"assertion": {"kind": "ui", "query": {"role": "link", "name": "Edit biography"}, "condition": "visible", "expected": true, "precondition": true}, "matched": true}
+{"operation": "assert", "denied": false}
+{"action": {"operation": "step", "arguments": {"action": "click", "role": "link", "name": "Edit biography"}}}
+{"operation": "step", "denied": false}
+{"assertion": {"kind": "ui", "query": {"role": "textbox", "name": "Biography"}, "condition": "visible", "expected": true, "precondition": true}, "matched": true}
+{"operation": "assert", "denied": false}
+{"action": {"operation": "step", "arguments": {"action": "fill", "role": "textbox", "name": "Biography", "text": "I am a robot"}}}
+{"operation": "step", "denied": false}
+{"action": {"operation": "step", "arguments": {"action": "click", "role": "button", "name": "Save"}}}
+{"operation": "step", "denied": false}
+{"action": {"operation": "open_url", "arguments": {"url": "http://app:8000/"}}}
+{"operation": "open_url", "denied": false}
+{"assertion": {"kind": "ui", "query": {"role": "heading", "name": "Toolbox"}, "condition": "visible", "expected": true, "precondition": true}, "matched": true}
+{"operation": "assert", "denied": false}
+{"assertion": {"kind": "ui", "query": {"text": "I am a robot"}, "condition": "visible", "expected": true, "precondition": false}, "matched": true}
+{"operation": "assert", "denied": false}
+{"assertion": {"kind": "ui", "query": {"text": "I am a robot"}, "condition": "count", "expected": 1, "precondition": false}, "matched": true}
+{"operation": "assert", "denied": false}
+{"assertion": {"kind": "ui", "query": {"text": "t2_5adwlxvn"}, "condition": "visible", "expected": false, "precondition": false}, "matched": true}
+{"operation": "assert", "denied": false}
+{"action": {"operation": "step", "arguments": {"action": "click", "role": "link", "name": "Edit biography"}}}
+{"operation": "step", "denied": false}
+{"assertion": {"kind": "ui", "query": {"role": "textbox", "name": "Biography"}, "condition": "value", "expected": "I am a robot", "precondition": false}, "matched": true}
+{"operation": "assert", "denied": false}

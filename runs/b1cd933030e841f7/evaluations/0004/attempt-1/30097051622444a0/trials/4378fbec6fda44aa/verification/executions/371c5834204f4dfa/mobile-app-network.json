@@ -1,0 +1,47 @@
+{
+  "Name": "gab-oracle-4acea8e356b2-capture",
+  "Id": "f82f97241bc293920afba31925cbdf491bf1faa45e1cde3e95849449154bbfd7",
+  "Created": "2026-11-14T01:24:06.314926691+03:00",
+  "Scope": "local",
+  "Driver": "bridge",
+  "EnableIPv4": true,
+  "EnableIPv6": false,
+  "IPAM": {
+    "Driver": "default",
+    "Options": {},
+    "Config": [
+      {
+        "Subnet": "192.168.16.0/20",
+        "Gateway": "192.168.16.1"
+      }
+    ]
+  },
+  "Internal": true,
+  "Attachable": false,
+  "Ingress": false,
+  "ConfigFrom": {
+    "Network": ""
+  },
+  "ConfigOnly": false,
+  "Options": {},
+  "Labels": {},
+  "Containers": {
+    "d1c9d00da6cf8aa9085dfb6783b35ff2432e5774bbb1ee2880d24538629ae473": {
+      "Name": "gab-oracle-4acea8e356b2-app",
+      "EndpointID": "89e7e218f380f1b3cf47b32b6e38aa029436e56c8befe65fc98fe17795b32208",
+      "MacAddress": "96:14:db:c0:83:2e",
+      "IPv4Address": "192.168.16.2/20",
+      "IPv6Address": ""
+    }
+  },
+  "Status": {
+    "IPAM": {
+      "Subnets": {
+        "192.168.16.0/20": {
+          "IPsInUse": 4,
+          "DynamicIPsAvailable": 4092
+        }
+      }
+    }
+  }
+}

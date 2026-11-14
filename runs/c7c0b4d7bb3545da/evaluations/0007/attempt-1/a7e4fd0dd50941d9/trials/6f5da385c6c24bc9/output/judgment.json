@@ -1,0 +1,1 @@
+{"verdict":"PASS","reason":"Walked the same flow in the live app. The editor saved with 'The biography was updated.', and the Home link opened the profile with the biography 'I am a robot'. I did not confirm the .user-bio__biography class, only that the profile sidebar shows that text."}

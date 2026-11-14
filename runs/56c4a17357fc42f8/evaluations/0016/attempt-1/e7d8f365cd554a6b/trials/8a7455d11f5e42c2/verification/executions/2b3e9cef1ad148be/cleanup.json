@@ -1,0 +1,18 @@
+[
+  {
+    "container": "gab-oracle-bf47259acca3-executor",
+    "removed": true
+  },
+  {
+    "container": "gab-oracle-bf47259acca3-ready",
+    "removed": true
+  },
+  {
+    "container": "gab-oracle-bf47259acca3-browser",
+    "removed": true
+  },
+  {
+    "container": "gab-oracle-bf47259acca3-app",
+    "removed": true
+  }
+]

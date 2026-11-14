@@ -1,0 +1,4 @@
+{
+  "message": "Locator expected to have text 'I am a robot'\nActual value: t2_5adwlxvn\n \nCall log:\n  - Expect \"to_have_text\" with timeout 5000ms\n  - waiting for locator(\".user-bio__biography\")\n    9 \u00d7 locator resolved to <div class=\"user-bio__biography text-flow\">\u2026</div>\n      - unexpected value \"t2_5adwlxvn\n\"\n",
+  "checkpoints_completed": 3
+}

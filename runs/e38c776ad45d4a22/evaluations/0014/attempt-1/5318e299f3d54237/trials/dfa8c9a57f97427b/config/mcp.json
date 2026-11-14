@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "bench": {
+      "type": "stdio",
+      "command": "/usr/local/bin/python",
+      "args": [
+        "/opt/bench/mcp_transport.py"
+      ],
+      "env": {}
+    }
+  }
+}

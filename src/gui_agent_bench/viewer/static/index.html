@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GUIAgentBench · Run viewer</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/" aria-label="All runs">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-name">GUIAgentBench <span class="brand-sub">Run viewer</span></span>
+    </a>
+    <nav id="crumbs" class="crumbs" aria-label="Breadcrumb"></nav>
+    <div class="topbar-actions">
+      <span id="live-state" class="live-state" role="status"></span>
+      <button id="live-toggle" class="btn btn-ghost btn-sm" type="button" aria-pressed="true" title="Poll recorded files for new evidence">Live</button>
+      <button id="refresh" class="btn btn-ghost btn-icon" type="button" title="Refresh now (r)" aria-label="Refresh"></button>
+      <button id="theme" class="btn btn-ghost btn-icon" type="button" title="Toggle theme" aria-label="Toggle theme"></button>
+      <button id="help" class="btn btn-ghost btn-icon" type="button" title="Keyboard shortcuts (?)" aria-label="Keyboard shortcuts"></button>
+    </div>
+  </header>
+  <main id="app" tabindex="-1"><div class="page-loading">Reading recorded evidence…</div></main>
+  <dialog id="lightbox" class="lightbox" aria-label="Image viewer"></dialog>
+  <dialog id="drawer" class="drawer" aria-label="Record inspector"></dialog>
+  <dialog id="shortcuts" class="modal" aria-label="Keyboard shortcuts"></dialog>
+</body>
+</html>

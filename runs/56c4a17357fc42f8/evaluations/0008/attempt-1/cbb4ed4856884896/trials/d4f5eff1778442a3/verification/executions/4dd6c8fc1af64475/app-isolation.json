@@ -1,0 +1,7 @@
+{
+  "status": "pass",
+  "read_only_root": false,
+  "internal_network_only": true,
+  "published_ports": [],
+  "writable_root": "task-declared disposable container layer"
+}

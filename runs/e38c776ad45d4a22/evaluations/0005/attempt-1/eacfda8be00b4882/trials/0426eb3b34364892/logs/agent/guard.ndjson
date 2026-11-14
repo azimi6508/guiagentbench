@@ -1,0 +1,7 @@
+{"event": "PreToolUse", "allowed": true, "tool": "mcp__bench__gui_dump_ui"}
+{"event": "PreToolUse", "allowed": true, "tool": "mcp__bench__gui_step"}
+{"event": "PreToolUse", "allowed": true, "tool": "mcp__bench__gui_dump_ui"}
+{"event": "PreToolUse", "allowed": true, "tool": "mcp__bench__gui_step"}
+{"event": "PreToolUse", "allowed": true, "tool": "mcp__bench__gui_step"}
+{"event": "PreToolUse", "allowed": true, "tool": "mcp__bench__gui_dump_ui"}
+{"event": "PreToolUse", "allowed": true, "tool": "mcp__bench__bench_write_file"}

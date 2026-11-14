@@ -1,0 +1,1 @@
+{"verdict":"FAIL","reason":"After closing and reopening, the atlas note is empty in screenshot 3. The text was typed but the save icon was still active in screenshot 2, so it was never saved."}

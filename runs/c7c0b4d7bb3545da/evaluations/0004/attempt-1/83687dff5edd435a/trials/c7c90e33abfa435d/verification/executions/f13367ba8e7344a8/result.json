@@ -1,0 +1,406 @@
+{
+  "outcome": "BEHAVIOR_FAIL",
+  "assertions": [
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "start",
+        "region": [
+          0,
+          128,
+          360,
+          212
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 0,
+        "include_aa": false,
+        "precondition": true,
+        "observation_window_ms": 1600
+      },
+      "matched": true,
+      "image": {
+        "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+        "reference_sha256": "243f449d37281f7b1518e3fb4f6291773569c15e50f7010429ecf27dc19cc9ef",
+        "actual_sha256": "10b3b831274572c248aab701ded157bfd71420a9cf63c988d60428f75c0acca7",
+        "compared_pixels": 30240,
+        "different_pixels": 0,
+        "matched": true,
+        "evidence": {
+          "directory": "0001",
+          "sha256": {
+            "capture.png": "10b3b831274572c248aab701ded157bfd71420a9cf63c988d60428f75c0acca7",
+            "sample-0001.png": "10b3b831274572c248aab701ded157bfd71420a9cf63c988d60428f75c0acca7",
+            "sample-0002.png": "8466cc62e1bdba5a06b1eb37c6782d0e8cfc90edb81f0d56894b2f6a2a14d590",
+            "sample-0003.png": "10b3b831274572c248aab701ded157bfd71420a9cf63c988d60428f75c0acca7",
+            "sample-0004.png": "10b3b831274572c248aab701ded157bfd71420a9cf63c988d60428f75c0acca7",
+            "sample-0005.png": "8466cc62e1bdba5a06b1eb37c6782d0e8cfc90edb81f0d56894b2f6a2a14d590",
+            "expected.png": "676d544305df448ac1539a0862428c0669113f9eeddb2b99bc30907f8d9e2920",
+            "actual.png": "676d544305df448ac1539a0862428c0669113f9eeddb2b99bc30907f8d9e2920",
+            "diff.png": "127bdf8f904963c7323d9d6d7e178f2dba2ea2eb5805e337d17f87924f33bc73"
+          }
+        },
+        "capture_contract": "visual-observation-window-v1",
+        "observation_window_ms": 1600,
+        "selected_sample": 0,
+        "observations": [
+          {
+            "file": "sample-0001.png",
+            "sha256": "10b3b831274572c248aab701ded157bfd71420a9cf63c988d60428f75c0acca7",
+            "elapsed_ms": 284,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0002.png",
+            "sha256": "8466cc62e1bdba5a06b1eb37c6782d0e8cfc90edb81f0d56894b2f6a2a14d590",
+            "elapsed_ms": 558,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0003.png",
+            "sha256": "10b3b831274572c248aab701ded157bfd71420a9cf63c988d60428f75c0acca7",
+            "elapsed_ms": 986,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0004.png",
+            "sha256": "10b3b831274572c248aab701ded157bfd71420a9cf63c988d60428f75c0acca7",
+            "elapsed_ms": 1402,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0005.png",
+            "sha256": "8466cc62e1bdba5a06b1eb37c6782d0e8cfc90edb81f0d56894b2f6a2a14d590",
+            "elapsed_ms": 1766,
+            "different_pixels": 0
+          }
+        ]
+      }
+    },
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "start",
+        "region": [
+          0,
+          128,
+          360,
+          212
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 0,
+        "include_aa": false,
+        "precondition": true,
+        "observation_window_ms": 1600
+      },
+      "matched": true,
+      "image": {
+        "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+        "reference_sha256": "243f449d37281f7b1518e3fb4f6291773569c15e50f7010429ecf27dc19cc9ef",
+        "actual_sha256": "cf250b7e94e76c94fd01d844f83d4e221a1b793c165d8dd086011ff1e07cdce7",
+        "compared_pixels": 30240,
+        "different_pixels": 0,
+        "matched": true,
+        "evidence": {
+          "directory": "0002",
+          "sha256": {
+            "capture.png": "cf250b7e94e76c94fd01d844f83d4e221a1b793c165d8dd086011ff1e07cdce7",
+            "sample-0001.png": "cf250b7e94e76c94fd01d844f83d4e221a1b793c165d8dd086011ff1e07cdce7",
+            "sample-0002.png": "cf250b7e94e76c94fd01d844f83d4e221a1b793c165d8dd086011ff1e07cdce7",
+            "sample-0003.png": "10b3b831274572c248aab701ded157bfd71420a9cf63c988d60428f75c0acca7",
+            "sample-0004.png": "10b3b831274572c248aab701ded157bfd71420a9cf63c988d60428f75c0acca7",
+            "sample-0005.png": "10b3b831274572c248aab701ded157bfd71420a9cf63c988d60428f75c0acca7",
+            "expected.png": "676d544305df448ac1539a0862428c0669113f9eeddb2b99bc30907f8d9e2920",
+            "actual.png": "676d544305df448ac1539a0862428c0669113f9eeddb2b99bc30907f8d9e2920",
+            "diff.png": "127bdf8f904963c7323d9d6d7e178f2dba2ea2eb5805e337d17f87924f33bc73"
+          }
+        },
+        "capture_contract": "visual-observation-window-v1",
+        "observation_window_ms": 1600,
+        "selected_sample": 0,
+        "observations": [
+          {
+            "file": "sample-0001.png",
+            "sha256": "cf250b7e94e76c94fd01d844f83d4e221a1b793c165d8dd086011ff1e07cdce7",
+            "elapsed_ms": 269,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0002.png",
+            "sha256": "cf250b7e94e76c94fd01d844f83d4e221a1b793c165d8dd086011ff1e07cdce7",
+            "elapsed_ms": 565,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0003.png",
+            "sha256": "10b3b831274572c248aab701ded157bfd71420a9cf63c988d60428f75c0acca7",
+            "elapsed_ms": 995,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0004.png",
+            "sha256": "10b3b831274572c248aab701ded157bfd71420a9cf63c988d60428f75c0acca7",
+            "elapsed_ms": 1415,
+            "different_pixels": 0
+          },
+          {
+            "file": "sample-0005.png",
+            "sha256": "10b3b831274572c248aab701ded157bfd71420a9cf63c988d60428f75c0acca7",
+            "elapsed_ms": 1770,
+            "different_pixels": 0
+          }
+        ]
+      }
+    },
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "reopened",
+        "region": [
+          0,
+          128,
+          720,
+          400
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 0,
+        "include_aa": false,
+        "precondition": false,
+        "observation_window_ms": 1600
+      },
+      "matched": false,
+      "image": {
+        "comparator": "pixelmatch-py-0.4.0/pillow-11.3.0",
+        "reference_sha256": "7ed75665d2b5028127e6aa95b74a2315a62569aa148eea814985730824103f7a",
+        "actual_sha256": "10b3b831274572c248aab701ded157bfd71420a9cf63c988d60428f75c0acca7",
+        "compared_pixels": 195840,
+        "different_pixels": 1663,
+        "matched": false,
+        "evidence": {
+          "directory": "0003",
+          "sha256": {
+            "capture.png": "10b3b831274572c248aab701ded157bfd71420a9cf63c988d60428f75c0acca7",
+            "sample-0001.png": "10b3b831274572c248aab701ded157bfd71420a9cf63c988d60428f75c0acca7",
+            "sample-0002.png": "10b3b831274572c248aab701ded157bfd71420a9cf63c988d60428f75c0acca7",
+            "sample-0003.png": "10b3b831274572c248aab701ded157bfd71420a9cf63c988d60428f75c0acca7",
+            "sample-0004.png": "10b3b831274572c248aab701ded157bfd71420a9cf63c988d60428f75c0acca7",
+            "sample-0005.png": "10b3b831274572c248aab701ded157bfd71420a9cf63c988d60428f75c0acca7",
+            "expected.png": "6324408630b475068d264494601c07ded9cc51305735ae2e80c9a6d68588da6e",
+            "actual.png": "1e57e21ee74e41b99cb01ef60963f1babf0f36c65cd7f31f1e662550f9d5caf2",
+            "diff.png": "681001e4e9520b5a48e93d4a64928f9da430e8132a50430d5006f4308d0e3fae"
+          }
+        },
+        "capture_contract": "visual-observation-window-v1",
+        "observation_window_ms": 1600,
+        "selected_sample": 0,
+        "observations": [
+          {
+            "file": "sample-0001.png",
+            "sha256": "10b3b831274572c248aab701ded157bfd71420a9cf63c988d60428f75c0acca7",
+            "elapsed_ms": 233,
+            "different_pixels": 1663
+          },
+          {
+            "file": "sample-0002.png",
+            "sha256": "10b3b831274572c248aab701ded157bfd71420a9cf63c988d60428f75c0acca7",
+            "elapsed_ms": 539,
+            "different_pixels": 1663
+          },
+          {
+            "file": "sample-0003.png",
+            "sha256": "10b3b831274572c248aab701ded157bfd71420a9cf63c988d60428f75c0acca7",
+            "elapsed_ms": 993,
+            "different_pixels": 1663
+          },
+          {
+            "file": "sample-0004.png",
+            "sha256": "10b3b831274572c248aab701ded157bfd71420a9cf63c988d60428f75c0acca7",
+            "elapsed_ms": 1400,
+            "different_pixels": 1663
+          },
+          {
+            "file": "sample-0005.png",
+            "sha256": "10b3b831274572c248aab701ded157bfd71420a9cf63c988d60428f75c0acca7",
+            "elapsed_ms": 1768,
+            "different_pixels": 1663
+          }
+        ]
+      }
+    }
+  ],
+  "submission_sha256": "bdd3e6d181a9610bd2fcf2321baa398e500868da7d118ce842dc1d6ffe8a48d3",
+  "references_sha256": "14ac230ecc4760f522c8570e9d1d77db53a90d651b11e5e2eabaa9d73c9d96c6",
+  "actions": [
+    {
+      "action": {
+        "operation": "open_url",
+        "arguments": {
+          "url": "http://app:8000/"
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "x": 360,
+          "y": 500
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "type",
+          "text": "Bring the blue notebook."
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "x": 569,
+          "y": 170
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "reload"
+        }
+      }
+    }
+  ],
+  "trace": [
+    {
+      "action": {
+        "operation": "open_url",
+        "arguments": {
+          "url": "http://app:8000/"
+        }
+      }
+    },
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "start",
+        "region": [
+          0,
+          128,
+          360,
+          212
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 0,
+        "include_aa": false,
+        "precondition": true,
+        "observation_window_ms": 1600
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "x": 360,
+          "y": 500
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "type",
+          "text": "Bring the blue notebook."
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "click",
+          "x": 569,
+          "y": 170
+        }
+      }
+    },
+    {
+      "action": {
+        "operation": "step",
+        "arguments": {
+          "action": "reload"
+        }
+      }
+    },
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "start",
+        "region": [
+          0,
+          128,
+          360,
+          212
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 0,
+        "include_aa": false,
+        "precondition": true,
+        "observation_window_ms": 1600
+      }
+    },
+    {
+      "assertion": {
+        "kind": "image",
+        "reference": "reopened",
+        "region": [
+          0,
+          128,
+          720,
+          400
+        ],
+        "masks": [],
+        "threshold": 0.1,
+        "max_diff_pixels": 0,
+        "include_aa": false,
+        "precondition": false,
+        "observation_window_ms": 1600
+      }
+    }
+  ],
+  "diagnostics": {
+    "version": "failure-v1",
+    "primary_issue": 0,
+    "issues": [
+      {
+        "version": "failure-v1",
+        "phase": "execution",
+        "operation": "assert",
+        "result": "failed",
+        "cause": "behavioral_mismatch",
+        "impact": "pair_dependent",
+        "message": "A behavioral assertion did not match.",
+        "exception_type": "Failure",
+        "source": {
+          "file": "browser.log",
+          "record_index": 16
+        }
+      }
+    ],
+    "ordering": "source_order_not_global_time"
+  },
+  "elapsed_seconds": 14.073,
+  "exit_code": 0
+}

@@ -1,0 +1,11 @@
+{
+  "schema": "codex-container-policy-v1",
+  "apparmor_profile": "gab-codex-bwrap-b20c11907dac59bb",
+  "files": {
+    "docker-default-seccomp.json": "536529b665dd0972c37bfb569f5d4ac8a53592e7b00752bc39ff063ca9864c74",
+    "seccomp.json": "b384feae330cbe6480c80b1e728ce6a84b2b3e8a50e5eb7cd03759d2889c0a23",
+    "apparmor.profile": "39b9748990b751ae55ae2d94cc19378c090d6d8d182ed7365bc799e18083277f"
+  },
+  "upstream_commit": "6a43e3d",
+  "scope": "agent only"
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "container": "gab-oracle-ebda675e163a-executor",
+    "removed": true
+  },
+  {
+    "container": "gab-oracle-ebda675e163a-ready",
+    "removed": true
+  },
+  {
+    "container": "gab-oracle-ebda675e163a-browser",
+    "removed": true
+  },
+  {
+    "container": "gab-oracle-ebda675e163a-app",
+    "removed": true
+  }
+]

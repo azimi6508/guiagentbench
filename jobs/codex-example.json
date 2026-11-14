@@ -1,0 +1,22 @@
+{
+  "schema": "run-plan-v1",
+  "name": "Codex web example",
+  "models": [
+    "codex/gpt-6.1-sol"
+  ],
+  "tasks": [
+    {
+      "task": "web/webarena-399-profile-bio",
+      "arms": [
+        "judge_visual",
+        "judge_test",
+        "oracle_visual",
+        "oracle_ui",
+        "test_visual",
+        "test_ui"
+      ],
+      "repeats": 1,
+      "fixture_program": "profile-bio"
+    }
+  ]
+}

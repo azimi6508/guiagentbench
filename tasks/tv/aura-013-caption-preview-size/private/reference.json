@@ -1,0 +1,81 @@
+{
+  "journey": [
+    {
+      "action": "click",
+      "x": 1159,
+      "y": 40
+    },
+    {
+      "action": "click",
+      "x": 147,
+      "y": 326
+    },
+    {
+      "action": "click",
+      "x": 599,
+      "y": 440
+    },
+    {
+      "action": "click",
+      "x": 640,
+      "y": 446
+    }
+  ],
+  "regions": {
+    "false": [
+      [
+        56,
+        21,
+        214,
+        59
+      ],
+      [
+        56,
+        21,
+        214,
+        59
+      ],
+      [
+        953,
+        150,
+        1227,
+        662
+      ]
+    ],
+    "true": [
+      [
+        56,
+        21,
+        214,
+        59
+      ],
+      [
+        56,
+        21,
+        214,
+        59
+      ],
+      [
+        953,
+        150,
+        1227,
+        662
+      ]
+    ]
+  },
+  "viewport": [
+    1280,
+    720
+  ],
+  "initial_delay": 0.7,
+  "action_delay": 0.1,
+  "capture_ui": true,
+  "programs": {
+    "oracle_visual": "solution/oracle_visual.py",
+    "oracle_ui": "solution/oracle_ui.py",
+    "test_visual": "solution/test_visual.py",
+    "test_ui": "solution/test_ui.py"
+  },
+  "schema": "task-reference-v1",
+  "platform": "web"
+}

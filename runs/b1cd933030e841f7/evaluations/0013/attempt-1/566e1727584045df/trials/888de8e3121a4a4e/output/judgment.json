@@ -1,0 +1,1 @@
+{"verdict":"PASS","reason":"The supplied click sequence selects Large successfully. The setting displays Large and the built-in caption preview visibly grows from Medium to the Large reading size, consistent with the test's expected caption font setting."}

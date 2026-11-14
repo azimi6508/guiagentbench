@@ -1,0 +1,18 @@
+[
+  {
+    "container": "gab-oracle-620bddce7410-executor",
+    "removed": true
+  },
+  {
+    "container": "gab-oracle-620bddce7410-ready",
+    "removed": true
+  },
+  {
+    "container": "gab-oracle-620bddce7410-browser",
+    "removed": true
+  },
+  {
+    "container": "gab-oracle-620bddce7410-app",
+    "removed": true
+  }
+]

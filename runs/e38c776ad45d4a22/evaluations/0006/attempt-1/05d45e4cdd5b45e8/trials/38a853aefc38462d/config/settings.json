@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__bench__bench_list_files",
+      "mcp__bench__bench_read_file",
+      "mcp__bench__bench_read_image",
+      "mcp__bench__bench_write_file"
+    ],
+    "deny": [
+      "Bash",
+      "Read",
+      "Write",
+      "Edit",
+      "MultiEdit",
+      "NotebookEdit",
+      "Glob",
+      "Grep",
+      "WebFetch",
+      "WebSearch",
+      "Task",
+      "Agent"
+    ],
+    "defaultMode": "dontAsk"
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/usr/local/bin/python /opt/bench/guard.py",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  },
+  "enableAllProjectMcpServers": false
+}

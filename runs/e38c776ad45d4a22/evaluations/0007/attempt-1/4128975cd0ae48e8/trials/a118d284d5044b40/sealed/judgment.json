@@ -1,0 +1,1 @@
+{"verdict":"PASS","reason":"Manually replayed the test steps: Edit biography -> fill 'I am a robot' -> Save -> click Home (/) -> reload. In this app '/' renders the MarvelsGrantMan136 profile, so the exact heading is visible, and the sidebar biography shows exactly 'I am a robot'."}

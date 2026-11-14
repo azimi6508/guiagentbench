@@ -1,0 +1,45 @@
+{
+  "schema": "run-plan-v1",
+  "name": "Examples Claude Code claude-sonnet-5-5 medium",
+  "models": [
+    "claude/claude-sonnet-5-5"
+  ],
+  "tasks": [
+    {
+      "task": "mobile/markor-note-persistence",
+      "arms": [
+        "judge_visual",
+        "judge_test",
+        "oracle_visual",
+        "oracle_ui",
+        "test_visual",
+        "test_ui"
+      ],
+      "repeats": 1
+    },
+    {
+      "task": "web/webarena-399-profile-bio",
+      "arms": [
+        "judge_visual",
+        "judge_test",
+        "oracle_visual",
+        "oracle_ui",
+        "test_visual",
+        "test_ui"
+      ],
+      "repeats": 1
+    },
+    {
+      "task": "tv/aura-013-caption-preview-size",
+      "arms": [
+        "judge_visual",
+        "judge_test",
+        "oracle_visual",
+        "oracle_ui",
+        "test_visual",
+        "test_ui"
+      ],
+      "repeats": 1
+    }
+  ]
+}

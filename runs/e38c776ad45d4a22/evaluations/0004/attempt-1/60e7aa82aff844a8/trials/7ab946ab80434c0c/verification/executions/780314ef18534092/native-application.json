@@ -1,0 +1,8 @@
+{
+  "schema": "native-fixture-v1",
+  "task": "mobile/markor-note-persistence",
+  "package": "net.gsantner.markor",
+  "apk_sha256": "1a328c5324b3b33d6cb4d55085637707252569d98c0ffe1cb7089aebbd903256",
+  "source_sha256": "687da5586747f29ed71bd581deb6284dc31cf1b9ad6bdcc1b0f3e77815b32d4a",
+  "settings_sha256": "ce29e928e5bb007dd7e608d48e27f7f1bea5b149f9a0d5efffabbab72513ebe5"
+}

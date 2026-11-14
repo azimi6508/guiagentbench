@@ -1,0 +1,1 @@
+{"verdict":"FAIL","reason":"After selecting Large, label shows Large but the preview text rendered at the same size as Medium, so --caption-font is unlikely to be 2.5rem."}

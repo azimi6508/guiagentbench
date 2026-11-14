@@ -1,0 +1,13 @@
+{
+  "version": "visual-v1",
+  "viewport": [
+    720,
+    1280
+  ],
+  "references": {
+    "atlas-final": {
+      "file": "atlas-final.png",
+      "sha256": "8ebf4fa0d5c4277b4435388c08b72f6987e2a80f31a5915a58f89a5e03a56cb7"
+    }
+  }
+}
